@@ -191,6 +191,32 @@ npm run docker:logs
 # Check service status
 docker-compose ps
 ```
+Add MCP server to your faviourate IDE
+```
+{
+  "mcpServers": {
+    "elasticsearch-mcp-server": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-e",
+        "ES_URL",
+        "-e",
+        "ES_API_KEY",
+        "docker.elastic.co/mcp/elasticsearch",
+        "stdio"
+      ],
+      "env": {
+        "ES_URL": "http://localhost:9200",
+        "ES_API_KEY": ""
+      }
+    }
+  }
+}
+```
+
 
 ## 🔍 Troubleshooting
 
