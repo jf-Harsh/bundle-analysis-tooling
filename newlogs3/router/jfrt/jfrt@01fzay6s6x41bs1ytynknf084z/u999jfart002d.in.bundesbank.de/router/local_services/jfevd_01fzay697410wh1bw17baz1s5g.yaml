@@ -1,0 +1,15 @@
+endpoints:
+    - excludedpaths: []
+      paths:
+        - match: /evidence/(.*)
+          replace: /$1
+      port: 8051
+      protocol: 1
+healthcheckendpoint:
+    path: /api/v1/system/readiness
+    port: 8051
+nodeid: u999jfart002d.in.bundesbank.de
+nodestatusendpoint: null
+revision: c9da1e4979
+serviceid: jfevd@01fzay697410wh1bw17baz1s5g
+version: 7.126.0

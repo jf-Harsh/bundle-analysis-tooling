@@ -1,0 +1,291 @@
+2025-08-14T08:03:45.743Z [jfmd ] [INFO ] [                ] [database_bearer.go:165        ] [main                ] - Db connection driver::godror and kerberosAuth::false [database]
+2025-08-14T08:03:45.743Z [jfmd ] [INFO ] [                ] [database_bearer.go:180        ] [main                ] - Connecting to (db config: {oracle jdbc:oracle:thin:@(DESCRIPTION=(CONNECT_TIMEOUT=10)(RETRY_COUNT=3)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_909.inet.bundesbank.de)(PORT=1621))(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_913.inet.bundesbank.de)(PORT=1621)))(CONNECT_DATA=(SERVICE_NAME= ARTED_PRIM.WORLD)(SERVER=DEDICATED)))}) [database]
+2025-08-14T08:03:46.662Z [jfmd ] [INFO ] [                ] [migrator.go:65                ] [main                ] - Applying migration files [database]
+2025-08-14T08:03:46.685Z [jfmd ] [INFO ] [                ] [migration_lock_manager.go:49  ] [main                ] - Trying to acquire migration lock for u999jfart002d.in.bundesbank.de [database]
+2025-08-14T08:03:46.690Z [jfmd ] [INFO ] [                ] [migration_lock_manager.go:70  ] [main                ] - Migration lock acquired for u999jfart002d.in.bundesbank.de [database]
+2025-08-14T08:03:46.699Z [jfmd ] [INFO ] [                ] [migrator_planner.go:122       ] [main                ] - Found 58 existing migrations in the database [database]
+2025-08-14T08:03:46.699Z [jfmd ] [INFO ] [                ] [migrator_planner.go:20        ] [main                ] - Installation type: %!s(models.InstallationType=0) [database]
+2025-08-14T08:03:46.699Z [jfmd ] [INFO ] [                ] [migrator.go:150               ] [main                ] - Applying 58 migrations files [database]
+2025-08-14T08:03:46.699Z [jfmd ] [INFO ] [                ] [migration_lock_manager.go:76  ] [main                ] - Trying to release lock owned by: u999jfart002d.in.bundesbank.de [database]
+2025-08-14T08:03:46.702Z [jfmd ] [INFO ] [                ] [migration_lock_manager.go:90  ] [main                ] - Released lock owned by node u999jfart002d.in.bundesbank.de [database]
+2025-08-14T08:03:46.702Z [jfmd ] [INFO ] [                ] [migrator.go:77                ] [main                ] - No database migrations to apply [database]
+2025-08-14T08:03:46.702Z [jfmd ] [INFO ] [                ] [application.go:77             ] [main                ] - Metadata (jfmd) service initialization started. Version: 7.155.2 Revision: f08600cb80a PID: 11176 Home: /opt/jfrog/artifactory/var [app_initializer]
+2025-08-14T08:03:46.716Z [jfmd ] [INFO ] [                ] [server_bearer.go:186          ] [main                ] - Got service_id from datastore: jfmd@01gk933362w03qptnc5q1tzw7z [ServerInit]
+2025-08-14T08:03:50.729Z [jfmd ] [INFO ] [                ] [access_client_bootstrap.go:256] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp [::1]:8046: connect: connection refused [access_client]
+2025-08-14T08:03:55.741Z [jfmd ] [INFO ] [                ] [access_client_bootstrap.go:256] [main                ] - Cluster join: Retry 10: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp [::1]:8046: connect: connection refused [access_client]
+2025-08-14T08:04:00.750Z [jfmd ] [INFO ] [                ] [access_client_bootstrap.go:256] [main                ] - Cluster join: Retry 15: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp [::1]:8046: connect: connection refused [access_client]
+2025-08-14T08:04:05.759Z [jfmd ] [INFO ] [                ] [access_client_bootstrap.go:256] [main                ] - Cluster join: Retry 20: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp [::1]:8046: connect: connection refused [access_client]
+2025-08-14T08:04:10.765Z [jfmd ] [INFO ] [                ] [access_client_bootstrap.go:256] [main                ] - Cluster join: Retry 25: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp [::1]:8046: connect: connection refused [access_client]
+2025-08-14T08:04:15.773Z [jfmd ] [INFO ] [                ] [access_client_bootstrap.go:256] [main                ] - Cluster join: Retry 30: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp [::1]:8046: connect: connection refused [access_client]
+2025-08-14T08:04:20.782Z [jfmd ] [INFO ] [                ] [access_client_bootstrap.go:256] [main                ] - Cluster join: Retry 35: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp [::1]:8046: connect: connection refused [access_client]
+2025-08-14T08:04:25.190Z [jfmd ] [INFO ] [                ] [join_executor.go:178          ] [main                ] - Cluster join: Successfully joined the cluster [access_client]
+2025-08-14T08:04:25.190Z [jfmd ] [INFO ] [                ] [join_executor.go:190          ] [main                ] - Cluster join: executing Router register at: localhost:8046 for service id jfmd@01gk933362w03qptnc5q1tzw7z [access_client]
+2025-08-14T08:04:25.224Z [jfmd ] [INFO ] [                ] [async_converter.go:205        ] [main                ] - Starting async converter routine [async_converter] [workerNumber][1]
+2025-08-14T08:04:25.224Z [jfmd ] [INFO ] [                ] [router_middlewares.go:55      ] [main                ] - 
+Metadata Info
+========================
+
+Logging.Request.Rotation.MaxSizeMb                   | 25
+Logging.Request.Rotation.MaxFiles                    | 10
+Logging.Application.Rotation.MaxFiles                | 10
+Logging.Request.Rotation.MaxAgeDays                  | 365
+AccessClient.Url                                     | http://localhost:8081/access
+AccessClient.JoinTimeout                             | 5m0s
+Logging.Application.Rotation.MaxAgeDays              | 365
+database.metrics.maxQueriesToTrack                   | 5
+Shared.NewRelic.DistributedTracerEnabled             | true
+Logging.Application.Rotation.MaxSizeMb               | 25
+Logging.Request.FilePath                             | metadata-request.log
+Shared.NewRelic.Enabled                              | false
+Shared.NewRelic.DisableErrorLog                      | true
+Logging.Application.Rotation.IntervalSeconds         | 0
+Logging.Request.Rotation.Compress                    | true
+Keys.ReadIntervalDuration                            | 1s
+Shared.NewRelic.AppName                              | 
+Logging.Application.FilePath                         | metadata-service.log
+Profiling.Enabled                                    | false
+Port                                                 | 8086
+Logging.Application.Rotation.Compress                | true
+Logging.Request.Rotation.IntervalSeconds             | 0
+Database.Type                                        | 4
+Keys.ReadAttempts                                    | 120
+metrics.enabled                                      | true
+database.metrics.enabled                             | false
+Shared.NewRelic.EnableDebugLog                       | false
+Logging.Application.Level                            | info
+
+2025-08-14T08:04:25.224Z [jfmd ] [INFO ] [                ] [router_middlewares.go:56      ] [main                ] - Metadata (jfmd) service initialization completed in 38.521 seconds. Listening on port: 8086 [router]
+2025-08-14T08:11:19.312Z [jfmd ] [WARN ] [                ] [grpc_utils.go:33              ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an internal error - error code (Internal) error (rpc error: code = Internal desc = stream terminated by RST_STREAM with error code: INTERNAL_ERROR) - resubscribe expected [access_client]
+2025-08-14T08:11:19.313Z [jfmd ] [WARN ] [                ] [grpc_utils.go:33              ] [main                ] - Refreshing project change events gRPC stream - got an internal error - error code (Internal) error (rpc error: code = Internal desc = stream terminated by RST_STREAM with error code: INTERNAL_ERROR) - resubscribe expected [access_client]
+2025-08-14T08:11:19.313Z [jfmd ] [WARN ] [                ] [grpc_utils.go:33              ] [main                ] - Refreshing project change events gRPC stream - got an internal error - error code (Internal) error (rpc error: code = Internal desc = stream terminated by RST_STREAM with error code: INTERNAL_ERROR) - resubscribe expected [access_client]
+2025-08-14T08:11:19.314Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing project change events gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T08:11:19.314Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing permissions cache invalidation gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T08:11:19.314Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing project change events gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T08:11:19.326Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing permissions cache invalidation gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T08:11:19.326Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing project change events gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T08:11:19.326Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing project change events gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T08:11:19.348Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing project change events gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T08:11:19.348Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing permissions cache invalidation gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T08:11:19.348Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing project change events gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T08:11:19.390Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing project change events gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T08:11:19.390Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing project change events gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T08:11:19.390Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing permissions cache invalidation gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T08:11:19.473Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing permissions cache invalidation gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T08:11:19.473Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing project change events gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T08:11:19.473Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing project change events gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T08:11:19.635Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing permissions cache invalidation gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T08:11:19.635Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing project change events gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T08:11:19.635Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing project change events gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T08:11:19.957Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing project change events gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T08:11:19.957Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing project change events gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T08:11:19.957Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing permissions cache invalidation gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T08:11:20.599Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing permissions cache invalidation gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T08:11:20.599Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing project change events gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T08:11:20.599Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing project change events gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T08:11:20.625Z [jfmd ] [INFO ] [                ] [application.go:130            ] [main                ] - Metadata Received OS signal: terminated [init]
+2025-08-14T08:11:20.628Z [jfmd ] [WARN ] [                ] [acl.go:101                    ] [main                ] - Subscribe to permission cache invalidation - backoff failed: context canceled [access_client]
+2025-08-14T08:11:20.628Z [jfmd ] [WARN ] [                ] [project_cache_handler.go:279  ] [main                ] - Subscribe to cache invalidation - backoff failed: context canceled [access_client]
+2025-08-14T08:11:20.628Z [jfmd ] [WARN ] [                ] [project_cache_handler.go:279  ] [main                ] - Subscribe to cache invalidation - backoff failed: context canceled [access_client]
+2025-08-14T08:22:25.490Z [jfmd ] [INFO ] [                ] [database_bearer.go:165        ] [main                ] - Db connection driver::godror and kerberosAuth::false [database]
+2025-08-14T08:22:25.491Z [jfmd ] [INFO ] [                ] [database_bearer.go:180        ] [main                ] - Connecting to (db config: {oracle jdbc:oracle:thin:@(DESCRIPTION=(CONNECT_TIMEOUT=10)(RETRY_COUNT=3)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_909.inet.bundesbank.de)(PORT=1621))(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_913.inet.bundesbank.de)(PORT=1621)))(CONNECT_DATA=(SERVICE_NAME= ARTED_PRIM.WORLD)(SERVER=DEDICATED)))}) [database]
+2025-08-14T08:22:25.784Z [jfmd ] [INFO ] [                ] [migrator.go:65                ] [main                ] - Applying migration files [database]
+2025-08-14T08:22:25.785Z [jfmd ] [INFO ] [                ] [migration_lock_manager.go:49  ] [main                ] - Trying to acquire migration lock for u999jfart002d.in.bundesbank.de [database]
+2025-08-14T08:22:25.787Z [jfmd ] [INFO ] [                ] [migration_lock_manager.go:70  ] [main                ] - Migration lock acquired for u999jfart002d.in.bundesbank.de [database]
+2025-08-14T08:22:25.788Z [jfmd ] [INFO ] [                ] [migrator_planner.go:122       ] [main                ] - Found 58 existing migrations in the database [database]
+2025-08-14T08:22:25.788Z [jfmd ] [INFO ] [                ] [migrator_planner.go:20        ] [main                ] - Installation type: %!s(models.InstallationType=0) [database]
+2025-08-14T08:22:25.789Z [jfmd ] [INFO ] [                ] [migrator.go:150               ] [main                ] - Applying 58 migrations files [database]
+2025-08-14T08:22:25.789Z [jfmd ] [INFO ] [                ] [migration_lock_manager.go:76  ] [main                ] - Trying to release lock owned by: u999jfart002d.in.bundesbank.de [database]
+2025-08-14T08:22:25.790Z [jfmd ] [INFO ] [                ] [migration_lock_manager.go:90  ] [main                ] - Released lock owned by node u999jfart002d.in.bundesbank.de [database]
+2025-08-14T08:22:25.790Z [jfmd ] [INFO ] [                ] [migrator.go:77                ] [main                ] - No database migrations to apply [database]
+2025-08-14T08:22:25.790Z [jfmd ] [INFO ] [                ] [application.go:78             ] [main                ] - Metadata (jfmd) service initialization started. Version: 7.192.0 Revision: ef09a4d198b PID: 43404 Home: /opt/jfrog/artifactory/var [app_initializer]
+2025-08-14T08:22:25.794Z [jfmd ] [INFO ] [                ] [server_bearer.go:186          ] [main                ] - Got service_id from datastore: jfmd@01gk933362w03qptnc5q1tzw7z [ServerInit]
+2025-08-14T08:22:29.808Z [jfmd ] [INFO ] [                ] [access_client_bootstrap.go:255] [main                ] - Cluster join: Retry 5: Service registry join failed, will retry. Error: cluster join: Failed joining the cluster; Error: error while trying to connect to local router at address: Post "http://localhost:8046/access/api/v1/registry/join": dial tcp [::1]:8046: connect: connection refused [access_client]
+2025-08-14T08:22:34.815Z [jfmd ] [INFO ] [                ] [access_client_bootstrap.go:255] [main                ] - Cluster join: Retry 10: Service registry join failed, will retry. Error: cluster join: Failed joining the cluster; Error: error while trying to connect to local router at address: Post "http://localhost:8046/access/api/v1/registry/join": dial tcp [::1]:8046: connect: connection refused [access_client]
+2025-08-14T08:22:39.936Z [jfmd ] [INFO ] [                ] [join_executor.go:178          ] [main                ] - Cluster join: Successfully joined the cluster [access_client]
+2025-08-14T08:22:39.936Z [jfmd ] [INFO ] [                ] [join_executor.go:190          ] [main                ] - Cluster join: executing Router register at: localhost:8046 for service id jfmd@01gk933362w03qptnc5q1tzw7z [access_client]
+2025-08-14T08:22:39.987Z [jfmd ] [INFO ] [                ] [dedicated_grpc_connection.go:2] [main                ] - Creating a new dedicated gRPC connection for localhost:8046 [access_client]
+2025-08-14T08:22:39.993Z [jfmd ] [INFO ] [                ] [router_middlewares.go:55      ] [main                ] - 
+Metadata Info
+========================
+
+Logging.Request.Rotation.MaxFiles                    | 10
+AccessClient.JoinTimeout                             | 5m0s
+Keys.ReadIntervalDuration                            | 1s
+metrics.enabled                                      | true
+Shared.NewRelic.Enabled                              | false
+Shared.NewRelic.DistributedTracerEnabled             | true
+Logging.Application.Level                            | info
+Logging.Request.Rotation.MaxSizeMb                   | 25
+Keys.ReadAttempts                                    | 120
+database.metrics.enabled                             | false
+database.metrics.maxQueriesToTrack                   | 5
+Shared.NewRelic.EnableDebugLog                       | false
+Shared.NewRelic.DisableErrorLog                      | true
+Logging.Application.Rotation.MaxFiles                | 10
+Logging.Application.Rotation.IntervalSeconds         | 0
+Database.Type                                        | 4
+AccessClient.Url                                     | http://localhost:8081/access
+Profiling.Enabled                                    | true
+Port                                                 | 8086
+Logging.Application.FilePath                         | metadata-service.log
+Logging.Request.FilePath                             | metadata-request.log
+Logging.Request.Rotation.MaxAgeDays                  | 365
+Logging.Request.Rotation.Compress                    | true
+Logging.Request.Rotation.IntervalSeconds             | 0
+Shared.NewRelic.AppName                              | 
+Logging.Application.Rotation.MaxSizeMb               | 25
+Logging.Application.Rotation.MaxAgeDays              | 365
+Logging.Application.Rotation.Compress                | true
+
+2025-08-14T08:22:39.993Z [jfmd ] [INFO ] [                ] [router_middlewares.go:56      ] [main                ] - Metadata (jfmd) service initialization completed in 14.203 seconds. Listening on port: 8086 [router]
+2025-08-14T08:22:39.993Z [jfmd ] [INFO ] [                ] [async_converter.go:205        ] [main                ] - Starting async converter routine [async_converter] [workerNumber][1]
+2025-08-14T08:22:39.993Z [jfmd ] [INFO ] [                ] [pprof_server_unix.go:22       ] [main                ] - Starting SIGUSR2 listener for pprof server [server_manager]
+2025-08-14T10:50:01.389Z [jfmd ] [WARN ] [                ] [project_cache_handler.go:236  ] [main                ] - Unexpected project entity update type UPSERT in project key '' update [access_client]
+2025-08-14T10:50:01.389Z [jfmd ] [WARN ] [                ] [project_cache_handler.go:236  ] [main                ] - Unexpected project entity update type UPSERT in project key '' update [access_client]
+2025-08-14T13:17:43.822Z [jfmd ] [INFO ] [                ] [application.go:131            ] [main                ] - Metadata Received OS signal: terminated [init]
+2025-08-14T13:19:54.229Z [jfmd ] [INFO ] [                ] [database_bearer.go:165        ] [main                ] - Db connection driver::godror and kerberosAuth::false [database]
+2025-08-14T13:19:54.232Z [jfmd ] [INFO ] [                ] [database_bearer.go:180        ] [main                ] - Connecting to (db config: {oracle jdbc:oracle:thin:@(DESCRIPTION=(CONNECT_TIMEOUT=10)(RETRY_COUNT=3)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_909.inet.bundesbank.de)(PORT=1621))(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_913.inet.bundesbank.de)(PORT=1621)))(CONNECT_DATA=(SERVICE_NAME= ARTED_PRIM.WORLD)(SERVER=DEDICATED)))}) [database]
+2025-08-14T13:19:54.827Z [jfmd ] [INFO ] [                ] [migrator.go:65                ] [main                ] - Applying migration files [database]
+2025-08-14T13:19:54.829Z [jfmd ] [INFO ] [                ] [migration_lock_manager.go:49  ] [main                ] - Trying to acquire migration lock for u999jfart002d.in.bundesbank.de [database]
+2025-08-14T13:19:54.831Z [jfmd ] [INFO ] [                ] [migration_lock_manager.go:70  ] [main                ] - Migration lock acquired for u999jfart002d.in.bundesbank.de [database]
+2025-08-14T13:19:54.832Z [jfmd ] [INFO ] [                ] [migrator_planner.go:122       ] [main                ] - Found 58 existing migrations in the database [database]
+2025-08-14T13:19:54.833Z [jfmd ] [INFO ] [                ] [migrator_planner.go:20        ] [main                ] - Installation type: %!s(models.InstallationType=0) [database]
+2025-08-14T13:19:54.833Z [jfmd ] [INFO ] [                ] [migrator.go:150               ] [main                ] - Applying 58 migrations files [database]
+2025-08-14T13:19:54.833Z [jfmd ] [INFO ] [                ] [migration_lock_manager.go:76  ] [main                ] - Trying to release lock owned by: u999jfart002d.in.bundesbank.de [database]
+2025-08-14T13:19:54.834Z [jfmd ] [INFO ] [                ] [migration_lock_manager.go:90  ] [main                ] - Released lock owned by node u999jfart002d.in.bundesbank.de [database]
+2025-08-14T13:19:54.834Z [jfmd ] [INFO ] [                ] [migrator.go:77                ] [main                ] - No database migrations to apply [database]
+2025-08-14T13:19:54.834Z [jfmd ] [INFO ] [                ] [application.go:78             ] [main                ] - Metadata (jfmd) service initialization started. Version: 7.192.0 Revision: ef09a4d198b PID: 11575 Home: /opt/jfrog/artifactory/var [app_initializer]
+2025-08-14T13:19:54.838Z [jfmd ] [INFO ] [                ] [server_bearer.go:186          ] [main                ] - Got service_id from datastore: jfmd@01gk933362w03qptnc5q1tzw7z [ServerInit]
+2025-08-14T13:19:58.847Z [jfmd ] [INFO ] [                ] [access_client_bootstrap.go:255] [main                ] - Cluster join: Retry 5: Service registry join failed, will retry. Error: cluster join: Failed joining the cluster; Error: error while trying to connect to local router at address: Post "http://localhost:8046/access/api/v1/registry/join": dial tcp [::1]:8046: connect: connection refused [access_client]
+2025-08-14T13:20:03.855Z [jfmd ] [INFO ] [                ] [access_client_bootstrap.go:255] [main                ] - Cluster join: Retry 10: Service registry join failed, will retry. Error: cluster join: Failed joining the cluster; Error: error while trying to connect to local router at address: Post "http://localhost:8046/access/api/v1/registry/join": dial tcp [::1]:8046: connect: connection refused [access_client]
+2025-08-14T13:20:08.868Z [jfmd ] [INFO ] [                ] [access_client_bootstrap.go:255] [main                ] - Cluster join: Retry 15: Service registry join failed, will retry. Error: cluster join: Failed joining the cluster; Error: error while trying to connect to local router at address: Post "http://localhost:8046/access/api/v1/registry/join": dial tcp [::1]:8046: connect: connection refused [access_client]
+2025-08-14T13:20:13.880Z [jfmd ] [INFO ] [                ] [access_client_bootstrap.go:255] [main                ] - Cluster join: Retry 20: Service registry join failed, will retry. Error: cluster join: Failed joining the cluster; Error: error while trying to connect to local router at address: Post "http://localhost:8046/access/api/v1/registry/join": dial tcp [::1]:8046: connect: connection refused [access_client]
+2025-08-14T13:20:18.889Z [jfmd ] [INFO ] [                ] [access_client_bootstrap.go:255] [main                ] - Cluster join: Retry 25: Service registry join failed, will retry. Error: cluster join: Failed joining the cluster; Error: error while trying to connect to local router at address: Post "http://localhost:8046/access/api/v1/registry/join": dial tcp [::1]:8046: connect: connection refused [access_client]
+2025-08-14T13:20:23.896Z [jfmd ] [INFO ] [                ] [access_client_bootstrap.go:255] [main                ] - Cluster join: Retry 30: Service registry join failed, will retry. Error: cluster join: Failed joining the cluster; Error: error while trying to connect to local router at address: Post "http://localhost:8046/access/api/v1/registry/join": dial tcp [::1]:8046: connect: connection refused [access_client]
+2025-08-14T13:20:28.903Z [jfmd ] [INFO ] [                ] [access_client_bootstrap.go:255] [main                ] - Cluster join: Retry 35: Service registry join failed, will retry. Error: cluster join: Failed joining the cluster; Error: error while trying to connect to local router at address: Post "http://localhost:8046/access/api/v1/registry/join": dial tcp [::1]:8046: connect: connection refused [access_client]
+2025-08-14T13:20:30.047Z [jfmd ] [INFO ] [                ] [join_executor.go:178          ] [main                ] - Cluster join: Successfully joined the cluster [access_client]
+2025-08-14T13:20:30.047Z [jfmd ] [INFO ] [                ] [join_executor.go:190          ] [main                ] - Cluster join: executing Router register at: localhost:8046 for service id jfmd@01gk933362w03qptnc5q1tzw7z [access_client]
+2025-08-14T13:20:30.070Z [jfmd ] [INFO ] [                ] [dedicated_grpc_connection.go:2] [main                ] - Creating a new dedicated gRPC connection for localhost:8046 [access_client]
+2025-08-14T13:20:30.074Z [jfmd ] [INFO ] [                ] [router_middlewares.go:55      ] [main                ] - 
+Metadata Info
+========================
+
+Shared.NewRelic.DisableErrorLog                      | true
+Shared.NewRelic.DistributedTracerEnabled             | true
+Logging.Application.Rotation.MaxSizeMb               | 25
+Logging.Request.FilePath                             | metadata-request.log
+Logging.Request.Rotation.MaxFiles                    | 10
+AccessClient.Url                                     | http://localhost:8081/access
+Port                                                 | 8086
+Shared.NewRelic.AppName                              | 
+Shared.NewRelic.EnableDebugLog                       | false
+Logging.Application.Rotation.MaxAgeDays              | 365
+Logging.Application.Rotation.Compress                | true
+Logging.Application.Rotation.IntervalSeconds         | 0
+Keys.ReadAttempts                                    | 120
+metrics.enabled                                      | true
+Logging.Application.Level                            | info
+Logging.Application.Rotation.MaxFiles                | 10
+Logging.Request.Rotation.MaxAgeDays                  | 365
+Logging.Request.Rotation.IntervalSeconds             | 0
+Database.Type                                        | 4
+database.metrics.maxQueriesToTrack                   | 5
+Logging.Application.FilePath                         | metadata-service.log
+Logging.Request.Rotation.MaxSizeMb                   | 25
+Logging.Request.Rotation.Compress                    | true
+AccessClient.JoinTimeout                             | 5m0s
+Keys.ReadIntervalDuration                            | 1s
+database.metrics.enabled                             | false
+Profiling.Enabled                                    | true
+Shared.NewRelic.Enabled                              | false
+
+2025-08-14T13:20:30.075Z [jfmd ] [INFO ] [                ] [router_middlewares.go:56      ] [main                ] - Metadata (jfmd) service initialization completed in 35.240 seconds. Listening on port: 8086 [router]
+2025-08-14T13:20:30.075Z [jfmd ] [INFO ] [                ] [pprof_server_unix.go:22       ] [main                ] - Starting SIGUSR2 listener for pprof server [server_manager]
+2025-08-14T13:20:30.075Z [jfmd ] [INFO ] [                ] [async_converter.go:205        ] [main                ] - Starting async converter routine [async_converter] [workerNumber][1]
+2025-08-14T13:35:03.216Z [jfmd ] [WARN ] [                ] [grpc_utils.go:33              ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an internal error - error code (Internal) error (rpc error: code = Internal desc = stream terminated by RST_STREAM with error code: INTERNAL_ERROR) - resubscribe expected [access_client]
+2025-08-14T13:35:03.217Z [jfmd ] [WARN ] [                ] [grpc_utils.go:33              ] [main                ] - Refreshing project change events gRPC stream - got an internal error - error code (Internal) error (rpc error: code = Internal desc = stream terminated by RST_STREAM with error code: INTERNAL_ERROR) - resubscribe expected [access_client]
+2025-08-14T13:35:03.217Z [jfmd ] [WARN ] [                ] [grpc_utils.go:33              ] [main                ] - Refreshing project change events gRPC stream - got an internal error - error code (Internal) error (rpc error: code = Internal desc = stream terminated by RST_STREAM with error code: INTERNAL_ERROR) - resubscribe expected [access_client]
+2025-08-14T13:35:03.220Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing permissions cache invalidation gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T13:35:03.220Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing project change events gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T13:35:03.220Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing project change events gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T13:35:03.232Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing project change events gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T13:35:03.232Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing project change events gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T13:35:03.232Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing permissions cache invalidation gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T13:35:03.253Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing project change events gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T13:35:03.253Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing project change events gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T13:35:03.253Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing permissions cache invalidation gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T13:35:03.295Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing project change events gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T13:35:03.295Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing project change events gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T13:35:03.295Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing permissions cache invalidation gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T13:35:03.377Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing permissions cache invalidation gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T13:35:03.377Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing project change events gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T13:35:03.377Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing project change events gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T13:35:03.539Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing project change events gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T13:35:03.539Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing permissions cache invalidation gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T13:35:03.539Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing project change events gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T13:35:03.861Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing permissions cache invalidation gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T13:35:03.861Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing project change events gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T13:35:03.861Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing project change events gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T13:35:04.502Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing project change events gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T13:35:04.502Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing project change events gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T13:35:04.502Z [jfmd ] [WARN ] [                ] [grpc_utils.go:28              ] [main                ] - Refreshing permissions cache invalidation gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2025-08-14T13:35:04.518Z [jfmd ] [INFO ] [                ] [application.go:131            ] [main                ] - Metadata Received OS signal: terminated [init]
+2025-08-14T13:35:04.521Z [jfmd ] [WARN ] [                ] [acl.go:103                    ] [main                ] - Subscribe to permission cache invalidation - backoff failed: context canceled [access_client]
+2025-08-14T13:35:04.521Z [jfmd ] [WARN ] [                ] [project_cache_handler.go:265  ] [main                ] - Subscribe to cache invalidation - backoff failed: context canceled [access_client]
+2025-08-14T13:35:04.521Z [jfmd ] [WARN ] [                ] [project_cache_handler.go:265  ] [main                ] - Subscribe to cache invalidation - backoff failed: context canceled [access_client]
+2025-08-14T13:35:32.128Z [jfmd ] [INFO ] [                ] [database_bearer.go:165        ] [main                ] - Db connection driver::godror and kerberosAuth::false [database]
+2025-08-14T13:35:32.128Z [jfmd ] [INFO ] [                ] [database_bearer.go:180        ] [main                ] - Connecting to (db config: {oracle jdbc:oracle:thin:@(DESCRIPTION=(CONNECT_TIMEOUT=10)(RETRY_COUNT=3)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_909.inet.bundesbank.de)(PORT=1621))(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_913.inet.bundesbank.de)(PORT=1621)))(CONNECT_DATA=(SERVICE_NAME= ARTED_PRIM.WORLD)(SERVER=DEDICATED)))}) [database]
+2025-08-14T13:35:32.450Z [jfmd ] [INFO ] [                ] [migrator.go:65                ] [main                ] - Applying migration files [database]
+2025-08-14T13:35:32.452Z [jfmd ] [INFO ] [                ] [migration_lock_manager.go:49  ] [main                ] - Trying to acquire migration lock for u999jfart002d.in.bundesbank.de [database]
+2025-08-14T13:35:32.458Z [jfmd ] [INFO ] [                ] [migration_lock_manager.go:70  ] [main                ] - Migration lock acquired for u999jfart002d.in.bundesbank.de [database]
+2025-08-14T13:35:32.460Z [jfmd ] [INFO ] [                ] [migrator_planner.go:122       ] [main                ] - Found 58 existing migrations in the database [database]
+2025-08-14T13:35:32.460Z [jfmd ] [INFO ] [                ] [migrator_planner.go:20        ] [main                ] - Installation type: %!s(models.InstallationType=0) [database]
+2025-08-14T13:35:32.460Z [jfmd ] [INFO ] [                ] [migrator.go:150               ] [main                ] - Applying 58 migrations files [database]
+2025-08-14T13:35:32.460Z [jfmd ] [INFO ] [                ] [migration_lock_manager.go:76  ] [main                ] - Trying to release lock owned by: u999jfart002d.in.bundesbank.de [database]
+2025-08-14T13:35:32.461Z [jfmd ] [INFO ] [                ] [migration_lock_manager.go:90  ] [main                ] - Released lock owned by node u999jfart002d.in.bundesbank.de [database]
+2025-08-14T13:35:32.461Z [jfmd ] [INFO ] [                ] [migrator.go:77                ] [main                ] - No database migrations to apply [database]
+2025-08-14T13:35:32.461Z [jfmd ] [INFO ] [                ] [application.go:78             ] [main                ] - Metadata (jfmd) service initialization started. Version: 7.192.0 Revision: ef09a4d198b PID: 31043 Home: /opt/jfrog/artifactory/var [app_initializer]
+2025-08-14T13:35:32.465Z [jfmd ] [INFO ] [                ] [server_bearer.go:186          ] [main                ] - Got service_id from datastore: jfmd@01gk933362w03qptnc5q1tzw7z [ServerInit]
+2025-08-14T13:35:36.473Z [jfmd ] [INFO ] [                ] [access_client_bootstrap.go:255] [main                ] - Cluster join: Retry 5: Service registry join failed, will retry. Error: cluster join: Failed joining the cluster; Error: error while trying to connect to local router at address: Post "http://localhost:8046/access/api/v1/registry/join": dial tcp [::1]:8046: connect: connection refused [access_client]
+2025-08-14T13:35:41.481Z [jfmd ] [INFO ] [                ] [access_client_bootstrap.go:255] [main                ] - Cluster join: Retry 10: Service registry join failed, will retry. Error: cluster join: Failed joining the cluster; Error: error while trying to connect to local router at address: Post "http://localhost:8046/access/api/v1/registry/join": dial tcp [::1]:8046: connect: connection refused [access_client]
+2025-08-14T13:35:46.497Z [jfmd ] [INFO ] [                ] [access_client_bootstrap.go:255] [main                ] - Cluster join: Retry 15: Service registry join failed, will retry. Error: cluster join: Failed joining the cluster; Error: error while trying to connect to local router at address: Post "http://localhost:8046/access/api/v1/registry/join": dial tcp [::1]:8046: connect: connection refused [access_client]
+2025-08-14T13:35:50.680Z [jfmd ] [INFO ] [                ] [join_executor.go:178          ] [main                ] - Cluster join: Successfully joined the cluster [access_client]
+2025-08-14T13:35:50.680Z [jfmd ] [INFO ] [                ] [join_executor.go:190          ] [main                ] - Cluster join: executing Router register at: localhost:8046 for service id jfmd@01gk933362w03qptnc5q1tzw7z [access_client]
+2025-08-14T13:35:50.706Z [jfmd ] [INFO ] [                ] [dedicated_grpc_connection.go:2] [main                ] - Creating a new dedicated gRPC connection for localhost:8046 [access_client]
+2025-08-14T13:35:50.723Z [jfmd ] [INFO ] [                ] [router_middlewares.go:55      ] [main                ] - 
+Metadata Info
+========================
+
+Logging.Application.Rotation.MaxFiles                | 10
+Logging.Application.Rotation.IntervalSeconds         | 0
+Logging.Request.Rotation.MaxAgeDays                  | 365
+Port                                                 | 8086
+Shared.NewRelic.EnableDebugLog                       | false
+Shared.NewRelic.DisableErrorLog                      | true
+Logging.Application.Rotation.MaxAgeDays              | 365
+Logging.Request.Rotation.MaxFiles                    | 10
+Logging.Request.Rotation.Compress                    | true
+Logging.Request.Rotation.IntervalSeconds             | 0
+Database.Type                                        | 4
+Logging.Application.Rotation.Compress                | true
+Logging.Request.FilePath                             | metadata-request.log
+AccessClient.Url                                     | http://localhost:8081/access
+Keys.ReadIntervalDuration                            | 1s
+database.metrics.enabled                             | false
+database.metrics.maxQueriesToTrack                   | 5
+Profiling.Enabled                                    | true
+Shared.NewRelic.DistributedTracerEnabled             | true
+Logging.Request.Rotation.MaxSizeMb                   | 25
+AccessClient.JoinTimeout                             | 5m0s
+Keys.ReadAttempts                                    | 120
+metrics.enabled                                      | true
+Shared.NewRelic.Enabled                              | false
+Shared.NewRelic.AppName                              | 
+Logging.Application.FilePath                         | metadata-service.log
+Logging.Application.Level                            | info
+Logging.Application.Rotation.MaxSizeMb               | 25
+
+2025-08-14T13:35:50.723Z [jfmd ] [INFO ] [                ] [router_middlewares.go:56      ] [main                ] - Metadata (jfmd) service initialization completed in 18.262 seconds. Listening on port: 8086 [router]
+2025-08-14T13:35:50.723Z [jfmd ] [INFO ] [                ] [async_converter.go:205        ] [main                ] - Starting async converter routine [async_converter] [workerNumber][1]
+2025-08-14T13:35:50.723Z [jfmd ] [INFO ] [                ] [pprof_server_unix.go:22       ] [main                ] - Starting SIGUSR2 listener for pprof server [server_manager]
+2025-08-14T13:40:20.946Z [jfmd ] [INFO ] [5a6753201c4e18b5] [system_service.go:154         ] [main                ] - Creating support bundle [system_service]

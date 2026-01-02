@@ -1,0 +1,35 @@
+endpoints:
+    - excludedpaths: []
+      paths:
+        - match: /artifactory
+          replace: ""
+        - match: /artifactory/(.*)
+          replace: ""
+        - match: /v2/(.*)
+          replace: ""
+        - match: /.well-known/terraform.json
+          replace: ""
+        - match: /lifecycle/api/v2/release_bundle
+          replace: /artifactory/api/v2/release_bundle
+        - match: /lifecycle/api/v2/release_bundle/(.*)
+          replace: /artifactory/api/v2/release_bundle/$1
+        - match: /lifecycle/api/v2/promotion/(.*)
+          replace: /artifactory/api/v2/promotion/$1
+        - match: /lifecycle/api/v2/keys/(.*)
+          replace: /artifactory/api/v2/keys/$1
+        - match: /lifecycle/api/v2/audit
+          replace: /artifactory/api/v2/audit
+        - match: /lifecycle/api/v2/audit/(.*)
+          replace: /artifactory/api/v2/audit/$1
+        - match: /lifecycle/api/v1/evidence/(.*)
+          replace: /artifactory/api/v1/evidence/$1
+      port: 8081
+      protocol: 1
+healthcheckendpoint:
+    path: /artifactory/api/v1/system/readiness
+    port: 8091
+nodeid: u999jfart002d.in.bundesbank.de
+nodestatusendpoint: null
+revision: "81712900"
+serviceid: jfrt@01fzay6s6x41bs1ytynknf084z
+version: 7.117.12

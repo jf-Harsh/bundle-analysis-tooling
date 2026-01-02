@@ -1,0 +1,142 @@
+{
+  "cpu": [
+    {
+      "model": "Intel(R) Xeon(R) Gold 6242R CPU @ 3.10GHz",
+      "speed": 0,
+      "times": {
+        "user": 70090,
+        "nice": 0,
+        "sys": 19300,
+        "idle": 1172240,
+        "irq": 1440
+      }
+    },
+    {
+      "model": "Intel(R) Xeon(R) Gold 6242R CPU @ 3.10GHz",
+      "speed": 0,
+      "times": {
+        "user": 67010,
+        "nice": 0,
+        "sys": 21520,
+        "idle": 1167030,
+        "irq": 1550
+      }
+    },
+    {
+      "model": "Intel(R) Xeon(R) Gold 6242R CPU @ 3.10GHz",
+      "speed": 0,
+      "times": {
+        "user": 66390,
+        "nice": 0,
+        "sys": 20740,
+        "idle": 1162160,
+        "irq": 1570
+      }
+    },
+    {
+      "model": "Intel(R) Xeon(R) Gold 6242R CPU @ 3.10GHz",
+      "speed": 0,
+      "times": {
+        "user": 68180,
+        "nice": 0,
+        "sys": 20850,
+        "idle": 1166080,
+        "irq": 1630
+      }
+    },
+    {
+      "model": "Intel(R) Xeon(R) Gold 6242R CPU @ 3.10GHz",
+      "speed": 0,
+      "times": {
+        "user": 73230,
+        "nice": 0,
+        "sys": 19880,
+        "idle": 1165850,
+        "irq": 1460
+      }
+    },
+    {
+      "model": "Intel(R) Xeon(R) Gold 6242R CPU @ 3.10GHz",
+      "speed": 0,
+      "times": {
+        "user": 66460,
+        "nice": 0,
+        "sys": 21780,
+        "idle": 1171610,
+        "irq": 1470
+      }
+    },
+    {
+      "model": "Intel(R) Xeon(R) Gold 6242R CPU @ 3.10GHz",
+      "speed": 0,
+      "times": {
+        "user": 69150,
+        "nice": 0,
+        "sys": 19070,
+        "idle": 1173690,
+        "irq": 1450
+      }
+    },
+    {
+      "model": "Intel(R) Xeon(R) Gold 6242R CPU @ 3.10GHz",
+      "speed": 0,
+      "times": {
+        "user": 67170,
+        "nice": 0,
+        "sys": 18480,
+        "idle": 1175540,
+        "irq": 1440
+      }
+    },
+    {
+      "model": "Intel(R) Xeon(R) Gold 6242R CPU @ 3.10GHz",
+      "speed": 0,
+      "times": {
+        "user": 70190,
+        "nice": 0,
+        "sys": 15190,
+        "idle": 1177470,
+        "irq": 1440
+      }
+    },
+    {
+      "model": "Intel(R) Xeon(R) Gold 6242R CPU @ 3.10GHz",
+      "speed": 0,
+      "times": {
+        "user": 73090,
+        "nice": 0,
+        "sys": 18890,
+        "idle": 1170970,
+        "irq": 1400
+      }
+    },
+    {
+      "model": "Intel(R) Xeon(R) Gold 6242R CPU @ 3.10GHz",
+      "speed": 0,
+      "times": {
+        "user": 63160,
+        "nice": 0,
+        "sys": 19650,
+        "idle": 1179280,
+        "irq": 1460
+      }
+    },
+    {
+      "model": "Intel(R) Xeon(R) Gold 6242R CPU @ 3.10GHz",
+      "speed": 0,
+      "times": {
+        "user": 62410,
+        "nice": 0,
+        "sys": 19980,
+        "idle": 1179750,
+        "irq": 1410
+      }
+    }
+  ],
+  "total_memory": 33436012544,
+  "process_memory": 6681600000,
+  "host": "u999jfart002d.in.bundesbank.de",
+  "os_arch": "x64",
+  "os_name": "linux",
+  "os_version": "4.18.0-553.63.1.el8_10.x86_64"
+}

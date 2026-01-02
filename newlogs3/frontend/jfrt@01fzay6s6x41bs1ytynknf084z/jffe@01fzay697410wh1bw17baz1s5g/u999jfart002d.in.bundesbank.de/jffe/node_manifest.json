@@ -1,0 +1,12 @@
+{
+  "service_type": "jfrt@01fzay6s6x41bs1ytynknf084z",
+  "microservice_name": "frontend",
+  "microservice_version": "1.247.13",
+  "service_id": "jffe@01fzay697410wh1bw17baz1s5g",
+  "node_id": "u999jfart002d.in.bundesbank.de",
+  "bundle_info": {
+    "id": "undefined_gateway-1755178820823",
+    "created": "2025-08-14T13:40:20.973Z",
+    "status": "success"
+  }
+}

@@ -1,0 +1,11 @@
+{
+	"service_type": "jfrt",
+	"microservice_name": "event",
+	"microservice_version": "7.183.1 (revision: aceed802fd, build date: 2025-07-01T14:46:51Z)",
+	"service_id": "jfevt@01fzay697410wh1bw17baz1s5g",
+	"node_id": "u999jfart002d.in.bundesbank.de",
+	"bundle_info": {
+		"id": "gateway-1755178820823",
+		"name": "gateway"
+	}
+}

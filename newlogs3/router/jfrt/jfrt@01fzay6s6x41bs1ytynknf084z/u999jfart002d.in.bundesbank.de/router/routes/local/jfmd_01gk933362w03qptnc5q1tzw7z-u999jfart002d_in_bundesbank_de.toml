@@ -1,0 +1,33 @@
+# This template is used to create routing rules for Traefik
+# References: https://doc.traefik.io/traefik/reference/dynamic-configuration/file/
+#             https://doc.traefik.io/traefik/routing/routers
+#             https://doc.traefik.io/traefik/routing/services
+
+[http.routers]
+
+  [http.routers.jfmd_01gk933362w03qptnc5q1tzw7z-u999jfart002d_in_bundesbank_de-0-rule0-internal]
+    entryPoints = ["internal"]
+    service = "local-jfmd_01gk933362w03qptnc5q1tzw7z-u999jfart002d_in_bundesbank_de-0"
+    priority = 714
+    rule = "PathPrefix(`/metadata/`)"
+    middlewares = ["jfmd_01gk933362w03qptnc5q1tzw7z-u999jfart002d_in_bundesbank_de-0-0-strip"]
+
+  [http.routers.jfmd_01gk933362w03qptnc5q1tzw7z-u999jfart002d_in_bundesbank_de-0-rule0-external]
+    entryPoints = ["external"]
+    service = "local-jfmd_01gk933362w03qptnc5q1tzw7z-u999jfart002d_in_bundesbank_de-0"
+    priority = 714
+    rule = "PathPrefix(`/metadata/`)"
+    middlewares = ["jfmd_01gk933362w03qptnc5q1tzw7z-u999jfart002d_in_bundesbank_de-0-0-strip","hotPath","mtls"]
+
+[http.services]
+
+  [http.services.local-jfmd_01gk933362w03qptnc5q1tzw7z-u999jfart002d_in_bundesbank_de-0.loadBalancer]
+    passHostHeader = false
+
+    [[http.services.local-jfmd_01gk933362w03qptnc5q1tzw7z-u999jfart002d_in_bundesbank_de-0.loadBalancer.servers]]
+      url = "http://localhost:8086"
+
+[http.middlewares]
+
+  [http.middlewares.jfmd_01gk933362w03qptnc5q1tzw7z-u999jfart002d_in_bundesbank_de-0-0-strip.stripPrefix]
+    prefixes = ["/metadata/"]

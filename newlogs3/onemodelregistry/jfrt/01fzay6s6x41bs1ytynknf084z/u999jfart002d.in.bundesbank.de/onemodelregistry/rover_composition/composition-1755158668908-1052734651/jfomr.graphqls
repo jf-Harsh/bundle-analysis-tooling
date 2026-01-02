@@ -1,0 +1,163 @@
+
+# === === === === === === === ===
+# OneModel SDK
+# === === === === === === === ===
+
+"""
+Executable directive to specify the date format to use for Date fields in the query response
+"""
+directive @dateFormat(format: DateFormat! = ISO8601) on FIELD
+
+"""
+Schema directive, used to specify the owner of an entity type. This directive must be used on all entity types, only by the owner of the entity, not by subgraph providers which extend the entity.
+Used for both documenting ownership and enforcing having a single owner.
+"""
+directive @owner(
+  """
+  JFrog product which is the owner of the type
+  """
+  product: String!
+) on SCALAR | OBJECT | INTERFACE | UNION | ENUM | INPUT_OBJECT
+
+"""
+Schema directive, used to mark a type or a field as experimental, i.e. not part of the contract and can be removed / changed at any time.
+"""
+directive @experimental(
+  """
+  Optional comment on the experimental schema item
+  """
+  comment: String
+) on SCALAR | OBJECT | FIELD_DEFINITION | ARGUMENT_DEFINITION | INTERFACE | UNION | ENUM | ENUM_VALUE | INPUT_OBJECT | INPUT_FIELD_DEFINITION
+
+"""
+Supported date formats for Date fields
+"""
+enum DateFormat @owner(product: "onemodel") {
+  """
+  ISO-8601 - e.g. 1994-11-05T13:15:30.972Z
+  """
+  ISO8601
+  """
+  ISO-8601-Date - e.g. 1994-11-05
+  """
+  ISO8601_DATE_ONLY
+  """
+  e.g. 05 Nov 1994
+  """
+  DD_MMM_YYYY
+}
+
+"""
+Possible directions in which to order a sorted list of items when provided an `orderBy` argument
+"""
+enum SortOrderDirection @owner(product: "onemodel") {
+  """
+  Ascending order
+  """
+  ASC
+  """
+  Descending order
+  """
+  DESC
+}
+
+"""
+Date type, string value, supports the @dateFormat directive, by default follows the [ISO-8601 standard](https://www.w3.org/TR/NOTE-datetime) with millisecond precision and timezone. For example: "1994-11-05T13:15:30.972Z"
+"""
+scalar Date @owner(product: "onemodel")
+
+"""
+Unified Resource Identifier type, string value, follows the [RFC-3986](https://datatracker.ietf.org/doc/html/rfc3986) standard
+"""
+scalar URI @owner(product: "onemodel")
+
+"""
+[Relay Cursor](https://relay.dev/graphql/connections.htm#sec-Cursor) type, an obfuscated string value representing a position during pagination.
+"""
+scalar Cursor @owner(product: "onemodel")
+
+"""
+Digest type, string value, in the format: "<alg>:<digest>"
+Example:
+sha256:68e656b251e67e8358bef8483ab0d51c6619f3e7a1a9f0e75838d41ff368f728
+"""
+scalar Digest @owner(product: "onemodel")
+
+"""
+SHA-256 string formatted as HEX value (lowercase).
+Matches regular expression: "^[a-f0-9]{64}$".
+
+Example: "7ab0a6527f661c55b02b29fbb3b7d2a7313215c1140337b0cd980d06c3975a14" (SHA-256 of "JFrog")
+"""
+scalar Sha256 @owner(product: "onemodel")
+
+"""
+Arbitrary JSON object.
+"""
+scalar JSON @owner(product: "onemodel")
+
+"""
+Page information, part of results pagination, as defined by [Relay PageInfo](https://relay.dev/graphql/connections.htm#sec-undefined.PageInfo) value object type
+"""
+type PageInfo @shareable @owner(product: "onemodel") {
+  """
+  When paginating forwards, are there more items?
+  """
+  hasNextPage: Boolean!
+  """
+  When paginating backwards, are there more items?
+  """
+  hasPreviousPage: Boolean!
+  """
+  The cursor of the first item in the page.
+  Used to continue when paginating backwards (to use with `before`)
+  """
+  startCursor: Cursor
+  """
+  The cursor of the last item in the page.
+  Used to continue when paginating forwards (to use with `after`)
+  """
+  endCursor: Cursor
+}
+
+extend schema
+@link(url: "https://specs.apollo.dev/federation/v2.9", import: ["@key", "@shareable", "@composeDirective"])
+@link(url: "https://jfrog.com/onemodel/v1.0", import: ["@owner", "@experimental"])
+@composeDirective(name: "@owner")
+@composeDirective(name: "@experimental")
+
+
+# === === === === === === === ===
+# OneModel Schema Registry API
+# === === === === === === === ===
+
+extend type Query {
+  """
+  OneModel queries
+  """
+  oneModel: OneModelQueries!
+}
+
+"""
+OneModel queries
+"""
+type OneModelQueries @owner(product: "jfomr"){
+  """
+  Get system information about the OneModel service
+  """
+  getSystemInfo: OneModelSystemInfo
+}
+
+"""
+OneModel service System Information
+"""
+type OneModelSystemInfo @owner(product: "jfomr"){
+  """
+  Health check response
+  """
+  ping: String
+  """
+  Service version
+  """
+  version: String
+}

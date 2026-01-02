@@ -1,0 +1,11 @@
+{
+	"service_type": "jfrt",
+	"microservice_name": "evidence",
+	"microservice_version": "7.126.0 (revision: c9da1e4979, build date: 2025-07-02T11:54:28Z)",
+	"service_id": "jfevd@01fzay697410wh1bw17baz1s5g",
+	"node_id": "u999jfart002d.in.bundesbank.de",
+	"bundle_info": {
+		"id": "gateway-1755178820823",
+		"name": "gateway"
+	}
+}

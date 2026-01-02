@@ -1,0 +1,208 @@
+# This template is used to create routing rules for Traefik
+# References: https://doc.traefik.io/traefik/reference/dynamic-configuration/file/
+#             https://doc.traefik.io/traefik/routing/routers
+#             https://doc.traefik.io/traefik/routing/services
+
+[http.routers]
+
+  [http.routers.jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-rule0-internal]
+    entryPoints = ["internal"]
+    service = "local-jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0"
+    priority = 712
+    rule = "Path(`/artifactory`)"
+
+  [http.routers.jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-rule0-external]
+    entryPoints = ["external"]
+    service = "local-jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0"
+    priority = 712
+    rule = "Path(`/artifactory`)"
+    middlewares = ["hotPath","mtls"]
+
+  [http.routers.jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-rule1-internal]
+    entryPoints = ["internal"]
+    service = "local-jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0"
+    priority = 717
+    rule = "PathPrefix(`/artifactory/`)"
+
+  [http.routers.jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-rule1-external]
+    entryPoints = ["external"]
+    service = "local-jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0"
+    priority = 717
+    rule = "PathPrefix(`/artifactory/`)"
+    middlewares = ["hotPath","mtls"]
+
+  [http.routers.jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-rule2-internal]
+    entryPoints = ["internal"]
+    service = "local-jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0"
+    priority = 708
+    rule = "PathPrefix(`/v2/`)"
+
+  [http.routers.jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-rule2-external]
+    entryPoints = ["external"]
+    service = "local-jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0"
+    priority = 708
+    rule = "PathPrefix(`/v2/`)"
+    middlewares = ["hotPath","mtls"]
+
+  [http.routers.jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-rule3-internal]
+    entryPoints = ["internal"]
+    service = "local-jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0"
+    priority = 727
+    rule = "Path(`/.well-known/terraform.json`)"
+
+  [http.routers.jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-rule3-external]
+    entryPoints = ["external"]
+    service = "local-jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0"
+    priority = 727
+    rule = "Path(`/.well-known/terraform.json`)"
+    middlewares = ["hotPath","mtls"]
+
+  [http.routers.jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-rule4-internal]
+    entryPoints = ["internal"]
+    service = "local-jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0"
+    priority = 732
+    rule = "Path(`/lifecycle/api/v2/release_bundle`)"
+    middlewares = ["jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-4-strip","jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-4-add"]
+
+  [http.routers.jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-rule4-external]
+    entryPoints = ["external"]
+    service = "local-jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0"
+    priority = 732
+    rule = "Path(`/lifecycle/api/v2/release_bundle`)"
+    middlewares = ["jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-4-strip","jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-4-add","hotPath","mtls"]
+
+  [http.routers.jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-rule5-internal]
+    entryPoints = ["internal"]
+    service = "local-jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0"
+    priority = 737
+    rule = "PathPrefix(`/lifecycle/api/v2/release_bundle/`)"
+    middlewares = ["jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-5-strip","jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-5-add"]
+
+  [http.routers.jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-rule5-external]
+    entryPoints = ["external"]
+    service = "local-jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0"
+    priority = 737
+    rule = "PathPrefix(`/lifecycle/api/v2/release_bundle/`)"
+    middlewares = ["jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-5-strip","jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-5-add","hotPath","mtls"]
+
+  [http.routers.jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-rule6-internal]
+    entryPoints = ["internal"]
+    service = "local-jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0"
+    priority = 732
+    rule = "PathPrefix(`/lifecycle/api/v2/promotion/`)"
+    middlewares = ["jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-6-strip","jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-6-add"]
+
+  [http.routers.jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-rule6-external]
+    entryPoints = ["external"]
+    service = "local-jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0"
+    priority = 732
+    rule = "PathPrefix(`/lifecycle/api/v2/promotion/`)"
+    middlewares = ["jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-6-strip","jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-6-add","hotPath","mtls"]
+
+  [http.routers.jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-rule7-internal]
+    entryPoints = ["internal"]
+    service = "local-jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0"
+    priority = 727
+    rule = "PathPrefix(`/lifecycle/api/v2/keys/`)"
+    middlewares = ["jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-7-strip","jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-7-add"]
+
+  [http.routers.jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-rule7-external]
+    entryPoints = ["external"]
+    service = "local-jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0"
+    priority = 727
+    rule = "PathPrefix(`/lifecycle/api/v2/keys/`)"
+    middlewares = ["jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-7-strip","jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-7-add","hotPath","mtls"]
+
+  [http.routers.jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-rule8-internal]
+    entryPoints = ["internal"]
+    service = "local-jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0"
+    priority = 723
+    rule = "Path(`/lifecycle/api/v2/audit`)"
+    middlewares = ["jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-8-strip","jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-8-add"]
+
+  [http.routers.jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-rule8-external]
+    entryPoints = ["external"]
+    service = "local-jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0"
+    priority = 723
+    rule = "Path(`/lifecycle/api/v2/audit`)"
+    middlewares = ["jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-8-strip","jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-8-add","hotPath","mtls"]
+
+  [http.routers.jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-rule9-internal]
+    entryPoints = ["internal"]
+    service = "local-jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0"
+    priority = 728
+    rule = "PathPrefix(`/lifecycle/api/v2/audit/`)"
+    middlewares = ["jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-9-strip","jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-9-add"]
+
+  [http.routers.jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-rule9-external]
+    entryPoints = ["external"]
+    service = "local-jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0"
+    priority = 728
+    rule = "PathPrefix(`/lifecycle/api/v2/audit/`)"
+    middlewares = ["jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-9-strip","jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-9-add","hotPath","mtls"]
+
+  [http.routers.jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-rule10-internal]
+    entryPoints = ["internal"]
+    service = "local-jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0"
+    priority = 731
+    rule = "PathPrefix(`/lifecycle/api/v1/evidence/`)"
+    middlewares = ["jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-10-strip","jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-10-add"]
+
+  [http.routers.jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-rule10-external]
+    entryPoints = ["external"]
+    service = "local-jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0"
+    priority = 731
+    rule = "PathPrefix(`/lifecycle/api/v1/evidence/`)"
+    middlewares = ["jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-10-strip","jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-10-add","hotPath","mtls"]
+
+[http.services]
+
+  [http.services.local-jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0.loadBalancer]
+    passHostHeader = false
+
+    [[http.services.local-jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0.loadBalancer.servers]]
+      url = "http://localhost:8081"
+
+[http.middlewares]
+
+  [http.middlewares.jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-4-add.addPrefix]
+    prefix = "/artifactory/api/v2/release_bundle"
+
+  [http.middlewares.jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-4-strip.stripPrefix]
+    prefixes = ["/lifecycle/api/v2/release_bundle"]
+
+  [http.middlewares.jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-5-add.addPrefix]
+    prefix = "/artifactory/api/v2/release_bundle"
+
+  [http.middlewares.jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-5-strip.stripPrefix]
+    prefixes = ["/lifecycle/api/v2/release_bundle/"]
+
+  [http.middlewares.jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-6-add.addPrefix]
+    prefix = "/artifactory/api/v2/promotion"
+
+  [http.middlewares.jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-6-strip.stripPrefix]
+    prefixes = ["/lifecycle/api/v2/promotion/"]
+
+  [http.middlewares.jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-7-add.addPrefix]
+    prefix = "/artifactory/api/v2/keys"
+
+  [http.middlewares.jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-7-strip.stripPrefix]
+    prefixes = ["/lifecycle/api/v2/keys/"]
+
+  [http.middlewares.jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-8-add.addPrefix]
+    prefix = "/artifactory/api/v2/audit"
+
+  [http.middlewares.jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-8-strip.stripPrefix]
+    prefixes = ["/lifecycle/api/v2/audit"]
+
+  [http.middlewares.jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-9-add.addPrefix]
+    prefix = "/artifactory/api/v2/audit"
+
+  [http.middlewares.jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-9-strip.stripPrefix]
+    prefixes = ["/lifecycle/api/v2/audit/"]
+
+  [http.middlewares.jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-10-add.addPrefix]
+    prefix = "/artifactory/api/v1/evidence"
+
+  [http.middlewares.jfrt_01fzay6s6x41bs1ytynknf084z-u999jfart002d_in_bundesbank_de-0-10-strip.stripPrefix]
+    prefixes = ["/lifecycle/api/v1/evidence/"]

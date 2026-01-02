@@ -1,0 +1,11 @@
+{
+	"service_type": "jfrt",
+	"microservice_name": "jfconnect",
+	"microservice_version": "7.117.2 (revision: 9e986ed66e, build date: 2025-07-18T09:34:14Z)",
+	"service_id": "jfcon@01fzay697410wh1bw17baz1s5g",
+	"node_id": "u999jfart002d.in.bundesbank.de",
+	"bundle_info": {
+		"id": "gateway-1755178820823",
+		"name": "gateway"
+	}
+}

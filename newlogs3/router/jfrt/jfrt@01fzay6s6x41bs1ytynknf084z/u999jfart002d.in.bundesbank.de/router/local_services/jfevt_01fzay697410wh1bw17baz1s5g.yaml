@@ -1,0 +1,21 @@
+endpoints:
+    - excludedpaths: []
+      paths:
+        - match: /event/(.*)
+          replace: /$1
+      port: 8061
+      protocol: 1
+    - excludedpaths: []
+      paths:
+        - match: /com\.jfrog\.event\..*
+          replace: ""
+      port: 8062
+      protocol: 2
+healthcheckendpoint:
+    path: /api/v1/system/readiness
+    port: 8061
+nodeid: u999jfart002d.in.bundesbank.de
+nodestatusendpoint: null
+revision: aceed802fd
+serviceid: jfevt@01fzay697410wh1bw17baz1s5g
+version: 7.183.1

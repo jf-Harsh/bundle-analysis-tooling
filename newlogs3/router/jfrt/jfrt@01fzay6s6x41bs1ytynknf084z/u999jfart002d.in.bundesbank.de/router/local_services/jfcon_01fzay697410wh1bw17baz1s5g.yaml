@@ -1,0 +1,21 @@
+endpoints:
+    - excludedpaths: []
+      paths:
+        - match: /jfconnect/(.*)
+          replace: /$1
+      port: 8030
+      protocol: 1
+    - excludedpaths: []
+      paths:
+        - match: /com\.jfrog\.jfconnect\..*
+          replace: ""
+      port: 8035
+      protocol: 2
+healthcheckendpoint:
+    path: /api/v1/system/readiness
+    port: 8030
+nodeid: u999jfart002d.in.bundesbank.de
+nodestatusendpoint: null
+revision: 9e986ed66e
+serviceid: jfcon@01fzay697410wh1bw17baz1s5g
+version: 7.117.2

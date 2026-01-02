@@ -1,0 +1,884 @@
+2024-09-03T01:47:17.231Z [jfrt ] [INFO ] [c232bbe2ff5de5bc] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created fed-request-tunneling-exec-%d parallel executor with 16 maximum thread pool size
+2024-09-03T01:47:34.045Z [jfrt ] [INFO ] [c232bbe2ff5de5bc] [ederationClientServiceImpl:362] [art-init            ] - Artifactory Federation service is running in legacy internal mode...
+2024-09-03T01:47:34.068Z [jfrt ] [INFO ] [c232bbe2ff5de5bc] [.a.a.m.i.MirrorServiceImpl:178] [art-init            ] - Starting internal mirror jobs
+2024-09-03T01:47:35.115Z [jfrt ] [INFO ] [c232bbe2ff5de5bc] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-09-03T01:47:35.115Z [jfrt ] [INFO ] [c232bbe2ff5de5bc] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-09-03T01:47:35.115Z [jfrt ] [INFO ] [c232bbe2ff5de5bc] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-09-03T01:47:35.115Z [jfrt ] [INFO ] [c232bbe2ff5de5bc] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-09-03T01:47:35.116Z [jfrt ] [INFO ] [c232bbe2ff5de5bc] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-09-03T01:47:35.116Z [jfrt ] [INFO ] [c232bbe2ff5de5bc] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-09-03T01:47:35.116Z [jfrt ] [INFO ] [c232bbe2ff5de5bc] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-09-03T01:47:35.116Z [jfrt ] [INFO ] [c232bbe2ff5de5bc] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-09-03T01:47:35.116Z [jfrt ] [INFO ] [c232bbe2ff5de5bc] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-09-03T01:47:35.116Z [jfrt ] [INFO ] [c232bbe2ff5de5bc] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-09-03T01:47:35.116Z [jfrt ] [INFO ] [c232bbe2ff5de5bc] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-09-03T01:47:35.116Z [jfrt ] [INFO ] [c232bbe2ff5de5bc] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-09-03T01:47:35.116Z [jfrt ] [INFO ] [c232bbe2ff5de5bc] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2024-09-03T01:47:35.116Z [jfrt ] [INFO ] [c232bbe2ff5de5bc] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2024-09-03T01:47:35.117Z [jfrt ] [INFO ] [c232bbe2ff5de5bc] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2024-09-03T01:47:35.156Z [jfrt ] [INFO ] [9cc6a0846b2922cf] [ederatedRepoMirrorCallBack:339] [46b2922cf|art-exec-3] - Performing async initialization of repositories
+2024-09-03T01:47:35.786Z [jfrt ] [INFO ] [c232bbe2ff5de5bc] [c.FederatedRepoServiceImpl:375] [art-init            ] - Scheduling master tokens refresh job...
+2024-09-03T01:47:36.508Z [jfrt ] [INFO ] [c232bbe2ff5de5bc] [c.FederatedRepoServiceImpl:375] [art-init            ] - Scheduling master tokens refresh job...
+2024-09-03T01:47:36.510Z [jfrt ] [WARN ] [c232bbe2ff5de5bc] [c.FederatedRepoServiceImpl:381] [art-init            ] - Master token refresh job is already scheduled - skipping second attempt to reschedule...
+2024-09-03T01:47:37.209Z [jfrt ] [INFO ] [c232bbe2ff5de5bc] [MirrorHeartbeatServiceImpl:311] [art-init            ] - Main heartbeat task started, repeat every 20 sec
+2024-09-05T07:25:08.098Z [jfrt ] [INFO ] [2edf625ce7704162] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created fed-request-tunneling-exec-%d parallel executor with 48 maximum thread pool size
+2024-09-05T07:25:18.407Z [jfrt ] [INFO ] [2edf625ce7704162] [ederationClientServiceImpl:362] [art-init            ] - Artifactory Federation service is running in legacy internal mode...
+2024-09-05T07:25:18.410Z [jfrt ] [INFO ] [2edf625ce7704162] [.a.a.m.i.MirrorServiceImpl:178] [art-init            ] - Starting internal mirror jobs
+2024-09-05T07:25:18.925Z [jfrt ] [INFO ] [2edf625ce7704162] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-09-05T07:25:18.926Z [jfrt ] [INFO ] [2edf625ce7704162] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-09-05T07:25:18.926Z [jfrt ] [INFO ] [2edf625ce7704162] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-09-05T07:25:18.926Z [jfrt ] [INFO ] [2edf625ce7704162] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-09-05T07:25:18.926Z [jfrt ] [INFO ] [2edf625ce7704162] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-09-05T07:25:18.926Z [jfrt ] [INFO ] [2edf625ce7704162] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-09-05T07:25:18.926Z [jfrt ] [INFO ] [2edf625ce7704162] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-09-05T07:25:18.926Z [jfrt ] [INFO ] [2edf625ce7704162] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-09-05T07:25:18.927Z [jfrt ] [INFO ] [2edf625ce7704162] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-09-05T07:25:18.927Z [jfrt ] [INFO ] [2edf625ce7704162] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-09-05T07:25:18.927Z [jfrt ] [INFO ] [2edf625ce7704162] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-09-05T07:25:18.927Z [jfrt ] [INFO ] [2edf625ce7704162] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-09-05T07:25:18.927Z [jfrt ] [INFO ] [2edf625ce7704162] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2024-09-05T07:25:18.927Z [jfrt ] [INFO ] [2edf625ce7704162] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2024-09-05T07:25:18.927Z [jfrt ] [INFO ] [2edf625ce7704162] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2024-09-05T07:25:18.950Z [jfrt ] [INFO ] [b32b1b362fc59cae] [ederatedRepoMirrorCallBack:339] [62fc59cae|art-exec-3] - Performing async initialization of repositories
+2024-09-05T07:25:19.357Z [jfrt ] [INFO ] [2edf625ce7704162] [c.FederatedRepoServiceImpl:375] [art-init            ] - Scheduling master tokens refresh job...
+2024-09-05T07:25:19.668Z [jfrt ] [INFO ] [2edf625ce7704162] [c.FederatedRepoServiceImpl:375] [art-init            ] - Scheduling master tokens refresh job...
+2024-09-05T07:25:19.669Z [jfrt ] [WARN ] [2edf625ce7704162] [c.FederatedRepoServiceImpl:381] [art-init            ] - Master token refresh job is already scheduled - skipping second attempt to reschedule...
+2024-09-05T07:25:20.064Z [jfrt ] [INFO ] [2edf625ce7704162] [MirrorHeartbeatServiceImpl:311] [art-init            ] - Main heartbeat task started, repeat every 20 sec
+2024-09-05T09:04:26.502Z [jfrt ] [INFO ] [4c9671d7412d57b1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created fed-request-tunneling-exec-%d parallel executor with 48 maximum thread pool size
+2024-09-05T09:04:35.210Z [jfrt ] [INFO ] [4c9671d7412d57b1] [ederationClientServiceImpl:362] [art-init            ] - Artifactory Federation service is running in legacy internal mode...
+2024-09-05T09:04:35.674Z [jfrt ] [INFO ] [4c9671d7412d57b1] [.a.a.m.i.MirrorServiceImpl:178] [art-init            ] - Starting internal mirror jobs
+2024-09-05T09:04:35.678Z [jfrt ] [INFO ] [4c9671d7412d57b1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-09-05T09:04:35.679Z [jfrt ] [INFO ] [4c9671d7412d57b1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-09-05T09:04:35.679Z [jfrt ] [INFO ] [4c9671d7412d57b1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-09-05T09:04:35.679Z [jfrt ] [INFO ] [4c9671d7412d57b1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-09-05T09:04:35.679Z [jfrt ] [INFO ] [4c9671d7412d57b1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-09-05T09:04:35.679Z [jfrt ] [INFO ] [4c9671d7412d57b1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-09-05T09:04:35.679Z [jfrt ] [INFO ] [4c9671d7412d57b1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-09-05T09:04:35.679Z [jfrt ] [INFO ] [4c9671d7412d57b1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-09-05T09:04:35.679Z [jfrt ] [INFO ] [4c9671d7412d57b1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-09-05T09:04:35.679Z [jfrt ] [INFO ] [4c9671d7412d57b1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-09-05T09:04:35.680Z [jfrt ] [INFO ] [4c9671d7412d57b1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-09-05T09:04:35.680Z [jfrt ] [INFO ] [4c9671d7412d57b1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-09-05T09:04:35.680Z [jfrt ] [INFO ] [4c9671d7412d57b1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2024-09-05T09:04:35.680Z [jfrt ] [INFO ] [4c9671d7412d57b1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2024-09-05T09:04:35.680Z [jfrt ] [INFO ] [4c9671d7412d57b1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2024-09-05T09:04:35.699Z [jfrt ] [INFO ] [44f2ae04ff5b1618] [ederatedRepoMirrorCallBack:339] [4ff5b1618|art-exec-3] - Performing async initialization of repositories
+2024-09-05T09:04:36.057Z [jfrt ] [INFO ] [4c9671d7412d57b1] [c.FederatedRepoServiceImpl:375] [art-init            ] - Scheduling master tokens refresh job...
+2024-09-05T09:04:36.313Z [jfrt ] [INFO ] [4c9671d7412d57b1] [c.FederatedRepoServiceImpl:375] [art-init            ] - Scheduling master tokens refresh job...
+2024-09-05T09:04:36.314Z [jfrt ] [WARN ] [4c9671d7412d57b1] [c.FederatedRepoServiceImpl:381] [art-init            ] - Master token refresh job is already scheduled - skipping second attempt to reschedule...
+2024-09-05T09:04:36.625Z [jfrt ] [INFO ] [4c9671d7412d57b1] [MirrorHeartbeatServiceImpl:311] [art-init            ] - Main heartbeat task started, repeat every 20 sec
+2024-10-01T01:13:03.994Z [jfrt ] [INFO ] [eddae360fdc94429] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created fed-request-tunneling-exec-%d parallel executor with 48 maximum thread pool size
+2024-10-01T01:13:13.096Z [jfrt ] [INFO ] [eddae360fdc94429] [ederationClientServiceImpl:362] [art-init            ] - Artifactory Federation service is running in legacy internal mode...
+2024-10-01T01:13:13.100Z [jfrt ] [INFO ] [eddae360fdc94429] [.a.a.m.i.MirrorServiceImpl:178] [art-init            ] - Starting internal mirror jobs
+2024-10-01T01:13:13.784Z [jfrt ] [INFO ] [eddae360fdc94429] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-01T01:13:13.785Z [jfrt ] [INFO ] [eddae360fdc94429] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-01T01:13:13.785Z [jfrt ] [INFO ] [eddae360fdc94429] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-01T01:13:13.785Z [jfrt ] [INFO ] [eddae360fdc94429] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-01T01:13:13.786Z [jfrt ] [INFO ] [eddae360fdc94429] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-01T01:13:13.786Z [jfrt ] [INFO ] [eddae360fdc94429] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-01T01:13:13.786Z [jfrt ] [INFO ] [eddae360fdc94429] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-01T01:13:13.786Z [jfrt ] [INFO ] [eddae360fdc94429] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-01T01:13:13.786Z [jfrt ] [INFO ] [eddae360fdc94429] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-01T01:13:13.786Z [jfrt ] [INFO ] [eddae360fdc94429] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-01T01:13:13.786Z [jfrt ] [INFO ] [eddae360fdc94429] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-01T01:13:13.787Z [jfrt ] [INFO ] [eddae360fdc94429] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-01T01:13:13.787Z [jfrt ] [INFO ] [eddae360fdc94429] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2024-10-01T01:13:13.787Z [jfrt ] [INFO ] [eddae360fdc94429] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2024-10-01T01:13:13.787Z [jfrt ] [INFO ] [eddae360fdc94429] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2024-10-01T01:13:13.812Z [jfrt ] [INFO ] [ac5c23e41588ee34] [ederatedRepoMirrorCallBack:339] [41588ee34|art-exec-3] - Performing async initialization of repositories
+2024-10-01T01:13:15.950Z [jfrt ] [INFO ] [eddae360fdc94429] [c.FederatedRepoServiceImpl:375] [art-init            ] - Scheduling master tokens refresh job...
+2024-10-01T01:13:16.328Z [jfrt ] [INFO ] [eddae360fdc94429] [c.FederatedRepoServiceImpl:375] [art-init            ] - Scheduling master tokens refresh job...
+2024-10-01T01:13:16.329Z [jfrt ] [WARN ] [eddae360fdc94429] [c.FederatedRepoServiceImpl:381] [art-init            ] - Master token refresh job is already scheduled - skipping second attempt to reschedule...
+2024-10-01T01:13:16.723Z [jfrt ] [INFO ] [eddae360fdc94429] [MirrorHeartbeatServiceImpl:311] [art-init            ] - Main heartbeat task started, repeat every 20 sec
+2024-10-11T11:33:46.595Z [jfrt ] [INFO ] [a6e1ffdde0b5944f] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created fed-request-tunneling-exec-%d parallel executor with 48 maximum thread pool size
+2024-10-11T11:33:57.052Z [jfrt ] [INFO ] [a6e1ffdde0b5944f] [ederationClientServiceImpl:362] [art-init            ] - Artifactory Federation service is running in legacy internal mode...
+2024-10-11T11:33:57.055Z [jfrt ] [INFO ] [a6e1ffdde0b5944f] [.a.a.m.i.MirrorServiceImpl:178] [art-init            ] - Starting internal mirror jobs
+2024-10-11T11:33:57.223Z [jfrt ] [INFO ] [a6e1ffdde0b5944f] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-11T11:33:57.223Z [jfrt ] [INFO ] [a6e1ffdde0b5944f] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-11T11:33:57.224Z [jfrt ] [INFO ] [a6e1ffdde0b5944f] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-11T11:33:57.224Z [jfrt ] [INFO ] [a6e1ffdde0b5944f] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-11T11:33:57.224Z [jfrt ] [INFO ] [a6e1ffdde0b5944f] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-11T11:33:57.224Z [jfrt ] [INFO ] [a6e1ffdde0b5944f] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-11T11:33:57.224Z [jfrt ] [INFO ] [a6e1ffdde0b5944f] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-11T11:33:57.224Z [jfrt ] [INFO ] [a6e1ffdde0b5944f] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-11T11:33:57.225Z [jfrt ] [INFO ] [a6e1ffdde0b5944f] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-11T11:33:57.225Z [jfrt ] [INFO ] [a6e1ffdde0b5944f] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-11T11:33:57.225Z [jfrt ] [INFO ] [a6e1ffdde0b5944f] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-11T11:33:57.225Z [jfrt ] [INFO ] [a6e1ffdde0b5944f] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-11T11:33:57.225Z [jfrt ] [INFO ] [a6e1ffdde0b5944f] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2024-10-11T11:33:57.226Z [jfrt ] [INFO ] [a6e1ffdde0b5944f] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2024-10-11T11:33:57.226Z [jfrt ] [INFO ] [a6e1ffdde0b5944f] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2024-10-11T11:33:57.253Z [jfrt ] [INFO ] [c186c59b3475f13a] [ederatedRepoMirrorCallBack:339] [b3475f13a|art-exec-3] - Performing async initialization of repositories
+2024-10-11T11:33:57.666Z [jfrt ] [INFO ] [a6e1ffdde0b5944f] [c.FederatedRepoServiceImpl:375] [art-init            ] - Scheduling master tokens refresh job...
+2024-10-11T11:33:58.046Z [jfrt ] [INFO ] [a6e1ffdde0b5944f] [c.FederatedRepoServiceImpl:375] [art-init            ] - Scheduling master tokens refresh job...
+2024-10-11T11:33:58.047Z [jfrt ] [WARN ] [a6e1ffdde0b5944f] [c.FederatedRepoServiceImpl:381] [art-init            ] - Master token refresh job is already scheduled - skipping second attempt to reschedule...
+2024-10-11T11:33:58.414Z [jfrt ] [INFO ] [a6e1ffdde0b5944f] [MirrorHeartbeatServiceImpl:311] [art-init            ] - Main heartbeat task started, repeat every 20 sec
+2024-10-11T12:10:10.714Z [jfrt ] [INFO ] [443236600d7ba5c0] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created fed-request-tunneling-exec-%d parallel executor with 48 maximum thread pool size
+2024-10-11T12:10:18.154Z [jfrt ] [INFO ] [443236600d7ba5c0] [ederationClientServiceImpl:362] [art-init            ] - Artifactory Federation service is running in legacy internal mode...
+2024-10-11T12:10:18.157Z [jfrt ] [INFO ] [443236600d7ba5c0] [.a.a.m.i.MirrorServiceImpl:178] [art-init            ] - Starting internal mirror jobs
+2024-10-11T12:10:19.836Z [jfrt ] [INFO ] [443236600d7ba5c0] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-11T12:10:19.836Z [jfrt ] [INFO ] [443236600d7ba5c0] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-11T12:10:19.837Z [jfrt ] [INFO ] [443236600d7ba5c0] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-11T12:10:19.837Z [jfrt ] [INFO ] [443236600d7ba5c0] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-11T12:10:19.837Z [jfrt ] [INFO ] [443236600d7ba5c0] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-11T12:10:19.837Z [jfrt ] [INFO ] [443236600d7ba5c0] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-11T12:10:19.837Z [jfrt ] [INFO ] [443236600d7ba5c0] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-11T12:10:19.837Z [jfrt ] [INFO ] [443236600d7ba5c0] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-11T12:10:19.837Z [jfrt ] [INFO ] [443236600d7ba5c0] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-11T12:10:19.837Z [jfrt ] [INFO ] [443236600d7ba5c0] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-11T12:10:19.837Z [jfrt ] [INFO ] [443236600d7ba5c0] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-11T12:10:19.837Z [jfrt ] [INFO ] [443236600d7ba5c0] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-11T12:10:19.837Z [jfrt ] [INFO ] [443236600d7ba5c0] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2024-10-11T12:10:19.837Z [jfrt ] [INFO ] [443236600d7ba5c0] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2024-10-11T12:10:19.837Z [jfrt ] [INFO ] [443236600d7ba5c0] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2024-10-11T12:10:19.855Z [jfrt ] [INFO ] [4aeab82360389d9d] [ederatedRepoMirrorCallBack:339] [360389d9d|art-exec-3] - Performing async initialization of repositories
+2024-10-11T12:10:20.015Z [jfrt ] [INFO ] [443236600d7ba5c0] [c.FederatedRepoServiceImpl:378] [art-init            ] - Scheduling master tokens refresh job...
+2024-10-11T12:10:20.365Z [jfrt ] [INFO ] [443236600d7ba5c0] [c.FederatedRepoServiceImpl:378] [art-init            ] - Scheduling master tokens refresh job...
+2024-10-11T12:10:20.366Z [jfrt ] [WARN ] [443236600d7ba5c0] [c.FederatedRepoServiceImpl:384] [art-init            ] - Master token refresh job is already scheduled - skipping second attempt to reschedule...
+2024-10-11T12:10:20.923Z [jfrt ] [INFO ] [443236600d7ba5c0] [MirrorHeartbeatServiceImpl:311] [art-init            ] - Main heartbeat task started, repeat every 20 sec
+2024-10-11T12:21:49.949Z [jfrt ] [INFO ] [cb5dbb4e0753f207] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created fed-request-tunneling-exec-%d parallel executor with 48 maximum thread pool size
+2024-10-11T12:21:56.620Z [jfrt ] [INFO ] [cb5dbb4e0753f207] [ederationClientServiceImpl:362] [art-init            ] - Artifactory Federation service is running in legacy internal mode...
+2024-10-11T12:21:56.640Z [jfrt ] [INFO ] [cb5dbb4e0753f207] [.a.a.m.i.MirrorServiceImpl:178] [art-init            ] - Starting internal mirror jobs
+2024-10-11T12:21:56.880Z [jfrt ] [INFO ] [cb5dbb4e0753f207] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-11T12:21:56.880Z [jfrt ] [INFO ] [cb5dbb4e0753f207] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-11T12:21:56.881Z [jfrt ] [INFO ] [cb5dbb4e0753f207] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-11T12:21:56.881Z [jfrt ] [INFO ] [cb5dbb4e0753f207] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-11T12:21:56.881Z [jfrt ] [INFO ] [cb5dbb4e0753f207] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-11T12:21:56.881Z [jfrt ] [INFO ] [cb5dbb4e0753f207] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-11T12:21:56.881Z [jfrt ] [INFO ] [cb5dbb4e0753f207] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-11T12:21:56.881Z [jfrt ] [INFO ] [cb5dbb4e0753f207] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-11T12:21:56.881Z [jfrt ] [INFO ] [cb5dbb4e0753f207] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-11T12:21:56.881Z [jfrt ] [INFO ] [cb5dbb4e0753f207] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-11T12:21:56.881Z [jfrt ] [INFO ] [cb5dbb4e0753f207] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-11T12:21:56.882Z [jfrt ] [INFO ] [cb5dbb4e0753f207] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-10-11T12:21:56.882Z [jfrt ] [INFO ] [cb5dbb4e0753f207] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2024-10-11T12:21:56.882Z [jfrt ] [INFO ] [cb5dbb4e0753f207] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2024-10-11T12:21:56.882Z [jfrt ] [INFO ] [cb5dbb4e0753f207] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2024-10-11T12:21:56.902Z [jfrt ] [INFO ] [92672ffd5472e842] [ederatedRepoMirrorCallBack:339] [d5472e842|art-exec-3] - Performing async initialization of repositories
+2024-10-11T12:21:59.082Z [jfrt ] [INFO ] [cb5dbb4e0753f207] [c.FederatedRepoServiceImpl:378] [art-init            ] - Scheduling master tokens refresh job...
+2024-10-11T12:21:59.391Z [jfrt ] [INFO ] [cb5dbb4e0753f207] [c.FederatedRepoServiceImpl:378] [art-init            ] - Scheduling master tokens refresh job...
+2024-10-11T12:21:59.392Z [jfrt ] [WARN ] [cb5dbb4e0753f207] [c.FederatedRepoServiceImpl:384] [art-init            ] - Master token refresh job is already scheduled - skipping second attempt to reschedule...
+2024-10-11T12:21:59.724Z [jfrt ] [INFO ] [cb5dbb4e0753f207] [MirrorHeartbeatServiceImpl:311] [art-init            ] - Main heartbeat task started, repeat every 20 sec
+2024-11-05T02:24:02.293Z [jfrt ] [INFO ] [7e535599802d1055] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created fed-request-tunneling-exec-%d parallel executor with 48 maximum thread pool size
+2024-11-05T02:24:11.193Z [jfrt ] [INFO ] [7e535599802d1055] [ederationClientServiceImpl:362] [art-init            ] - Artifactory Federation service is running in legacy internal mode...
+2024-11-05T02:24:11.196Z [jfrt ] [INFO ] [7e535599802d1055] [.a.a.m.i.MirrorServiceImpl:178] [art-init            ] - Starting internal mirror jobs
+2024-11-05T02:24:11.205Z [jfrt ] [INFO ] [7e535599802d1055] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-11-05T02:24:11.206Z [jfrt ] [INFO ] [7e535599802d1055] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-11-05T02:24:11.206Z [jfrt ] [INFO ] [7e535599802d1055] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-11-05T02:24:11.206Z [jfrt ] [INFO ] [7e535599802d1055] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-11-05T02:24:11.206Z [jfrt ] [INFO ] [7e535599802d1055] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-11-05T02:24:11.206Z [jfrt ] [INFO ] [7e535599802d1055] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-11-05T02:24:11.206Z [jfrt ] [INFO ] [7e535599802d1055] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-11-05T02:24:11.206Z [jfrt ] [INFO ] [7e535599802d1055] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-11-05T02:24:11.206Z [jfrt ] [INFO ] [7e535599802d1055] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-11-05T02:24:11.206Z [jfrt ] [INFO ] [7e535599802d1055] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-11-05T02:24:11.206Z [jfrt ] [INFO ] [7e535599802d1055] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-11-05T02:24:11.206Z [jfrt ] [INFO ] [7e535599802d1055] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-11-05T02:24:11.207Z [jfrt ] [INFO ] [7e535599802d1055] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2024-11-05T02:24:11.207Z [jfrt ] [INFO ] [7e535599802d1055] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2024-11-05T02:24:11.207Z [jfrt ] [INFO ] [7e535599802d1055] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2024-11-05T02:24:11.229Z [jfrt ] [INFO ] [7d952d9075fa2fef] [ederatedRepoMirrorCallBack:339] [075fa2fef|art-exec-3] - Performing async initialization of repositories
+2024-11-05T02:24:13.719Z [jfrt ] [INFO ] [7e535599802d1055] [c.FederatedRepoServiceImpl:378] [art-init            ] - Scheduling master tokens refresh job...
+2024-11-05T02:24:14.199Z [jfrt ] [INFO ] [7e535599802d1055] [c.FederatedRepoServiceImpl:378] [art-init            ] - Scheduling master tokens refresh job...
+2024-11-05T02:24:14.200Z [jfrt ] [WARN ] [7e535599802d1055] [c.FederatedRepoServiceImpl:384] [art-init            ] - Master token refresh job is already scheduled - skipping second attempt to reschedule...
+2024-11-05T02:24:14.601Z [jfrt ] [INFO ] [7e535599802d1055] [MirrorHeartbeatServiceImpl:311] [art-init            ] - Main heartbeat task started, repeat every 20 sec
+2024-12-03T02:45:59.089Z [jfrt ] [INFO ] [e2b9610368087210] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created fed-request-tunneling-exec-%d parallel executor with 48 maximum thread pool size
+2024-12-03T02:46:30.714Z [jfrt ] [INFO ] [e2b9610368087210] [ederationClientServiceImpl:362] [art-init            ] - Artifactory Federation service is running in legacy internal mode...
+2024-12-03T02:46:30.726Z [jfrt ] [INFO ] [e2b9610368087210] [.a.a.m.i.MirrorServiceImpl:178] [art-init            ] - Starting internal mirror jobs
+2024-12-03T02:46:30.738Z [jfrt ] [INFO ] [e2b9610368087210] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-12-03T02:46:30.739Z [jfrt ] [INFO ] [e2b9610368087210] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-12-03T02:46:30.739Z [jfrt ] [INFO ] [e2b9610368087210] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-12-03T02:46:30.739Z [jfrt ] [INFO ] [e2b9610368087210] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-12-03T02:46:30.739Z [jfrt ] [INFO ] [e2b9610368087210] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-12-03T02:46:30.740Z [jfrt ] [INFO ] [e2b9610368087210] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-12-03T02:46:30.740Z [jfrt ] [INFO ] [e2b9610368087210] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-12-03T02:46:30.740Z [jfrt ] [INFO ] [e2b9610368087210] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-12-03T02:46:30.740Z [jfrt ] [INFO ] [e2b9610368087210] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-12-03T02:46:30.740Z [jfrt ] [INFO ] [e2b9610368087210] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-12-03T02:46:30.740Z [jfrt ] [INFO ] [e2b9610368087210] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-12-03T02:46:30.740Z [jfrt ] [INFO ] [e2b9610368087210] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2024-12-03T02:46:30.741Z [jfrt ] [INFO ] [e2b9610368087210] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2024-12-03T02:46:30.741Z [jfrt ] [INFO ] [e2b9610368087210] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2024-12-03T02:46:30.741Z [jfrt ] [INFO ] [e2b9610368087210] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2024-12-03T02:46:30.777Z [jfrt ] [INFO ] [7b82584b0f9e75dd] [ederatedRepoMirrorCallBack:339] [b0f9e75dd|art-exec-2] - Performing async initialization of repositories
+2024-12-03T02:46:34.935Z [jfrt ] [INFO ] [e2b9610368087210] [c.FederatedRepoServiceImpl:378] [art-init            ] - Scheduling master tokens refresh job...
+2024-12-03T02:46:35.532Z [jfrt ] [INFO ] [e2b9610368087210] [c.FederatedRepoServiceImpl:378] [art-init            ] - Scheduling master tokens refresh job...
+2024-12-03T02:46:35.533Z [jfrt ] [WARN ] [e2b9610368087210] [c.FederatedRepoServiceImpl:384] [art-init            ] - Master token refresh job is already scheduled - skipping second attempt to reschedule...
+2024-12-03T02:46:36.034Z [jfrt ] [INFO ] [e2b9610368087210] [MirrorHeartbeatServiceImpl:311] [art-init            ] - Main heartbeat task started, repeat every 20 sec
+2025-01-09T13:56:30.049Z [jfrt ] [INFO ] [025c211a2373f86d] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created fed-request-tunneling-exec-%d parallel executor with 48 maximum thread pool size
+2025-01-09T14:00:29.578Z [jfrt ] [INFO ] [ca93fe077d335a8d] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created fed-request-tunneling-exec-%d parallel executor with 48 maximum thread pool size
+2025-01-09T14:00:39.698Z [jfrt ] [INFO ] [ca93fe077d335a8d] [ederationClientServiceImpl:362] [art-init            ] - Artifactory Federation service is running in legacy internal mode...
+2025-01-09T14:00:39.801Z [jfrt ] [INFO ] [ca93fe077d335a8d] [.a.a.m.i.MirrorServiceImpl:178] [art-init            ] - Starting internal mirror jobs
+2025-01-09T14:00:39.810Z [jfrt ] [INFO ] [ca93fe077d335a8d] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-01-09T14:00:39.811Z [jfrt ] [INFO ] [ca93fe077d335a8d] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-01-09T14:00:39.811Z [jfrt ] [INFO ] [ca93fe077d335a8d] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-01-09T14:00:39.811Z [jfrt ] [INFO ] [ca93fe077d335a8d] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-01-09T14:00:39.811Z [jfrt ] [INFO ] [ca93fe077d335a8d] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-01-09T14:00:39.811Z [jfrt ] [INFO ] [ca93fe077d335a8d] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-01-09T14:00:39.811Z [jfrt ] [INFO ] [ca93fe077d335a8d] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-01-09T14:00:39.812Z [jfrt ] [INFO ] [ca93fe077d335a8d] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-01-09T14:00:39.812Z [jfrt ] [INFO ] [ca93fe077d335a8d] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-01-09T14:00:39.812Z [jfrt ] [INFO ] [ca93fe077d335a8d] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-01-09T14:00:39.812Z [jfrt ] [INFO ] [ca93fe077d335a8d] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-01-09T14:00:39.812Z [jfrt ] [INFO ] [ca93fe077d335a8d] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-01-09T14:00:39.812Z [jfrt ] [INFO ] [ca93fe077d335a8d] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-01-09T14:00:39.812Z [jfrt ] [INFO ] [ca93fe077d335a8d] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-01-09T14:00:39.813Z [jfrt ] [INFO ] [ca93fe077d335a8d] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-01-09T14:00:39.842Z [jfrt ] [INFO ] [525224306e50ae12] [ederatedRepoMirrorCallBack:339] [06e50ae12|art-exec-3] - Performing async initialization of repositories
+2025-01-09T14:00:44.246Z [jfrt ] [INFO ] [ca93fe077d335a8d] [c.FederatedRepoServiceImpl:378] [art-init            ] - Scheduling master tokens refresh job...
+2025-01-09T14:00:44.874Z [jfrt ] [INFO ] [ca93fe077d335a8d] [c.FederatedRepoServiceImpl:378] [art-init            ] - Scheduling master tokens refresh job...
+2025-01-09T14:00:44.875Z [jfrt ] [WARN ] [ca93fe077d335a8d] [c.FederatedRepoServiceImpl:384] [art-init            ] - Master token refresh job is already scheduled - skipping second attempt to reschedule...
+2025-01-09T14:00:45.354Z [jfrt ] [INFO ] [ca93fe077d335a8d] [MirrorHeartbeatServiceImpl:311] [art-init            ] - Main heartbeat task started, repeat every 20 sec
+2025-02-04T02:36:38.564Z [jfrt ] [INFO ] [d67c86d8419c6cd5] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created fed-request-tunneling-exec-%d parallel executor with 48 maximum thread pool size
+2025-02-04T02:36:49.941Z [jfrt ] [INFO ] [d67c86d8419c6cd5] [ederationClientServiceImpl:362] [art-init            ] - Artifactory Federation service is running in legacy internal mode...
+2025-02-04T02:36:49.952Z [jfrt ] [INFO ] [d67c86d8419c6cd5] [.a.a.m.i.MirrorServiceImpl:178] [art-init            ] - Starting internal mirror jobs
+2025-02-04T02:36:52.797Z [jfrt ] [INFO ] [d67c86d8419c6cd5] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-04T02:36:52.798Z [jfrt ] [INFO ] [d67c86d8419c6cd5] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-04T02:36:52.798Z [jfrt ] [INFO ] [d67c86d8419c6cd5] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-04T02:36:52.798Z [jfrt ] [INFO ] [d67c86d8419c6cd5] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-04T02:36:52.798Z [jfrt ] [INFO ] [d67c86d8419c6cd5] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-04T02:36:52.798Z [jfrt ] [INFO ] [d67c86d8419c6cd5] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-04T02:36:52.799Z [jfrt ] [INFO ] [d67c86d8419c6cd5] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-04T02:36:52.799Z [jfrt ] [INFO ] [d67c86d8419c6cd5] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-04T02:36:52.799Z [jfrt ] [INFO ] [d67c86d8419c6cd5] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-04T02:36:52.799Z [jfrt ] [INFO ] [d67c86d8419c6cd5] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-04T02:36:52.799Z [jfrt ] [INFO ] [d67c86d8419c6cd5] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-04T02:36:52.799Z [jfrt ] [INFO ] [d67c86d8419c6cd5] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-04T02:36:52.799Z [jfrt ] [INFO ] [d67c86d8419c6cd5] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-02-04T02:36:52.800Z [jfrt ] [INFO ] [d67c86d8419c6cd5] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-02-04T02:36:52.800Z [jfrt ] [INFO ] [d67c86d8419c6cd5] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-02-04T02:36:52.874Z [jfrt ] [INFO ] [a6355761ef6ac59b] [ederatedRepoMirrorCallBack:339] [1ef6ac59b|art-exec-3] - Performing async initialization of repositories
+2025-02-04T02:36:54.673Z [jfrt ] [INFO ] [d67c86d8419c6cd5] [c.FederatedRepoServiceImpl:378] [art-init            ] - Scheduling master tokens refresh job...
+2025-02-04T02:36:55.173Z [jfrt ] [INFO ] [d67c86d8419c6cd5] [c.FederatedRepoServiceImpl:378] [art-init            ] - Scheduling master tokens refresh job...
+2025-02-04T02:36:55.175Z [jfrt ] [WARN ] [d67c86d8419c6cd5] [c.FederatedRepoServiceImpl:384] [art-init            ] - Master token refresh job is already scheduled - skipping second attempt to reschedule...
+2025-02-04T02:36:55.874Z [jfrt ] [INFO ] [d67c86d8419c6cd5] [MirrorHeartbeatServiceImpl:311] [art-init            ] - Main heartbeat task started, repeat every 20 sec
+2025-02-05T02:31:17.933Z [jfrt ] [INFO ] [cb7ef94f84273b39] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created fed-request-tunneling-exec-%d parallel executor with 48 maximum thread pool size
+2025-02-05T02:31:31.281Z [jfrt ] [INFO ] [cb7ef94f84273b39] [ederationClientServiceImpl:362] [art-init            ] - Artifactory Federation service is running in legacy internal mode...
+2025-02-05T02:31:31.285Z [jfrt ] [INFO ] [cb7ef94f84273b39] [.a.a.m.i.MirrorServiceImpl:178] [art-init            ] - Starting internal mirror jobs
+2025-02-05T02:31:31.298Z [jfrt ] [INFO ] [cb7ef94f84273b39] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-05T02:31:31.299Z [jfrt ] [INFO ] [cb7ef94f84273b39] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-05T02:31:31.299Z [jfrt ] [INFO ] [cb7ef94f84273b39] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-05T02:31:31.299Z [jfrt ] [INFO ] [cb7ef94f84273b39] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-05T02:31:31.299Z [jfrt ] [INFO ] [cb7ef94f84273b39] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-05T02:31:31.300Z [jfrt ] [INFO ] [cb7ef94f84273b39] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-05T02:31:31.300Z [jfrt ] [INFO ] [cb7ef94f84273b39] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-05T02:31:31.300Z [jfrt ] [INFO ] [cb7ef94f84273b39] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-05T02:31:31.300Z [jfrt ] [INFO ] [cb7ef94f84273b39] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-05T02:31:31.300Z [jfrt ] [INFO ] [cb7ef94f84273b39] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-05T02:31:31.300Z [jfrt ] [INFO ] [cb7ef94f84273b39] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-05T02:31:31.301Z [jfrt ] [INFO ] [cb7ef94f84273b39] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-05T02:31:31.301Z [jfrt ] [INFO ] [cb7ef94f84273b39] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-02-05T02:31:31.301Z [jfrt ] [INFO ] [cb7ef94f84273b39] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-02-05T02:31:31.301Z [jfrt ] [INFO ] [cb7ef94f84273b39] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-02-05T02:31:31.338Z [jfrt ] [INFO ] [584984137067e0bc] [ederatedRepoMirrorCallBack:339] [37067e0bc|art-exec-3] - Performing async initialization of repositories
+2025-02-05T02:31:35.071Z [jfrt ] [INFO ] [cb7ef94f84273b39] [c.FederatedRepoServiceImpl:378] [art-init            ] - Scheduling master tokens refresh job...
+2025-02-05T02:31:35.469Z [jfrt ] [INFO ] [cb7ef94f84273b39] [c.FederatedRepoServiceImpl:378] [art-init            ] - Scheduling master tokens refresh job...
+2025-02-05T02:31:35.470Z [jfrt ] [WARN ] [cb7ef94f84273b39] [c.FederatedRepoServiceImpl:384] [art-init            ] - Master token refresh job is already scheduled - skipping second attempt to reschedule...
+2025-02-05T02:31:36.002Z [jfrt ] [INFO ] [cb7ef94f84273b39] [MirrorHeartbeatServiceImpl:311] [art-init            ] - Main heartbeat task started, repeat every 20 sec
+2025-02-14T12:05:34.850Z [jfrt ] [INFO ] [b7a7672851533801] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created fed-request-tunneling-exec-%d parallel executor with 48 maximum thread pool size
+2025-02-14T12:05:43.727Z [jfrt ] [INFO ] [b7a7672851533801] [ederationClientServiceImpl:362] [art-init            ] - Artifactory Federation service is running in legacy internal mode...
+2025-02-14T12:05:43.731Z [jfrt ] [INFO ] [b7a7672851533801] [.a.a.m.i.MirrorServiceImpl:178] [art-init            ] - Starting internal mirror jobs
+2025-02-14T12:05:43.739Z [jfrt ] [INFO ] [b7a7672851533801] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-14T12:05:43.740Z [jfrt ] [INFO ] [b7a7672851533801] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-14T12:05:43.740Z [jfrt ] [INFO ] [b7a7672851533801] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-14T12:05:43.740Z [jfrt ] [INFO ] [b7a7672851533801] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-14T12:05:43.740Z [jfrt ] [INFO ] [b7a7672851533801] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-14T12:05:43.740Z [jfrt ] [INFO ] [b7a7672851533801] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-14T12:05:43.740Z [jfrt ] [INFO ] [b7a7672851533801] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-14T12:05:43.740Z [jfrt ] [INFO ] [b7a7672851533801] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-14T12:05:43.741Z [jfrt ] [INFO ] [b7a7672851533801] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-14T12:05:43.741Z [jfrt ] [INFO ] [b7a7672851533801] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-14T12:05:43.741Z [jfrt ] [INFO ] [b7a7672851533801] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-14T12:05:43.741Z [jfrt ] [INFO ] [b7a7672851533801] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-14T12:05:43.741Z [jfrt ] [INFO ] [b7a7672851533801] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-02-14T12:05:43.741Z [jfrt ] [INFO ] [b7a7672851533801] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-02-14T12:05:43.741Z [jfrt ] [INFO ] [b7a7672851533801] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-02-14T12:05:43.763Z [jfrt ] [INFO ] [3aca39fb1748261e] [ederatedRepoMirrorCallBack:339] [b1748261e|art-exec-3] - Performing async initialization of repositories
+2025-02-14T12:05:44.331Z [jfrt ] [INFO ] [b7a7672851533801] [c.FederatedRepoServiceImpl:378] [art-init            ] - Scheduling master tokens refresh job...
+2025-02-14T12:05:44.684Z [jfrt ] [INFO ] [b7a7672851533801] [c.FederatedRepoServiceImpl:378] [art-init            ] - Scheduling master tokens refresh job...
+2025-02-14T12:05:44.685Z [jfrt ] [WARN ] [b7a7672851533801] [c.FederatedRepoServiceImpl:384] [art-init            ] - Master token refresh job is already scheduled - skipping second attempt to reschedule...
+2025-02-14T12:05:45.149Z [jfrt ] [INFO ] [b7a7672851533801] [MirrorHeartbeatServiceImpl:311] [art-init            ] - Main heartbeat task started, repeat every 20 sec
+2025-02-14T13:47:58.052Z [jfrt ] [INFO ] [cd4a58906a3d36bb] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created fed-request-tunneling-exec-%d parallel executor with 48 maximum thread pool size
+2025-02-14T13:48:07.799Z [jfrt ] [INFO ] [cd4a58906a3d36bb] [.a.a.m.i.MirrorServiceImpl:195] [art-init            ] - Starting internal mirror jobs
+2025-02-14T13:48:07.804Z [jfrt ] [INFO ] [cd4a58906a3d36bb] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-14T13:48:07.805Z [jfrt ] [INFO ] [cd4a58906a3d36bb] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-14T13:48:07.805Z [jfrt ] [INFO ] [cd4a58906a3d36bb] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-14T13:48:07.805Z [jfrt ] [INFO ] [cd4a58906a3d36bb] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-14T13:48:07.805Z [jfrt ] [INFO ] [cd4a58906a3d36bb] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-14T13:48:07.805Z [jfrt ] [INFO ] [cd4a58906a3d36bb] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-14T13:48:07.805Z [jfrt ] [INFO ] [cd4a58906a3d36bb] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-14T13:48:07.805Z [jfrt ] [INFO ] [cd4a58906a3d36bb] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-14T13:48:07.805Z [jfrt ] [INFO ] [cd4a58906a3d36bb] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-14T13:48:07.805Z [jfrt ] [INFO ] [cd4a58906a3d36bb] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-14T13:48:07.805Z [jfrt ] [INFO ] [cd4a58906a3d36bb] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-14T13:48:07.805Z [jfrt ] [INFO ] [cd4a58906a3d36bb] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-14T13:48:07.805Z [jfrt ] [INFO ] [cd4a58906a3d36bb] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-02-14T13:48:07.805Z [jfrt ] [INFO ] [cd4a58906a3d36bb] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-02-14T13:48:07.805Z [jfrt ] [INFO ] [cd4a58906a3d36bb] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-02-14T13:48:07.812Z [jfrt ] [INFO ] [fefbc64db6a301b7] [ederatedRepoMirrorCallBack:346] [db6a301b7|art-exec-3] - Performing async initialization of repositories
+2025-02-14T13:48:07.813Z [jfrt ] [WARN ] [fefbc64db6a301b7] [ederatedRepoMirrorCallBack:351] [db6a301b7|art-exec-3] - Init async was called with not Federated class
+2025-02-14T13:48:08.164Z [jfrt ] [INFO ] [cd4a58906a3d36bb] [c.FederatedRepoServiceImpl:469] [art-init            ] - Scheduling master tokens refresh job...
+2025-02-14T13:48:08.473Z [jfrt ] [INFO ] [cd4a58906a3d36bb] [c.FederatedRepoServiceImpl:469] [art-init            ] - Scheduling master tokens refresh job...
+2025-02-14T13:48:08.474Z [jfrt ] [WARN ] [cd4a58906a3d36bb] [c.FederatedRepoServiceImpl:475] [art-init            ] - Master token refresh job is already scheduled - skipping second attempt to reschedule...
+2025-02-14T13:48:09.166Z [jfrt ] [INFO ] [cd4a58906a3d36bb] [MirrorHeartbeatServiceImpl:311] [art-init            ] - Main heartbeat task started, repeat every 20 sec
+2025-02-17T15:29:23.082Z [jfrt ] [INFO ] [8290a20e0ade246c] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created fed-request-tunneling-exec-%d parallel executor with 48 maximum thread pool size
+2025-02-17T15:29:28.895Z [jfrt ] [INFO ] [8290a20e0ade246c] [.a.a.m.i.MirrorServiceImpl:195] [art-init            ] - Starting internal mirror jobs
+2025-02-17T15:29:31.227Z [jfrt ] [INFO ] [8290a20e0ade246c] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-17T15:29:31.227Z [jfrt ] [INFO ] [8290a20e0ade246c] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-17T15:29:31.227Z [jfrt ] [INFO ] [8290a20e0ade246c] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-17T15:29:31.228Z [jfrt ] [INFO ] [8290a20e0ade246c] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-17T15:29:31.228Z [jfrt ] [INFO ] [8290a20e0ade246c] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-17T15:29:31.228Z [jfrt ] [INFO ] [8290a20e0ade246c] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-17T15:29:31.228Z [jfrt ] [INFO ] [8290a20e0ade246c] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-17T15:29:31.228Z [jfrt ] [INFO ] [8290a20e0ade246c] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-17T15:29:31.228Z [jfrt ] [INFO ] [8290a20e0ade246c] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-17T15:29:31.228Z [jfrt ] [INFO ] [8290a20e0ade246c] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-17T15:29:31.228Z [jfrt ] [INFO ] [8290a20e0ade246c] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-17T15:29:31.228Z [jfrt ] [INFO ] [8290a20e0ade246c] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-17T15:29:31.228Z [jfrt ] [INFO ] [8290a20e0ade246c] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-02-17T15:29:31.228Z [jfrt ] [INFO ] [8290a20e0ade246c] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-02-17T15:29:31.228Z [jfrt ] [INFO ] [8290a20e0ade246c] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-02-17T15:29:31.246Z [jfrt ] [INFO ] [6d30f8bf95824f1b] [ederatedRepoMirrorCallBack:346] [f95824f1b|art-exec-3] - Performing async initialization of repositories
+2025-02-17T15:29:31.246Z [jfrt ] [WARN ] [6d30f8bf95824f1b] [ederatedRepoMirrorCallBack:351] [f95824f1b|art-exec-3] - Init async was called with not Federated class
+2025-02-17T15:29:31.902Z [jfrt ] [INFO ] [8290a20e0ade246c] [c.FederatedRepoServiceImpl:469] [art-init            ] - Scheduling master tokens refresh job...
+2025-02-17T15:29:32.259Z [jfrt ] [INFO ] [8290a20e0ade246c] [c.FederatedRepoServiceImpl:469] [art-init            ] - Scheduling master tokens refresh job...
+2025-02-17T15:29:32.260Z [jfrt ] [WARN ] [8290a20e0ade246c] [c.FederatedRepoServiceImpl:475] [art-init            ] - Master token refresh job is already scheduled - skipping second attempt to reschedule...
+2025-02-17T15:29:32.672Z [jfrt ] [INFO ] [8290a20e0ade246c] [MirrorHeartbeatServiceImpl:311] [art-init            ] - Main heartbeat task started, repeat every 20 sec
+2025-02-17T15:40:26.264Z [jfrt ] [INFO ] [b2c27861f0300bf4] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created fed-request-tunneling-exec-%d parallel executor with 48 maximum thread pool size
+2025-02-17T15:40:32.145Z [jfrt ] [INFO ] [b2c27861f0300bf4] [.a.a.m.i.MirrorServiceImpl:195] [art-init            ] - Starting internal mirror jobs
+2025-02-17T15:40:32.151Z [jfrt ] [INFO ] [b2c27861f0300bf4] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-17T15:40:32.151Z [jfrt ] [INFO ] [b2c27861f0300bf4] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-17T15:40:32.151Z [jfrt ] [INFO ] [b2c27861f0300bf4] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-17T15:40:32.151Z [jfrt ] [INFO ] [b2c27861f0300bf4] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-17T15:40:32.152Z [jfrt ] [INFO ] [b2c27861f0300bf4] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-17T15:40:32.152Z [jfrt ] [INFO ] [b2c27861f0300bf4] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-17T15:40:32.152Z [jfrt ] [INFO ] [b2c27861f0300bf4] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-17T15:40:32.152Z [jfrt ] [INFO ] [b2c27861f0300bf4] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-17T15:40:32.152Z [jfrt ] [INFO ] [b2c27861f0300bf4] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-17T15:40:32.152Z [jfrt ] [INFO ] [b2c27861f0300bf4] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-17T15:40:32.152Z [jfrt ] [INFO ] [b2c27861f0300bf4] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-17T15:40:32.152Z [jfrt ] [INFO ] [b2c27861f0300bf4] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-02-17T15:40:32.152Z [jfrt ] [INFO ] [b2c27861f0300bf4] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-02-17T15:40:32.152Z [jfrt ] [INFO ] [b2c27861f0300bf4] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-02-17T15:40:32.153Z [jfrt ] [INFO ] [b2c27861f0300bf4] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-02-17T15:40:32.173Z [jfrt ] [INFO ] [2e1e04257d3f8751] [ederatedRepoMirrorCallBack:346] [57d3f8751|art-exec-3] - Performing async initialization of repositories
+2025-02-17T15:40:32.174Z [jfrt ] [WARN ] [2e1e04257d3f8751] [ederatedRepoMirrorCallBack:351] [57d3f8751|art-exec-3] - Init async was called with not Federated class
+2025-02-17T15:40:34.758Z [jfrt ] [INFO ] [b2c27861f0300bf4] [c.FederatedRepoServiceImpl:469] [art-init            ] - Scheduling master tokens refresh job...
+2025-02-17T15:40:35.225Z [jfrt ] [INFO ] [b2c27861f0300bf4] [c.FederatedRepoServiceImpl:469] [art-init            ] - Scheduling master tokens refresh job...
+2025-02-17T15:40:35.226Z [jfrt ] [WARN ] [b2c27861f0300bf4] [c.FederatedRepoServiceImpl:475] [art-init            ] - Master token refresh job is already scheduled - skipping second attempt to reschedule...
+2025-02-17T15:40:35.672Z [jfrt ] [INFO ] [b2c27861f0300bf4] [MirrorHeartbeatServiceImpl:311] [art-init            ] - Main heartbeat task started, repeat every 20 sec
+2025-03-04T01:01:24.658Z [jfrt ] [INFO ] [4c2f36e82f132b59] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created fed-request-tunneling-exec-%d parallel executor with 48 maximum thread pool size
+2025-03-04T01:01:52.923Z [jfrt ] [INFO ] [4c2f36e82f132b59] [.a.a.m.i.MirrorServiceImpl:195] [art-init            ] - Starting internal mirror jobs
+2025-03-04T01:01:52.930Z [jfrt ] [INFO ] [4c2f36e82f132b59] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-03-04T01:01:52.931Z [jfrt ] [INFO ] [4c2f36e82f132b59] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-03-04T01:01:52.931Z [jfrt ] [INFO ] [4c2f36e82f132b59] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-03-04T01:01:52.931Z [jfrt ] [INFO ] [4c2f36e82f132b59] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-03-04T01:01:52.931Z [jfrt ] [INFO ] [4c2f36e82f132b59] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-03-04T01:01:52.931Z [jfrt ] [INFO ] [4c2f36e82f132b59] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-03-04T01:01:52.931Z [jfrt ] [INFO ] [4c2f36e82f132b59] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-03-04T01:01:52.931Z [jfrt ] [INFO ] [4c2f36e82f132b59] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-03-04T01:01:52.931Z [jfrt ] [INFO ] [4c2f36e82f132b59] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-03-04T01:01:52.931Z [jfrt ] [INFO ] [4c2f36e82f132b59] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-03-04T01:01:52.932Z [jfrt ] [INFO ] [4c2f36e82f132b59] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-03-04T01:01:52.932Z [jfrt ] [INFO ] [4c2f36e82f132b59] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-03-04T01:01:52.932Z [jfrt ] [INFO ] [4c2f36e82f132b59] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-03-04T01:01:52.932Z [jfrt ] [INFO ] [4c2f36e82f132b59] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-03-04T01:01:52.932Z [jfrt ] [INFO ] [4c2f36e82f132b59] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-03-04T01:01:52.941Z [jfrt ] [INFO ] [a143141b62c63e14] [ederatedRepoMirrorCallBack:346] [b62c63e14|art-exec-2] - Performing async initialization of repositories
+2025-03-04T01:01:52.941Z [jfrt ] [WARN ] [a143141b62c63e14] [ederatedRepoMirrorCallBack:351] [b62c63e14|art-exec-2] - Init async was called with not Federated class
+2025-03-04T01:01:56.186Z [jfrt ] [INFO ] [4c2f36e82f132b59] [c.FederatedRepoServiceImpl:469] [art-init            ] - Scheduling master tokens refresh job...
+2025-03-04T01:01:56.557Z [jfrt ] [INFO ] [4c2f36e82f132b59] [c.FederatedRepoServiceImpl:469] [art-init            ] - Scheduling master tokens refresh job...
+2025-03-04T01:01:56.558Z [jfrt ] [WARN ] [4c2f36e82f132b59] [c.FederatedRepoServiceImpl:475] [art-init            ] - Master token refresh job is already scheduled - skipping second attempt to reschedule...
+2025-03-04T01:01:56.950Z [jfrt ] [INFO ] [4c2f36e82f132b59] [MirrorHeartbeatServiceImpl:311] [art-init            ] - Main heartbeat task started, repeat every 20 sec
+2025-03-04T02:43:25.634Z [jfrt ] [INFO ] [c79bbb2d797ae26c] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created fed-request-tunneling-exec-%d parallel executor with 48 maximum thread pool size
+2025-03-04T02:44:01.323Z [jfrt ] [INFO ] [c79bbb2d797ae26c] [.a.a.m.i.MirrorServiceImpl:195] [art-init            ] - Starting internal mirror jobs
+2025-03-04T02:44:01.329Z [jfrt ] [INFO ] [c79bbb2d797ae26c] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-03-04T02:44:01.329Z [jfrt ] [INFO ] [c79bbb2d797ae26c] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-03-04T02:44:01.330Z [jfrt ] [INFO ] [c79bbb2d797ae26c] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-03-04T02:44:01.330Z [jfrt ] [INFO ] [c79bbb2d797ae26c] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-03-04T02:44:01.330Z [jfrt ] [INFO ] [c79bbb2d797ae26c] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-03-04T02:44:01.330Z [jfrt ] [INFO ] [c79bbb2d797ae26c] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-03-04T02:44:01.330Z [jfrt ] [INFO ] [c79bbb2d797ae26c] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-03-04T02:44:01.330Z [jfrt ] [INFO ] [c79bbb2d797ae26c] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-03-04T02:44:01.330Z [jfrt ] [INFO ] [c79bbb2d797ae26c] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-03-04T02:44:01.330Z [jfrt ] [INFO ] [c79bbb2d797ae26c] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-03-04T02:44:01.330Z [jfrt ] [INFO ] [c79bbb2d797ae26c] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-03-04T02:44:01.330Z [jfrt ] [INFO ] [c79bbb2d797ae26c] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-03-04T02:44:01.330Z [jfrt ] [INFO ] [c79bbb2d797ae26c] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-03-04T02:44:01.330Z [jfrt ] [INFO ] [c79bbb2d797ae26c] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-03-04T02:44:01.330Z [jfrt ] [INFO ] [c79bbb2d797ae26c] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-03-04T02:44:01.338Z [jfrt ] [INFO ] [6370c3f4736611d8] [ederatedRepoMirrorCallBack:346] [4736611d8|art-exec-3] - Performing async initialization of repositories
+2025-03-04T02:44:01.338Z [jfrt ] [WARN ] [6370c3f4736611d8] [ederatedRepoMirrorCallBack:351] [4736611d8|art-exec-3] - Init async was called with not Federated class
+2025-03-04T02:44:01.771Z [jfrt ] [INFO ] [c79bbb2d797ae26c] [c.FederatedRepoServiceImpl:469] [art-init            ] - Scheduling master tokens refresh job...
+2025-03-04T02:44:02.176Z [jfrt ] [INFO ] [c79bbb2d797ae26c] [c.FederatedRepoServiceImpl:469] [art-init            ] - Scheduling master tokens refresh job...
+2025-03-04T02:44:02.177Z [jfrt ] [WARN ] [c79bbb2d797ae26c] [c.FederatedRepoServiceImpl:475] [art-init            ] - Master token refresh job is already scheduled - skipping second attempt to reschedule...
+2025-03-04T02:44:02.643Z [jfrt ] [INFO ] [c79bbb2d797ae26c] [MirrorHeartbeatServiceImpl:311] [art-init            ] - Main heartbeat task started, repeat every 20 sec
+2025-04-01T01:28:45.724Z [jfrt ] [INFO ] [c974ba19e3fd4efa] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created fed-request-tunneling-exec-%d parallel executor with 48 maximum thread pool size
+2025-04-01T01:29:25.375Z [jfrt ] [INFO ] [c974ba19e3fd4efa] [.a.a.m.i.MirrorServiceImpl:195] [art-init            ] - Starting internal mirror jobs
+2025-04-01T01:29:25.388Z [jfrt ] [INFO ] [c974ba19e3fd4efa] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-01T01:29:25.389Z [jfrt ] [INFO ] [c974ba19e3fd4efa] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-01T01:29:25.389Z [jfrt ] [INFO ] [c974ba19e3fd4efa] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-01T01:29:25.390Z [jfrt ] [INFO ] [c974ba19e3fd4efa] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-01T01:29:25.390Z [jfrt ] [INFO ] [c974ba19e3fd4efa] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-01T01:29:25.390Z [jfrt ] [INFO ] [c974ba19e3fd4efa] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-01T01:29:25.390Z [jfrt ] [INFO ] [c974ba19e3fd4efa] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-01T01:29:25.391Z [jfrt ] [INFO ] [c974ba19e3fd4efa] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-01T01:29:25.391Z [jfrt ] [INFO ] [c974ba19e3fd4efa] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-01T01:29:25.391Z [jfrt ] [INFO ] [c974ba19e3fd4efa] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-01T01:29:25.391Z [jfrt ] [INFO ] [c974ba19e3fd4efa] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-01T01:29:25.392Z [jfrt ] [INFO ] [c974ba19e3fd4efa] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-01T01:29:25.392Z [jfrt ] [INFO ] [c974ba19e3fd4efa] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-04-01T01:29:25.392Z [jfrt ] [INFO ] [c974ba19e3fd4efa] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-04-01T01:29:25.392Z [jfrt ] [INFO ] [c974ba19e3fd4efa] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-04-01T01:29:25.442Z [jfrt ] [INFO ] [abc6475b45525fce] [ederatedRepoMirrorCallBack:346] [b45525fce|art-exec-3] - Performing async initialization of repositories
+2025-04-01T01:29:25.443Z [jfrt ] [WARN ] [abc6475b45525fce] [ederatedRepoMirrorCallBack:351] [b45525fce|art-exec-3] - Init async was called with not Federated class
+2025-04-01T01:29:30.243Z [jfrt ] [INFO ] [c974ba19e3fd4efa] [c.FederatedRepoServiceImpl:469] [art-init            ] - Scheduling master tokens refresh job...
+2025-04-01T01:29:31.129Z [jfrt ] [INFO ] [c974ba19e3fd4efa] [c.FederatedRepoServiceImpl:469] [art-init            ] - Scheduling master tokens refresh job...
+2025-04-01T01:29:31.131Z [jfrt ] [WARN ] [c974ba19e3fd4efa] [c.FederatedRepoServiceImpl:475] [art-init            ] - Master token refresh job is already scheduled - skipping second attempt to reschedule...
+2025-04-01T01:29:31.856Z [jfrt ] [INFO ] [c974ba19e3fd4efa] [MirrorHeartbeatServiceImpl:311] [art-init            ] - Main heartbeat task started, repeat every 20 sec
+2025-04-15T13:26:06.322Z [jfrt ] [INFO ] [2dd02595a72603c6] [tionClientConfigServiceImpl:44] [art-init            ] - RTFS binary tasks is disabled
+2025-04-15T13:26:09.678Z [jfrt ] [INFO ] [2dd02595a72603c6] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created fed-request-tunneling-exec-%d parallel executor with 48 maximum thread pool size
+2025-04-15T13:26:15.810Z [jfrt ] [INFO ] [2dd02595a72603c6] [tionClientConfigServiceImpl:36] [art-init            ] - RTFS is disabled
+2025-04-15T13:26:15.810Z [jfrt ] [INFO ] [2dd02595a72603c6] [ederationClientServiceImpl:398] [art-init            ] - Federation client is disabled, checking topology...
+2025-04-15T13:26:15.850Z [jfrt ] [INFO ] [2dd02595a72603c6] [c.FederatedRepoServiceImpl:375] [art-init            ] - Initializing federation service...
+2025-04-15T13:26:15.850Z [jfrt ] [INFO ] [2dd02595a72603c6] [c.FederatedRepoServiceImpl:378] [art-init            ] - Migration status is at least 'MIGRATION_STARTED': false
+2025-04-15T13:26:15.851Z [jfrt ] [INFO ] [2dd02595a72603c6] [c.FederatedRepoServiceImpl:381] [art-init            ] - Migration not started. Checking repository configurations and topology state...
+2025-04-15T13:26:17.778Z [jfrt ] [INFO ] [2dd02595a72603c6] [.a.a.m.i.MirrorServiceImpl:201] [art-init            ] - Starting internal mirror jobs
+2025-04-15T13:26:17.782Z [jfrt ] [INFO ] [2dd02595a72603c6] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-15T13:26:17.783Z [jfrt ] [INFO ] [2dd02595a72603c6] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-15T13:26:17.783Z [jfrt ] [INFO ] [2dd02595a72603c6] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-15T13:26:17.783Z [jfrt ] [INFO ] [2dd02595a72603c6] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-15T13:26:17.783Z [jfrt ] [INFO ] [2dd02595a72603c6] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-15T13:26:17.783Z [jfrt ] [INFO ] [2dd02595a72603c6] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-15T13:26:17.783Z [jfrt ] [INFO ] [2dd02595a72603c6] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-15T13:26:17.783Z [jfrt ] [INFO ] [2dd02595a72603c6] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-15T13:26:17.783Z [jfrt ] [INFO ] [2dd02595a72603c6] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-15T13:26:17.783Z [jfrt ] [INFO ] [2dd02595a72603c6] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-15T13:26:17.783Z [jfrt ] [INFO ] [2dd02595a72603c6] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-15T13:26:17.783Z [jfrt ] [INFO ] [2dd02595a72603c6] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-15T13:26:17.784Z [jfrt ] [INFO ] [2dd02595a72603c6] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-04-15T13:26:17.784Z [jfrt ] [INFO ] [2dd02595a72603c6] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-04-15T13:26:17.784Z [jfrt ] [INFO ] [2dd02595a72603c6] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-04-15T13:26:17.790Z [jfrt ] [INFO ] [d5cdb1cde3eec4ff] [ederatedRepoMirrorCallBack:349] [de3eec4ff|art-exec-3] - Performing async initialization of repositories
+2025-04-15T13:26:17.791Z [jfrt ] [WARN ] [d5cdb1cde3eec4ff] [ederatedRepoMirrorCallBack:354] [de3eec4ff|art-exec-3] - Init async was called with not Federated class
+2025-04-15T13:26:18.286Z [jfrt ] [INFO ] [2dd02595a72603c6] [c.FederatedRepoServiceImpl:532] [art-init            ] - Scheduling master tokens refresh job...
+2025-04-15T13:26:18.622Z [jfrt ] [INFO ] [2dd02595a72603c6] [c.FederatedRepoServiceImpl:532] [art-init            ] - Scheduling master tokens refresh job...
+2025-04-15T13:26:18.623Z [jfrt ] [WARN ] [2dd02595a72603c6] [c.FederatedRepoServiceImpl:538] [art-init            ] - Master token refresh job is already scheduled - skipping second attempt to reschedule...
+2025-04-15T13:26:18.876Z [jfrt ] [INFO ] [2dd02595a72603c6] [MirrorHeartbeatServiceImpl:315] [art-init            ] - Main heartbeat task started, repeat every 20 sec
+2025-04-17T10:37:25.642Z [jfrt ] [INFO ] [958a2872bfdc2b08] [tionClientConfigServiceImpl:44] [art-init            ] - RTFS binary tasks is disabled
+2025-04-17T10:37:29.254Z [jfrt ] [INFO ] [958a2872bfdc2b08] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created fed-request-tunneling-exec-%d parallel executor with 48 maximum thread pool size
+2025-04-17T10:37:36.504Z [jfrt ] [INFO ] [958a2872bfdc2b08] [tionClientConfigServiceImpl:36] [art-init            ] - RTFS is disabled
+2025-04-17T10:37:36.504Z [jfrt ] [INFO ] [958a2872bfdc2b08] [ederationClientServiceImpl:398] [art-init            ] - Federation client is disabled, checking topology...
+2025-04-17T10:37:36.934Z [jfrt ] [INFO ] [958a2872bfdc2b08] [.a.a.m.i.MirrorServiceImpl:201] [art-init            ] - Starting internal mirror jobs
+2025-04-17T10:37:36.946Z [jfrt ] [INFO ] [958a2872bfdc2b08] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-17T10:37:36.947Z [jfrt ] [INFO ] [958a2872bfdc2b08] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-17T10:37:36.947Z [jfrt ] [INFO ] [958a2872bfdc2b08] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-17T10:37:36.947Z [jfrt ] [INFO ] [958a2872bfdc2b08] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-17T10:37:36.947Z [jfrt ] [INFO ] [958a2872bfdc2b08] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-17T10:37:36.947Z [jfrt ] [INFO ] [958a2872bfdc2b08] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-17T10:37:36.947Z [jfrt ] [INFO ] [958a2872bfdc2b08] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-17T10:37:36.948Z [jfrt ] [INFO ] [958a2872bfdc2b08] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-17T10:37:36.948Z [jfrt ] [INFO ] [958a2872bfdc2b08] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-17T10:37:36.948Z [jfrt ] [INFO ] [958a2872bfdc2b08] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-17T10:37:36.948Z [jfrt ] [INFO ] [958a2872bfdc2b08] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-17T10:37:36.948Z [jfrt ] [INFO ] [958a2872bfdc2b08] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-17T10:37:36.949Z [jfrt ] [INFO ] [958a2872bfdc2b08] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-04-17T10:37:36.949Z [jfrt ] [INFO ] [958a2872bfdc2b08] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-04-17T10:37:36.949Z [jfrt ] [INFO ] [958a2872bfdc2b08] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-04-17T10:37:36.988Z [jfrt ] [INFO ] [8ab9b8edcf6669d2] [ederatedRepoMirrorCallBack:349] [dcf6669d2|art-exec-2] - Performing async initialization of repositories
+2025-04-17T10:37:36.988Z [jfrt ] [WARN ] [8ab9b8edcf6669d2] [ederatedRepoMirrorCallBack:354] [dcf6669d2|art-exec-2] - Init async was called with not Federated class
+2025-04-17T10:37:39.362Z [jfrt ] [INFO ] [958a2872bfdc2b08] [c.FederatedRepoServiceImpl:375] [art-init            ] - Initializing federation service...
+2025-04-17T10:37:39.362Z [jfrt ] [INFO ] [958a2872bfdc2b08] [c.FederatedRepoServiceImpl:378] [art-init            ] - Migration status is at least 'MIGRATION_STARTED': false
+2025-04-17T10:37:39.363Z [jfrt ] [INFO ] [958a2872bfdc2b08] [c.FederatedRepoServiceImpl:381] [art-init            ] - Migration not started. Checking repository configurations and topology state...
+2025-04-17T10:37:39.927Z [jfrt ] [INFO ] [958a2872bfdc2b08] [c.FederatedRepoServiceImpl:532] [art-init            ] - Scheduling master tokens refresh job...
+2025-04-17T10:37:40.430Z [jfrt ] [INFO ] [958a2872bfdc2b08] [c.FederatedRepoServiceImpl:532] [art-init            ] - Scheduling master tokens refresh job...
+2025-04-17T10:37:40.431Z [jfrt ] [WARN ] [958a2872bfdc2b08] [c.FederatedRepoServiceImpl:538] [art-init            ] - Master token refresh job is already scheduled - skipping second attempt to reschedule...
+2025-04-17T10:37:40.923Z [jfrt ] [INFO ] [958a2872bfdc2b08] [MirrorHeartbeatServiceImpl:315] [art-init            ] - Main heartbeat task started, repeat every 20 sec
+2025-04-28T15:44:30.955Z [jfrt ] [INFO ] [03c94ad11a648547] [tionClientConfigServiceImpl:44] [art-init            ] - RTFS binary tasks is disabled
+2025-04-28T15:44:56.315Z [jfrt ] [INFO ] [03c94ad11a648547] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created fed-request-tunneling-exec-%d parallel executor with 48 maximum thread pool size
+2025-04-28T15:45:05.054Z [jfrt ] [INFO ] [03c94ad11a648547] [tionClientConfigServiceImpl:36] [art-init            ] - RTFS is disabled
+2025-04-28T15:45:05.054Z [jfrt ] [INFO ] [03c94ad11a648547] [ederationClientServiceImpl:398] [art-init            ] - Federation client is disabled, checking topology...
+2025-04-28T15:45:05.413Z [jfrt ] [INFO ] [03c94ad11a648547] [.a.a.m.i.MirrorServiceImpl:201] [art-init            ] - Starting internal mirror jobs
+2025-04-28T15:45:05.523Z [jfrt ] [INFO ] [03c94ad11a648547] [c.FederatedRepoServiceImpl:375] [art-init            ] - Initializing federation service...
+2025-04-28T15:45:05.523Z [jfrt ] [INFO ] [03c94ad11a648547] [c.FederatedRepoServiceImpl:378] [art-init            ] - Migration status is at least 'MIGRATION_STARTED': false
+2025-04-28T15:45:05.524Z [jfrt ] [INFO ] [03c94ad11a648547] [c.FederatedRepoServiceImpl:381] [art-init            ] - Migration not started. Checking repository configurations and topology state...
+2025-04-28T15:45:05.617Z [jfrt ] [INFO ] [03c94ad11a648547] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-28T15:45:05.618Z [jfrt ] [INFO ] [03c94ad11a648547] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-28T15:45:05.618Z [jfrt ] [INFO ] [03c94ad11a648547] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-28T15:45:05.618Z [jfrt ] [INFO ] [03c94ad11a648547] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-28T15:45:05.618Z [jfrt ] [INFO ] [03c94ad11a648547] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-28T15:45:05.618Z [jfrt ] [INFO ] [03c94ad11a648547] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-28T15:45:05.618Z [jfrt ] [INFO ] [03c94ad11a648547] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-28T15:45:05.618Z [jfrt ] [INFO ] [03c94ad11a648547] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-28T15:45:05.618Z [jfrt ] [INFO ] [03c94ad11a648547] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-28T15:45:05.618Z [jfrt ] [INFO ] [03c94ad11a648547] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-28T15:45:05.618Z [jfrt ] [INFO ] [03c94ad11a648547] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-28T15:45:05.618Z [jfrt ] [INFO ] [03c94ad11a648547] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-04-28T15:45:05.619Z [jfrt ] [INFO ] [03c94ad11a648547] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-04-28T15:45:05.619Z [jfrt ] [INFO ] [03c94ad11a648547] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-04-28T15:45:05.619Z [jfrt ] [INFO ] [03c94ad11a648547] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-04-28T15:45:05.625Z [jfrt ] [INFO ] [5318f70489d0debf] [ederatedRepoMirrorCallBack:349] [489d0debf|art-exec-3] - Performing async initialization of repositories
+2025-04-28T15:45:05.625Z [jfrt ] [WARN ] [5318f70489d0debf] [ederatedRepoMirrorCallBack:354] [489d0debf|art-exec-3] - Init async was called with not Federated class
+2025-04-28T15:45:06.015Z [jfrt ] [INFO ] [03c94ad11a648547] [c.FederatedRepoServiceImpl:532] [art-init            ] - Scheduling master tokens refresh job...
+2025-04-28T15:45:06.372Z [jfrt ] [INFO ] [03c94ad11a648547] [c.FederatedRepoServiceImpl:532] [art-init            ] - Scheduling master tokens refresh job...
+2025-04-28T15:45:06.373Z [jfrt ] [WARN ] [03c94ad11a648547] [c.FederatedRepoServiceImpl:538] [art-init            ] - Master token refresh job is already scheduled - skipping second attempt to reschedule...
+2025-04-28T15:45:06.651Z [jfrt ] [INFO ] [03c94ad11a648547] [MirrorHeartbeatServiceImpl:315] [art-init            ] - Main heartbeat task started, repeat every 20 sec
+2025-05-06T01:25:24.253Z [jfrt ] [INFO ] [1b1a5cb16cac4ee1] [tionClientConfigServiceImpl:44] [art-init            ] - RTFS binary tasks is disabled
+2025-05-06T01:25:27.385Z [jfrt ] [INFO ] [1b1a5cb16cac4ee1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created fed-request-tunneling-exec-%d parallel executor with 48 maximum thread pool size
+2025-05-06T01:25:48.187Z [jfrt ] [INFO ] [1b1a5cb16cac4ee1] [tionClientConfigServiceImpl:36] [art-init            ] - RTFS is disabled
+2025-05-06T01:25:48.187Z [jfrt ] [INFO ] [1b1a5cb16cac4ee1] [ederationClientServiceImpl:398] [art-init            ] - Federation client is disabled, checking topology...
+2025-05-06T01:25:48.233Z [jfrt ] [INFO ] [1b1a5cb16cac4ee1] [c.FederatedRepoServiceImpl:375] [art-init            ] - Initializing federation service...
+2025-05-06T01:25:48.234Z [jfrt ] [INFO ] [1b1a5cb16cac4ee1] [c.FederatedRepoServiceImpl:378] [art-init            ] - Migration status is at least 'MIGRATION_STARTED': false
+2025-05-06T01:25:48.234Z [jfrt ] [INFO ] [1b1a5cb16cac4ee1] [c.FederatedRepoServiceImpl:381] [art-init            ] - Migration not started. Checking repository configurations and topology state...
+2025-05-06T01:25:48.270Z [jfrt ] [INFO ] [1b1a5cb16cac4ee1] [.a.a.m.i.MirrorServiceImpl:201] [art-init            ] - Starting internal mirror jobs
+2025-05-06T01:25:49.779Z [jfrt ] [INFO ] [1b1a5cb16cac4ee1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-05-06T01:25:49.779Z [jfrt ] [INFO ] [1b1a5cb16cac4ee1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-05-06T01:25:49.779Z [jfrt ] [INFO ] [1b1a5cb16cac4ee1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-05-06T01:25:49.779Z [jfrt ] [INFO ] [1b1a5cb16cac4ee1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-05-06T01:25:49.779Z [jfrt ] [INFO ] [1b1a5cb16cac4ee1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-05-06T01:25:49.779Z [jfrt ] [INFO ] [1b1a5cb16cac4ee1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-05-06T01:25:49.780Z [jfrt ] [INFO ] [1b1a5cb16cac4ee1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-05-06T01:25:49.780Z [jfrt ] [INFO ] [1b1a5cb16cac4ee1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-05-06T01:25:49.780Z [jfrt ] [INFO ] [1b1a5cb16cac4ee1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-05-06T01:25:49.780Z [jfrt ] [INFO ] [1b1a5cb16cac4ee1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-05-06T01:25:49.780Z [jfrt ] [INFO ] [1b1a5cb16cac4ee1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-05-06T01:25:49.780Z [jfrt ] [INFO ] [1b1a5cb16cac4ee1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-05-06T01:25:49.780Z [jfrt ] [INFO ] [1b1a5cb16cac4ee1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-05-06T01:25:49.780Z [jfrt ] [INFO ] [1b1a5cb16cac4ee1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-05-06T01:25:49.780Z [jfrt ] [INFO ] [1b1a5cb16cac4ee1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-05-06T01:25:49.786Z [jfrt ] [INFO ] [f9f7d5a4c91f4b15] [ederatedRepoMirrorCallBack:349] [4c91f4b15|art-exec-3] - Performing async initialization of repositories
+2025-05-06T01:25:49.787Z [jfrt ] [WARN ] [f9f7d5a4c91f4b15] [ederatedRepoMirrorCallBack:354] [4c91f4b15|art-exec-3] - Init async was called with not Federated class
+2025-05-06T01:25:52.695Z [jfrt ] [INFO ] [1b1a5cb16cac4ee1] [c.FederatedRepoServiceImpl:532] [art-init            ] - Scheduling master tokens refresh job...
+2025-05-06T01:25:55.208Z [jfrt ] [INFO ] [1b1a5cb16cac4ee1] [c.FederatedRepoServiceImpl:532] [art-init            ] - Scheduling master tokens refresh job...
+2025-05-06T01:25:55.208Z [jfrt ] [WARN ] [1b1a5cb16cac4ee1] [c.FederatedRepoServiceImpl:538] [art-init            ] - Master token refresh job is already scheduled - skipping second attempt to reschedule...
+2025-05-06T01:25:55.518Z [jfrt ] [INFO ] [1b1a5cb16cac4ee1] [MirrorHeartbeatServiceImpl:315] [art-init            ] - Main heartbeat task started, repeat every 20 sec
+2025-06-03T01:09:34.075Z [jfrt ] [INFO ] [912a53b5141f009a] [tionClientConfigServiceImpl:44] [art-init            ] - RTFS binary tasks is disabled
+2025-06-03T01:09:38.690Z [jfrt ] [INFO ] [912a53b5141f009a] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created fed-request-tunneling-exec-%d parallel executor with 48 maximum thread pool size
+2025-06-03T01:10:13.153Z [jfrt ] [INFO ] [912a53b5141f009a] [tionClientConfigServiceImpl:36] [art-init            ] - RTFS is disabled
+2025-06-03T01:10:13.154Z [jfrt ] [INFO ] [912a53b5141f009a] [ederationClientServiceImpl:398] [art-init            ] - Federation client is disabled, checking topology...
+2025-06-03T01:10:13.449Z [jfrt ] [INFO ] [912a53b5141f009a] [.a.a.m.i.MirrorServiceImpl:201] [art-init            ] - Starting internal mirror jobs
+2025-06-03T01:10:13.514Z [jfrt ] [INFO ] [912a53b5141f009a] [c.FederatedRepoServiceImpl:375] [art-init            ] - Initializing federation service...
+2025-06-03T01:10:13.514Z [jfrt ] [INFO ] [912a53b5141f009a] [c.FederatedRepoServiceImpl:378] [art-init            ] - Migration status is at least 'MIGRATION_STARTED': false
+2025-06-03T01:10:13.514Z [jfrt ] [INFO ] [912a53b5141f009a] [c.FederatedRepoServiceImpl:381] [art-init            ] - Migration not started. Checking repository configurations and topology state...
+2025-06-03T01:10:13.537Z [jfrt ] [INFO ] [912a53b5141f009a] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-03T01:10:13.537Z [jfrt ] [INFO ] [912a53b5141f009a] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-03T01:10:13.537Z [jfrt ] [INFO ] [912a53b5141f009a] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-03T01:10:13.538Z [jfrt ] [INFO ] [912a53b5141f009a] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-03T01:10:13.538Z [jfrt ] [INFO ] [912a53b5141f009a] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-03T01:10:13.538Z [jfrt ] [INFO ] [912a53b5141f009a] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-03T01:10:13.538Z [jfrt ] [INFO ] [912a53b5141f009a] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-03T01:10:13.538Z [jfrt ] [INFO ] [912a53b5141f009a] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-03T01:10:13.538Z [jfrt ] [INFO ] [912a53b5141f009a] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-03T01:10:13.538Z [jfrt ] [INFO ] [912a53b5141f009a] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-03T01:10:13.539Z [jfrt ] [INFO ] [912a53b5141f009a] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-03T01:10:13.539Z [jfrt ] [INFO ] [912a53b5141f009a] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-03T01:10:13.539Z [jfrt ] [INFO ] [912a53b5141f009a] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-06-03T01:10:13.539Z [jfrt ] [INFO ] [912a53b5141f009a] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-06-03T01:10:13.539Z [jfrt ] [INFO ] [912a53b5141f009a] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-06-03T01:10:13.550Z [jfrt ] [INFO ] [56e395fdd1d6c8f6] [ederatedRepoMirrorCallBack:349] [dd1d6c8f6|art-exec-3] - Performing async initialization of repositories
+2025-06-03T01:10:13.550Z [jfrt ] [WARN ] [56e395fdd1d6c8f6] [ederatedRepoMirrorCallBack:354] [dd1d6c8f6|art-exec-3] - Init async was called with not Federated class
+2025-06-03T01:10:16.793Z [jfrt ] [INFO ] [912a53b5141f009a] [c.FederatedRepoServiceImpl:532] [art-init            ] - Scheduling master tokens refresh job...
+2025-06-03T01:10:17.258Z [jfrt ] [INFO ] [912a53b5141f009a] [c.FederatedRepoServiceImpl:532] [art-init            ] - Scheduling master tokens refresh job...
+2025-06-03T01:10:17.259Z [jfrt ] [WARN ] [912a53b5141f009a] [c.FederatedRepoServiceImpl:538] [art-init            ] - Master token refresh job is already scheduled - skipping second attempt to reschedule...
+2025-06-03T01:10:17.632Z [jfrt ] [INFO ] [912a53b5141f009a] [MirrorHeartbeatServiceImpl:315] [art-init            ] - Main heartbeat task started, repeat every 20 sec
+2025-06-05T12:36:45.650Z [jfrt ] [INFO ] [e15e6378f6f0c71e] [tionClientConfigServiceImpl:44] [art-init            ] - RTFS binary tasks is disabled
+2025-06-05T12:36:50.134Z [jfrt ] [INFO ] [e15e6378f6f0c71e] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created fed-request-tunneling-exec-%d parallel executor with 48 maximum thread pool size
+2025-06-05T12:36:59.232Z [jfrt ] [INFO ] [e15e6378f6f0c71e] [tionClientConfigServiceImpl:36] [art-init            ] - RTFS is disabled
+2025-06-05T12:36:59.233Z [jfrt ] [INFO ] [e15e6378f6f0c71e] [ederationClientServiceImpl:398] [art-init            ] - Federation client is disabled, checking topology...
+2025-06-05T12:36:59.289Z [jfrt ] [INFO ] [e15e6378f6f0c71e] [c.FederatedRepoServiceImpl:375] [art-init            ] - Initializing federation service...
+2025-06-05T12:36:59.289Z [jfrt ] [INFO ] [e15e6378f6f0c71e] [c.FederatedRepoServiceImpl:378] [art-init            ] - Migration status is at least 'MIGRATION_STARTED': false
+2025-06-05T12:36:59.290Z [jfrt ] [INFO ] [e15e6378f6f0c71e] [c.FederatedRepoServiceImpl:381] [art-init            ] - Migration not started. Checking repository configurations and topology state...
+2025-06-05T12:36:59.336Z [jfrt ] [INFO ] [e15e6378f6f0c71e] [.a.a.m.i.MirrorServiceImpl:201] [art-init            ] - Starting internal mirror jobs
+2025-06-05T12:36:59.546Z [jfrt ] [INFO ] [e15e6378f6f0c71e] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-05T12:36:59.546Z [jfrt ] [INFO ] [e15e6378f6f0c71e] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-05T12:36:59.547Z [jfrt ] [INFO ] [e15e6378f6f0c71e] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-05T12:36:59.547Z [jfrt ] [INFO ] [e15e6378f6f0c71e] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-05T12:36:59.547Z [jfrt ] [INFO ] [e15e6378f6f0c71e] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-05T12:36:59.547Z [jfrt ] [INFO ] [e15e6378f6f0c71e] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-05T12:36:59.547Z [jfrt ] [INFO ] [e15e6378f6f0c71e] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-05T12:36:59.547Z [jfrt ] [INFO ] [e15e6378f6f0c71e] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-05T12:36:59.547Z [jfrt ] [INFO ] [e15e6378f6f0c71e] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-05T12:36:59.547Z [jfrt ] [INFO ] [e15e6378f6f0c71e] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-05T12:36:59.547Z [jfrt ] [INFO ] [e15e6378f6f0c71e] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-05T12:36:59.547Z [jfrt ] [INFO ] [e15e6378f6f0c71e] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-05T12:36:59.548Z [jfrt ] [INFO ] [e15e6378f6f0c71e] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-06-05T12:36:59.548Z [jfrt ] [INFO ] [e15e6378f6f0c71e] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-06-05T12:36:59.548Z [jfrt ] [INFO ] [e15e6378f6f0c71e] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-06-05T12:36:59.558Z [jfrt ] [INFO ] [e2fd32e8bf9a3e62] [ederatedRepoMirrorCallBack:349] [8bf9a3e62|art-exec-3] - Performing async initialization of repositories
+2025-06-05T12:36:59.559Z [jfrt ] [WARN ] [e2fd32e8bf9a3e62] [ederatedRepoMirrorCallBack:354] [8bf9a3e62|art-exec-3] - Init async was called with not Federated class
+2025-06-05T12:37:03.069Z [jfrt ] [INFO ] [e15e6378f6f0c71e] [c.FederatedRepoServiceImpl:532] [art-init            ] - Scheduling master tokens refresh job...
+2025-06-05T12:37:03.875Z [jfrt ] [INFO ] [e15e6378f6f0c71e] [c.FederatedRepoServiceImpl:532] [art-init            ] - Scheduling master tokens refresh job...
+2025-06-05T12:37:03.876Z [jfrt ] [WARN ] [e15e6378f6f0c71e] [c.FederatedRepoServiceImpl:538] [art-init            ] - Master token refresh job is already scheduled - skipping second attempt to reschedule...
+2025-06-05T12:37:04.525Z [jfrt ] [INFO ] [e15e6378f6f0c71e] [MirrorHeartbeatServiceImpl:315] [art-init            ] - Main heartbeat task started, repeat every 20 sec
+2025-06-13T10:25:02.211Z [jfrt ] [INFO ] [0e6a79532388cdf9] [tionClientConfigServiceImpl:44] [art-init            ] - RTFS binary tasks is disabled
+2025-06-13T10:25:27.922Z [jfrt ] [INFO ] [0e6a79532388cdf9] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created fed-request-tunneling-exec-%d parallel executor with 48 maximum thread pool size
+2025-06-13T10:25:34.002Z [jfrt ] [INFO ] [0e6a79532388cdf9] [tionClientConfigServiceImpl:36] [art-init            ] - RTFS is disabled
+2025-06-13T10:25:34.002Z [jfrt ] [INFO ] [0e6a79532388cdf9] [ederationClientServiceImpl:398] [art-init            ] - Federation client is disabled, checking topology...
+2025-06-13T10:25:34.245Z [jfrt ] [INFO ] [0e6a79532388cdf9] [c.FederatedRepoServiceImpl:375] [art-init            ] - Initializing federation service...
+2025-06-13T10:25:34.245Z [jfrt ] [INFO ] [0e6a79532388cdf9] [c.FederatedRepoServiceImpl:378] [art-init            ] - Migration status is at least 'MIGRATION_STARTED': false
+2025-06-13T10:25:34.246Z [jfrt ] [INFO ] [0e6a79532388cdf9] [c.FederatedRepoServiceImpl:381] [art-init            ] - Migration not started. Checking repository configurations and topology state...
+2025-06-13T10:25:36.664Z [jfrt ] [INFO ] [0e6a79532388cdf9] [.a.a.m.i.MirrorServiceImpl:201] [art-init            ] - Starting internal mirror jobs
+2025-06-13T10:25:36.669Z [jfrt ] [INFO ] [0e6a79532388cdf9] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-13T10:25:36.669Z [jfrt ] [INFO ] [0e6a79532388cdf9] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-13T10:25:36.669Z [jfrt ] [INFO ] [0e6a79532388cdf9] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-13T10:25:36.669Z [jfrt ] [INFO ] [0e6a79532388cdf9] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-13T10:25:36.669Z [jfrt ] [INFO ] [0e6a79532388cdf9] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-13T10:25:36.669Z [jfrt ] [INFO ] [0e6a79532388cdf9] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-13T10:25:36.669Z [jfrt ] [INFO ] [0e6a79532388cdf9] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-13T10:25:36.670Z [jfrt ] [INFO ] [0e6a79532388cdf9] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-13T10:25:36.670Z [jfrt ] [INFO ] [0e6a79532388cdf9] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-13T10:25:36.670Z [jfrt ] [INFO ] [0e6a79532388cdf9] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-13T10:25:36.670Z [jfrt ] [INFO ] [0e6a79532388cdf9] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-13T10:25:36.670Z [jfrt ] [INFO ] [0e6a79532388cdf9] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-13T10:25:36.670Z [jfrt ] [INFO ] [0e6a79532388cdf9] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-06-13T10:25:36.670Z [jfrt ] [INFO ] [0e6a79532388cdf9] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-06-13T10:25:36.670Z [jfrt ] [INFO ] [0e6a79532388cdf9] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-06-13T10:25:36.677Z [jfrt ] [INFO ] [eeee3a7375894a12] [ederatedRepoMirrorCallBack:349] [375894a12|art-exec-3] - Performing async initialization of repositories
+2025-06-13T10:25:36.677Z [jfrt ] [WARN ] [eeee3a7375894a12] [ederatedRepoMirrorCallBack:354] [375894a12|art-exec-3] - Init async was called with not Federated class
+2025-06-13T10:25:37.247Z [jfrt ] [INFO ] [0e6a79532388cdf9] [c.FederatedRepoServiceImpl:532] [art-init            ] - Scheduling master tokens refresh job...
+2025-06-13T10:25:37.621Z [jfrt ] [INFO ] [0e6a79532388cdf9] [c.FederatedRepoServiceImpl:532] [art-init            ] - Scheduling master tokens refresh job...
+2025-06-13T10:25:37.622Z [jfrt ] [WARN ] [0e6a79532388cdf9] [c.FederatedRepoServiceImpl:538] [art-init            ] - Master token refresh job is already scheduled - skipping second attempt to reschedule...
+2025-06-13T10:25:37.914Z [jfrt ] [INFO ] [0e6a79532388cdf9] [MirrorHeartbeatServiceImpl:315] [art-init            ] - Main heartbeat task started, repeat every 20 sec
+2025-06-13T11:55:05.620Z [jfrt ] [INFO ] [5205704c1d6d5627] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created fed-request-tunneling-exec-%d parallel executor with 48 maximum thread pool size
+2025-06-13T11:55:20.665Z [jfrt ] [INFO ] [5205704c1d6d5627] [tionClientConfigServiceImpl:36] [art-init            ] - RTFS is disabled
+2025-06-13T11:55:20.665Z [jfrt ] [INFO ] [5205704c1d6d5627] [ederationClientServiceImpl:405] [art-init            ] - Federation client is disabled, need to check topology...
+2025-06-13T11:55:20.668Z [jfrt ] [INFO ] [5205704c1d6d5627] [.a.a.m.i.MirrorServiceImpl:201] [art-init            ] - Starting internal mirror jobs
+2025-06-13T11:55:20.672Z [jfrt ] [INFO ] [5205704c1d6d5627] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-13T11:55:20.672Z [jfrt ] [INFO ] [5205704c1d6d5627] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-13T11:55:20.673Z [jfrt ] [INFO ] [5205704c1d6d5627] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-13T11:55:20.673Z [jfrt ] [INFO ] [5205704c1d6d5627] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-13T11:55:20.673Z [jfrt ] [INFO ] [5205704c1d6d5627] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-13T11:55:20.673Z [jfrt ] [INFO ] [5205704c1d6d5627] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-13T11:55:20.673Z [jfrt ] [INFO ] [5205704c1d6d5627] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-13T11:55:20.673Z [jfrt ] [INFO ] [5205704c1d6d5627] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-13T11:55:20.673Z [jfrt ] [INFO ] [5205704c1d6d5627] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-13T11:55:20.673Z [jfrt ] [INFO ] [5205704c1d6d5627] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-13T11:55:20.673Z [jfrt ] [INFO ] [5205704c1d6d5627] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-13T11:55:20.673Z [jfrt ] [INFO ] [5205704c1d6d5627] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-06-13T11:55:20.673Z [jfrt ] [INFO ] [5205704c1d6d5627] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-06-13T11:55:20.673Z [jfrt ] [INFO ] [5205704c1d6d5627] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-06-13T11:55:20.673Z [jfrt ] [INFO ] [5205704c1d6d5627] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-06-13T11:55:20.678Z [jfrt ] [INFO ] [a128cce321841fbb] [ederatedRepoMirrorCallBack:378] [321841fbb|art-exec-3] - Performing async initialization of repositories
+2025-06-13T11:55:20.678Z [jfrt ] [WARN ] [a128cce321841fbb] [ederatedRepoMirrorCallBack:383] [321841fbb|art-exec-3] - Init async was called with not Federated class
+2025-06-13T11:55:20.762Z [jfrt ] [INFO ] [5205704c1d6d5627] [c.FederatedRepoServiceImpl:379] [art-init            ] - Initializing federation service...
+2025-06-13T11:55:20.762Z [jfrt ] [INFO ] [5205704c1d6d5627] [c.FederatedRepoServiceImpl:382] [art-init            ] - Migration status is at least 'MIGRATION_STARTED': false
+2025-06-13T11:55:20.762Z [jfrt ] [INFO ] [5205704c1d6d5627] [c.FederatedRepoServiceImpl:385] [art-init            ] - Migration not started. Checking repository configurations and topology state...
+2025-06-13T11:55:20.763Z [jfrt ] [INFO ] [5205704c1d6d5627] [ederationClientServiceImpl:409] [art-init            ] - Starting topology retry process from access service to verify if RTFS is enable...
+2025-06-13T11:55:20.798Z [jfrt ] [INFO ] [5205704c1d6d5627] [ederationClientServiceImpl:443] [art-init            ] - Finished topology retry process from Access Service to verify if RTFS is enabled...
+2025-06-13T11:55:22.748Z [jfrt ] [INFO ] [5205704c1d6d5627] [c.FederatedRepoServiceImpl:536] [art-init            ] - Scheduling master tokens refresh job...
+2025-06-13T11:55:23.151Z [jfrt ] [INFO ] [5205704c1d6d5627] [c.FederatedRepoServiceImpl:536] [art-init            ] - Scheduling master tokens refresh job...
+2025-06-13T11:55:23.152Z [jfrt ] [WARN ] [5205704c1d6d5627] [c.FederatedRepoServiceImpl:542] [art-init            ] - Master token refresh job is already scheduled - skipping second attempt to reschedule...
+2025-06-13T11:55:23.647Z [jfrt ] [INFO ] [5205704c1d6d5627] [MirrorHeartbeatServiceImpl:315] [art-init            ] - Main heartbeat task started, repeat every 20 sec
+2025-07-01T01:12:16.041Z [jfrt ] [INFO ] [3b647c00b94826d3] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created fed-request-tunneling-exec-%d parallel executor with 48 maximum thread pool size
+2025-07-01T01:12:47.087Z [jfrt ] [INFO ] [3b647c00b94826d3] [tionClientConfigServiceImpl:36] [art-init            ] - RTFS is disabled
+2025-07-01T01:12:47.087Z [jfrt ] [INFO ] [3b647c00b94826d3] [ederationClientServiceImpl:405] [art-init            ] - Federation client is disabled, need to check topology...
+2025-07-01T01:12:47.092Z [jfrt ] [INFO ] [3b647c00b94826d3] [.a.a.m.i.MirrorServiceImpl:201] [art-init            ] - Starting internal mirror jobs
+2025-07-01T01:12:47.097Z [jfrt ] [INFO ] [3b647c00b94826d3] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-07-01T01:12:47.098Z [jfrt ] [INFO ] [3b647c00b94826d3] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-07-01T01:12:47.098Z [jfrt ] [INFO ] [3b647c00b94826d3] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-07-01T01:12:47.098Z [jfrt ] [INFO ] [3b647c00b94826d3] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-07-01T01:12:47.098Z [jfrt ] [INFO ] [3b647c00b94826d3] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-07-01T01:12:47.098Z [jfrt ] [INFO ] [3b647c00b94826d3] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-07-01T01:12:47.098Z [jfrt ] [INFO ] [3b647c00b94826d3] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-07-01T01:12:47.098Z [jfrt ] [INFO ] [3b647c00b94826d3] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-07-01T01:12:47.098Z [jfrt ] [INFO ] [3b647c00b94826d3] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-07-01T01:12:47.098Z [jfrt ] [INFO ] [3b647c00b94826d3] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-07-01T01:12:47.099Z [jfrt ] [INFO ] [3b647c00b94826d3] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-07-01T01:12:47.099Z [jfrt ] [INFO ] [3b647c00b94826d3] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-07-01T01:12:47.099Z [jfrt ] [INFO ] [3b647c00b94826d3] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-07-01T01:12:47.099Z [jfrt ] [INFO ] [3b647c00b94826d3] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-07-01T01:12:47.099Z [jfrt ] [INFO ] [3b647c00b94826d3] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-07-01T01:12:47.120Z [jfrt ] [INFO ] [02168bd335d5eddb] [ederatedRepoMirrorCallBack:378] [335d5eddb|art-exec-3] - Performing async initialization of repositories
+2025-07-01T01:12:47.120Z [jfrt ] [WARN ] [02168bd335d5eddb] [ederatedRepoMirrorCallBack:383] [335d5eddb|art-exec-3] - Init async was called with not Federated class
+2025-07-01T01:12:47.122Z [jfrt ] [INFO ] [3b647c00b94826d3] [c.FederatedRepoServiceImpl:379] [art-init            ] - Initializing federation service...
+2025-07-01T01:12:47.122Z [jfrt ] [INFO ] [3b647c00b94826d3] [c.FederatedRepoServiceImpl:382] [art-init            ] - Migration status is at least 'MIGRATION_STARTED': false
+2025-07-01T01:12:47.122Z [jfrt ] [INFO ] [3b647c00b94826d3] [c.FederatedRepoServiceImpl:385] [art-init            ] - Migration not started. Checking repository configurations and topology state...
+2025-07-01T01:12:47.122Z [jfrt ] [INFO ] [3b647c00b94826d3] [ederationClientServiceImpl:409] [art-init            ] - Starting topology retry process from access service to verify if RTFS is enable...
+2025-07-01T01:12:47.168Z [jfrt ] [INFO ] [3b647c00b94826d3] [ederationClientServiceImpl:443] [art-init            ] - Finished topology retry process from Access Service to verify if RTFS is enabled...
+2025-07-01T01:12:50.204Z [jfrt ] [INFO ] [3b647c00b94826d3] [c.FederatedRepoServiceImpl:536] [art-init            ] - Scheduling master tokens refresh job...
+2025-07-01T01:12:50.685Z [jfrt ] [INFO ] [3b647c00b94826d3] [c.FederatedRepoServiceImpl:536] [art-init            ] - Scheduling master tokens refresh job...
+2025-07-01T01:12:50.686Z [jfrt ] [WARN ] [3b647c00b94826d3] [c.FederatedRepoServiceImpl:542] [art-init            ] - Master token refresh job is already scheduled - skipping second attempt to reschedule...
+2025-07-01T01:12:51.187Z [jfrt ] [INFO ] [3b647c00b94826d3] [MirrorHeartbeatServiceImpl:315] [art-init            ] - Main heartbeat task started, repeat every 20 sec
+2025-07-16T13:28:32.117Z [jfrt ] [INFO ] [535f72007fc049d1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created fed-request-tunneling-exec-%d parallel executor with 48 maximum thread pool size
+2025-07-16T13:28:59.634Z [jfrt ] [INFO ] [535f72007fc049d1] [tionClientConfigServiceImpl:36] [art-init            ] - RTFS is disabled
+2025-07-16T13:28:59.634Z [jfrt ] [INFO ] [535f72007fc049d1] [ederationClientServiceImpl:405] [art-init            ] - Federation client is disabled, need to check topology...
+2025-07-16T13:28:59.640Z [jfrt ] [INFO ] [535f72007fc049d1] [.a.a.m.i.MirrorServiceImpl:201] [art-init            ] - Starting internal mirror jobs
+2025-07-16T13:28:59.645Z [jfrt ] [INFO ] [535f72007fc049d1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-07-16T13:28:59.645Z [jfrt ] [INFO ] [535f72007fc049d1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-07-16T13:28:59.645Z [jfrt ] [INFO ] [535f72007fc049d1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-07-16T13:28:59.645Z [jfrt ] [INFO ] [535f72007fc049d1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-07-16T13:28:59.645Z [jfrt ] [INFO ] [535f72007fc049d1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-07-16T13:28:59.646Z [jfrt ] [INFO ] [535f72007fc049d1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-07-16T13:28:59.646Z [jfrt ] [INFO ] [535f72007fc049d1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-07-16T13:28:59.646Z [jfrt ] [INFO ] [535f72007fc049d1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-07-16T13:28:59.646Z [jfrt ] [INFO ] [535f72007fc049d1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-07-16T13:28:59.646Z [jfrt ] [INFO ] [535f72007fc049d1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-07-16T13:28:59.646Z [jfrt ] [INFO ] [535f72007fc049d1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-07-16T13:28:59.646Z [jfrt ] [INFO ] [535f72007fc049d1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-07-16T13:28:59.646Z [jfrt ] [INFO ] [535f72007fc049d1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-07-16T13:28:59.646Z [jfrt ] [INFO ] [535f72007fc049d1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-07-16T13:28:59.646Z [jfrt ] [INFO ] [535f72007fc049d1] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-07-16T13:28:59.667Z [jfrt ] [INFO ] [70253bf58440f923] [ederatedRepoMirrorCallBack:378] [58440f923|art-exec-3] - Performing async initialization of repositories
+2025-07-16T13:28:59.667Z [jfrt ] [WARN ] [70253bf58440f923] [ederatedRepoMirrorCallBack:383] [58440f923|art-exec-3] - Init async was called with not Federated class
+2025-07-16T13:29:01.731Z [jfrt ] [INFO ] [535f72007fc049d1] [c.FederatedRepoServiceImpl:379] [art-init            ] - Initializing federation service...
+2025-07-16T13:29:01.731Z [jfrt ] [INFO ] [535f72007fc049d1] [c.FederatedRepoServiceImpl:382] [art-init            ] - Migration status is at least 'MIGRATION_STARTED': false
+2025-07-16T13:29:01.731Z [jfrt ] [INFO ] [535f72007fc049d1] [c.FederatedRepoServiceImpl:385] [art-init            ] - Migration not started. Checking repository configurations and topology state...
+2025-07-16T13:29:01.732Z [jfrt ] [INFO ] [535f72007fc049d1] [ederationClientServiceImpl:409] [art-init            ] - Starting topology retry process from access service to verify if RTFS is enable...
+2025-07-16T13:29:01.776Z [jfrt ] [INFO ] [535f72007fc049d1] [ederationClientServiceImpl:443] [art-init            ] - Finished topology retry process from Access Service to verify if RTFS is enabled...
+2025-07-16T13:29:02.718Z [jfrt ] [INFO ] [535f72007fc049d1] [c.FederatedRepoServiceImpl:536] [art-init            ] - Scheduling master tokens refresh job...
+2025-07-16T13:29:03.199Z [jfrt ] [INFO ] [535f72007fc049d1] [c.FederatedRepoServiceImpl:536] [art-init            ] - Scheduling master tokens refresh job...
+2025-07-16T13:29:03.200Z [jfrt ] [WARN ] [535f72007fc049d1] [c.FederatedRepoServiceImpl:542] [art-init            ] - Master token refresh job is already scheduled - skipping second attempt to reschedule...
+2025-07-16T13:29:03.622Z [jfrt ] [INFO ] [535f72007fc049d1] [MirrorHeartbeatServiceImpl:315] [art-init            ] - Main heartbeat task started, repeat every 20 sec
+2025-08-06T01:42:34.861Z [jfrt ] [INFO ] [86000e6b5d8dfb03] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created fed-request-tunneling-exec-%d parallel executor with 48 maximum thread pool size
+2025-08-06T01:43:10.981Z [jfrt ] [INFO ] [86000e6b5d8dfb03] [tionClientConfigServiceImpl:36] [art-init            ] - RTFS is disabled
+2025-08-06T01:43:10.982Z [jfrt ] [INFO ] [86000e6b5d8dfb03] [ederationClientServiceImpl:405] [art-init            ] - Federation client is disabled, need to check topology...
+2025-08-06T01:43:10.982Z [jfrt ] [INFO ] [86000e6b5d8dfb03] [c.FederatedRepoServiceImpl:379] [art-init            ] - Initializing federation service...
+2025-08-06T01:43:10.982Z [jfrt ] [INFO ] [86000e6b5d8dfb03] [c.FederatedRepoServiceImpl:382] [art-init            ] - Migration status is at least 'MIGRATION_STARTED': false
+2025-08-06T01:43:10.982Z [jfrt ] [INFO ] [86000e6b5d8dfb03] [c.FederatedRepoServiceImpl:385] [art-init            ] - Migration not started. Checking repository configurations and topology state...
+2025-08-06T01:43:10.998Z [jfrt ] [INFO ] [86000e6b5d8dfb03] [ederationClientServiceImpl:409] [art-init            ] - Starting topology retry process from access service to verify if RTFS is enable...
+2025-08-06T01:43:11.052Z [jfrt ] [INFO ] [86000e6b5d8dfb03] [ederationClientServiceImpl:443] [art-init            ] - Finished topology retry process from Access Service to verify if RTFS is enabled...
+2025-08-06T01:43:11.574Z [jfrt ] [INFO ] [86000e6b5d8dfb03] [.a.a.m.i.MirrorServiceImpl:201] [art-init            ] - Starting internal mirror jobs
+2025-08-06T01:43:11.627Z [jfrt ] [INFO ] [86000e6b5d8dfb03] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-06T01:43:11.627Z [jfrt ] [INFO ] [86000e6b5d8dfb03] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-06T01:43:11.627Z [jfrt ] [INFO ] [86000e6b5d8dfb03] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-06T01:43:11.628Z [jfrt ] [INFO ] [86000e6b5d8dfb03] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-06T01:43:11.628Z [jfrt ] [INFO ] [86000e6b5d8dfb03] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-06T01:43:11.628Z [jfrt ] [INFO ] [86000e6b5d8dfb03] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-06T01:43:11.628Z [jfrt ] [INFO ] [86000e6b5d8dfb03] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-06T01:43:11.628Z [jfrt ] [INFO ] [86000e6b5d8dfb03] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-06T01:43:11.628Z [jfrt ] [INFO ] [86000e6b5d8dfb03] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-06T01:43:11.628Z [jfrt ] [INFO ] [86000e6b5d8dfb03] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-06T01:43:11.628Z [jfrt ] [INFO ] [86000e6b5d8dfb03] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-06T01:43:11.628Z [jfrt ] [INFO ] [86000e6b5d8dfb03] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-06T01:43:11.629Z [jfrt ] [INFO ] [86000e6b5d8dfb03] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-08-06T01:43:11.629Z [jfrt ] [INFO ] [86000e6b5d8dfb03] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-08-06T01:43:11.629Z [jfrt ] [INFO ] [86000e6b5d8dfb03] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-08-06T01:43:11.636Z [jfrt ] [INFO ] [6102efc0b31068dc] [ederatedRepoMirrorCallBack:378] [0b31068dc|art-exec-3] - Performing async initialization of repositories
+2025-08-06T01:43:11.637Z [jfrt ] [WARN ] [6102efc0b31068dc] [ederatedRepoMirrorCallBack:383] [0b31068dc|art-exec-3] - Init async was called with not Federated class
+2025-08-06T01:43:14.762Z [jfrt ] [INFO ] [86000e6b5d8dfb03] [c.FederatedRepoServiceImpl:536] [art-init            ] - Scheduling master tokens refresh job...
+2025-08-06T01:43:15.244Z [jfrt ] [INFO ] [86000e6b5d8dfb03] [c.FederatedRepoServiceImpl:536] [art-init            ] - Scheduling master tokens refresh job...
+2025-08-06T01:43:15.245Z [jfrt ] [WARN ] [86000e6b5d8dfb03] [c.FederatedRepoServiceImpl:542] [art-init            ] - Master token refresh job is already scheduled - skipping second attempt to reschedule...
+2025-08-06T01:43:15.927Z [jfrt ] [INFO ] [86000e6b5d8dfb03] [MirrorHeartbeatServiceImpl:315] [art-init            ] - Main heartbeat task started, repeat every 20 sec
+2025-08-14T08:04:29.545Z [jfrt ] [INFO ] [f05c0360ef5eff89] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created fed-request-tunneling-exec-%d parallel executor with 48 maximum thread pool size
+2025-08-14T08:04:36.673Z [jfrt ] [INFO ] [f05c0360ef5eff89] [tionClientConfigServiceImpl:36] [art-init            ] - RTFS is disabled
+2025-08-14T08:04:36.674Z [jfrt ] [INFO ] [f05c0360ef5eff89] [ederationClientServiceImpl:405] [art-init            ] - Federation client is disabled, need to check topology...
+2025-08-14T08:04:36.854Z [jfrt ] [INFO ] [f05c0360ef5eff89] [.a.a.m.i.MirrorServiceImpl:201] [art-init            ] - Starting internal mirror jobs
+2025-08-14T08:04:36.860Z [jfrt ] [INFO ] [f05c0360ef5eff89] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T08:04:36.861Z [jfrt ] [INFO ] [f05c0360ef5eff89] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T08:04:36.861Z [jfrt ] [INFO ] [f05c0360ef5eff89] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T08:04:36.861Z [jfrt ] [INFO ] [f05c0360ef5eff89] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T08:04:36.861Z [jfrt ] [INFO ] [f05c0360ef5eff89] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T08:04:36.861Z [jfrt ] [INFO ] [f05c0360ef5eff89] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T08:04:36.861Z [jfrt ] [INFO ] [f05c0360ef5eff89] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T08:04:36.861Z [jfrt ] [INFO ] [f05c0360ef5eff89] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T08:04:36.861Z [jfrt ] [INFO ] [f05c0360ef5eff89] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T08:04:36.861Z [jfrt ] [INFO ] [f05c0360ef5eff89] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T08:04:36.862Z [jfrt ] [INFO ] [f05c0360ef5eff89] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T08:04:36.862Z [jfrt ] [INFO ] [f05c0360ef5eff89] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T08:04:36.862Z [jfrt ] [INFO ] [f05c0360ef5eff89] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-08-14T08:04:36.862Z [jfrt ] [INFO ] [f05c0360ef5eff89] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-08-14T08:04:36.862Z [jfrt ] [INFO ] [f05c0360ef5eff89] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-08-14T08:04:36.887Z [jfrt ] [INFO ] [bc5a3e0a4e6edf75] [ederatedRepoMirrorCallBack:378] [a4e6edf75|art-exec-3] - Performing async initialization of repositories
+2025-08-14T08:04:36.887Z [jfrt ] [WARN ] [bc5a3e0a4e6edf75] [ederatedRepoMirrorCallBack:383] [a4e6edf75|art-exec-3] - Init async was called with not Federated class
+2025-08-14T08:04:36.945Z [jfrt ] [INFO ] [f05c0360ef5eff89] [c.FederatedRepoServiceImpl:379] [art-init            ] - Initializing federation service...
+2025-08-14T08:04:36.946Z [jfrt ] [INFO ] [f05c0360ef5eff89] [c.FederatedRepoServiceImpl:382] [art-init            ] - Migration status is at least 'MIGRATION_STARTED': false
+2025-08-14T08:04:36.946Z [jfrt ] [INFO ] [f05c0360ef5eff89] [c.FederatedRepoServiceImpl:385] [art-init            ] - Migration not started. Checking repository configurations and topology state...
+2025-08-14T08:04:36.946Z [jfrt ] [INFO ] [f05c0360ef5eff89] [ederationClientServiceImpl:409] [art-init            ] - Starting topology retry process from access service to verify if RTFS is enable...
+2025-08-14T08:04:36.995Z [jfrt ] [INFO ] [f05c0360ef5eff89] [ederationClientServiceImpl:443] [art-init            ] - Finished topology retry process from Access Service to verify if RTFS is enabled...
+2025-08-14T08:04:39.659Z [jfrt ] [INFO ] [f05c0360ef5eff89] [c.FederatedRepoServiceImpl:536] [art-init            ] - Scheduling master tokens refresh job...
+2025-08-14T08:04:40.112Z [jfrt ] [INFO ] [f05c0360ef5eff89] [c.FederatedRepoServiceImpl:536] [art-init            ] - Scheduling master tokens refresh job...
+2025-08-14T08:04:40.113Z [jfrt ] [WARN ] [f05c0360ef5eff89] [c.FederatedRepoServiceImpl:542] [art-init            ] - Master token refresh job is already scheduled - skipping second attempt to reschedule...
+2025-08-14T08:04:40.628Z [jfrt ] [INFO ] [f05c0360ef5eff89] [MirrorHeartbeatServiceImpl:315] [art-init            ] - Main heartbeat task started, repeat every 20 sec
+2025-08-14T08:22:36.530Z [jfrt ] [INFO ] [c6f0117d83c2a664] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created fed-request-tunneling-exec-%d parallel executor with 48 maximum thread pool size
+2025-08-14T08:22:45.232Z [jfrt ] [INFO ] [c6f0117d83c2a664] [tionClientConfigServiceImpl:36] [art-init            ] - RTFS is disabled
+2025-08-14T08:22:45.232Z [jfrt ] [INFO ] [c6f0117d83c2a664] [ederationClientServiceImpl:416] [art-init            ] - Federation client is disabled, need to check topology...
+2025-08-14T08:22:45.232Z [jfrt ] [INFO ] [c6f0117d83c2a664] [c.FederatedRepoServiceImpl:391] [art-init            ] - Initializing federation service...
+2025-08-14T08:22:45.232Z [jfrt ] [INFO ] [c6f0117d83c2a664] [c.FederatedRepoServiceImpl:394] [art-init            ] - Migration status is at least 'MIGRATION_STARTED': false
+2025-08-14T08:22:45.232Z [jfrt ] [INFO ] [c6f0117d83c2a664] [c.FederatedRepoServiceImpl:397] [art-init            ] - Migration not started. Checking repository configurations and topology state...
+2025-08-14T08:22:45.246Z [jfrt ] [INFO ] [c6f0117d83c2a664] [ederationClientServiceImpl:420] [art-init            ] - Starting topology retry process from access service to verify if RTFS is enable...
+2025-08-14T08:22:45.285Z [jfrt ] [INFO ] [c6f0117d83c2a664] [ederationClientServiceImpl:454] [art-init            ] - Finished topology retry process from Access Service to verify if RTFS is enabled...
+2025-08-14T08:22:45.692Z [jfrt ] [INFO ] [c6f0117d83c2a664] [.a.a.m.i.MirrorServiceImpl:208] [art-init            ] - Starting internal mirror jobs
+2025-08-14T08:22:45.764Z [jfrt ] [INFO ] [c6f0117d83c2a664] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T08:22:45.765Z [jfrt ] [INFO ] [c6f0117d83c2a664] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T08:22:45.765Z [jfrt ] [INFO ] [c6f0117d83c2a664] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T08:22:45.765Z [jfrt ] [INFO ] [c6f0117d83c2a664] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T08:22:45.765Z [jfrt ] [INFO ] [c6f0117d83c2a664] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T08:22:45.765Z [jfrt ] [INFO ] [c6f0117d83c2a664] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T08:22:45.765Z [jfrt ] [INFO ] [c6f0117d83c2a664] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T08:22:45.765Z [jfrt ] [INFO ] [c6f0117d83c2a664] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T08:22:45.765Z [jfrt ] [INFO ] [c6f0117d83c2a664] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T08:22:45.765Z [jfrt ] [INFO ] [c6f0117d83c2a664] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T08:22:45.766Z [jfrt ] [INFO ] [c6f0117d83c2a664] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T08:22:45.766Z [jfrt ] [INFO ] [c6f0117d83c2a664] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T08:22:45.766Z [jfrt ] [INFO ] [c6f0117d83c2a664] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-08-14T08:22:45.766Z [jfrt ] [INFO ] [c6f0117d83c2a664] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-08-14T08:22:45.766Z [jfrt ] [INFO ] [c6f0117d83c2a664] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-08-14T08:22:45.774Z [jfrt ] [INFO ] [5ac28a02d1a6e549db6f87d9b00e10f3] [ederatedRepoMirrorCallBack:377] [9b00e10f3|art-exec-3] - Performing async initialization of repositories
+2025-08-14T08:22:45.774Z [jfrt ] [WARN ] [5ac28a02d1a6e549db6f87d9b00e10f3] [ederatedRepoMirrorCallBack:382] [9b00e10f3|art-exec-3] - Init async was called with not Federated class
+2025-08-14T08:22:47.607Z [jfrt ] [INFO ] [c6f0117d83c2a664] [c.FederatedRepoServiceImpl:571] [art-init            ] - Scheduling master tokens refresh job...
+2025-08-14T08:22:48.025Z [jfrt ] [INFO ] [c6f0117d83c2a664] [c.FederatedRepoServiceImpl:571] [art-init            ] - Scheduling master tokens refresh job...
+2025-08-14T08:22:48.026Z [jfrt ] [WARN ] [c6f0117d83c2a664] [c.FederatedRepoServiceImpl:577] [art-init            ] - Master token refresh job is already scheduled - skipping second attempt to reschedule...
+2025-08-14T08:22:48.383Z [jfrt ] [INFO ] [c6f0117d83c2a664] [ederationMetricsServiceImpl:60] [art-init            ] - Federation Metrics enabled: false
+2025-08-14T08:22:48.446Z [jfrt ] [INFO ] [c6f0117d83c2a664] [MirrorHeartbeatServiceImpl:316] [art-init            ] - Main heartbeat task started, repeat every 20 sec
+2025-08-14T13:20:06.472Z [jfrt ] [INFO ] [8654483fca3064b4] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created fed-request-tunneling-exec-%d parallel executor with 48 maximum thread pool size
+2025-08-14T13:20:38.826Z [jfrt ] [INFO ] [8654483fca3064b4] [tionClientConfigServiceImpl:36] [art-init            ] - RTFS is disabled
+2025-08-14T13:20:38.827Z [jfrt ] [INFO ] [8654483fca3064b4] [ederationClientServiceImpl:416] [art-init            ] - Federation client is disabled, need to check topology...
+2025-08-14T13:20:38.827Z [jfrt ] [INFO ] [8654483fca3064b4] [c.FederatedRepoServiceImpl:391] [art-init            ] - Initializing federation service...
+2025-08-14T13:20:38.827Z [jfrt ] [INFO ] [8654483fca3064b4] [c.FederatedRepoServiceImpl:394] [art-init            ] - Migration status is at least 'MIGRATION_STARTED': false
+2025-08-14T13:20:38.827Z [jfrt ] [INFO ] [8654483fca3064b4] [c.FederatedRepoServiceImpl:397] [art-init            ] - Migration not started. Checking repository configurations and topology state...
+2025-08-14T13:20:38.858Z [jfrt ] [INFO ] [8654483fca3064b4] [ederationClientServiceImpl:420] [art-init            ] - Starting topology retry process from access service to verify if RTFS is enable...
+2025-08-14T13:20:38.906Z [jfrt ] [INFO ] [8654483fca3064b4] [ederationClientServiceImpl:454] [art-init            ] - Finished topology retry process from Access Service to verify if RTFS is enabled...
+2025-08-14T13:20:41.395Z [jfrt ] [INFO ] [8654483fca3064b4] [.a.a.m.i.MirrorServiceImpl:208] [art-init            ] - Starting internal mirror jobs
+2025-08-14T13:20:42.414Z [jfrt ] [INFO ] [8654483fca3064b4] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T13:20:42.415Z [jfrt ] [INFO ] [8654483fca3064b4] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T13:20:42.415Z [jfrt ] [INFO ] [8654483fca3064b4] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T13:20:42.416Z [jfrt ] [INFO ] [8654483fca3064b4] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T13:20:42.416Z [jfrt ] [INFO ] [8654483fca3064b4] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T13:20:42.416Z [jfrt ] [INFO ] [8654483fca3064b4] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T13:20:42.416Z [jfrt ] [INFO ] [8654483fca3064b4] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T13:20:42.416Z [jfrt ] [INFO ] [8654483fca3064b4] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T13:20:42.416Z [jfrt ] [INFO ] [8654483fca3064b4] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T13:20:42.416Z [jfrt ] [INFO ] [8654483fca3064b4] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T13:20:42.416Z [jfrt ] [INFO ] [8654483fca3064b4] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T13:20:42.416Z [jfrt ] [INFO ] [8654483fca3064b4] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T13:20:42.416Z [jfrt ] [INFO ] [8654483fca3064b4] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-08-14T13:20:42.416Z [jfrt ] [INFO ] [8654483fca3064b4] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-08-14T13:20:42.416Z [jfrt ] [INFO ] [8654483fca3064b4] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-08-14T13:20:42.428Z [jfrt ] [INFO ] [d7d71c324f6ea144b14940b09afc5eda] [ederatedRepoMirrorCallBack:377] [09afc5eda|art-exec-3] - Performing async initialization of repositories
+2025-08-14T13:20:42.428Z [jfrt ] [WARN ] [d7d71c324f6ea144b14940b09afc5eda] [ederatedRepoMirrorCallBack:382] [09afc5eda|art-exec-3] - Init async was called with not Federated class
+2025-08-14T13:20:42.959Z [jfrt ] [INFO ] [8654483fca3064b4] [c.FederatedRepoServiceImpl:571] [art-init            ] - Scheduling master tokens refresh job...
+2025-08-14T13:20:43.469Z [jfrt ] [INFO ] [8654483fca3064b4] [c.FederatedRepoServiceImpl:571] [art-init            ] - Scheduling master tokens refresh job...
+2025-08-14T13:20:43.470Z [jfrt ] [WARN ] [8654483fca3064b4] [c.FederatedRepoServiceImpl:577] [art-init            ] - Master token refresh job is already scheduled - skipping second attempt to reschedule...
+2025-08-14T13:20:43.854Z [jfrt ] [INFO ] [8654483fca3064b4] [ederationMetricsServiceImpl:60] [art-init            ] - Federation Metrics enabled: false
+2025-08-14T13:20:43.923Z [jfrt ] [INFO ] [8654483fca3064b4] [MirrorHeartbeatServiceImpl:316] [art-init            ] - Main heartbeat task started, repeat every 20 sec
+2025-08-14T13:35:43.378Z [jfrt ] [INFO ] [70194cb73089916e] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created fed-request-tunneling-exec-%d parallel executor with 48 maximum thread pool size
+2025-08-14T13:35:57.527Z [jfrt ] [INFO ] [70194cb73089916e] [tionClientConfigServiceImpl:36] [art-init            ] - RTFS is disabled
+2025-08-14T13:35:57.527Z [jfrt ] [INFO ] [70194cb73089916e] [ederationClientServiceImpl:416] [art-init            ] - Federation client is disabled, need to check topology...
+2025-08-14T13:35:57.531Z [jfrt ] [INFO ] [70194cb73089916e] [.a.a.m.i.MirrorServiceImpl:208] [art-init            ] - Starting internal mirror jobs
+2025-08-14T13:35:57.535Z [jfrt ] [INFO ] [70194cb73089916e] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T13:35:57.535Z [jfrt ] [INFO ] [70194cb73089916e] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T13:35:57.535Z [jfrt ] [INFO ] [70194cb73089916e] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T13:35:57.535Z [jfrt ] [INFO ] [70194cb73089916e] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T13:35:57.535Z [jfrt ] [INFO ] [70194cb73089916e] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T13:35:57.535Z [jfrt ] [INFO ] [70194cb73089916e] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T13:35:57.535Z [jfrt ] [INFO ] [70194cb73089916e] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T13:35:57.535Z [jfrt ] [INFO ] [70194cb73089916e] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T13:35:57.535Z [jfrt ] [INFO ] [70194cb73089916e] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T13:35:57.535Z [jfrt ] [INFO ] [70194cb73089916e] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T13:35:57.535Z [jfrt ] [INFO ] [70194cb73089916e] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T13:35:57.536Z [jfrt ] [INFO ] [70194cb73089916e] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-exec-%d parallel executor with 5 maximum thread pool size
+2025-08-14T13:35:57.536Z [jfrt ] [INFO ] [70194cb73089916e] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-08-14T13:35:57.536Z [jfrt ] [INFO ] [70194cb73089916e] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-08-14T13:35:57.536Z [jfrt ] [INFO ] [70194cb73089916e] [a.a.f.u.FederatedRepoUtils:358] [art-init            ] - Created mirror-bulk-fsync-%d parallel executor with 10 maximum thread pool size
+2025-08-14T13:35:57.553Z [jfrt ] [INFO ] [70194cb73089916e] [c.FederatedRepoServiceImpl:391] [art-init            ] - Initializing federation service...
+2025-08-14T13:35:57.554Z [jfrt ] [INFO ] [70194cb73089916e] [c.FederatedRepoServiceImpl:394] [art-init            ] - Migration status is at least 'MIGRATION_STARTED': false
+2025-08-14T13:35:57.554Z [jfrt ] [INFO ] [70194cb73089916e] [c.FederatedRepoServiceImpl:397] [art-init            ] - Migration not started. Checking repository configurations and topology state...
+2025-08-14T13:35:57.554Z [jfrt ] [INFO ] [0e92a0fcddb33bd23224146f9c2d21df] [ederatedRepoMirrorCallBack:377] [f9c2d21df|art-exec-3] - Performing async initialization of repositories
+2025-08-14T13:35:57.554Z [jfrt ] [WARN ] [0e92a0fcddb33bd23224146f9c2d21df] [ederatedRepoMirrorCallBack:382] [f9c2d21df|art-exec-3] - Init async was called with not Federated class
+2025-08-14T13:35:57.554Z [jfrt ] [INFO ] [70194cb73089916e] [ederationClientServiceImpl:420] [art-init            ] - Starting topology retry process from access service to verify if RTFS is enable...
+2025-08-14T13:35:57.588Z [jfrt ] [INFO ] [70194cb73089916e] [ederationClientServiceImpl:454] [art-init            ] - Finished topology retry process from Access Service to verify if RTFS is enabled...
+2025-08-14T13:36:00.135Z [jfrt ] [INFO ] [70194cb73089916e] [c.FederatedRepoServiceImpl:571] [art-init            ] - Scheduling master tokens refresh job...
+2025-08-14T13:36:00.576Z [jfrt ] [INFO ] [70194cb73089916e] [c.FederatedRepoServiceImpl:571] [art-init            ] - Scheduling master tokens refresh job...
+2025-08-14T13:36:00.577Z [jfrt ] [WARN ] [70194cb73089916e] [c.FederatedRepoServiceImpl:577] [art-init            ] - Master token refresh job is already scheduled - skipping second attempt to reschedule...
+2025-08-14T13:36:00.916Z [jfrt ] [INFO ] [70194cb73089916e] [ederationMetricsServiceImpl:60] [art-init            ] - Federation Metrics enabled: false
+2025-08-14T13:36:00.979Z [jfrt ] [INFO ] [70194cb73089916e] [MirrorHeartbeatServiceImpl:316] [art-init            ] - Main heartbeat task started, repeat every 20 sec

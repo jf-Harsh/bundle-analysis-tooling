@@ -1,0 +1,495 @@
+2023-10-19T12:55:59.931Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2023-10-19T12:55:59.933Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2023-10-19T12:55:59.945Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2023-10-19T15:31:20.762Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - I have to go...
+2023-10-19T15:31:20.762Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Stopping server gracefully
+2023-10-19T15:31:20.762Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:249  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2023-10-19T15:31:20.762Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:249  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2023-10-19T15:31:20.762Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp [::]:8082: use of closed network connection
+2023-10-19T15:31:20.762Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:572  ] [main                ] [] - Error while starting server: accept tcp [::]:8082: use of closed network connection
+2023-10-19T15:31:30.762Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp 127.0.0.1:8049: use of closed network connection
+2023-10-19T15:31:30.762Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp 127.0.0.1:8046: use of closed network connection
+2023-10-19T15:31:30.763Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:272  ] [main                ] [] - close tcp 127.0.0.1:8049: use of closed network connection
+2023-10-19T15:31:30.763Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:272  ] [main                ] [] - close tcp 127.0.0.1:8046: use of closed network connection
+2023-10-19T15:31:40.763Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Server stopped
+2023-10-19T15:53:16.566Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2023-10-19T15:53:16.569Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2023-10-19T15:53:16.635Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2023-11-07T03:23:43.019Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2023-11-07T03:23:43.021Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2023-11-07T03:23:43.033Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2023-12-08T02:41:57.729Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2023-12-08T02:41:57.732Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2023-12-08T02:41:57.747Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2023-12-08T12:29:07.147Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - I have to go...
+2023-12-08T12:29:07.147Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Stopping server gracefully
+2023-12-08T12:29:07.147Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:249  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2023-12-08T12:29:07.147Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:249  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2023-12-08T12:29:07.147Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp [::]:8082: use of closed network connection
+2023-12-08T12:29:07.147Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:572  ] [main                ] [] - Error while starting server: accept tcp [::]:8082: use of closed network connection
+2023-12-08T12:29:17.148Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp 127.0.0.1:8049: use of closed network connection
+2023-12-08T12:29:17.148Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp 127.0.0.1:8046: use of closed network connection
+2023-12-08T12:29:17.148Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:272  ] [main                ] [] - close tcp 127.0.0.1:8046: use of closed network connection
+2023-12-08T12:29:17.148Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:272  ] [main                ] [] - close tcp 127.0.0.1:8049: use of closed network connection
+2023-12-08T12:29:27.149Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Server stopped
+2023-12-08T12:35:48.159Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2023-12-08T12:35:48.161Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2023-12-08T12:35:48.181Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2023-12-11T15:43:50.444Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - I have to go...
+2023-12-11T15:43:50.444Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Stopping server gracefully
+2023-12-11T15:43:50.445Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:249  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2023-12-11T15:43:50.445Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:249  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2023-12-11T15:43:50.445Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp [::]:8082: use of closed network connection
+2023-12-11T15:43:50.445Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:576  ] [main                ] [] - Error while starting server: accept tcp [::]:8082: use of closed network connection
+2023-12-11T15:44:00.446Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp 127.0.0.1:8046: use of closed network connection
+2023-12-11T15:44:00.446Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp 127.0.0.1:8049: use of closed network connection
+2023-12-11T15:44:00.446Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:272  ] [main                ] [] - close tcp 127.0.0.1:8049: use of closed network connection
+2023-12-11T15:44:00.446Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:272  ] [main                ] [] - close tcp 127.0.0.1:8046: use of closed network connection
+2023-12-11T15:44:10.446Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Server stopped
+2023-12-11T15:45:52.190Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2023-12-11T15:45:52.192Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2023-12-11T15:45:52.199Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2023-12-22T12:17:59.536Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - I have to go...
+2023-12-22T12:17:59.536Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Stopping server gracefully
+2023-12-22T12:17:59.536Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:249  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2023-12-22T12:17:59.536Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:249  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2023-12-22T12:17:59.536Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp [::]:8082: use of closed network connection
+2023-12-22T12:17:59.536Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:576  ] [main                ] [] - Error while starting server: accept tcp [::]:8082: use of closed network connection
+2023-12-22T12:18:09.537Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp 127.0.0.1:8046: use of closed network connection
+2023-12-22T12:18:09.537Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp 127.0.0.1:8049: use of closed network connection
+2023-12-22T12:18:09.537Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:272  ] [main                ] [] - close tcp 127.0.0.1:8049: use of closed network connection
+2023-12-22T12:18:09.537Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:272  ] [main                ] [] - close tcp 127.0.0.1:8046: use of closed network connection
+2023-12-22T12:18:19.537Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Server stopped
+2023-12-22T12:24:54.397Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2023-12-22T12:24:54.399Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2023-12-22T12:24:54.405Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2024-02-09T03:39:44.226Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2024-02-09T03:39:44.228Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2024-02-09T03:39:44.239Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2024-03-01T11:33:43.447Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - I have to go...
+2024-03-01T11:33:43.448Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Stopping server gracefully
+2024-03-01T11:33:43.448Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:249  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2024-03-01T11:33:43.448Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:249  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2024-03-01T11:33:43.448Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp [::]:8082: use of closed network connection
+2024-03-01T11:33:43.449Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:272  ] [main                ] [] - close tcp [::]:8082: use of closed network connection
+2024-03-01T11:33:53.449Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp 127.0.0.1:8046: use of closed network connection
+2024-03-01T11:33:53.449Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp 127.0.0.1:8049: use of closed network connection
+2024-03-01T11:33:53.449Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:272  ] [main                ] [] - close tcp 127.0.0.1:8049: use of closed network connection
+2024-03-01T11:33:53.449Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:272  ] [main                ] [] - close tcp 127.0.0.1:8046: use of closed network connection
+2024-03-01T11:34:03.450Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Server stopped
+2024-03-01T11:35:44.132Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2024-03-01T11:35:44.134Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2024-03-01T11:35:44.138Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2024-03-05T02:42:04.940Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2024-03-05T02:42:04.946Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2024-03-05T02:42:04.983Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2024-04-02T01:38:51.722Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2024-04-02T01:38:51.725Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2024-04-02T01:38:51.735Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2024-04-19T07:05:07.912Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2024-04-19T07:05:07.923Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2024-04-19T07:05:07.929Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2024-04-19T07:05:31.293Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - I have to go...
+2024-04-19T07:05:31.294Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Stopping server gracefully
+2024-04-19T07:05:31.294Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:249  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2024-04-19T07:05:31.294Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp [::]:8082: use of closed network connection
+2024-04-19T07:05:31.294Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:272  ] [main                ] [] - close tcp [::]:8082: use of closed network connection
+2024-04-19T07:05:31.294Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:249  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2024-04-19T07:05:41.294Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp 127.0.0.1:8046: use of closed network connection
+2024-04-19T07:05:41.294Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp 127.0.0.1:8049: use of closed network connection
+2024-04-19T07:05:41.295Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:272  ] [main                ] [] - close tcp 127.0.0.1:8049: use of closed network connection
+2024-04-19T07:05:41.295Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:272  ] [main                ] [] - close tcp 127.0.0.1:8046: use of closed network connection
+2024-04-19T07:05:51.295Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Server stopped
+2024-04-19T10:53:02.854Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2024-04-19T10:53:02.860Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2024-04-19T10:53:02.913Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2024-04-22T11:43:33.962Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2024-04-22T11:43:33.965Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2024-04-22T11:43:34.075Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2024-04-26T12:06:03.968Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2024-04-26T12:06:03.971Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2024-04-26T12:06:04.028Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2024-04-26T12:11:54.288Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - I have to go...
+2024-04-26T12:11:54.288Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Stopping server gracefully
+2024-04-26T12:11:54.288Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:249  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2024-04-26T12:11:54.288Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:249  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2024-04-26T12:11:54.288Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp [::]:8082: use of closed network connection
+2024-04-26T12:11:54.289Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:272  ] [main                ] [] - close tcp [::]:8082: use of closed network connection
+2024-04-26T12:12:04.289Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp 127.0.0.1:8046: use of closed network connection
+2024-04-26T12:12:04.289Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp 127.0.0.1:8049: use of closed network connection
+2024-04-26T12:12:04.289Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:272  ] [main                ] [] - close tcp 127.0.0.1:8049: use of closed network connection
+2024-04-26T12:12:04.289Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:272  ] [main                ] [] - close tcp 127.0.0.1:8046: use of closed network connection
+2024-04-26T12:12:14.290Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Server stopped
+2024-04-26T12:20:29.437Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2024-04-26T12:20:29.442Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2024-04-26T12:20:29.446Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2024-04-27T04:54:13.400Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2024-04-27T04:54:13.413Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2024-04-27T04:54:13.422Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2024-05-07T01:12:20.045Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2024-05-07T01:12:20.059Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2024-05-07T01:12:20.066Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2024-05-07T14:39:47.701Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - I have to go...
+2024-05-07T14:39:47.706Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Stopping server gracefully
+2024-05-07T14:39:47.706Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:249  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2024-05-07T14:39:47.707Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:249  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2024-05-07T14:39:47.707Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp [::]:8082: use of closed network connection
+2024-05-07T14:39:47.707Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:577  ] [main                ] [] - Error while starting server: accept tcp [::]:8082: use of closed network connection
+2024-05-07T14:39:57.707Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp 127.0.0.1:8046: use of closed network connection
+2024-05-07T14:39:57.707Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:577  ] [main                ] [] - Error while starting server: accept tcp 127.0.0.1:8046: use of closed network connection
+2024-05-07T14:39:57.707Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp 127.0.0.1:8049: use of closed network connection
+2024-05-07T14:39:57.707Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:272  ] [main                ] [] - close tcp 127.0.0.1:8049: use of closed network connection
+2024-05-07T14:39:57.707Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Server stopped
+2024-05-07T14:48:27.493Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2024-05-07T14:48:27.498Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2024-05-07T14:48:27.506Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2024-05-13T11:30:38.816Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - I have to go...
+2024-05-13T11:30:38.817Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Stopping server gracefully
+2024-05-13T11:30:38.817Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:249  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2024-05-13T11:30:38.817Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:249  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2024-05-13T11:30:38.817Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp [::]:8082: use of closed network connection
+2024-05-13T11:30:38.817Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:272  ] [main                ] [] - close tcp [::]:8082: use of closed network connection
+2024-05-13T11:30:48.818Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp 127.0.0.1:8046: use of closed network connection
+2024-05-13T11:30:48.818Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:272  ] [main                ] [] - close tcp 127.0.0.1:8046: use of closed network connection
+2024-05-13T11:30:48.818Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp 127.0.0.1:8049: use of closed network connection
+2024-05-13T11:30:48.818Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:272  ] [main                ] [] - close tcp 127.0.0.1:8049: use of closed network connection
+2024-05-13T11:30:49.318Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Server stopped
+2024-05-13T11:32:02.572Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2024-05-13T11:32:02.577Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2024-05-13T11:32:02.584Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2024-05-13T11:32:54.237Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - I have to go...
+2024-05-13T11:32:54.237Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Stopping server gracefully
+2024-05-13T11:32:54.237Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:249  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2024-05-13T11:32:54.237Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:249  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2024-05-13T11:32:54.237Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp [::]:8082: use of closed network connection
+2024-05-13T11:32:54.237Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:577  ] [main                ] [] - Error while starting server: accept tcp [::]:8082: use of closed network connection
+2024-05-13T11:33:04.237Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp 127.0.0.1:8046: use of closed network connection
+2024-05-13T11:33:04.237Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp 127.0.0.1:8049: use of closed network connection
+2024-05-13T11:33:04.237Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:272  ] [main                ] [] - close tcp 127.0.0.1:8046: use of closed network connection
+2024-05-13T11:33:04.237Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:272  ] [main                ] [] - close tcp 127.0.0.1:8049: use of closed network connection
+2024-05-13T11:33:04.738Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Server stopped
+2024-05-13T11:34:05.082Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2024-05-13T11:34:05.083Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2024-05-13T11:34:05.088Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2024-06-04T01:52:06.460Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2024-06-04T01:52:06.469Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2024-06-04T01:52:06.519Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2024-06-11T13:07:05.244Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - I have to go...
+2024-06-11T13:07:05.245Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Stopping server gracefully
+2024-06-11T13:07:05.245Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:249  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2024-06-11T13:07:05.245Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:249  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2024-06-11T13:07:05.245Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp [::]:8082: use of closed network connection
+2024-06-11T13:07:05.246Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:272  ] [main                ] [] - close tcp [::]:8082: use of closed network connection
+2024-06-11T13:07:15.246Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp 127.0.0.1:8046: use of closed network connection
+2024-06-11T13:07:15.246Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp 127.0.0.1:8049: use of closed network connection
+2024-06-11T13:07:15.246Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:272  ] [main                ] [] - close tcp 127.0.0.1:8046: use of closed network connection
+2024-06-11T13:07:15.246Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:272  ] [main                ] [] - close tcp 127.0.0.1:8049: use of closed network connection
+2024-06-11T13:07:15.246Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Server stopped
+2024-06-11T13:08:04.271Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2024-06-11T13:08:04.274Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2024-06-11T13:08:04.279Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2024-07-02T01:13:28.401Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2024-07-02T01:13:28.413Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2024-07-02T01:13:28.422Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2024-07-02T06:13:20.885Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - I have to go...
+2024-07-02T06:13:20.885Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Stopping server gracefully
+2024-07-02T06:13:20.885Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:249  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2024-07-02T06:13:20.885Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:249  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2024-07-02T06:13:20.885Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp [::]:8082: use of closed network connection
+2024-07-02T06:13:20.885Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:577  ] [main                ] [] - Error while starting server: accept tcp [::]:8082: use of closed network connection
+2024-07-02T06:13:30.886Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp 127.0.0.1:8046: use of closed network connection
+2024-07-02T06:13:30.886Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:272  ] [main                ] [] - close tcp 127.0.0.1:8046: use of closed network connection
+2024-07-02T06:13:30.886Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp 127.0.0.1:8049: use of closed network connection
+2024-07-02T06:13:30.887Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:272  ] [main                ] [] - close tcp 127.0.0.1:8049: use of closed network connection
+2024-07-02T06:13:40.886Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Server stopped
+2024-07-02T06:13:42.995Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2024-07-02T06:13:43.000Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2024-07-02T06:13:43.006Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2024-07-02T06:18:05.191Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - I have to go...
+2024-07-02T06:18:05.191Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Stopping server gracefully
+2024-07-02T06:18:05.191Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:249  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2024-07-02T06:18:05.191Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:249  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2024-07-02T06:18:05.191Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp [::]:8082: use of closed network connection
+2024-07-02T06:18:05.192Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:577  ] [main                ] [] - Error while starting server: accept tcp [::]:8082: use of closed network connection
+2024-07-02T06:18:15.192Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp 127.0.0.1:8049: use of closed network connection
+2024-07-02T06:18:15.192Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp 127.0.0.1:8046: use of closed network connection
+2024-07-02T06:18:15.193Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:272  ] [main                ] [] - close tcp 127.0.0.1:8049: use of closed network connection
+2024-07-02T06:18:15.193Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:272  ] [main                ] [] - close tcp 127.0.0.1:8046: use of closed network connection
+2024-07-02T06:18:15.693Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Server stopped
+2024-07-02T06:19:45.168Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2024-07-02T06:19:45.170Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2024-07-02T06:19:45.174Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2024-08-06T01:44:05.936Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2024-08-06T01:44:05.939Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2024-08-06T01:44:05.951Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2024-08-09T11:43:50.491Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2024-08-09T11:43:50.495Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2024-08-09T11:43:50.538Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2024-08-09T11:45:14.838Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - I have to go...
+2024-08-09T11:45:14.838Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Stopping server gracefully
+2024-08-09T11:45:14.838Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:249  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2024-08-09T11:45:14.838Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:249  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2024-08-09T11:45:14.838Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp [::]:8082: use of closed network connection
+2024-08-09T11:45:14.838Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:272  ] [main                ] [] - close tcp [::]:8082: use of closed network connection
+2024-08-09T11:45:24.839Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp 127.0.0.1:8049: use of closed network connection
+2024-08-09T11:45:24.839Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp 127.0.0.1:8046: use of closed network connection
+2024-08-09T11:45:24.839Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:272  ] [main                ] [] - close tcp 127.0.0.1:8049: use of closed network connection
+2024-08-09T11:45:24.839Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:272  ] [main                ] [] - close tcp 127.0.0.1:8046: use of closed network connection
+2024-08-09T11:45:25.339Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Server stopped
+2024-08-09T11:46:34.606Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2024-08-09T11:46:34.608Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2024-08-09T11:46:34.619Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2024-08-09T13:32:46.005Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - I have to go...
+2024-08-09T13:32:46.005Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Stopping server gracefully
+2024-08-09T13:32:46.005Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:249  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2024-08-09T13:32:46.005Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:249  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2024-08-09T13:32:46.005Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp [::]:8082: use of closed network connection
+2024-08-09T13:32:46.005Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:577  ] [main                ] [] - Error while starting server: accept tcp [::]:8082: use of closed network connection
+2024-08-09T13:32:56.006Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp 127.0.0.1:8046: use of closed network connection
+2024-08-09T13:32:56.006Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:272  ] [main                ] [] - close tcp 127.0.0.1:8046: use of closed network connection
+2024-08-09T13:32:56.006Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:197  ] [main                ] [] - accept tcp 127.0.0.1:8049: use of closed network connection
+2024-08-09T13:32:56.006Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:272  ] [main                ] [] - close tcp 127.0.0.1:8049: use of closed network connection
+2024-08-09T13:32:56.006Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Server stopped
+2024-08-09T13:43:05.898Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2024-08-09T13:43:05.901Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2024-08-09T13:43:05.929Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2024-09-03T01:46:50.684Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2024-09-03T01:46:50.687Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2024-09-03T01:46:50.696Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2024-09-05T07:24:30.597Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2024-09-05T07:24:30.602Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2024-09-05T07:24:30.610Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2024-09-05T09:03:18.805Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - I have to go...
+2024-09-05T09:03:18.806Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Stopping server gracefully
+2024-09-05T09:03:18.806Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:276  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2024-09-05T09:03:18.806Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:224  ] [main                ] [] - accept tcp [::]:8082: use of closed network connection
+2024-09-05T09:03:18.806Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:276  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2024-09-05T09:03:18.806Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:299  ] [main                ] [] - close tcp [::]:8082: use of closed network connection
+2024-09-05T09:03:28.806Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:224  ] [main                ] [] - accept tcp 127.0.0.1:8046: use of closed network connection
+2024-09-05T09:03:28.806Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:299  ] [main                ] [] - close tcp 127.0.0.1:8046: use of closed network connection
+2024-09-05T09:03:28.806Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:224  ] [main                ] [] - accept tcp 127.0.0.1:8049: use of closed network connection
+2024-09-05T09:03:28.806Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:299  ] [main                ] [] - close tcp 127.0.0.1:8049: use of closed network connection
+2024-09-05T09:03:28.807Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Server stopped
+2024-09-05T09:04:27.378Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2024-09-05T09:04:27.379Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2024-09-05T09:04:27.386Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2024-10-01T01:12:43.534Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2024-10-01T01:12:43.535Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2024-10-01T01:12:43.542Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2024-10-11T11:33:35.092Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2024-10-11T11:33:35.098Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2024-10-11T11:33:35.103Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2024-10-11T12:03:34.439Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - I have to go...
+2024-10-11T12:03:34.439Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Stopping server gracefully
+2024-10-11T12:03:34.439Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:276  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2024-10-11T12:03:34.439Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:276  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2024-10-11T12:03:34.439Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:224  ] [main                ] [] - accept tcp [::]:8082: use of closed network connection
+2024-10-11T12:03:34.439Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:299  ] [main                ] [] - close tcp [::]:8082: use of closed network connection
+2024-10-11T12:03:44.440Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:224  ] [main                ] [] - accept tcp 127.0.0.1:8049: use of closed network connection
+2024-10-11T12:03:44.440Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:224  ] [main                ] [] - accept tcp 127.0.0.1:8046: use of closed network connection
+2024-10-11T12:03:44.440Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:299  ] [main                ] [] - close tcp 127.0.0.1:8049: use of closed network connection
+2024-10-11T12:03:44.440Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:299  ] [main                ] [] - close tcp 127.0.0.1:8046: use of closed network connection
+2024-10-11T12:03:44.441Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Server stopped
+2024-10-11T12:10:03.811Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2024-10-11T12:10:03.811Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2024-10-11T12:10:03.815Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2024-10-11T12:15:18.220Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - I have to go...
+2024-10-11T12:15:18.220Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Stopping server gracefully
+2024-10-11T12:15:18.220Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:279  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2024-10-11T12:15:18.220Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:279  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2024-10-11T12:15:18.220Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:227  ] [main                ] [] - accept tcp [::]:8082: use of closed network connection
+2024-10-11T12:15:18.221Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:302  ] [main                ] [] - close tcp [::]:8082: use of closed network connection
+2024-10-11T12:15:28.222Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:227  ] [main                ] [] - accept tcp 127.0.0.1:8049: use of closed network connection
+2024-10-11T12:15:28.222Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:227  ] [main                ] [] - accept tcp 127.0.0.1:8046: use of closed network connection
+2024-10-11T12:15:28.222Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:302  ] [main                ] [] - close tcp 127.0.0.1:8046: use of closed network connection
+2024-10-11T12:15:28.222Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:302  ] [main                ] [] - close tcp 127.0.0.1:8049: use of closed network connection
+2024-10-11T12:15:28.222Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Server stopped
+2024-10-11T12:21:44.240Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2024-10-11T12:21:44.240Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2024-10-11T12:21:44.245Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2024-11-05T02:23:53.399Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2024-11-05T02:23:53.403Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2024-11-05T02:23:53.408Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2024-12-03T02:45:59.038Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2024-12-03T02:45:59.040Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2024-12-03T02:45:59.050Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2025-01-09T13:44:31.494Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - I have to go...
+2025-01-09T13:44:31.494Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Stopping server gracefully
+2025-01-09T13:44:31.494Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:279  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2025-01-09T13:44:31.494Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:279  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2025-01-09T13:44:31.494Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:227  ] [main                ] [] - accept tcp [::]:8082: use of closed network connection
+2025-01-09T13:44:31.494Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:302  ] [main                ] [] - close tcp [::]:8082: use of closed network connection
+2025-01-09T13:44:41.495Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:227  ] [main                ] [] - accept tcp 127.0.0.1:8049: use of closed network connection
+2025-01-09T13:44:41.495Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:227  ] [main                ] [] - accept tcp 127.0.0.1:8046: use of closed network connection
+2025-01-09T13:44:41.495Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:302  ] [main                ] [] - close tcp 127.0.0.1:8046: use of closed network connection
+2025-01-09T13:44:41.495Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:302  ] [main                ] [] - close tcp 127.0.0.1:8049: use of closed network connection
+2025-01-09T13:44:41.496Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Server stopped
+2025-01-09T14:00:27.175Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2025-01-09T14:00:27.176Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2025-01-09T14:00:27.183Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2025-02-04T02:36:27.622Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2025-02-04T02:36:27.624Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2025-02-04T02:36:27.634Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2025-02-05T02:30:50.467Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2025-02-05T02:30:50.469Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2025-02-05T02:30:50.480Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2025-02-14T12:05:29.194Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2025-02-14T12:05:29.196Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2025-02-14T12:05:29.201Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2025-02-14T13:41:24.034Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - I have to go...
+2025-02-14T13:41:24.034Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Stopping server gracefully
+2025-02-14T13:41:24.034Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:279  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2025-02-14T13:41:24.034Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:227  ] [main                ] [] - accept tcp [::]:8082: use of closed network connection
+2025-02-14T13:41:24.034Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:279  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2025-02-14T13:41:24.034Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:302  ] [main                ] [] - close tcp [::]:8082: use of closed network connection
+2025-02-14T13:41:34.034Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:227  ] [main                ] [] - accept tcp 127.0.0.1:8046: use of closed network connection
+2025-02-14T13:41:34.034Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:302  ] [main                ] [] - close tcp 127.0.0.1:8046: use of closed network connection
+2025-02-14T13:41:34.034Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:227  ] [main                ] [] - accept tcp 127.0.0.1:8049: use of closed network connection
+2025-02-14T13:41:34.034Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:302  ] [main                ] [] - close tcp 127.0.0.1:8049: use of closed network connection
+2025-02-14T13:41:34.035Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Server stopped
+2025-02-14T13:47:55.619Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2025-02-14T13:47:55.619Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2025-02-14T13:47:55.623Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2025-02-17T15:29:18.282Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2025-02-17T15:29:18.284Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2025-02-17T15:29:18.289Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2025-02-17T15:31:29.969Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - I have to go...
+2025-02-17T15:31:29.969Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Stopping server gracefully
+2025-02-17T15:31:29.969Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:279  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2025-02-17T15:31:29.969Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:279  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2025-02-17T15:31:29.970Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:227  ] [main                ] [] - accept tcp [::]:8082: use of closed network connection
+2025-02-17T15:31:29.970Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:302  ] [main                ] [] - close tcp [::]:8082: use of closed network connection
+2025-02-17T15:31:39.971Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:227  ] [main                ] [] - accept tcp 127.0.0.1:8046: use of closed network connection
+2025-02-17T15:31:39.971Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:302  ] [main                ] [] - close tcp 127.0.0.1:8046: use of closed network connection
+2025-02-17T15:31:39.971Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:227  ] [main                ] [] - accept tcp 127.0.0.1:8049: use of closed network connection
+2025-02-17T15:31:39.971Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:302  ] [main                ] [] - close tcp 127.0.0.1:8049: use of closed network connection
+2025-02-17T15:31:49.971Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Server stopped
+2025-02-17T15:40:24.924Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2025-02-17T15:40:24.924Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2025-02-17T15:40:24.929Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2025-03-04T01:01:37.113Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2025-03-04T01:01:37.116Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2025-03-04T01:01:37.122Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2025-03-04T02:43:25.334Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2025-03-04T02:43:25.336Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2025-03-04T02:43:25.341Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2025-04-01T01:28:46.152Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2025-04-01T01:28:46.153Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2025-04-01T01:28:46.160Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2025-04-15T13:13:32.048Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator aggregator.ProviderAggregator
+2025-04-15T13:13:32.075Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2025-04-15T13:13:32.085Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2025-04-15T13:16:13.502Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - I have to go...
+2025-04-15T13:16:13.502Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Stopping server gracefully
+2025-04-15T13:16:13.502Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:279  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2025-04-15T13:16:13.502Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:227  ] [main                ] [] - accept tcp [::]:8082: use of closed network connection
+2025-04-15T13:16:13.502Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:302  ] [main                ] [] - close tcp [::]:8082: use of closed network connection
+2025-04-15T13:16:13.502Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:279  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2025-04-15T13:16:23.503Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:227  ] [main                ] [] - accept tcp 127.0.0.1:8049: use of closed network connection
+2025-04-15T13:16:23.503Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:227  ] [main                ] [] - accept tcp 127.0.0.1:8046: use of closed network connection
+2025-04-15T13:16:23.503Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:302  ] [main                ] [] - close tcp 127.0.0.1:8046: use of closed network connection
+2025-04-15T13:16:23.503Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:302  ] [main                ] [] - close tcp 127.0.0.1:8049: use of closed network connection
+2025-04-15T13:16:24.003Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Server stopped
+2025-04-15T13:26:05.260Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator *aggregator.ProviderAggregator
+2025-04-15T13:26:05.264Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2025-04-15T13:26:05.404Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2025-04-17T10:37:22.112Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator *aggregator.ProviderAggregator
+2025-04-17T10:37:22.119Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2025-04-17T10:37:22.279Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2025-04-28T15:44:51.069Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator *aggregator.ProviderAggregator
+2025-04-28T15:44:51.074Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2025-04-28T15:44:51.398Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2025-05-06T01:25:26.604Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator *aggregator.ProviderAggregator
+2025-05-06T01:25:26.606Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2025-05-06T01:25:26.883Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2025-06-03T01:09:34.205Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator *aggregator.ProviderAggregator
+2025-06-03T01:09:34.206Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2025-06-03T01:09:34.215Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2025-06-05T12:28:35.552Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - I have to go...
+2025-06-05T12:28:35.552Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Stopping server gracefully
+2025-06-05T12:28:35.552Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:279  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2025-06-05T12:28:35.552Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:279  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2025-06-05T12:28:35.552Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:227  ] [main                ] [] - accept tcp [::]:8082: use of closed network connection
+2025-06-05T12:28:35.554Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:302  ] [main                ] [] - close tcp [::]:8082: use of closed network connection
+2025-06-05T12:28:45.555Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:227  ] [main                ] [] - accept tcp 127.0.0.1:8049: use of closed network connection
+2025-06-05T12:28:45.555Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:227  ] [main                ] [] - accept tcp 127.0.0.1:8046: use of closed network connection
+2025-06-05T12:28:45.555Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:302  ] [main                ] [] - close tcp 127.0.0.1:8049: use of closed network connection
+2025-06-05T12:28:45.555Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:302  ] [main                ] [] - close tcp 127.0.0.1:8046: use of closed network connection
+2025-06-05T12:28:55.556Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Server stopped
+2025-06-05T12:36:44.426Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator *aggregator.ProviderAggregator
+2025-06-05T12:36:44.427Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2025-06-05T12:36:44.582Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2025-06-13T10:25:20.148Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator *aggregator.ProviderAggregator
+2025-06-13T10:25:20.149Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2025-06-13T10:25:20.665Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2025-06-13T11:45:12.167Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - I have to go...
+2025-06-13T11:45:12.167Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Stopping server gracefully
+2025-06-13T11:45:12.167Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:279  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2025-06-13T11:45:12.167Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:279  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2025-06-13T11:45:12.167Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:227  ] [main                ] [] - accept tcp [::]:8082: use of closed network connection
+2025-06-13T11:45:12.167Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:302  ] [main                ] [] - close tcp [::]:8082: use of closed network connection
+2025-06-13T11:45:22.168Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:227  ] [main                ] [] - accept tcp 127.0.0.1:8046: use of closed network connection
+2025-06-13T11:45:22.168Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:227  ] [main                ] [] - accept tcp 127.0.0.1:8049: use of closed network connection
+2025-06-13T11:45:22.168Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:302  ] [main                ] [] - close tcp 127.0.0.1:8049: use of closed network connection
+2025-06-13T11:45:22.168Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:302  ] [main                ] [] - close tcp 127.0.0.1:8046: use of closed network connection
+2025-06-13T11:45:32.168Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Server stopped
+2025-06-13T11:55:09.234Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator *aggregator.ProviderAggregator
+2025-06-13T11:55:09.234Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2025-06-13T11:55:09.334Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2025-06-13T11:55:09.334Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *templates.UnhealthyNodeConfProvider
+2025-07-01T01:12:23.282Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator *aggregator.ProviderAggregator
+2025-07-01T01:12:23.283Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2025-07-01T01:12:23.691Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2025-07-01T01:12:23.691Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *templates.UnhealthyNodeConfProvider
+2025-07-16T13:28:50.473Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator *aggregator.ProviderAggregator
+2025-07-16T13:28:50.478Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2025-07-16T13:28:50.770Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2025-07-16T13:28:50.770Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *templates.UnhealthyNodeConfProvider
+2025-08-06T01:42:49.933Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator *aggregator.ProviderAggregator
+2025-08-06T01:42:49.935Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2025-08-06T01:42:50.143Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2025-08-06T01:42:50.143Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *templates.UnhealthyNodeConfProvider
+2025-08-14T08:04:24.192Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator *aggregator.ProviderAggregator
+2025-08-14T08:04:24.195Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2025-08-14T08:04:24.265Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2025-08-14T08:04:24.265Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *templates.UnhealthyNodeConfProvider
+2025-08-14T08:11:21.483Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - I have to go...
+2025-08-14T08:11:21.483Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Stopping server gracefully
+2025-08-14T08:11:21.484Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:279  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2025-08-14T08:11:21.484Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:279  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2025-08-14T08:11:21.484Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:227  ] [main                ] [] - accept tcp [::]:8082: use of closed network connection
+2025-08-14T08:11:21.484Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:302  ] [main                ] [] - close tcp [::]:8082: use of closed network connection
+2025-08-14T08:11:31.484Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:227  ] [main                ] [] - accept tcp 127.0.0.1:8049: use of closed network connection
+2025-08-14T08:11:31.485Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:227  ] [main                ] [] - accept tcp 127.0.0.1:8046: use of closed network connection
+2025-08-14T08:11:31.485Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:302  ] [main                ] [] - close tcp 127.0.0.1:8049: use of closed network connection
+2025-08-14T08:11:31.485Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:302  ] [main                ] [] - close tcp 127.0.0.1:8046: use of closed network connection
+2025-08-14T08:11:41.486Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Server stopped
+2025-08-14T08:22:38.918Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator *aggregator.ProviderAggregator
+2025-08-14T08:22:38.919Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2025-08-14T08:22:39.010Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2025-08-14T08:22:39.010Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *templates.ExternalRoutesProvider
+2025-08-14T08:22:39.010Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *templates.ExternalTraefikTLSConfProvider
+2025-08-14T08:22:39.010Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *templates.UnhealthyNodeConfProvider
+2025-08-14T13:20:29.557Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator *aggregator.ProviderAggregator
+2025-08-14T13:20:29.558Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2025-08-14T13:20:29.751Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2025-08-14T13:20:29.751Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *templates.ExternalRoutesProvider
+2025-08-14T13:20:29.751Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *templates.UnhealthyNodeConfProvider
+2025-08-14T13:20:29.751Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *templates.ExternalTraefikTLSConfProvider
+2025-08-14T13:35:05.385Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - I have to go...
+2025-08-14T13:35:05.385Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Stopping server gracefully
+2025-08-14T13:35:05.385Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:278  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2025-08-14T13:35:05.385Z [jfrou] [INFO ] [                ] [server_entrypoint_tcp.go:278  ] [main                ] [] - Waiting 10s for incoming requests to cease
+2025-08-14T13:35:05.386Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:226  ] [main                ] [] - accept tcp [::]:8082: use of closed network connection
+2025-08-14T13:35:05.386Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:301  ] [main                ] [] - close tcp [::]:8082: use of closed network connection
+2025-08-14T13:35:15.387Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:226  ] [main                ] [] - accept tcp 127.0.0.1:8046: use of closed network connection
+2025-08-14T13:35:15.387Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:301  ] [main                ] [] - close tcp 127.0.0.1:8046: use of closed network connection
+2025-08-14T13:35:15.387Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:226  ] [main                ] [] - accept tcp 127.0.0.1:8049: use of closed network connection
+2025-08-14T13:35:15.387Z [jfrou] [ERROR] [                ] [server_entrypoint_tcp.go:301  ] [main                ] [] - close tcp 127.0.0.1:8049: use of closed network connection
+2025-08-14T13:35:15.887Z [jfrou] [INFO ] [                ] [logger.go:90                  ] [main                ] [] - Server stopped
+2025-08-14T13:35:49.962Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator *aggregator.ProviderAggregator
+2025-08-14T13:35:49.962Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2025-08-14T13:35:50.094Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2025-08-14T13:35:50.094Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *templates.ExternalRoutesProvider
+2025-08-14T13:35:50.094Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *templates.UnhealthyNodeConfProvider
+2025-08-14T13:35:50.094Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *templates.ExternalTraefikTLSConfProvider

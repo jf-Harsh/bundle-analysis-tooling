@@ -1,0 +1,15 @@
+endpoints:
+    - excludedpaths: []
+      paths:
+        - match: /observability/(.*)
+          replace: /$1
+      port: 8036
+      protocol: 1
+healthcheckendpoint:
+    path: /api/v1/system/readiness
+    port: 8036
+nodeid: u999jfart002d.in.bundesbank.de
+nodestatusendpoint: null
+revision: 4ca526a94b
+serviceid: jfob@01fzay6s6x41bs1ytynknf084z
+version: 2.9.1

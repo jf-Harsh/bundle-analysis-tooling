@@ -1,0 +1,204 @@
+schema
+  @link(url: "https://specs.apollo.dev/link/v1.0")
+  @link(url: "https://specs.apollo.dev/join/v0.5", for: EXECUTION)
+  @link(url: "https://jfrog.com/onemodel/v1.0", import: ["@owner", "@experimental"])
+{
+  query: Query
+}
+
+"""
+Executable directive to specify the date format to use for Date fields in the query response
+"""
+directive @dateFormat(format: DateFormat! = ISO8601) on FIELD
+
+"""
+Schema directive, used to mark a type or a field as experimental, i.e. not part of the contract and can be removed / changed at any time.
+"""
+directive @experimental(
+  """Optional comment on the experimental schema item"""
+  comment: String
+) on SCALAR | OBJECT | FIELD_DEFINITION | ARGUMENT_DEFINITION | INTERFACE | UNION | ENUM | ENUM_VALUE | INPUT_OBJECT | INPUT_FIELD_DEFINITION
+
+directive @join__directive(graphs: [join__Graph!], name: String!, args: join__DirectiveArguments) repeatable on SCHEMA | OBJECT | INTERFACE | FIELD_DEFINITION
+
+directive @join__enumValue(graph: join__Graph!) repeatable on ENUM_VALUE
+
+directive @join__field(graph: join__Graph, requires: join__FieldSet, provides: join__FieldSet, type: String, external: Boolean, override: String, usedOverridden: Boolean, overrideLabel: String, contextArguments: [join__ContextArgument!]) repeatable on FIELD_DEFINITION | INPUT_FIELD_DEFINITION
+
+directive @join__graph(name: String!, url: String!) on ENUM_VALUE
+
+directive @join__implements(graph: join__Graph!, interface: String!) repeatable on OBJECT | INTERFACE
+
+directive @join__type(graph: join__Graph!, key: join__FieldSet, extension: Boolean! = false, resolvable: Boolean! = true, isInterfaceObject: Boolean! = false) repeatable on OBJECT | INTERFACE | UNION | ENUM | INPUT_OBJECT | SCALAR
+
+directive @join__unionMember(graph: join__Graph!, member: String!) repeatable on UNION
+
+directive @link(url: String, as: String, for: link__Purpose, import: [link__Import]) repeatable on SCHEMA
+
+"""
+Schema directive, used to specify the owner of an entity type. This directive must be used on all entity types, only by the owner of the entity, not by subgraph providers which extend the entity.
+Used for both documenting ownership and enforcing having a single owner.
+"""
+directive @owner(
+  """JFrog product which is the owner of the type"""
+  product: String!
+) on SCALAR | OBJECT | INTERFACE | UNION | ENUM | INPUT_OBJECT
+
+"""
+[Relay Cursor](https://relay.dev/graphql/connections.htm#sec-Cursor) type, an obfuscated string value representing a position during pagination.
+"""
+scalar Cursor
+  @join__type(graph: JFOMR)
+  @owner(product: "onemodel")
+
+"""
+Date type, string value, supports the @dateFormat directive, by default follows the [ISO-8601 standard](https://www.w3.org/TR/NOTE-datetime) with millisecond precision and timezone. For example: "1994-11-05T13:15:30.972Z"
+"""
+scalar Date
+  @join__type(graph: JFOMR)
+  @owner(product: "onemodel")
+
+"""Supported date formats for Date fields"""
+enum DateFormat
+  @join__type(graph: JFOMR)
+  @owner(product: "onemodel")
+{
+  """ISO-8601 - e.g. 1994-11-05T13:15:30.972Z"""
+  ISO8601 @join__enumValue(graph: JFOMR)
+
+  """ISO-8601-Date - e.g. 1994-11-05"""
+  ISO8601_DATE_ONLY @join__enumValue(graph: JFOMR)
+
+  """e.g. 05 Nov 1994"""
+  DD_MMM_YYYY @join__enumValue(graph: JFOMR)
+}
+
+"""
+Digest type, string value, in the format: "<alg>:<digest>"
+Example:
+sha256:68e656b251e67e8358bef8483ab0d51c6619f3e7a1a9f0e75838d41ff368f728
+"""
+scalar Digest
+  @join__type(graph: JFOMR)
+  @owner(product: "onemodel")
+
+input join__ContextArgument {
+  name: String!
+  type: String!
+  context: String!
+  selection: join__FieldValue!
+}
+
+scalar join__DirectiveArguments
+
+scalar join__FieldSet
+
+scalar join__FieldValue
+
+enum join__Graph {
+  JFOMR @join__graph(name: "jfomr", url: "http://localhost:8046/onemodel/api/v1/onemodel/graphql")
+}
+
+"""Arbitrary JSON object."""
+scalar JSON
+  @join__type(graph: JFOMR)
+  @owner(product: "onemodel")
+
+scalar link__Import
+
+enum link__Purpose {
+  """
+  `SECURITY` features provide metadata necessary to securely resolve fields.
+  """
+  SECURITY
+
+  """
+  `EXECUTION` features provide metadata necessary for operation execution.
+  """
+  EXECUTION
+}
+
+"""OneModel queries"""
+type OneModelQueries
+  @join__type(graph: JFOMR)
+  @owner(product: "jfomr")
+{
+  """Get system information about the OneModel service"""
+  getSystemInfo: OneModelSystemInfo
+}
+
+"""OneModel service System Information"""
+type OneModelSystemInfo
+  @join__type(graph: JFOMR)
+  @owner(product: "jfomr")
+{
+  """Health check response"""
+  ping: String
+
+  """Service version"""
+  version: String
+}
+
+"""
+Page information, part of results pagination, as defined by [Relay PageInfo](https://relay.dev/graphql/connections.htm#sec-undefined.PageInfo) value object type
+"""
+type PageInfo
+  @join__type(graph: JFOMR)
+  @owner(product: "onemodel")
+{
+  """When paginating forwards, are there more items?"""
+  hasNextPage: Boolean!
+
+  """When paginating backwards, are there more items?"""
+  hasPreviousPage: Boolean!
+
+  """
+  The cursor of the first item in the page.
+  Used to continue when paginating backwards (to use with `before`)
+  """
+  startCursor: Cursor
+
+  """
+  The cursor of the last item in the page.
+  Used to continue when paginating forwards (to use with `after`)
+  """
+  endCursor: Cursor
+}
+
+type Query
+  @join__type(graph: JFOMR)
+{
+  """OneModel queries"""
+  oneModel: OneModelQueries!
+}
+
+"""
+SHA-256 string formatted as HEX value (lowercase).
+Matches regular expression: "^[a-f0-9]{64}$".
+
+Example: "7ab0a6527f661c55b02b29fbb3b7d2a7313215c1140337b0cd980d06c3975a14" (SHA-256 of "JFrog")
+"""
+scalar Sha256
+  @join__type(graph: JFOMR)
+  @owner(product: "onemodel")
+
+"""
+Possible directions in which to order a sorted list of items when provided an `orderBy` argument
+"""
+enum SortOrderDirection
+  @join__type(graph: JFOMR)
+  @owner(product: "onemodel")
+{
+  """Ascending order"""
+  ASC @join__enumValue(graph: JFOMR)
+
+  """Descending order"""
+  DESC @join__enumValue(graph: JFOMR)
+}
+
+"""
+Unified Resource Identifier type, string value, follows the [RFC-3986](https://datatracker.ietf.org/doc/html/rfc3986) standard
+"""
+scalar URI
+  @join__type(graph: JFOMR)
+  @owner(product: "onemodel")

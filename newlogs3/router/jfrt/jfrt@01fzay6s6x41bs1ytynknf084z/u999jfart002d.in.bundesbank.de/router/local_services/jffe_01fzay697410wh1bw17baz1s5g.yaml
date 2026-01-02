@@ -1,0 +1,19 @@
+endpoints:
+    - excludedpaths: []
+      paths:
+        - match: /ui/(.*)
+          replace: /$1
+        - match: /ui
+          replace: /
+        - match: /
+          replace: ""
+      port: 8070
+      protocol: 1
+healthcheckendpoint:
+    path: /readiness
+    port: 8070
+nodeid: u999jfart002d.in.bundesbank.de
+nodestatusendpoint: null
+revision: ""
+serviceid: jffe@01fzay697410wh1bw17baz1s5g
+version: ""

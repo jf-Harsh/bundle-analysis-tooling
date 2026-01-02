@@ -1,0 +1,52 @@
+# This template is used to create routing rules for Traefik
+# References: https://doc.traefik.io/traefik/reference/dynamic-configuration/file/
+#             https://doc.traefik.io/traefik/routing/routers
+#             https://doc.traefik.io/traefik/routing/services
+
+[http.routers]
+
+  [http.routers.jfomr_01fzay697410wh1bw17baz1s5g-u999jfart002d_in_bundesbank_de-0-rule0-internal]
+    entryPoints = ["internal"]
+    service = "local-jfomr_01fzay697410wh1bw17baz1s5g-u999jfart002d_in_bundesbank_de-0"
+    priority = 714
+    rule = "PathPrefix(`/onemodel/`)"
+    middlewares = ["jfomr_01fzay697410wh1bw17baz1s5g-u999jfart002d_in_bundesbank_de-0-0-strip"]
+
+  [http.routers.jfomr_01fzay697410wh1bw17baz1s5g-u999jfart002d_in_bundesbank_de-0-rule0-external]
+    entryPoints = ["external"]
+    service = "local-jfomr_01fzay697410wh1bw17baz1s5g-u999jfart002d_in_bundesbank_de-0"
+    priority = 714
+    rule = "PathPrefix(`/onemodel/`)"
+    middlewares = ["jfomr_01fzay697410wh1bw17baz1s5g-u999jfart002d_in_bundesbank_de-0-0-strip","hotPath","mtls"]
+
+  [http.routers.jfomr_01fzay697410wh1bw17baz1s5g-u999jfart002d_in_bundesbank_de-1-rule0-internal]
+    entryPoints = ["internal"]
+    service = "local-jfomr_01fzay697410wh1bw17baz1s5g-u999jfart002d_in_bundesbank_de-1"
+    priority = 733
+    rule = "PathPrefix(`/com.jfrog.onemodelregistry.`)"
+
+  [http.routers.jfomr_01fzay697410wh1bw17baz1s5g-u999jfart002d_in_bundesbank_de-1-rule0-external]
+    entryPoints = ["external"]
+    service = "local-jfomr_01fzay697410wh1bw17baz1s5g-u999jfart002d_in_bundesbank_de-1"
+    priority = 733
+    rule = "PathPrefix(`/com.jfrog.onemodelregistry.`)"
+    middlewares = ["hotPath","mtls"]
+
+[http.services]
+
+  [http.services.local-jfomr_01fzay697410wh1bw17baz1s5g-u999jfart002d_in_bundesbank_de-0.loadBalancer]
+    passHostHeader = false
+
+    [[http.services.local-jfomr_01fzay697410wh1bw17baz1s5g-u999jfart002d_in_bundesbank_de-0.loadBalancer.servers]]
+      url = "http://localhost:8071"
+
+  [http.services.local-jfomr_01fzay697410wh1bw17baz1s5g-u999jfart002d_in_bundesbank_de-1.loadBalancer]
+    passHostHeader = false
+
+    [[http.services.local-jfomr_01fzay697410wh1bw17baz1s5g-u999jfart002d_in_bundesbank_de-1.loadBalancer.servers]]
+      url = "h2c://localhost:8072"
+
+[http.middlewares]
+
+  [http.middlewares.jfomr_01fzay697410wh1bw17baz1s5g-u999jfart002d_in_bundesbank_de-0-0-strip.stripPrefix]
+    prefixes = ["/onemodel/"]

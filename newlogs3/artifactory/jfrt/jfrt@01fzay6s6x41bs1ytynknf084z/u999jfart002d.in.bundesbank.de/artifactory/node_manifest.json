@@ -1,0 +1,14 @@
+{
+  "service_type" : "jfrt",
+  "microservice_name" : "artifactory",
+  "microservice_version" : "7.117.12",
+  "service_id" : "jfrt@01fzay6s6x41bs1ytynknf084z",
+  "node_id" : "u999jfart002d.in.bundesbank.de",
+  "bundle_info" : {
+    "id" : "gateway-1755178820823",
+    "name" : "gateway",
+    "description" : "",
+    "created" : "2025-08-14T15:40:20+02:00",
+    "status" : "in progress"
+  }
+}

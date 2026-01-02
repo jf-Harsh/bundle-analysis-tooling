@@ -1,0 +1,1114 @@
+2025-08-14T08:03:47.944Z [jfomr] [INFO ] [74145ddde123a9f5] [run.go:78                     ] [main                ] [                ] - JFrog OneModel Schema Registry (jfomr) service initialization started. Version: 1.39.3 (revision: 8c67d573ca, build date: 2025-05-02T14:59:55Z) PID: 12468 Home: /opt/jfrog/artifactory [lifecycle]
+2025-08-14T08:03:47.945Z [jfomr] [INFO ] [74145ddde123a9f5] [run.go:90                     ] [main                ] [                ] - Effective configuration:
+access.database.maxOpenConnections (File): 200
+access.jfconfig.enabled (Environment Variable: JF_ACCESS_JFCONFIG_ENABLED): true
+access.tomcat.connector.maxThreads (File): 100
+access.useexternaltopology (Environment Variable: JF_ACCESS_USEEXTERNALTOPOLOGY): true
+artifactory.database.maxOpenConnections (File): 200
+artifactory.pid (Environment Variable: JF_ARTIFACTORY_PID): /var/run/artifactory.pid
+artifactory.tomcat.connector.maxThreads (File): 400
+configVersion (File): 1
+evidence.enabled (Default Value): false
+metadata.database.maxOpenConnections (File): 200
+onemodel.accessClient.joinTimeoutMillis (Default Value): 360000
+onemodel.accessClient.pingTimeoutMillis (Default Value): 240000
+onemodel.artifactory.url (Environment Variable: JF_ONEMODEL_ARTIFACTORY_URL): http://localhost:8081
+onemodel.centralAccess.accessUrl (Default Value): 
+onemodel.centralAccess.retryBackoffInitialIntervalMillis (Default Value): 500
+onemodel.centralAccess.retryBackoffMaxElapsedTimeMillis (Default Value): 0
+onemodel.centralAccess.retryBackoffMaxIntervalMillis (Default Value): 3600000
+onemodel.centralAccess.revocableExpiryThresholdSeconds (Default Value): -1
+onemodel.composition.historyRetention.maxArchives (Default Value): 20
+onemodel.composition.incomingRegisterSubgraphBuffer (Default Value): 10
+onemodel.composition.outputSupergraphPath (Default Value): supergraph.graphqls
+onemodel.composition.roverPath (Default Value): rover
+onemodel.composition.scheduledTaskDelaySecs (Default Value): 30
+onemodel.composition.staticSubGraphs.jfctlg-custom.endpoint (Default Value): /catalog/api/v1/custom/graphql
+onemodel.composition.staticSubGraphs.jfctlg-custom.path (Default Value): schemas/graphql/jfctlg-custom/schema.graphqls
+onemodel.composition.staticSubGraphs.jfctlg-custom.skip (Default Value): true
+onemodel.composition.staticSubGraphs.jfctlg-custom.version (Default Value): 0.0.0-dev+static.omr
+onemodel.composition.staticSubGraphs.jfctlg-public.endpoint (Default Value): /catalog/api/v1/public/graphql
+onemodel.composition.staticSubGraphs.jfctlg-public.path (Default Value): schemas/graphql/jfctlg-public/schema.graphqls
+onemodel.composition.staticSubGraphs.jfctlg-public.skip (Default Value): true
+onemodel.composition.staticSubGraphs.jfctlg-public.version (Default Value): 0.0.0-dev+static.omr
+onemodel.composition.staticSubGraphs.jfevd.endpoint (Default Value): /evidence/api/v1/onemodel/graphql
+onemodel.composition.staticSubGraphs.jfevd.path (Default Value): schemas/graphql/jfevd/schema.graphqls
+onemodel.composition.staticSubGraphs.jfevd.skip (Default Value): true
+onemodel.composition.staticSubGraphs.jfevd.version (Default Value): 0.0.0-dev+static.omr
+onemodel.composition.staticSubGraphs.jfomr.endpoint (Default Value): /onemodel/api/v1/onemodel/graphql
+onemodel.composition.staticSubGraphs.jfomr.path (Default Value): schemas/graphql/onemodel/schema.graphqls
+onemodel.composition.staticSubGraphs.jfomr.version (Default Value): 1.39.3
+onemodel.composition.version (Default Value): 2.10.2
+onemodel.database.maxOpenConnections (Default Value): 5
+onemodel.graphql.apolloRouterPort (Default Value): 8073
+onemodel.graphql.compatibilityFilterEnabled (Default Value): true
+onemodel.graphql.queryCacheSize (Default Value): 5
+onemodel.graphql.queryParserTokenLimit (Default Value): 50
+onemodel.grpcPort (Default Value): 8072
+onemodel.healthCheck.apolloHealthCheckPort (Default Value): 8074
+onemodel.healthCheck.intervalSecs (Default Value): 15
+onemodel.listenAddr (Default Value): localhost
+onemodel.logging.application.caller (Default Value): false
+onemodel.logging.application.console (Default Value): true
+onemodel.logging.application.filePath (Default Value): onemodelregistry-service.log
+onemodel.logging.application.format (Default Value): jftext
+onemodel.logging.application.level (Default Value): info
+onemodel.logging.application.rotation.compress (Default Value): true
+onemodel.logging.application.rotation.intervalSecs (Default Value): 86400
+onemodel.logging.application.rotation.keepLastDecompressed (Default Value): 1
+onemodel.logging.application.rotation.maxAgeDays (Default Value): 365
+onemodel.logging.application.rotation.maxFiles (Default Value): 10
+onemodel.logging.application.rotation.maxSizeMb (Default Value): 25
+onemodel.logging.consoleLog.format (Default Value): jftext
+onemodel.logging.metrics.console (Default Value): false
+onemodel.logging.metrics.filePath (Default Value): onemodelregistry-metrics.log
+onemodel.logging.metrics.rotation.compress (Default Value): true
+onemodel.logging.metrics.rotation.intervalSecs (Default Value): 86400
+onemodel.logging.metrics.rotation.keepLastDecompressed (Default Value): 1
+onemodel.logging.metrics.rotation.maxAgeDays (Default Value): 365
+onemodel.logging.metrics.rotation.maxFiles (Default Value): 10
+onemodel.logging.metrics.rotation.maxSizeMb (Default Value): 25
+onemodel.logging.request.console (Default Value): false
+onemodel.logging.request.filePath (Default Value): onemodelregistry-request.log
+onemodel.logging.request.rotation.compress (Default Value): true
+onemodel.logging.request.rotation.intervalSecs (Default Value): 86400
+onemodel.logging.request.rotation.keepLastDecompressed (Default Value): 1
+onemodel.logging.request.rotation.maxAgeDays (Default Value): 365
+onemodel.logging.request.rotation.maxFiles (Default Value): 10
+onemodel.logging.request.rotation.maxSizeMb (Default Value): 25
+onemodel.metrics.enabled (Default Value): false
+onemodel.metrics.exclude (Default Value): []
+onemodel.metrics.intervalMillis (Default Value): 10000
+onemodel.metrics.logPeriodically (Default Value): true
+onemodel.metrics.tokenVerification.accessUrl (Default Value): 
+onemodel.metrics.tokenVerification.retryBackoffInitialIntervalMillis (Default Value): 500
+onemodel.metrics.tokenVerification.retryBackoffMaxElapsedTimeMillis (Default Value): 0
+onemodel.metrics.tokenVerification.retryBackoffMaxIntervalMillis (Default Value): 3600000
+onemodel.metrics.tokenVerification.revocableExpiryThresholdSeconds (Default Value): -1
+onemodel.metrics.triggers.enabled (Default Value): true
+onemodel.metrics.triggers.intervalMillis (Default Value): 20000
+onemodel.metrics.triggers.limit (Default Value): 1000000
+onemodel.port (Default Value): 8071
+onemodel.probes.liveness.failOnLongFailingReadiness.enabled (Default Value): true
+onemodel.probes.liveness.failOnLongFailingReadiness.failureDurationSecs (Default Value): 60
+onemodel.profiling.enabled (Default Value): false
+onemodel.storage.maxRecordsPerOwner (Default Value): 10
+onemodel.storage.supergraphsRetentionDays (Default Value): 365
+onemodel.supportBundle.nodeBundleAggregationTimeoutMillis (Default Value): 30000
+onemodel.supportBundle.serviceBundleAggregationTimeoutMillis (Default Value): 300000
+product.home (Environment Variable: JF_PRODUCT_HOME): /opt/jfrog/artifactory
+router.entrypoints.internalPort (Default Value): 8046
+router.topology.local.requiredservicetypes (Environment Variable: JF_ROUTER_TOPOLOGY_LOCAL_REQUIREDSERVICETYPES): jfrt,jfac,jfmd,jffe,jfob,jfcon,jfevt,jfevd,jfcfg,jftpl,jfomr
+shared.database.driver (File): oracle.jdbc.OracleDriver
+shared.database.password (File): *****
+shared.database.type (File): oracle
+shared.database.url (File): jdbc:oracle:thin:@(DESCRIPTION=(CONNECT_TIMEOUT=10)(RETRY_COUNT=3)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_909.inet.bundesbank.de)(PORT=1621))(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_913.inet.bundesbank.de)(PORT=1621)))(CONNECT_DATA=(SERVICE_NAME= ARTED_PRIM.WORLD)(SERVER=DEDICATED)))
+shared.database.username (File): ARTE1
+shared.env.LD_LIBRARY_PATH (File): /usr/lib64/
+shared.env.extraJavaOpts (File): -Xms4g -Xmx12g
+shared.group (File): artifactory
+shared.logging.consoleLog.format (Default Value): jftext
+shared.logging.enableJsonConsoleLogAppenders (Default Value): false
+shared.logging.rotation.compress (File): true
+shared.logging.rotation.maxFiles (File): 10
+shared.logging.rotation.maxSizeMb (File): 25
+shared.multiTenant.cellId (Default Value): 
+shared.multiTenant.enabled (Default Value): false
+shared.multiTenant.tenantRegistryClient.caCert (Default Value): 
+shared.multiTenant.tenantRegistryClient.cacheExpirationSecs (Default Value): 21600
+shared.multiTenant.tenantRegistryClient.clientCert (Default Value): 
+shared.multiTenant.tenantRegistryClient.clientCertKey (Default Value): *****
+shared.multiTenant.tenantRegistryClient.dialTimeoutSecs (Default Value): 10
+shared.multiTenant.tenantRegistryClient.endpoints (Default Value): []
+shared.multiTenant.tenantRegistryClient.password (Default Value): *****
+shared.multiTenant.tenantRegistryClient.pingCacheExpirationSecs (Default Value): 15
+shared.multiTenant.tenantRegistryClient.pingTimeoutSecs (Default Value): 1
+shared.multiTenant.tenantRegistryClient.requestTimeoutSecs (Default Value): 30
+shared.multiTenant.tenantRegistryClient.username (Default Value): 
+shared.newrelic.appName (Default Value): 
+shared.newrelic.distributedTracerEnabled (Default Value): true
+shared.newrelic.enableDebugLog (Default Value): false
+shared.newrelic.enabled (Default Value): false
+shared.newrelic.licenseKey (Default Value): *****
+shared.node.haEnabled (File): false
+shared.node.id (Environment Variable: JF_SHARED_NODE_ID): u999jfart002d.in.bundesbank.de
+shared.node.ip (Environment Variable: JF_SHARED_NODE_IP): 10.204.188.11
+shared.node.name (Environment Variable: JF_SHARED_NODE_NAME): u999jfart002d
+shared.node.primary (File): true
+shared.runtime.isSaas (Default Value): false
+shared.security.ExposeApplicationHeaders (Default Value): false
+shared.security.bootstrapKeysReadTimeoutSecs (Default Value): 120
+shared.security.joinKeyFile (Default Value): etc/security/join.key
+shared.security.masterKeyFile (Default Value): etc/security/master.key
+shared.user (File): artifactory
+system.yaml (Environment Variable: JF_SYSTEM_YAML): /opt/jfrog/artifactory/var/etc/system.yaml [lifecycle]
+2025-08-14T08:04:25.005Z [jfomr] [INFO ] [74145ddde123a9f5] [run.go:100                    ] [main                ] [                ] - Service ID: jfomr@01fzay697410wh1bw17baz1s5g [lifecycle]
+2025-08-14T08:04:25.005Z [jfomr] [INFO ] [74145ddde123a9f5] [run.go:101                    ] [main                ] [                ] - Node ID: u999jfart002d.in.bundesbank.de [lifecycle]
+2025-08-14T08:04:25.005Z [jfomr] [INFO ] [74145ddde123a9f5] [store.go:24                   ] [main                ] [                ] - Using JFrog Platform Config as datastore [datastore]
+2025-08-14T08:04:25.005Z [jfomr] [INFO ] [74145ddde123a9f5] [store.go:32                   ] [main                ] [                ] - Waiting for Access Client to be ready... [datastore]
+2025-08-14T08:04:25.071Z [jfomr] [INFO ] [74145ddde123a9f5] [rover.go:121                  ] [main                ] [                ] - Using Apollo Federation version: 2.10.2 [rover]
+2025-08-14T08:04:25.071Z [jfomr] [INFO ] [74145ddde123a9f5] [rover.go:125                  ] [main                ] [                ] - Using Apollo Rover CLI version: Rover 0.28.1 [rover]
+2025-08-14T08:04:25.071Z [jfomr] [INFO ] [74145ddde123a9f5] [service.go:106                ] [main                ] [                ] - Starting health check background job... [system]
+2025-08-14T08:04:25.072Z [jfomr] [INFO ] [74145ddde123a9f5] [join.go:33                    ] [main                ] [                ] - Joining Access on port 8046 [access_client]
+2025-08-14T08:04:25.132Z [jfomr] [INFO ] [74145ddde123a9f5] [join_executor.go:178          ] [main                ] [                ] - Cluster join: Successfully joined the cluster [access_client]
+2025-08-14T08:04:25.132Z [jfomr] [INFO ] [74145ddde123a9f5] [join_executor.go:190          ] [main                ] [                ] - Cluster join: executing Router register at: localhost:8046 for service id jfomr@01fzay697410wh1bw17baz1s5g [access_client]
+2025-08-14T08:04:25.137Z [jfomr] [INFO ] [74145ddde123a9f5] [run.go:165                    ] [main                ] [                ] - Waiting for datastore to be ready... [lifecycle]
+2025-08-14T08:04:25.137Z [jfomr] [INFO ] [74145ddde123a9f5] [store.go:38                   ] [main                ] [                ] - Access Client is ready... [datastore]
+2025-08-14T08:04:25.137Z [jfomr] [INFO ] [74145ddde123a9f5] [store.go:275                  ] [main                ] [                ] - Initializing JFrog Platform Config store... [datastore]
+2025-08-14T08:04:25.164Z [jfomr] [INFO ] [74145ddde123a9f5] [store.go:300                  ] [main                ] [                ] - JFrog Platform Config store initialized [datastore]
+2025-08-14T08:04:25.164Z [jfomr] [INFO ] [74145ddde123a9f5] [run.go:170                    ] [main                ] [                ] - Datastore is ready [lifecycle]
+2025-08-14T08:04:25.164Z [jfomr] [INFO ] [74145ddde123a9f5] [run.go:213                    ] [main                ] [                ] - Registering embedded subgraph schemas... [lifecycle]
+2025-08-14T08:04:25.164Z [jfomr] [INFO ] [74145ddde123a9f5] [run.go:216                    ] [main                ] [                ] - Registration of the static subgraph for "jfevd" is skipped [lifecycle]
+2025-08-14T08:04:25.164Z [jfomr] [INFO ] [74145ddde123a9f5] [run.go:219                    ] [main                ] [                ] - Registration of the static subgraph for "jfomr" is enabled [lifecycle]
+2025-08-14T08:04:25.164Z [jfomr] [INFO ] [74145ddde123a9f5] [handler.go:42                 ] [main                ] [                ] - Received subgraph from jfomr with version 1.39.3 (length: 4266) [subgraph_grpc]
+2025-08-14T08:04:25.164Z [jfomr] [INFO ] [74145ddde123a9f5] [dedicated_grpc_connection.go:2] [main                ] [                ] - Creating a new dedicated gRPC connection for localhost:8046 [access_client]
+2025-08-14T08:04:25.165Z [jfomr] [INFO ] [74145ddde123a9f5] [platform_config_stream.go:49  ] [main                ] [                ] - Starting Platform Config stream connect goroutine [access_client]
+2025-08-14T08:04:25.165Z [jfomr] [INFO ] [74145ddde123a9f5] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access_client]
+2025-08-14T08:04:25.169Z [jfomr] [ERROR] [74145ddde123a9f5] [platform_config_service.go:183] [main                ] [                ] - Could not retrieve config for key 'jfrog.onemodel.registry.subgraphs': rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T08:04:25.177Z [jfomr] [INFO ] [74145ddde123a9f5] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T08:04:25.177Z [jfomr] [INFO ] [74145ddde123a9f5] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T08:04:25.177Z [jfomr] [INFO ] [74145ddde123a9f5] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access_client]
+2025-08-14T08:04:25.177Z [jfomr] [INFO ] [74145ddde123a9f5] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access_client]
+2025-08-14T08:04:25.201Z [jfomr] [INFO ] [74145ddde123a9f5] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T08:04:25.202Z [jfomr] [INFO ] [74145ddde123a9f5] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T08:04:25.202Z [jfomr] [INFO ] [74145ddde123a9f5] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access_client]
+2025-08-14T08:04:25.202Z [jfomr] [INFO ] [74145ddde123a9f5] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access_client]
+2025-08-14T08:04:25.244Z [jfomr] [INFO ] [74145ddde123a9f5] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T08:04:25.244Z [jfomr] [INFO ] [74145ddde123a9f5] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T08:04:25.244Z [jfomr] [INFO ] [74145ddde123a9f5] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access_client]
+2025-08-14T08:04:25.244Z [jfomr] [INFO ] [74145ddde123a9f5] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access_client]
+2025-08-14T08:04:25.326Z [jfomr] [INFO ] [74145ddde123a9f5] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T08:04:25.326Z [jfomr] [INFO ] [74145ddde123a9f5] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T08:04:25.326Z [jfomr] [INFO ] [74145ddde123a9f5] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access_client]
+2025-08-14T08:04:25.326Z [jfomr] [INFO ] [74145ddde123a9f5] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access_client]
+2025-08-14T08:04:25.488Z [jfomr] [INFO ] [74145ddde123a9f5] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T08:04:25.488Z [jfomr] [INFO ] [74145ddde123a9f5] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T08:04:25.488Z [jfomr] [INFO ] [74145ddde123a9f5] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access_client]
+2025-08-14T08:04:25.489Z [jfomr] [INFO ] [74145ddde123a9f5] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access_client]
+2025-08-14T08:04:25.821Z [jfomr] [INFO ] [74145ddde123a9f5] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T08:04:25.821Z [jfomr] [INFO ] [74145ddde123a9f5] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T08:04:25.821Z [jfomr] [INFO ] [74145ddde123a9f5] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access_client]
+2025-08-14T08:04:25.821Z [jfomr] [INFO ] [74145ddde123a9f5] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access_client]
+2025-08-14T08:04:27.996Z [jfomr] [INFO ] [74145ddde123a9f5] [platform_config_stream.go:105 ] [main                ] [                ] - Starting Platform Config stream Recv loop [access_client]
+2025-08-14T08:04:27.996Z [jfomr] [INFO ] [74145ddde123a9f5] [platform_config_stream.go:137 ] [main                ] [                ] - Starting Platform Config checkKeepAlive [access_client]
+2025-08-14T08:04:28.858Z [jfomr] [INFO ] [74145ddde123a9f5] [run.go:216                    ] [main                ] [                ] - Registration of the static subgraph for "jfctlg-custom" is skipped [lifecycle]
+2025-08-14T08:04:28.858Z [jfomr] [INFO ] [74145ddde123a9f5] [run.go:216                    ] [main                ] [                ] - Registration of the static subgraph for "jfctlg-public" is skipped [lifecycle]
+2025-08-14T08:04:28.858Z [jfomr] [INFO ] [74145ddde123a9f5] [service.go:83                 ] [main                ] [                ] - Storage cleanup started [lifecycle]
+2025-08-14T08:04:28.908Z [jfomr] [INFO ] [74145ddde123a9f5] [service.go:85                 ] [main                ] [                ] - Storage cleanup finished [lifecycle]
+2025-08-14T08:04:28.908Z [jfomr] [INFO ] [74145ddde123a9f5] [run.go:183                    ] [main                ] [                ] - JFrog OneModel Schema Registry (jfomr) service initialization completed in 40.974 seconds. REST API available on 127.0.0.1:8071. GRPC API available on 127.0.0.1:8072. [lifecycle]
+2025-08-14T08:04:28.908Z [jfomr] [INFO ] [74145ddde123a9f5] [worker.go:75                  ] [main                ] [                ] - Composition worker started [composition]
+2025-08-14T08:04:28.908Z [jfomr] [INFO ] [74145ddde123a9f5] [worker.go:268                 ] [main                ] [                ] - Triggering initial composition [composition]
+2025-08-14T08:04:28.908Z [jfomr] [INFO ] [74145ddde123a9f5] [worker.go:273                 ] [main                ] [                ] - Initial composition triggered [composition]
+2025-08-14T08:04:28.908Z [jfomr] [INFO ] [74145ddde123a9f5] [worker.go:132                 ] [main                ] [                ] - Composition will be run with: [jfomr_1.39.3] [composition] [trigger][manual] [trigger_id][initial]
+2025-08-14T08:04:28.908Z [jfomr] [INFO ] [74145ddde123a9f5] [worker.go:211                 ] [main                ] [                ] - Preparing temporary working dir: /opt/jfrog/artifactory/var/work/onemodel/composition-1755158668908-1052734651 [composition] [trigger][manual] [trigger_id][initial]
+2025-08-14T08:04:28.909Z [jfomr] [INFO ] [74145ddde123a9f5] [rover.go:63                   ] [main                ] [                ] - Running Apollo Rover [rover] [trigger][manual] [trigger_id][initial]
+2025-08-14T08:04:29.411Z [jfomr] [INFO ] [74145ddde123a9f5] [rover.go:152                  ] [main                ] [                ] - Rover stdout: <none> [rover] [trigger][manual] [trigger_id][initial]
+2025-08-14T08:04:29.411Z [jfomr] [INFO ] [74145ddde123a9f5] [rover.go:155                  ] [main                ] [                ] - Rover stderr:
+   INFO rover_std::fs: reading /opt/jfrog/artifactory/var/work/onemodel/apollo/machine.txt from disk
+    at crates/rover-std/src/fs.rs:34
+
+   INFO rover::utils::telemetry: Telemetry has been disabled.
+    at src/utils/telemetry.rs:87
+
+merging supergraph schema files
+   INFO rover_std::fs: reading /opt/jfrog/artifactory/var/work/onemodel/composition-1755158668908-1052734651/__rover.yaml from disk
+    at crates/rover-std/src/fs.rs:34
+
+supergraph config loaded successfully
+   INFO rover_std::fs: reading /opt/jfrog/artifactory/var/work/onemodel/composition-1755158668908-1052734651/jfomr.graphqls from disk
+    at crates/rover-std/src/fs.rs:34
+
+   INFO rover_std::fs: checking existence of parent path in '/opt/jfrog/artifactory/var/work/onemodel/apollo/elv2_license.toml'
+    at crates/rover-std/src/fs.rs:59
+
+   INFO rover_std::fs: writing /opt/jfrog/artifactory/var/work/onemodel/apollo/elv2_license.toml to disk
+    at crates/rover-std/src/fs.rs:90
+
+   INFO rover_std::fs: reading /opt/jfrog/artifactory/var/work/onemodel/composition-1755158668908-1052734651/jfomr.graphqls from disk
+    at crates/rover-std/src/fs.rs:34
+
+   INFO rover_std::fs: checking existence of parent path in '/opt/jfrog/artifactory/var/work/onemodel/composition-1755158668908-1052734651/.tmpfHI358/supergraph.yaml'
+    at crates/rover-std/src/fs.rs:59
+
+   INFO rover_std::fs: creating /opt/jfrog/artifactory/var/work/onemodel/composition-1755158668908-1052734651/.tmpfHI358 directory
+    at crates/rover-std/src/fs.rs:130
+
+   INFO rover_std::fs: writing /opt/jfrog/artifactory/var/work/onemodel/composition-1755158668908-1052734651/.tmpfHI358/supergraph.yaml to disk
+    at crates/rover-std/src/fs.rs:90
+
+   INFO rover_std::fs: checking existence of parent path in '/opt/jfrog/artifactory/var/work/onemodel/composition-1755158668908-1052734651/__supergraph.graphqls'
+    at crates/rover-std/src/fs.rs:59
+
+   INFO rover_std::fs: writing /opt/jfrog/artifactory/var/work/onemodel/composition-1755158668908-1052734651/__supergraph.graphqls to disk
+    at crates/rover-std/src/fs.rs:90
+
+HINT: Enum type "SortOrderDirection" is defined but unused. It will be included in the supergraph with all the values appearing in any subgraph ("as if" it was only used as an output type).
+
+   INFO rover_std::fs: checking existence of parent path in '/opt/jfrog/artifactory/var/work/onemodel/composition-1755158668908-1052734651/__supergraph.graphqls'
+    at crates/rover-std/src/fs.rs:59
+
+   INFO rover_std::fs: writing /opt/jfrog/artifactory/var/work/onemodel/composition-1755158668908-1052734651/__supergraph.graphqls to disk
+    at crates/rover-std/src/fs.rs:90
+
+Supergraph Schema was printed to /opt/jfrog/artifactory/var/work/onemodel/composition-1755158668908-1052734651/__supergraph.graphqls
+ [rover] [trigger][manual] [trigger_id][initial]
+2025-08-14T08:04:29.424Z [jfomr] [INFO ] [74145ddde123a9f5] [worker.go:161                 ] [main                ] [                ] - Successfully generated supergraph 4395c8394374b42e2830ff7a5d4dedcd2dc769df3b957ae58e6b2cbc7f21664b with Apollo Federation version 2.10.2 [composition] [trigger][manual] [trigger_id][initial]
+2025-08-14T08:04:29.469Z [jfomr] [INFO ] [74145ddde123a9f5] [worker.go:240                 ] [main                ] [                ] - Publishing new supergraph [composition] [trigger][manual] [trigger_id][initial]
+2025-08-14T08:11:21.804Z [jfomr] [INFO ] [74145ddde123a9f5] [wait_for_signal.go:22         ] [main                ] [                ] - Got OS signal: terminated [lifecycle]
+2025-08-14T08:11:21.804Z [jfomr] [INFO ] [74145ddde123a9f5] [shutdown.go:16                ] [main                ] [                ] - Stopping service... [lifecycle]
+2025-08-14T08:11:21.804Z [jfomr] [INFO ] [74145ddde123a9f5] [app.go:78                     ] [main                ] [                ] - Waiting for Web servers to stop gracefully... [app_server]
+2025-08-14T08:11:21.804Z [jfomr] [INFO ] [74145ddde123a9f5] [server.go:107                 ] [main                ] [                ] - Stopping REST server... [rest_server]
+2025-08-14T08:11:21.804Z [jfomr] [INFO ] [74145ddde123a9f5] [server.go:83                  ] [main                ] [                ] - Stopping GRPC server... [grpc_server]
+2025-08-14T08:11:21.804Z [jfomr] [INFO ] [74145ddde123a9f5] [server.go:96                  ] [main                ] [                ] - Stopped to serve REST [rest_server]
+2025-08-14T08:11:21.804Z [jfomr] [INFO ] [74145ddde123a9f5] [app.go:59                     ] [main                ] [                ] - Goroutine 'REST server' exited [app_server]
+2025-08-14T08:11:21.804Z [jfomr] [INFO ] [74145ddde123a9f5] [server.go:85                  ] [main                ] [                ] - GRPC server stopped [grpc_server]
+2025-08-14T08:11:21.804Z [jfomr] [INFO ] [74145ddde123a9f5] [app.go:63                     ] [main                ] [                ] - Goroutine 'gRPC server' exited [app_server]
+2025-08-14T08:11:21.804Z [jfomr] [INFO ] [74145ddde123a9f5] [server.go:112                 ] [main                ] [                ] - REST server stopped [rest_server]
+2025-08-14T08:11:21.804Z [jfomr] [INFO ] [74145ddde123a9f5] [app.go:80                     ] [main                ] [                ] - Web servers stopped [app_server]
+2025-08-14T08:11:21.804Z [jfomr] [INFO ] [74145ddde123a9f5] [worker.go:279                 ] [main                ] [                ] - Stopping composition worker [composition]
+2025-08-14T08:11:21.804Z [jfomr] [INFO ] [74145ddde123a9f5] [shutdown.go:22                ] [main                ] [                ] - Subgraph Service stopped [lifecycle]
+2025-08-14T08:11:21.804Z [jfomr] [INFO ] [74145ddde123a9f5] [service.go:126                ] [main                ] [                ] - Health check background job stopped [system]
+2025-08-14T08:11:21.804Z [jfomr] [INFO ] [74145ddde123a9f5] [shutdown.go:25                ] [main                ] [                ] - System Service stopped [lifecycle]
+2025-08-14T08:11:21.804Z [jfomr] [INFO ] [74145ddde123a9f5] [worker.go:83                  ] [main                ] [                ] - Composition worker stopped [composition]
+2025-08-14T08:11:21.805Z [jfomr] [INFO ] [74145ddde123a9f5] [shutdown.go:33                ] [main                ] [                ] - Metrics service stopped [lifecycle]
+2025-08-14T08:11:21.805Z [jfomr] [INFO ] [74145ddde123a9f5] [shutdown.go:53                ] [main                ] [                ] - NewRelic Agent stopped [lifecycle]
+2025-08-14T08:11:21.805Z [jfomr] [INFO ] [74145ddde123a9f5] [shutdown.go:36                ] [main                ] [                ] - Datastore connection closed [lifecycle]
+2025-08-14T08:11:21.805Z [jfomr] [INFO ] [74145ddde123a9f5] [shutdown.go:64                ] [main                ] [                ] - Tracer stopped [lifecycle]
+2025-08-14T08:11:21.807Z [jfomr] [INFO ] [74145ddde123a9f5] [platform_config_stream.go:144 ] [main                ] [                ] - Stopping Platform Config checkKeepAlive [access_client]
+2025-08-14T08:11:21.807Z [jfomr] [INFO ] [74145ddde123a9f5] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Canceled desc = context canceled [access_client]
+2025-08-14T08:11:21.808Z [jfomr] [INFO ] [74145ddde123a9f5] [platform_config_stream.go:115 ] [main                ] [                ] - Platform Config stream Recv loop stopped [access_client]
+2025-08-14T08:11:21.808Z [jfomr] [INFO ] [74145ddde123a9f5] [platform_config_stream.go:88  ] [main                ] [                ] - Platform Config stream disconnected [access_client]
+2025-08-14T08:11:21.808Z [jfomr] [INFO ] [74145ddde123a9f5] [shutdown.go:43                ] [main                ] [                ] - Access Client provider stopped [lifecycle]
+2025-08-14T08:11:21.808Z [jfomr] [INFO ] [74145ddde123a9f5] [platform_config_stream.go:54  ] [main                ] [                ] - Platform Config stream connect goroutine stopped [access_client]
+2025-08-14T08:11:21.808Z [jfomr] [INFO ] [74145ddde123a9f5] [shutdown.go:77                ] [main                ] [                ] - Service stopped [lifecycle]
+2025-08-14T08:22:27.545Z [jfomr] [INFO ] [62262112f2d42320] [run.go:78                     ] [main                ] [                ] - JFrog OneModel Schema Registry (jfomr) service initialization started. Version: 1.52.2 (revision: 9c2609de41, build date: 2025-07-02T10:15:08Z) PID: 44787 Home: /opt/jfrog/artifactory [lifecycle]
+2025-08-14T08:22:27.547Z [jfomr] [INFO ] [62262112f2d42320] [run.go:90                     ] [main                ] [                ] - Effective configuration:
+access.database.maxOpenConnections (File): 200
+access.jfconfig.enabled (Environment Variable: JF_ACCESS_JFCONFIG_ENABLED): true
+access.tomcat.connector.maxThreads (File): 100
+access.useexternaltopology (Environment Variable: JF_ACCESS_USEEXTERNALTOPOLOGY): true
+artifactory.database.maxOpenConnections (File): 200
+artifactory.pid (Environment Variable: JF_ARTIFACTORY_PID): /var/run/artifactory.pid
+artifactory.tomcat.connector.maxThreads (File): 400
+configVersion (File): 1
+evidence.enabled (Default Value): false
+metadata.database.maxOpenConnections (File): 200
+onemodel.accessClient.joinTimeoutMillis (Default Value): 360000
+onemodel.accessClient.pingTimeoutMillis (Default Value): 240000
+onemodel.artifactory.url (Environment Variable: JF_ONEMODEL_ARTIFACTORY_URL): http://localhost:8081
+onemodel.centralAccess.accessUrl (Default Value): 
+onemodel.centralAccess.retryBackoffInitialIntervalMillis (Default Value): 500
+onemodel.centralAccess.retryBackoffMaxElapsedTimeMillis (Default Value): 0
+onemodel.centralAccess.retryBackoffMaxIntervalMillis (Default Value): 3600000
+onemodel.centralAccess.revocableExpiryThresholdSeconds (Default Value): -1
+onemodel.composition.historyRetention.maxArchives (Default Value): 20
+onemodel.composition.incomingRegisterSubgraphBuffer (Default Value): 10
+onemodel.composition.outputSupergraphPath (Default Value): supergraph.graphqls
+onemodel.composition.roverPath (Default Value): rover
+onemodel.composition.scheduledTaskDelaySecs (Default Value): 30
+onemodel.composition.staticSubGraphs.jfctlg-custom.endpoint (Default Value): /catalog/api/v1/custom/graphql
+onemodel.composition.staticSubGraphs.jfctlg-custom.path (Default Value): schemas/graphql/jfctlg-custom/schema.graphqls
+onemodel.composition.staticSubGraphs.jfctlg-custom.skip (Default Value): true
+onemodel.composition.staticSubGraphs.jfctlg-custom.version (Default Value): 0.0.0-dev+static.omr
+onemodel.composition.staticSubGraphs.jfctlg-public.endpoint (Default Value): /catalog/api/v1/public/graphql
+onemodel.composition.staticSubGraphs.jfctlg-public.path (Default Value): schemas/graphql/jfctlg-public/schema.graphqls
+onemodel.composition.staticSubGraphs.jfctlg-public.skip (Default Value): true
+onemodel.composition.staticSubGraphs.jfctlg-public.version (Default Value): 0.0.0-dev+static.omr
+onemodel.composition.staticSubGraphs.jfevd.endpoint (Default Value): /evidence/api/v1/onemodel/graphql
+onemodel.composition.staticSubGraphs.jfevd.path (Default Value): schemas/graphql/jfevd/schema.graphqls
+onemodel.composition.staticSubGraphs.jfevd.skip (Default Value): true
+onemodel.composition.staticSubGraphs.jfevd.version (Default Value): 0.0.0-dev+static.omr
+onemodel.composition.staticSubGraphs.jfomr.endpoint (Default Value): /onemodel/api/v1/onemodel/graphql
+onemodel.composition.staticSubGraphs.jfomr.path (Default Value): schemas/graphql/onemodel/schema.graphqls
+onemodel.composition.staticSubGraphs.jfomr.version (Default Value): 1.52.2
+onemodel.composition.version (Default Value): 2.11.0
+onemodel.database.maxOpenConnections (Default Value): 5
+onemodel.graphql.apolloRouterPort (Default Value): 8073
+onemodel.graphql.compatibilityFilterEnabled (Default Value): true
+onemodel.graphql.queryCacheSize (Default Value): 5
+onemodel.graphql.queryParserTokenLimit (Default Value): 50
+onemodel.grpcPort (Default Value): 8072
+onemodel.healthCheck.apolloHealthCheckPort (Default Value): 8074
+onemodel.healthCheck.intervalSecs (Default Value): 15
+onemodel.listenAddr (Default Value): localhost
+onemodel.logging.application.caller (Default Value): false
+onemodel.logging.application.console (Default Value): true
+onemodel.logging.application.filePath (Default Value): onemodelregistry-service.log
+onemodel.logging.application.format (Default Value): jftext
+onemodel.logging.application.level (Default Value): info
+onemodel.logging.application.rotation.compress (Default Value): true
+onemodel.logging.application.rotation.intervalSecs (Default Value): 86400
+onemodel.logging.application.rotation.keepLastDecompressed (Default Value): 1
+onemodel.logging.application.rotation.maxAgeDays (Default Value): 365
+onemodel.logging.application.rotation.maxFiles (Default Value): 10
+onemodel.logging.application.rotation.maxSizeMb (Default Value): 25
+onemodel.logging.consoleLog.format (Default Value): jftext
+onemodel.logging.metrics.console (Default Value): false
+onemodel.logging.metrics.filePath (Default Value): onemodelregistry-metrics.log
+onemodel.logging.metrics.rotation.compress (Default Value): true
+onemodel.logging.metrics.rotation.intervalSecs (Default Value): 86400
+onemodel.logging.metrics.rotation.keepLastDecompressed (Default Value): 1
+onemodel.logging.metrics.rotation.maxAgeDays (Default Value): 365
+onemodel.logging.metrics.rotation.maxFiles (Default Value): 10
+onemodel.logging.metrics.rotation.maxSizeMb (Default Value): 25
+onemodel.logging.request.console (Default Value): false
+onemodel.logging.request.filePath (Default Value): onemodelregistry-request.log
+onemodel.logging.request.rotation.compress (Default Value): true
+onemodel.logging.request.rotation.intervalSecs (Default Value): 86400
+onemodel.logging.request.rotation.keepLastDecompressed (Default Value): 1
+onemodel.logging.request.rotation.maxAgeDays (Default Value): 365
+onemodel.logging.request.rotation.maxFiles (Default Value): 10
+onemodel.logging.request.rotation.maxSizeMb (Default Value): 25
+onemodel.metrics.enabled (Default Value): false
+onemodel.metrics.exclude (Default Value): []
+onemodel.metrics.intervalMillis (Default Value): 10000
+onemodel.metrics.logPeriodically (Default Value): true
+onemodel.metrics.tokenVerification.accessUrl (Default Value): 
+onemodel.metrics.tokenVerification.retryBackoffInitialIntervalMillis (Default Value): 500
+onemodel.metrics.tokenVerification.retryBackoffMaxElapsedTimeMillis (Default Value): 0
+onemodel.metrics.tokenVerification.retryBackoffMaxIntervalMillis (Default Value): 3600000
+onemodel.metrics.tokenVerification.revocableExpiryThresholdSeconds (Default Value): -1
+onemodel.metrics.triggers.enabled (Default Value): true
+onemodel.metrics.triggers.intervalMillis (Default Value): 20000
+onemodel.metrics.triggers.limit (Default Value): 1000000
+onemodel.port (Default Value): 8071
+onemodel.probes.liveness.failOnLongFailingReadiness.enabled (Default Value): true
+onemodel.probes.liveness.failOnLongFailingReadiness.failureDurationSecs (Default Value): 60
+onemodel.profiling.enabled (Default Value): false
+onemodel.storage.maxRecordsPerOwner (Default Value): 10
+onemodel.storage.supergraphsRetentionDays (Default Value): 365
+onemodel.supportBundle.nodeBundleAggregationTimeoutMillis (Default Value): 30000
+onemodel.supportBundle.serviceBundleAggregationTimeoutMillis (Default Value): 300000
+product.home (Environment Variable: JF_PRODUCT_HOME): /opt/jfrog/artifactory
+router.entrypoints.internalPort (Default Value): 8046
+router.topology.local.requiredservicetypes (Environment Variable: JF_ROUTER_TOPOLOGY_LOCAL_REQUIREDSERVICETYPES): jfrt,jfac,jfmd,jffe,jfob,jfcon,jfevt,jfevd,jfcfg,jftpl,jfomr
+shared.database.driver (File): oracle.jdbc.OracleDriver
+shared.database.password (File): *****
+shared.database.type (File): oracle
+shared.database.url (File): jdbc:oracle:thin:@(DESCRIPTION=(CONNECT_TIMEOUT=10)(RETRY_COUNT=3)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_909.inet.bundesbank.de)(PORT=1621))(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_913.inet.bundesbank.de)(PORT=1621)))(CONNECT_DATA=(SERVICE_NAME= ARTED_PRIM.WORLD)(SERVER=DEDICATED)))
+shared.database.username (File): ARTE1
+shared.env.LD_LIBRARY_PATH (File): /usr/lib64/
+shared.env.extraJavaOpts (File): -Xms4g -Xmx12g
+shared.group (File): artifactory
+shared.logging.consoleLog.format (Default Value): jftext
+shared.logging.enableJsonConsoleLogAppenders (Default Value): false
+shared.logging.rotation.compress (File): true
+shared.logging.rotation.maxFiles (File): 10
+shared.logging.rotation.maxSizeMb (File): 25
+shared.multiTenant.cellId (Default Value): 
+shared.multiTenant.enabled (Default Value): false
+shared.multiTenant.tenantRegistryClient.caCert (Default Value): 
+shared.multiTenant.tenantRegistryClient.cacheExpirationSecs (Default Value): 21600
+shared.multiTenant.tenantRegistryClient.clientCert (Default Value): 
+shared.multiTenant.tenantRegistryClient.clientCertKey (Default Value): *****
+shared.multiTenant.tenantRegistryClient.dialTimeoutSecs (Default Value): 10
+shared.multiTenant.tenantRegistryClient.endpoints (Default Value): []
+shared.multiTenant.tenantRegistryClient.password (Default Value): *****
+shared.multiTenant.tenantRegistryClient.pingCacheExpirationSecs (Default Value): 15
+shared.multiTenant.tenantRegistryClient.pingTimeoutSecs (Default Value): 1
+shared.multiTenant.tenantRegistryClient.requestTimeoutSecs (Default Value): 30
+shared.multiTenant.tenantRegistryClient.username (Default Value): 
+shared.newrelic.appName (Default Value): 
+shared.newrelic.distributedTracerEnabled (Default Value): true
+shared.newrelic.enableDebugLog (Default Value): false
+shared.newrelic.enabled (Default Value): false
+shared.newrelic.licenseKey (Default Value): *****
+shared.node.haEnabled (File): false
+shared.node.id (Environment Variable: JF_SHARED_NODE_ID): u999jfart002d.in.bundesbank.de
+shared.node.ip (Environment Variable: JF_SHARED_NODE_IP): 10.204.188.11
+shared.node.name (Environment Variable: JF_SHARED_NODE_NAME): u999jfart002d
+shared.node.primary (File): true
+shared.runtime.isSaas (Default Value): false
+shared.security.ExposeApplicationHeaders (Default Value): false
+shared.security.bootstrapKeysReadTimeoutSecs (Default Value): 120
+shared.security.joinKeyFile (Default Value): etc/security/join.key
+shared.security.masterKeyFile (Default Value): etc/security/master.key
+shared.user (File): artifactory
+system.yaml (Environment Variable: JF_SYSTEM_YAML): /opt/jfrog/artifactory/var/etc/system.yaml [lifecycle]
+2025-08-14T08:22:39.596Z [jfomr] [INFO ] [62262112f2d42320] [run.go:100                    ] [main                ] [                ] - Service ID: jfomr@01fzay697410wh1bw17baz1s5g [lifecycle]
+2025-08-14T08:22:39.596Z [jfomr] [INFO ] [62262112f2d42320] [run.go:101                    ] [main                ] [                ] - Node ID: u999jfart002d.in.bundesbank.de [lifecycle]
+2025-08-14T08:22:39.596Z [jfomr] [INFO ] [62262112f2d42320] [store.go:24                   ] [main                ] [                ] - Using JFrog Platform Config as datastore [datastore]
+2025-08-14T08:22:39.597Z [jfomr] [INFO ] [62262112f2d42320] [store.go:32                   ] [main                ] [                ] - Waiting for Access Client to be ready... [datastore]
+2025-08-14T08:22:39.632Z [jfomr] [INFO ] [62262112f2d42320] [rover.go:121                  ] [main                ] [                ] - Using Apollo Federation version: 2.11.0 [rover]
+2025-08-14T08:22:39.633Z [jfomr] [INFO ] [62262112f2d42320] [rover.go:125                  ] [main                ] [                ] - Using Apollo Rover CLI version: Rover 0.33.0 [rover]
+2025-08-14T08:22:39.633Z [jfomr] [INFO ] [62262112f2d42320] [service.go:107                ] [main                ] [                ] - Starting health check background job... [system]
+2025-08-14T08:22:39.634Z [jfomr] [INFO ] [62262112f2d42320] [join.go:33                    ] [main                ] [                ] - Joining Access on port 8046 [access_client]
+2025-08-14T08:22:39.684Z [jfomr] [INFO ] [62262112f2d42320] [join_executor.go:178          ] [main                ] [                ] - Cluster join: Successfully joined the cluster [access_client]
+2025-08-14T08:22:39.684Z [jfomr] [INFO ] [62262112f2d42320] [join_executor.go:190          ] [main                ] [                ] - Cluster join: executing Router register at: localhost:8046 for service id jfomr@01fzay697410wh1bw17baz1s5g [access_client]
+2025-08-14T08:22:39.689Z [jfomr] [INFO ] [62262112f2d42320] [run.go:165                    ] [main                ] [                ] - Waiting for datastore to be ready... [lifecycle]
+2025-08-14T08:22:39.690Z [jfomr] [INFO ] [62262112f2d42320] [store.go:38                   ] [main                ] [                ] - Access Client is ready... [datastore]
+2025-08-14T08:22:39.690Z [jfomr] [INFO ] [62262112f2d42320] [store.go:275                  ] [main                ] [                ] - Initializing JFrog Platform Config store... [datastore]
+2025-08-14T08:22:39.698Z [jfomr] [INFO ] [62262112f2d42320] [store.go:300                  ] [main                ] [                ] - JFrog Platform Config store initialized [datastore]
+2025-08-14T08:22:39.698Z [jfomr] [INFO ] [62262112f2d42320] [run.go:170                    ] [main                ] [                ] - Datastore is ready [lifecycle]
+2025-08-14T08:22:39.698Z [jfomr] [INFO ] [62262112f2d42320] [run.go:213                    ] [main                ] [                ] - Registering embedded subgraph schemas... [lifecycle]
+2025-08-14T08:22:39.698Z [jfomr] [INFO ] [62262112f2d42320] [run.go:216                    ] [main                ] [                ] - Registration of the static subgraph for "jfevd" is skipped [lifecycle]
+2025-08-14T08:22:39.698Z [jfomr] [INFO ] [62262112f2d42320] [run.go:219                    ] [main                ] [                ] - Registration of the static subgraph for "jfomr" is enabled [lifecycle]
+2025-08-14T08:22:39.698Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:49  ] [main                ] [                ] - Starting Platform Config stream connect goroutine [access_client]
+2025-08-14T08:22:39.698Z [jfomr] [INFO ] [62262112f2d42320] [handler.go:41                 ] [main                ] [                ] - Received subgraph from jfomr with version 1.52.2 (length: 4266) [subgraph_grpc]
+2025-08-14T08:22:39.698Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access_client]
+2025-08-14T08:22:39.698Z [jfomr] [INFO ] [62262112f2d42320] [dedicated_grpc_connection.go:2] [main                ] [                ] - Creating a new dedicated gRPC connection for localhost:8046 [access_client]
+2025-08-14T08:22:39.702Z [jfomr] [ERROR] [62262112f2d42320] [platform_config_service.go:183] [main                ] [                ] - Could not retrieve config for key 'jfrog.onemodel.registry.subgraphs': rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T08:22:39.710Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T08:22:39.710Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T08:22:39.710Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access_client]
+2025-08-14T08:22:39.710Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access_client]
+2025-08-14T08:22:39.732Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T08:22:39.732Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T08:22:39.732Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access_client]
+2025-08-14T08:22:39.732Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access_client]
+2025-08-14T08:22:39.774Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T08:22:39.774Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T08:22:39.774Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access_client]
+2025-08-14T08:22:39.774Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access_client]
+2025-08-14T08:22:39.855Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T08:22:39.855Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T08:22:39.855Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access_client]
+2025-08-14T08:22:39.855Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access_client]
+2025-08-14T08:22:40.023Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T08:22:40.023Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T08:22:40.023Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access_client]
+2025-08-14T08:22:40.023Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access_client]
+2025-08-14T08:22:40.354Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T08:22:40.354Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T08:22:40.354Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access_client]
+2025-08-14T08:22:40.354Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access_client]
+2025-08-14T08:22:40.705Z [jfomr] [ERROR] [62262112f2d42320] [platform_config_service.go:183] [main                ] [                ] - Could not retrieve config for key 'jfrog.onemodel.registry.subgraphs': rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T08:22:41.001Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T08:22:41.001Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T08:22:41.001Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access_client]
+2025-08-14T08:22:41.001Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access_client]
+2025-08-14T08:22:42.817Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:105 ] [main                ] [                ] - Starting Platform Config stream Recv loop [access_client]
+2025-08-14T08:22:42.818Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:137 ] [main                ] [                ] - Starting Platform Config checkKeepAlive [access_client]
+2025-08-14T08:22:42.885Z [jfomr] [INFO ] [62262112f2d42320] [run.go:216                    ] [main                ] [                ] - Registration of the static subgraph for "jfctlg-custom" is skipped [lifecycle]
+2025-08-14T08:22:42.885Z [jfomr] [INFO ] [62262112f2d42320] [run.go:216                    ] [main                ] [                ] - Registration of the static subgraph for "jfctlg-public" is skipped [lifecycle]
+2025-08-14T08:22:42.885Z [jfomr] [INFO ] [62262112f2d42320] [service.go:83                 ] [main                ] [                ] - Storage cleanup started [lifecycle]
+2025-08-14T08:22:42.996Z [jfomr] [INFO ] [62262112f2d42320] [service.go:85                 ] [main                ] [                ] - Storage cleanup finished [lifecycle]
+2025-08-14T08:22:42.996Z [jfomr] [INFO ] [62262112f2d42320] [run.go:183                    ] [main                ] [                ] - JFrog OneModel Schema Registry (jfomr) service initialization completed in 15.496 seconds. REST API available on 127.0.0.1:8071. GRPC API available on 127.0.0.1:8072. [lifecycle]
+2025-08-14T08:22:43.010Z [jfomr] [INFO ] [62262112f2d42320] [worker.go:75                  ] [main                ] [                ] - Composition worker started [composition]
+2025-08-14T08:22:43.010Z [jfomr] [INFO ] [62262112f2d42320] [worker.go:268                 ] [main                ] [                ] - Triggering initial composition [composition]
+2025-08-14T08:22:43.010Z [jfomr] [INFO ] [62262112f2d42320] [worker.go:132                 ] [main                ] [                ] - Composition will be run with: [jfomr_1.52.2] [composition] [trigger][manual] [trigger_id][initial]
+2025-08-14T08:22:43.010Z [jfomr] [INFO ] [62262112f2d42320] [worker.go:211                 ] [main                ] [                ] - Preparing temporary working dir: /opt/jfrog/artifactory/var/work/onemodel/composition-1755159763010-1420421672 [composition] [trigger][manual] [trigger_id][initial]
+2025-08-14T08:22:43.010Z [jfomr] [INFO ] [62262112f2d42320] [worker.go:273                 ] [main                ] [                ] - Initial composition triggered [composition]
+2025-08-14T08:22:43.018Z [jfomr] [INFO ] [62262112f2d42320] [rover.go:63                   ] [main                ] [                ] - Running Apollo Rover [rover] [trigger][manual] [trigger_id][initial]
+2025-08-14T08:22:43.275Z [jfomr] [INFO ] [62262112f2d42320] [rover.go:152                  ] [main                ] [                ] - Rover stdout: <none> [rover] [trigger][manual] [trigger_id][initial]
+2025-08-14T08:22:43.276Z [jfomr] [INFO ] [62262112f2d42320] [rover.go:155                  ] [main                ] [                ] - Rover stderr:
+   INFO rover_std::fs: reading /opt/jfrog/artifactory/var/work/onemodel/apollo/machine.txt from disk
+    at crates/rover-std/src/fs.rs:34
+
+   INFO rover::utils::telemetry: Telemetry has been disabled.
+    at src/utils/telemetry.rs:87
+
+merging supergraph schema files
+   INFO rover_std::fs: reading /opt/jfrog/artifactory/var/work/onemodel/composition-1755159763010-1420421672/__rover.yaml from disk
+    at crates/rover-std/src/fs.rs:34
+
+supergraph config loaded successfully
+   INFO rover_std::fs: reading /opt/jfrog/artifactory/var/work/onemodel/composition-1755159763010-1420421672/jfomr.graphqls from disk
+    at crates/rover-std/src/fs.rs:34
+
+   INFO rover_std::fs: checking existence of parent path in '/opt/jfrog/artifactory/var/work/onemodel/apollo/elv2_license.toml'
+    at crates/rover-std/src/fs.rs:59
+
+   INFO rover_std::fs: writing /opt/jfrog/artifactory/var/work/onemodel/apollo/elv2_license.toml to disk
+    at crates/rover-std/src/fs.rs:90
+
+   INFO rover_std::fs: reading /opt/jfrog/artifactory/var/work/onemodel/composition-1755159763010-1420421672/jfomr.graphqls from disk
+    at crates/rover-std/src/fs.rs:34
+
+   INFO rover_std::fs: checking existence of parent path in '/opt/jfrog/artifactory/var/work/onemodel/composition-1755159763010-1420421672/.tmpJhZKEE/supergraph.yaml'
+    at crates/rover-std/src/fs.rs:59
+
+   INFO rover_std::fs: creating /opt/jfrog/artifactory/var/work/onemodel/composition-1755159763010-1420421672/.tmpJhZKEE directory
+    at crates/rover-std/src/fs.rs:130
+
+   INFO rover_std::fs: writing /opt/jfrog/artifactory/var/work/onemodel/composition-1755159763010-1420421672/.tmpJhZKEE/supergraph.yaml to disk
+    at crates/rover-std/src/fs.rs:90
+
+   INFO rover_std::fs: checking existence of parent path in '/opt/jfrog/artifactory/var/work/onemodel/composition-1755159763010-1420421672/__supergraph.graphqls'
+    at crates/rover-std/src/fs.rs:59
+
+   INFO rover_std::fs: writing /opt/jfrog/artifactory/var/work/onemodel/composition-1755159763010-1420421672/__supergraph.graphqls to disk
+    at crates/rover-std/src/fs.rs:90
+
+HINT: Enum type "SortOrderDirection" is defined but unused. It will be included in the supergraph with all the values appearing in any subgraph ("as if" it was only used as an output type).
+
+   INFO rover_std::fs: checking existence of parent path in '/opt/jfrog/artifactory/var/work/onemodel/composition-1755159763010-1420421672/__supergraph.graphqls'
+    at crates/rover-std/src/fs.rs:59
+
+   INFO rover_std::fs: writing /opt/jfrog/artifactory/var/work/onemodel/composition-1755159763010-1420421672/__supergraph.graphqls to disk
+    at crates/rover-std/src/fs.rs:90
+
+Supergraph Schema was printed to /opt/jfrog/artifactory/var/work/onemodel/composition-1755159763010-1420421672/__supergraph.graphqls
+ [rover] [trigger][manual] [trigger_id][initial]
+2025-08-14T08:22:43.286Z [jfomr] [INFO ] [62262112f2d42320] [worker.go:161                 ] [main                ] [                ] - Successfully generated supergraph 4395c8394374b42e2830ff7a5d4dedcd2dc769df3b957ae58e6b2cbc7f21664b with Apollo Federation version 2.11.0 [composition] [trigger][manual] [trigger_id][initial]
+2025-08-14T08:22:43.320Z [jfomr] [INFO ] [62262112f2d42320] [worker.go:240                 ] [main                ] [                ] - Publishing new supergraph [composition] [trigger][manual] [trigger_id][initial]
+2025-08-14T13:17:43.884Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = error reading from server: EOF [access_client]
+2025-08-14T13:17:43.884Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:115 ] [main                ] [                ] - Platform Config stream Recv loop stopped [access_client]
+2025-08-14T13:17:43.884Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:88  ] [main                ] [                ] - Platform Config stream disconnected [access_client]
+2025-08-14T13:17:43.884Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access_client]
+2025-08-14T13:17:43.884Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:144 ] [main                ] [                ] - Stopping Platform Config checkKeepAlive [access_client]
+2025-08-14T13:17:43.959Z [jfomr] [INFO ] [62262112f2d42320] [wait_for_signal.go:22         ] [main                ] [                ] - Got OS signal: terminated [lifecycle]
+2025-08-14T13:17:43.959Z [jfomr] [INFO ] [62262112f2d42320] [shutdown.go:16                ] [main                ] [                ] - Stopping service... [lifecycle]
+2025-08-14T13:17:43.959Z [jfomr] [INFO ] [62262112f2d42320] [app.go:78                     ] [main                ] [                ] - Waiting for Web servers to stop gracefully... [app_server]
+2025-08-14T13:17:43.959Z [jfomr] [INFO ] [62262112f2d42320] [server.go:83                  ] [main                ] [                ] - Stopping GRPC server... [grpc_server]
+2025-08-14T13:17:43.959Z [jfomr] [INFO ] [62262112f2d42320] [server.go:85                  ] [main                ] [                ] - GRPC server stopped [grpc_server]
+2025-08-14T13:17:43.959Z [jfomr] [INFO ] [62262112f2d42320] [app.go:63                     ] [main                ] [                ] - Goroutine 'gRPC server' exited [app_server]
+2025-08-14T13:17:43.959Z [jfomr] [INFO ] [62262112f2d42320] [server.go:107                 ] [main                ] [                ] - Stopping REST server... [rest_server]
+2025-08-14T13:17:43.959Z [jfomr] [INFO ] [62262112f2d42320] [server.go:96                  ] [main                ] [                ] - Stopped to serve REST [rest_server]
+2025-08-14T13:17:43.959Z [jfomr] [INFO ] [62262112f2d42320] [app.go:59                     ] [main                ] [                ] - Goroutine 'REST server' exited [app_server]
+2025-08-14T13:17:43.960Z [jfomr] [INFO ] [62262112f2d42320] [server.go:112                 ] [main                ] [                ] - REST server stopped [rest_server]
+2025-08-14T13:17:43.960Z [jfomr] [INFO ] [62262112f2d42320] [app.go:80                     ] [main                ] [                ] - Web servers stopped [app_server]
+2025-08-14T13:17:43.960Z [jfomr] [INFO ] [62262112f2d42320] [worker.go:279                 ] [main                ] [                ] - Stopping composition worker [composition]
+2025-08-14T13:17:43.960Z [jfomr] [INFO ] [62262112f2d42320] [shutdown.go:22                ] [main                ] [                ] - Subgraph Service stopped [lifecycle]
+2025-08-14T13:17:43.960Z [jfomr] [INFO ] [62262112f2d42320] [service.go:127                ] [main                ] [                ] - Health check background job stopped [system]
+2025-08-14T13:17:43.960Z [jfomr] [INFO ] [62262112f2d42320] [shutdown.go:25                ] [main                ] [                ] - System Service stopped [lifecycle]
+2025-08-14T13:17:43.960Z [jfomr] [INFO ] [62262112f2d42320] [worker.go:83                  ] [main                ] [                ] - Composition worker stopped [composition]
+2025-08-14T13:17:43.960Z [jfomr] [INFO ] [62262112f2d42320] [shutdown.go:33                ] [main                ] [                ] - Metrics service stopped [lifecycle]
+2025-08-14T13:17:43.960Z [jfomr] [INFO ] [62262112f2d42320] [shutdown.go:36                ] [main                ] [                ] - Datastore connection closed [lifecycle]
+2025-08-14T13:17:43.960Z [jfomr] [INFO ] [62262112f2d42320] [shutdown.go:53                ] [main                ] [                ] - NewRelic Agent stopped [lifecycle]
+2025-08-14T13:17:43.960Z [jfomr] [INFO ] [62262112f2d42320] [shutdown.go:64                ] [main                ] [                ] - Tracer stopped [lifecycle]
+2025-08-14T13:17:43.965Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: client error: rpc error: code = Canceled desc = latest balancer error: connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:8046: connect: connection refused" [access_client]
+2025-08-14T13:17:43.965Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access_client]
+2025-08-14T13:17:43.965Z [jfomr] [INFO ] [62262112f2d42320] [platform_config_stream.go:54  ] [main                ] [                ] - Platform Config stream connect goroutine stopped [access_client]
+2025-08-14T13:17:43.965Z [jfomr] [INFO ] [62262112f2d42320] [shutdown.go:43                ] [main                ] [                ] - Access Client provider stopped [lifecycle]
+2025-08-14T13:17:43.965Z [jfomr] [INFO ] [62262112f2d42320] [shutdown.go:77                ] [main                ] [                ] - Service stopped [lifecycle]
+2025-08-14T13:19:56.722Z [jfomr] [INFO ] [5a82a15ead40d2bb] [run.go:78                     ] [main                ] [                ] - JFrog OneModel Schema Registry (jfomr) service initialization started. Version: 1.52.2 (revision: 9c2609de41, build date: 2025-07-02T10:15:08Z) PID: 12964 Home: /opt/jfrog/artifactory [lifecycle]
+2025-08-14T13:19:56.725Z [jfomr] [INFO ] [5a82a15ead40d2bb] [run.go:90                     ] [main                ] [                ] - Effective configuration:
+access.database.maxOpenConnections (File): 200
+access.jfconfig.enabled (Environment Variable: JF_ACCESS_JFCONFIG_ENABLED): true
+access.tomcat.connector.maxThreads (File): 100
+access.useexternaltopology (Environment Variable: JF_ACCESS_USEEXTERNALTOPOLOGY): true
+artifactory.database.maxOpenConnections (File): 200
+artifactory.pid (Environment Variable: JF_ARTIFACTORY_PID): /var/run/artifactory.pid
+artifactory.tomcat.connector.maxThreads (File): 400
+configVersion (File): 1
+evidence.enabled (Default Value): false
+metadata.database.maxOpenConnections (File): 200
+onemodel.accessClient.joinTimeoutMillis (Default Value): 360000
+onemodel.accessClient.pingTimeoutMillis (Default Value): 240000
+onemodel.artifactory.url (Environment Variable: JF_ONEMODEL_ARTIFACTORY_URL): http://localhost:8081
+onemodel.centralAccess.accessUrl (Default Value): 
+onemodel.centralAccess.retryBackoffInitialIntervalMillis (Default Value): 500
+onemodel.centralAccess.retryBackoffMaxElapsedTimeMillis (Default Value): 0
+onemodel.centralAccess.retryBackoffMaxIntervalMillis (Default Value): 3600000
+onemodel.centralAccess.revocableExpiryThresholdSeconds (Default Value): -1
+onemodel.composition.historyRetention.maxArchives (Default Value): 20
+onemodel.composition.incomingRegisterSubgraphBuffer (Default Value): 10
+onemodel.composition.outputSupergraphPath (Default Value): supergraph.graphqls
+onemodel.composition.roverPath (Default Value): rover
+onemodel.composition.scheduledTaskDelaySecs (Default Value): 30
+onemodel.composition.staticSubGraphs.jfctlg-custom.endpoint (Default Value): /catalog/api/v1/custom/graphql
+onemodel.composition.staticSubGraphs.jfctlg-custom.path (Default Value): schemas/graphql/jfctlg-custom/schema.graphqls
+onemodel.composition.staticSubGraphs.jfctlg-custom.skip (Default Value): true
+onemodel.composition.staticSubGraphs.jfctlg-custom.version (Default Value): 0.0.0-dev+static.omr
+onemodel.composition.staticSubGraphs.jfctlg-public.endpoint (Default Value): /catalog/api/v1/public/graphql
+onemodel.composition.staticSubGraphs.jfctlg-public.path (Default Value): schemas/graphql/jfctlg-public/schema.graphqls
+onemodel.composition.staticSubGraphs.jfctlg-public.skip (Default Value): true
+onemodel.composition.staticSubGraphs.jfctlg-public.version (Default Value): 0.0.0-dev+static.omr
+onemodel.composition.staticSubGraphs.jfevd.endpoint (Default Value): /evidence/api/v1/onemodel/graphql
+onemodel.composition.staticSubGraphs.jfevd.path (Default Value): schemas/graphql/jfevd/schema.graphqls
+onemodel.composition.staticSubGraphs.jfevd.skip (Default Value): true
+onemodel.composition.staticSubGraphs.jfevd.version (Default Value): 0.0.0-dev+static.omr
+onemodel.composition.staticSubGraphs.jfomr.endpoint (Default Value): /onemodel/api/v1/onemodel/graphql
+onemodel.composition.staticSubGraphs.jfomr.path (Default Value): schemas/graphql/onemodel/schema.graphqls
+onemodel.composition.staticSubGraphs.jfomr.version (Default Value): 1.52.2
+onemodel.composition.version (Default Value): 2.11.0
+onemodel.database.maxOpenConnections (Default Value): 5
+onemodel.graphql.apolloRouterPort (Default Value): 8073
+onemodel.graphql.compatibilityFilterEnabled (Default Value): true
+onemodel.graphql.queryCacheSize (Default Value): 5
+onemodel.graphql.queryParserTokenLimit (Default Value): 50
+onemodel.grpcPort (Default Value): 8072
+onemodel.healthCheck.apolloHealthCheckPort (Default Value): 8074
+onemodel.healthCheck.intervalSecs (Default Value): 15
+onemodel.listenAddr (Default Value): localhost
+onemodel.logging.application.caller (Default Value): false
+onemodel.logging.application.console (Default Value): true
+onemodel.logging.application.filePath (Default Value): onemodelregistry-service.log
+onemodel.logging.application.format (Default Value): jftext
+onemodel.logging.application.level (Default Value): info
+onemodel.logging.application.rotation.compress (Default Value): true
+onemodel.logging.application.rotation.intervalSecs (Default Value): 86400
+onemodel.logging.application.rotation.keepLastDecompressed (Default Value): 1
+onemodel.logging.application.rotation.maxAgeDays (Default Value): 365
+onemodel.logging.application.rotation.maxFiles (Default Value): 10
+onemodel.logging.application.rotation.maxSizeMb (Default Value): 25
+onemodel.logging.consoleLog.format (Default Value): jftext
+onemodel.logging.metrics.console (Default Value): false
+onemodel.logging.metrics.filePath (Default Value): onemodelregistry-metrics.log
+onemodel.logging.metrics.rotation.compress (Default Value): true
+onemodel.logging.metrics.rotation.intervalSecs (Default Value): 86400
+onemodel.logging.metrics.rotation.keepLastDecompressed (Default Value): 1
+onemodel.logging.metrics.rotation.maxAgeDays (Default Value): 365
+onemodel.logging.metrics.rotation.maxFiles (Default Value): 10
+onemodel.logging.metrics.rotation.maxSizeMb (Default Value): 25
+onemodel.logging.request.console (Default Value): false
+onemodel.logging.request.filePath (Default Value): onemodelregistry-request.log
+onemodel.logging.request.rotation.compress (Default Value): true
+onemodel.logging.request.rotation.intervalSecs (Default Value): 86400
+onemodel.logging.request.rotation.keepLastDecompressed (Default Value): 1
+onemodel.logging.request.rotation.maxAgeDays (Default Value): 365
+onemodel.logging.request.rotation.maxFiles (Default Value): 10
+onemodel.logging.request.rotation.maxSizeMb (Default Value): 25
+onemodel.metrics.enabled (Default Value): false
+onemodel.metrics.exclude (Default Value): []
+onemodel.metrics.intervalMillis (Default Value): 10000
+onemodel.metrics.logPeriodically (Default Value): true
+onemodel.metrics.tokenVerification.accessUrl (Default Value): 
+onemodel.metrics.tokenVerification.retryBackoffInitialIntervalMillis (Default Value): 500
+onemodel.metrics.tokenVerification.retryBackoffMaxElapsedTimeMillis (Default Value): 0
+onemodel.metrics.tokenVerification.retryBackoffMaxIntervalMillis (Default Value): 3600000
+onemodel.metrics.tokenVerification.revocableExpiryThresholdSeconds (Default Value): -1
+onemodel.metrics.triggers.enabled (Default Value): true
+onemodel.metrics.triggers.intervalMillis (Default Value): 20000
+onemodel.metrics.triggers.limit (Default Value): 1000000
+onemodel.port (Default Value): 8071
+onemodel.probes.liveness.failOnLongFailingReadiness.enabled (Default Value): true
+onemodel.probes.liveness.failOnLongFailingReadiness.failureDurationSecs (Default Value): 60
+onemodel.profiling.enabled (Default Value): false
+onemodel.storage.maxRecordsPerOwner (Default Value): 10
+onemodel.storage.supergraphsRetentionDays (Default Value): 365
+onemodel.supportBundle.nodeBundleAggregationTimeoutMillis (Default Value): 30000
+onemodel.supportBundle.serviceBundleAggregationTimeoutMillis (Default Value): 300000
+product.home (Environment Variable: JF_PRODUCT_HOME): /opt/jfrog/artifactory
+router.entrypoints.internalPort (Default Value): 8046
+router.topology.local.requiredservicetypes (Environment Variable: JF_ROUTER_TOPOLOGY_LOCAL_REQUIREDSERVICETYPES): jfrt,jfac,jfmd,jffe,jfob,jfcon,jfevt,jfevd,jfcfg,jftpl,jfomr
+shared.database.driver (File): oracle.jdbc.OracleDriver
+shared.database.password (File): *****
+shared.database.type (File): oracle
+shared.database.url (File): jdbc:oracle:thin:@(DESCRIPTION=(CONNECT_TIMEOUT=10)(RETRY_COUNT=3)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_909.inet.bundesbank.de)(PORT=1621))(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_913.inet.bundesbank.de)(PORT=1621)))(CONNECT_DATA=(SERVICE_NAME= ARTED_PRIM.WORLD)(SERVER=DEDICATED)))
+shared.database.username (File): ARTE1
+shared.env.LD_LIBRARY_PATH (File): /usr/lib64/
+shared.env.extraJavaOpts (File): -Xms4g -Xmx12g
+shared.group (File): artifactory
+shared.logging.consoleLog.format (Default Value): jftext
+shared.logging.enableJsonConsoleLogAppenders (Default Value): false
+shared.logging.rotation.compress (File): true
+shared.logging.rotation.maxFiles (File): 10
+shared.logging.rotation.maxSizeMb (File): 25
+shared.multiTenant.cellId (Default Value): 
+shared.multiTenant.enabled (Default Value): false
+shared.multiTenant.tenantRegistryClient.caCert (Default Value): 
+shared.multiTenant.tenantRegistryClient.cacheExpirationSecs (Default Value): 21600
+shared.multiTenant.tenantRegistryClient.clientCert (Default Value): 
+shared.multiTenant.tenantRegistryClient.clientCertKey (Default Value): *****
+shared.multiTenant.tenantRegistryClient.dialTimeoutSecs (Default Value): 10
+shared.multiTenant.tenantRegistryClient.endpoints (Default Value): []
+shared.multiTenant.tenantRegistryClient.password (Default Value): *****
+shared.multiTenant.tenantRegistryClient.pingCacheExpirationSecs (Default Value): 15
+shared.multiTenant.tenantRegistryClient.pingTimeoutSecs (Default Value): 1
+shared.multiTenant.tenantRegistryClient.requestTimeoutSecs (Default Value): 30
+shared.multiTenant.tenantRegistryClient.username (Default Value): 
+shared.newrelic.appName (Default Value): 
+shared.newrelic.distributedTracerEnabled (Default Value): true
+shared.newrelic.enableDebugLog (Default Value): false
+shared.newrelic.enabled (Default Value): false
+shared.newrelic.licenseKey (Default Value): *****
+shared.node.haEnabled (File): false
+shared.node.id (Environment Variable: JF_SHARED_NODE_ID): u999jfart002d.in.bundesbank.de
+shared.node.ip (Environment Variable: JF_SHARED_NODE_IP): 10.204.188.11
+shared.node.name (Environment Variable: JF_SHARED_NODE_NAME): u999jfart002d
+shared.node.primary (File): true
+shared.runtime.isSaas (Default Value): false
+shared.security.ExposeApplicationHeaders (Default Value): false
+shared.security.bootstrapKeysReadTimeoutSecs (Default Value): 120
+shared.security.joinKeyFile (Default Value): etc/security/join.key
+shared.security.masterKeyFile (Default Value): etc/security/master.key
+shared.user (File): artifactory
+system.yaml (Environment Variable: JF_SYSTEM_YAML): /opt/jfrog/artifactory/var/etc/system.yaml [lifecycle]
+2025-08-14T13:20:30.801Z [jfomr] [INFO ] [5a82a15ead40d2bb] [run.go:100                    ] [main                ] [                ] - Service ID: jfomr@01fzay697410wh1bw17baz1s5g [lifecycle]
+2025-08-14T13:20:30.801Z [jfomr] [INFO ] [5a82a15ead40d2bb] [run.go:101                    ] [main                ] [                ] - Node ID: u999jfart002d.in.bundesbank.de [lifecycle]
+2025-08-14T13:20:30.801Z [jfomr] [INFO ] [5a82a15ead40d2bb] [store.go:24                   ] [main                ] [                ] - Using JFrog Platform Config as datastore [datastore]
+2025-08-14T13:20:30.802Z [jfomr] [INFO ] [5a82a15ead40d2bb] [store.go:32                   ] [main                ] [                ] - Waiting for Access Client to be ready... [datastore]
+2025-08-14T13:20:30.953Z [jfomr] [INFO ] [5a82a15ead40d2bb] [rover.go:121                  ] [main                ] [                ] - Using Apollo Federation version: 2.11.0 [rover]
+2025-08-14T13:20:30.953Z [jfomr] [INFO ] [5a82a15ead40d2bb] [rover.go:125                  ] [main                ] [                ] - Using Apollo Rover CLI version: Rover 0.33.0 [rover]
+2025-08-14T13:20:30.953Z [jfomr] [INFO ] [5a82a15ead40d2bb] [service.go:107                ] [main                ] [                ] - Starting health check background job... [system]
+2025-08-14T13:20:30.955Z [jfomr] [INFO ] [5a82a15ead40d2bb] [join.go:33                    ] [main                ] [                ] - Joining Access on port 8046 [access_client]
+2025-08-14T13:20:31.044Z [jfomr] [INFO ] [5a82a15ead40d2bb] [join_executor.go:178          ] [main                ] [                ] - Cluster join: Successfully joined the cluster [access_client]
+2025-08-14T13:20:31.045Z [jfomr] [INFO ] [5a82a15ead40d2bb] [join_executor.go:190          ] [main                ] [                ] - Cluster join: executing Router register at: localhost:8046 for service id jfomr@01fzay697410wh1bw17baz1s5g [access_client]
+2025-08-14T13:20:31.050Z [jfomr] [INFO ] [5a82a15ead40d2bb] [run.go:165                    ] [main                ] [                ] - Waiting for datastore to be ready... [lifecycle]
+2025-08-14T13:20:31.050Z [jfomr] [INFO ] [5a82a15ead40d2bb] [store.go:38                   ] [main                ] [                ] - Access Client is ready... [datastore]
+2025-08-14T13:20:31.050Z [jfomr] [INFO ] [5a82a15ead40d2bb] [store.go:275                  ] [main                ] [                ] - Initializing JFrog Platform Config store... [datastore]
+2025-08-14T13:20:31.066Z [jfomr] [INFO ] [5a82a15ead40d2bb] [store.go:300                  ] [main                ] [                ] - JFrog Platform Config store initialized [datastore]
+2025-08-14T13:20:31.066Z [jfomr] [INFO ] [5a82a15ead40d2bb] [platform_config_stream.go:49  ] [main                ] [                ] - Starting Platform Config stream connect goroutine [access_client]
+2025-08-14T13:20:31.066Z [jfomr] [INFO ] [5a82a15ead40d2bb] [run.go:170                    ] [main                ] [                ] - Datastore is ready [lifecycle]
+2025-08-14T13:20:31.066Z [jfomr] [INFO ] [5a82a15ead40d2bb] [run.go:213                    ] [main                ] [                ] - Registering embedded subgraph schemas... [lifecycle]
+2025-08-14T13:20:31.066Z [jfomr] [INFO ] [5a82a15ead40d2bb] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access_client]
+2025-08-14T13:20:31.066Z [jfomr] [INFO ] [5a82a15ead40d2bb] [run.go:216                    ] [main                ] [                ] - Registration of the static subgraph for "jfctlg-custom" is skipped [lifecycle]
+2025-08-14T13:20:31.066Z [jfomr] [INFO ] [5a82a15ead40d2bb] [run.go:216                    ] [main                ] [                ] - Registration of the static subgraph for "jfctlg-public" is skipped [lifecycle]
+2025-08-14T13:20:31.066Z [jfomr] [INFO ] [5a82a15ead40d2bb] [run.go:216                    ] [main                ] [                ] - Registration of the static subgraph for "jfevd" is skipped [lifecycle]
+2025-08-14T13:20:31.066Z [jfomr] [INFO ] [5a82a15ead40d2bb] [run.go:219                    ] [main                ] [                ] - Registration of the static subgraph for "jfomr" is enabled [lifecycle]
+2025-08-14T13:20:31.066Z [jfomr] [INFO ] [5a82a15ead40d2bb] [handler.go:41                 ] [main                ] [                ] - Received subgraph from jfomr with version 1.52.2 (length: 4266) [subgraph_grpc]
+2025-08-14T13:20:31.066Z [jfomr] [INFO ] [5a82a15ead40d2bb] [dedicated_grpc_connection.go:2] [main                ] [                ] - Creating a new dedicated gRPC connection for localhost:8046 [access_client]
+2025-08-14T13:20:31.071Z [jfomr] [ERROR] [5a82a15ead40d2bb] [platform_config_service.go:183] [main                ] [                ] - Could not retrieve config for key 'jfrog.onemodel.registry.subgraphs': rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T13:20:31.078Z [jfomr] [INFO ] [5a82a15ead40d2bb] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T13:20:31.078Z [jfomr] [INFO ] [5a82a15ead40d2bb] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T13:20:31.078Z [jfomr] [INFO ] [5a82a15ead40d2bb] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access_client]
+2025-08-14T13:20:31.078Z [jfomr] [INFO ] [5a82a15ead40d2bb] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access_client]
+2025-08-14T13:20:31.104Z [jfomr] [INFO ] [5a82a15ead40d2bb] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T13:20:31.104Z [jfomr] [INFO ] [5a82a15ead40d2bb] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T13:20:31.104Z [jfomr] [INFO ] [5a82a15ead40d2bb] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access_client]
+2025-08-14T13:20:31.104Z [jfomr] [INFO ] [5a82a15ead40d2bb] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access_client]
+2025-08-14T13:20:31.160Z [jfomr] [INFO ] [5a82a15ead40d2bb] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T13:20:31.160Z [jfomr] [INFO ] [5a82a15ead40d2bb] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T13:20:31.160Z [jfomr] [INFO ] [5a82a15ead40d2bb] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access_client]
+2025-08-14T13:20:31.160Z [jfomr] [INFO ] [5a82a15ead40d2bb] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access_client]
+2025-08-14T13:20:31.243Z [jfomr] [INFO ] [5a82a15ead40d2bb] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T13:20:31.243Z [jfomr] [INFO ] [5a82a15ead40d2bb] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T13:20:31.243Z [jfomr] [INFO ] [5a82a15ead40d2bb] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access_client]
+2025-08-14T13:20:31.243Z [jfomr] [INFO ] [5a82a15ead40d2bb] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access_client]
+2025-08-14T13:20:31.405Z [jfomr] [INFO ] [5a82a15ead40d2bb] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T13:20:31.405Z [jfomr] [INFO ] [5a82a15ead40d2bb] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T13:20:31.406Z [jfomr] [INFO ] [5a82a15ead40d2bb] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access_client]
+2025-08-14T13:20:31.406Z [jfomr] [INFO ] [5a82a15ead40d2bb] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access_client]
+2025-08-14T13:20:31.729Z [jfomr] [INFO ] [5a82a15ead40d2bb] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T13:20:31.729Z [jfomr] [INFO ] [5a82a15ead40d2bb] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T13:20:31.729Z [jfomr] [INFO ] [5a82a15ead40d2bb] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access_client]
+2025-08-14T13:20:31.729Z [jfomr] [INFO ] [5a82a15ead40d2bb] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access_client]
+2025-08-14T13:20:33.463Z [jfomr] [INFO ] [5a82a15ead40d2bb] [platform_config_stream.go:105 ] [main                ] [                ] - Starting Platform Config stream Recv loop [access_client]
+2025-08-14T13:20:33.467Z [jfomr] [INFO ] [5a82a15ead40d2bb] [platform_config_stream.go:137 ] [main                ] [                ] - Starting Platform Config checkKeepAlive [access_client]
+2025-08-14T13:20:33.620Z [jfomr] [INFO ] [5a82a15ead40d2bb] [service.go:83                 ] [main                ] [                ] - Storage cleanup started [lifecycle]
+2025-08-14T13:20:33.747Z [jfomr] [INFO ] [5a82a15ead40d2bb] [service.go:85                 ] [main                ] [                ] - Storage cleanup finished [lifecycle]
+2025-08-14T13:20:33.748Z [jfomr] [INFO ] [5a82a15ead40d2bb] [run.go:183                    ] [main                ] [                ] - JFrog OneModel Schema Registry (jfomr) service initialization completed in 37.032 seconds. REST API available on 127.0.0.1:8071. GRPC API available on 127.0.0.1:8072. [lifecycle]
+2025-08-14T13:20:33.748Z [jfomr] [INFO ] [5a82a15ead40d2bb] [worker.go:75                  ] [main                ] [                ] - Composition worker started [composition]
+2025-08-14T13:20:33.748Z [jfomr] [INFO ] [5a82a15ead40d2bb] [worker.go:268                 ] [main                ] [                ] - Triggering initial composition [composition]
+2025-08-14T13:20:33.748Z [jfomr] [INFO ] [5a82a15ead40d2bb] [worker.go:273                 ] [main                ] [                ] - Initial composition triggered [composition]
+2025-08-14T13:20:33.748Z [jfomr] [INFO ] [5a82a15ead40d2bb] [worker.go:132                 ] [main                ] [                ] - Composition will be run with: [jfomr_1.52.2] [composition] [trigger][manual] [trigger_id][initial]
+2025-08-14T13:20:33.749Z [jfomr] [INFO ] [5a82a15ead40d2bb] [worker.go:211                 ] [main                ] [                ] - Preparing temporary working dir: /opt/jfrog/artifactory/var/work/onemodel/composition-1755177633748-1759772901 [composition] [trigger][manual] [trigger_id][initial]
+2025-08-14T13:20:33.757Z [jfomr] [INFO ] [5a82a15ead40d2bb] [rover.go:63                   ] [main                ] [                ] - Running Apollo Rover [rover] [trigger][manual] [trigger_id][initial]
+2025-08-14T13:20:34.173Z [jfomr] [INFO ] [5a82a15ead40d2bb] [rover.go:152                  ] [main                ] [                ] - Rover stdout: <none> [rover] [trigger][manual] [trigger_id][initial]
+2025-08-14T13:20:34.173Z [jfomr] [INFO ] [5a82a15ead40d2bb] [rover.go:155                  ] [main                ] [                ] - Rover stderr:
+   INFO rover_std::fs: reading /opt/jfrog/artifactory/var/work/onemodel/apollo/machine.txt from disk
+    at crates/rover-std/src/fs.rs:34
+
+   INFO rover::utils::telemetry: Telemetry has been disabled.
+    at src/utils/telemetry.rs:87
+
+merging supergraph schema files
+   INFO rover_std::fs: reading /opt/jfrog/artifactory/var/work/onemodel/composition-1755177633748-1759772901/__rover.yaml from disk
+    at crates/rover-std/src/fs.rs:34
+
+supergraph config loaded successfully
+   INFO rover_std::fs: reading /opt/jfrog/artifactory/var/work/onemodel/composition-1755177633748-1759772901/jfomr.graphqls from disk
+    at crates/rover-std/src/fs.rs:34
+
+   INFO rover_std::fs: checking existence of parent path in '/opt/jfrog/artifactory/var/work/onemodel/apollo/elv2_license.toml'
+    at crates/rover-std/src/fs.rs:59
+
+   INFO rover_std::fs: writing /opt/jfrog/artifactory/var/work/onemodel/apollo/elv2_license.toml to disk
+    at crates/rover-std/src/fs.rs:90
+
+   INFO rover_std::fs: reading /opt/jfrog/artifactory/var/work/onemodel/composition-1755177633748-1759772901/jfomr.graphqls from disk
+    at crates/rover-std/src/fs.rs:34
+
+   INFO rover_std::fs: checking existence of parent path in '/opt/jfrog/artifactory/var/work/onemodel/composition-1755177633748-1759772901/.tmpDlWdbc/supergraph.yaml'
+    at crates/rover-std/src/fs.rs:59
+
+   INFO rover_std::fs: creating /opt/jfrog/artifactory/var/work/onemodel/composition-1755177633748-1759772901/.tmpDlWdbc directory
+    at crates/rover-std/src/fs.rs:130
+
+   INFO rover_std::fs: writing /opt/jfrog/artifactory/var/work/onemodel/composition-1755177633748-1759772901/.tmpDlWdbc/supergraph.yaml to disk
+    at crates/rover-std/src/fs.rs:90
+
+   INFO rover_std::fs: checking existence of parent path in '/opt/jfrog/artifactory/var/work/onemodel/composition-1755177633748-1759772901/__supergraph.graphqls'
+    at crates/rover-std/src/fs.rs:59
+
+   INFO rover_std::fs: writing /opt/jfrog/artifactory/var/work/onemodel/composition-1755177633748-1759772901/__supergraph.graphqls to disk
+    at crates/rover-std/src/fs.rs:90
+
+HINT: Enum type "SortOrderDirection" is defined but unused. It will be included in the supergraph with all the values appearing in any subgraph ("as if" it was only used as an output type).
+
+   INFO rover_std::fs: checking existence of parent path in '/opt/jfrog/artifactory/var/work/onemodel/composition-1755177633748-1759772901/__supergraph.graphqls'
+    at crates/rover-std/src/fs.rs:59
+
+   INFO rover_std::fs: writing /opt/jfrog/artifactory/var/work/onemodel/composition-1755177633748-1759772901/__supergraph.graphqls to disk
+    at crates/rover-std/src/fs.rs:90
+
+Supergraph Schema was printed to /opt/jfrog/artifactory/var/work/onemodel/composition-1755177633748-1759772901/__supergraph.graphqls
+ [rover] [trigger][manual] [trigger_id][initial]
+2025-08-14T13:20:34.202Z [jfomr] [INFO ] [5a82a15ead40d2bb] [worker.go:161                 ] [main                ] [                ] - Successfully generated supergraph 4395c8394374b42e2830ff7a5d4dedcd2dc769df3b957ae58e6b2cbc7f21664b with Apollo Federation version 2.11.0 [composition] [trigger][manual] [trigger_id][initial]
+2025-08-14T13:20:34.278Z [jfomr] [INFO ] [5a82a15ead40d2bb] [worker.go:240                 ] [main                ] [                ] - Publishing new supergraph [composition] [trigger][manual] [trigger_id][initial]
+2025-08-14T13:35:05.709Z [jfomr] [INFO ] [5a82a15ead40d2bb] [wait_for_signal.go:22         ] [main                ] [                ] - Got OS signal: terminated [lifecycle]
+2025-08-14T13:35:05.709Z [jfomr] [INFO ] [5a82a15ead40d2bb] [shutdown.go:16                ] [main                ] [                ] - Stopping service... [lifecycle]
+2025-08-14T13:35:05.709Z [jfomr] [INFO ] [5a82a15ead40d2bb] [app.go:78                     ] [main                ] [                ] - Waiting for Web servers to stop gracefully... [app_server]
+2025-08-14T13:35:05.709Z [jfomr] [INFO ] [5a82a15ead40d2bb] [server.go:83                  ] [main                ] [                ] - Stopping GRPC server... [grpc_server]
+2025-08-14T13:35:05.709Z [jfomr] [INFO ] [5a82a15ead40d2bb] [server.go:107                 ] [main                ] [                ] - Stopping REST server... [rest_server]
+2025-08-14T13:35:05.709Z [jfomr] [INFO ] [5a82a15ead40d2bb] [server.go:85                  ] [main                ] [                ] - GRPC server stopped [grpc_server]
+2025-08-14T13:35:05.709Z [jfomr] [INFO ] [5a82a15ead40d2bb] [server.go:96                  ] [main                ] [                ] - Stopped to serve REST [rest_server]
+2025-08-14T13:35:05.709Z [jfomr] [INFO ] [5a82a15ead40d2bb] [app.go:63                     ] [main                ] [                ] - Goroutine 'gRPC server' exited [app_server]
+2025-08-14T13:35:05.709Z [jfomr] [INFO ] [5a82a15ead40d2bb] [server.go:112                 ] [main                ] [                ] - REST server stopped [rest_server]
+2025-08-14T13:35:05.709Z [jfomr] [INFO ] [5a82a15ead40d2bb] [app.go:59                     ] [main                ] [                ] - Goroutine 'REST server' exited [app_server]
+2025-08-14T13:35:05.709Z [jfomr] [INFO ] [5a82a15ead40d2bb] [app.go:80                     ] [main                ] [                ] - Web servers stopped [app_server]
+2025-08-14T13:35:05.710Z [jfomr] [INFO ] [5a82a15ead40d2bb] [worker.go:279                 ] [main                ] [                ] - Stopping composition worker [composition]
+2025-08-14T13:35:05.710Z [jfomr] [INFO ] [5a82a15ead40d2bb] [shutdown.go:22                ] [main                ] [                ] - Subgraph Service stopped [lifecycle]
+2025-08-14T13:35:05.710Z [jfomr] [INFO ] [5a82a15ead40d2bb] [service.go:127                ] [main                ] [                ] - Health check background job stopped [system]
+2025-08-14T13:35:05.710Z [jfomr] [INFO ] [5a82a15ead40d2bb] [shutdown.go:25                ] [main                ] [                ] - System Service stopped [lifecycle]
+2025-08-14T13:35:05.710Z [jfomr] [INFO ] [5a82a15ead40d2bb] [worker.go:83                  ] [main                ] [                ] - Composition worker stopped [composition]
+2025-08-14T13:35:05.710Z [jfomr] [INFO ] [5a82a15ead40d2bb] [shutdown.go:53                ] [main                ] [                ] - NewRelic Agent stopped [lifecycle]
+2025-08-14T13:35:05.710Z [jfomr] [INFO ] [5a82a15ead40d2bb] [shutdown.go:64                ] [main                ] [                ] - Tracer stopped [lifecycle]
+2025-08-14T13:35:05.710Z [jfomr] [INFO ] [5a82a15ead40d2bb] [shutdown.go:33                ] [main                ] [                ] - Metrics service stopped [lifecycle]
+2025-08-14T13:35:05.710Z [jfomr] [INFO ] [5a82a15ead40d2bb] [shutdown.go:36                ] [main                ] [                ] - Datastore connection closed [lifecycle]
+2025-08-14T13:35:05.712Z [jfomr] [INFO ] [5a82a15ead40d2bb] [platform_config_stream.go:144 ] [main                ] [                ] - Stopping Platform Config checkKeepAlive [access_client]
+2025-08-14T13:35:05.712Z [jfomr] [INFO ] [5a82a15ead40d2bb] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Canceled desc = context canceled [access_client]
+2025-08-14T13:35:05.712Z [jfomr] [INFO ] [5a82a15ead40d2bb] [platform_config_stream.go:115 ] [main                ] [                ] - Platform Config stream Recv loop stopped [access_client]
+2025-08-14T13:35:05.712Z [jfomr] [INFO ] [5a82a15ead40d2bb] [shutdown.go:43                ] [main                ] [                ] - Access Client provider stopped [lifecycle]
+2025-08-14T13:35:05.712Z [jfomr] [INFO ] [5a82a15ead40d2bb] [platform_config_stream.go:88  ] [main                ] [                ] - Platform Config stream disconnected [access_client]
+2025-08-14T13:35:05.712Z [jfomr] [INFO ] [5a82a15ead40d2bb] [platform_config_stream.go:54  ] [main                ] [                ] - Platform Config stream connect goroutine stopped [access_client]
+2025-08-14T13:35:05.712Z [jfomr] [INFO ] [5a82a15ead40d2bb] [shutdown.go:77                ] [main                ] [                ] - Service stopped [lifecycle]
+2025-08-14T13:35:34.303Z [jfomr] [INFO ] [1e5de70c400edb36] [run.go:78                     ] [main                ] [                ] - JFrog OneModel Schema Registry (jfomr) service initialization started. Version: 1.52.2 (revision: 9c2609de41, build date: 2025-07-02T10:15:08Z) PID: 32418 Home: /opt/jfrog/artifactory [lifecycle]
+2025-08-14T13:35:34.305Z [jfomr] [INFO ] [1e5de70c400edb36] [run.go:90                     ] [main                ] [                ] - Effective configuration:
+access.database.maxOpenConnections (File): 200
+access.jfconfig.enabled (Environment Variable: JF_ACCESS_JFCONFIG_ENABLED): true
+access.tomcat.connector.maxThreads (File): 100
+access.useexternaltopology (Environment Variable: JF_ACCESS_USEEXTERNALTOPOLOGY): true
+artifactory.database.maxOpenConnections (File): 200
+artifactory.pid (Environment Variable: JF_ARTIFACTORY_PID): /var/run/artifactory.pid
+artifactory.tomcat.connector.maxThreads (File): 400
+configVersion (File): 1
+evidence.enabled (Default Value): false
+metadata.database.maxOpenConnections (File): 200
+onemodel.accessClient.joinTimeoutMillis (Default Value): 360000
+onemodel.accessClient.pingTimeoutMillis (Default Value): 240000
+onemodel.artifactory.url (Environment Variable: JF_ONEMODEL_ARTIFACTORY_URL): http://localhost:8081
+onemodel.centralAccess.accessUrl (Default Value): 
+onemodel.centralAccess.retryBackoffInitialIntervalMillis (Default Value): 500
+onemodel.centralAccess.retryBackoffMaxElapsedTimeMillis (Default Value): 0
+onemodel.centralAccess.retryBackoffMaxIntervalMillis (Default Value): 3600000
+onemodel.centralAccess.revocableExpiryThresholdSeconds (Default Value): -1
+onemodel.composition.historyRetention.maxArchives (Default Value): 20
+onemodel.composition.incomingRegisterSubgraphBuffer (Default Value): 10
+onemodel.composition.outputSupergraphPath (Default Value): supergraph.graphqls
+onemodel.composition.roverPath (Default Value): rover
+onemodel.composition.scheduledTaskDelaySecs (Default Value): 30
+onemodel.composition.staticSubGraphs.jfctlg-custom.endpoint (Default Value): /catalog/api/v1/custom/graphql
+onemodel.composition.staticSubGraphs.jfctlg-custom.path (Default Value): schemas/graphql/jfctlg-custom/schema.graphqls
+onemodel.composition.staticSubGraphs.jfctlg-custom.skip (Default Value): true
+onemodel.composition.staticSubGraphs.jfctlg-custom.version (Default Value): 0.0.0-dev+static.omr
+onemodel.composition.staticSubGraphs.jfctlg-public.endpoint (Default Value): /catalog/api/v1/public/graphql
+onemodel.composition.staticSubGraphs.jfctlg-public.path (Default Value): schemas/graphql/jfctlg-public/schema.graphqls
+onemodel.composition.staticSubGraphs.jfctlg-public.skip (Default Value): true
+onemodel.composition.staticSubGraphs.jfctlg-public.version (Default Value): 0.0.0-dev+static.omr
+onemodel.composition.staticSubGraphs.jfevd.endpoint (Default Value): /evidence/api/v1/onemodel/graphql
+onemodel.composition.staticSubGraphs.jfevd.path (Default Value): schemas/graphql/jfevd/schema.graphqls
+onemodel.composition.staticSubGraphs.jfevd.skip (Default Value): true
+onemodel.composition.staticSubGraphs.jfevd.version (Default Value): 0.0.0-dev+static.omr
+onemodel.composition.staticSubGraphs.jfomr.endpoint (Default Value): /onemodel/api/v1/onemodel/graphql
+onemodel.composition.staticSubGraphs.jfomr.path (Default Value): schemas/graphql/onemodel/schema.graphqls
+onemodel.composition.staticSubGraphs.jfomr.version (Default Value): 1.52.2
+onemodel.composition.version (Default Value): 2.11.0
+onemodel.database.maxOpenConnections (Default Value): 5
+onemodel.graphql.apolloRouterPort (Default Value): 8073
+onemodel.graphql.compatibilityFilterEnabled (Default Value): true
+onemodel.graphql.queryCacheSize (Default Value): 5
+onemodel.graphql.queryParserTokenLimit (Default Value): 50
+onemodel.grpcPort (Default Value): 8072
+onemodel.healthCheck.apolloHealthCheckPort (Default Value): 8074
+onemodel.healthCheck.intervalSecs (Default Value): 15
+onemodel.listenAddr (Default Value): localhost
+onemodel.logging.application.caller (Default Value): false
+onemodel.logging.application.console (Default Value): true
+onemodel.logging.application.filePath (Default Value): onemodelregistry-service.log
+onemodel.logging.application.format (Default Value): jftext
+onemodel.logging.application.level (Default Value): info
+onemodel.logging.application.rotation.compress (Default Value): true
+onemodel.logging.application.rotation.intervalSecs (Default Value): 86400
+onemodel.logging.application.rotation.keepLastDecompressed (Default Value): 1
+onemodel.logging.application.rotation.maxAgeDays (Default Value): 365
+onemodel.logging.application.rotation.maxFiles (Default Value): 10
+onemodel.logging.application.rotation.maxSizeMb (Default Value): 25
+onemodel.logging.consoleLog.format (Default Value): jftext
+onemodel.logging.metrics.console (Default Value): false
+onemodel.logging.metrics.filePath (Default Value): onemodelregistry-metrics.log
+onemodel.logging.metrics.rotation.compress (Default Value): true
+onemodel.logging.metrics.rotation.intervalSecs (Default Value): 86400
+onemodel.logging.metrics.rotation.keepLastDecompressed (Default Value): 1
+onemodel.logging.metrics.rotation.maxAgeDays (Default Value): 365
+onemodel.logging.metrics.rotation.maxFiles (Default Value): 10
+onemodel.logging.metrics.rotation.maxSizeMb (Default Value): 25
+onemodel.logging.request.console (Default Value): false
+onemodel.logging.request.filePath (Default Value): onemodelregistry-request.log
+onemodel.logging.request.rotation.compress (Default Value): true
+onemodel.logging.request.rotation.intervalSecs (Default Value): 86400
+onemodel.logging.request.rotation.keepLastDecompressed (Default Value): 1
+onemodel.logging.request.rotation.maxAgeDays (Default Value): 365
+onemodel.logging.request.rotation.maxFiles (Default Value): 10
+onemodel.logging.request.rotation.maxSizeMb (Default Value): 25
+onemodel.metrics.enabled (Default Value): false
+onemodel.metrics.exclude (Default Value): []
+onemodel.metrics.intervalMillis (Default Value): 10000
+onemodel.metrics.logPeriodically (Default Value): true
+onemodel.metrics.tokenVerification.accessUrl (Default Value): 
+onemodel.metrics.tokenVerification.retryBackoffInitialIntervalMillis (Default Value): 500
+onemodel.metrics.tokenVerification.retryBackoffMaxElapsedTimeMillis (Default Value): 0
+onemodel.metrics.tokenVerification.retryBackoffMaxIntervalMillis (Default Value): 3600000
+onemodel.metrics.tokenVerification.revocableExpiryThresholdSeconds (Default Value): -1
+onemodel.metrics.triggers.enabled (Default Value): true
+onemodel.metrics.triggers.intervalMillis (Default Value): 20000
+onemodel.metrics.triggers.limit (Default Value): 1000000
+onemodel.port (Default Value): 8071
+onemodel.probes.liveness.failOnLongFailingReadiness.enabled (Default Value): true
+onemodel.probes.liveness.failOnLongFailingReadiness.failureDurationSecs (Default Value): 60
+onemodel.profiling.enabled (Default Value): false
+onemodel.storage.maxRecordsPerOwner (Default Value): 10
+onemodel.storage.supergraphsRetentionDays (Default Value): 365
+onemodel.supportBundle.nodeBundleAggregationTimeoutMillis (Default Value): 30000
+onemodel.supportBundle.serviceBundleAggregationTimeoutMillis (Default Value): 300000
+product.home (Environment Variable: JF_PRODUCT_HOME): /opt/jfrog/artifactory
+router.entrypoints.internalPort (Default Value): 8046
+router.topology.local.requiredservicetypes (Environment Variable: JF_ROUTER_TOPOLOGY_LOCAL_REQUIREDSERVICETYPES): jfrt,jfac,jfmd,jffe,jfob,jfcon,jfevt,jfevd,jfcfg,jftpl,jfomr
+shared.database.driver (File): oracle.jdbc.OracleDriver
+shared.database.password (File): *****
+shared.database.type (File): oracle
+shared.database.url (File): jdbc:oracle:thin:@(DESCRIPTION=(CONNECT_TIMEOUT=10)(RETRY_COUNT=3)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_909.inet.bundesbank.de)(PORT=1621))(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_913.inet.bundesbank.de)(PORT=1621)))(CONNECT_DATA=(SERVICE_NAME= ARTED_PRIM.WORLD)(SERVER=DEDICATED)))
+shared.database.username (File): ARTE1
+shared.env.LD_LIBRARY_PATH (File): /usr/lib64/
+shared.env.extraJavaOpts (File): -Xms4g -Xmx12g
+shared.group (File): artifactory
+shared.logging.consoleLog.format (Default Value): jftext
+shared.logging.enableJsonConsoleLogAppenders (Default Value): false
+shared.logging.rotation.compress (File): true
+shared.logging.rotation.maxFiles (File): 10
+shared.logging.rotation.maxSizeMb (File): 25
+shared.multiTenant.cellId (Default Value): 
+shared.multiTenant.enabled (Default Value): false
+shared.multiTenant.tenantRegistryClient.caCert (Default Value): 
+shared.multiTenant.tenantRegistryClient.cacheExpirationSecs (Default Value): 21600
+shared.multiTenant.tenantRegistryClient.clientCert (Default Value): 
+shared.multiTenant.tenantRegistryClient.clientCertKey (Default Value): *****
+shared.multiTenant.tenantRegistryClient.dialTimeoutSecs (Default Value): 10
+shared.multiTenant.tenantRegistryClient.endpoints (Default Value): []
+shared.multiTenant.tenantRegistryClient.password (Default Value): *****
+shared.multiTenant.tenantRegistryClient.pingCacheExpirationSecs (Default Value): 15
+shared.multiTenant.tenantRegistryClient.pingTimeoutSecs (Default Value): 1
+shared.multiTenant.tenantRegistryClient.requestTimeoutSecs (Default Value): 30
+shared.multiTenant.tenantRegistryClient.username (Default Value): 
+shared.newrelic.appName (Default Value): 
+shared.newrelic.distributedTracerEnabled (Default Value): true
+shared.newrelic.enableDebugLog (Default Value): false
+shared.newrelic.enabled (Default Value): false
+shared.newrelic.licenseKey (Default Value): *****
+shared.node.haEnabled (File): false
+shared.node.id (Environment Variable: JF_SHARED_NODE_ID): u999jfart002d.in.bundesbank.de
+shared.node.ip (Environment Variable: JF_SHARED_NODE_IP): 10.204.188.11
+shared.node.name (Environment Variable: JF_SHARED_NODE_NAME): u999jfart002d
+shared.node.primary (File): true
+shared.runtime.isSaas (Default Value): false
+shared.security.ExposeApplicationHeaders (Default Value): false
+shared.security.bootstrapKeysReadTimeoutSecs (Default Value): 120
+shared.security.joinKeyFile (Default Value): etc/security/join.key
+shared.security.masterKeyFile (Default Value): etc/security/master.key
+shared.user (File): artifactory
+system.yaml (Environment Variable: JF_SYSTEM_YAML): /opt/jfrog/artifactory/var/etc/system.yaml [lifecycle]
+2025-08-14T13:35:50.352Z [jfomr] [INFO ] [1e5de70c400edb36] [run.go:100                    ] [main                ] [                ] - Service ID: jfomr@01fzay697410wh1bw17baz1s5g [lifecycle]
+2025-08-14T13:35:50.352Z [jfomr] [INFO ] [1e5de70c400edb36] [run.go:101                    ] [main                ] [                ] - Node ID: u999jfart002d.in.bundesbank.de [lifecycle]
+2025-08-14T13:35:50.352Z [jfomr] [INFO ] [1e5de70c400edb36] [store.go:24                   ] [main                ] [                ] - Using JFrog Platform Config as datastore [datastore]
+2025-08-14T13:35:50.356Z [jfomr] [INFO ] [1e5de70c400edb36] [store.go:32                   ] [main                ] [                ] - Waiting for Access Client to be ready... [datastore]
+2025-08-14T13:35:50.368Z [jfomr] [INFO ] [1e5de70c400edb36] [rover.go:121                  ] [main                ] [                ] - Using Apollo Federation version: 2.11.0 [rover]
+2025-08-14T13:35:50.368Z [jfomr] [INFO ] [1e5de70c400edb36] [rover.go:125                  ] [main                ] [                ] - Using Apollo Rover CLI version: Rover 0.33.0 [rover]
+2025-08-14T13:35:50.368Z [jfomr] [INFO ] [1e5de70c400edb36] [service.go:107                ] [main                ] [                ] - Starting health check background job... [system]
+2025-08-14T13:35:50.369Z [jfomr] [INFO ] [1e5de70c400edb36] [join.go:33                    ] [main                ] [                ] - Joining Access on port 8046 [access_client]
+2025-08-14T13:35:50.616Z [jfomr] [INFO ] [1e5de70c400edb36] [join_executor.go:178          ] [main                ] [                ] - Cluster join: Successfully joined the cluster [access_client]
+2025-08-14T13:35:50.616Z [jfomr] [INFO ] [1e5de70c400edb36] [join_executor.go:190          ] [main                ] [                ] - Cluster join: executing Router register at: localhost:8046 for service id jfomr@01fzay697410wh1bw17baz1s5g [access_client]
+2025-08-14T13:35:50.637Z [jfomr] [INFO ] [1e5de70c400edb36] [run.go:165                    ] [main                ] [                ] - Waiting for datastore to be ready... [lifecycle]
+2025-08-14T13:35:50.637Z [jfomr] [INFO ] [1e5de70c400edb36] [store.go:38                   ] [main                ] [                ] - Access Client is ready... [datastore]
+2025-08-14T13:35:50.637Z [jfomr] [INFO ] [1e5de70c400edb36] [store.go:275                  ] [main                ] [                ] - Initializing JFrog Platform Config store... [datastore]
+2025-08-14T13:35:50.657Z [jfomr] [INFO ] [1e5de70c400edb36] [store.go:300                  ] [main                ] [                ] - JFrog Platform Config store initialized [datastore]
+2025-08-14T13:35:50.657Z [jfomr] [INFO ] [1e5de70c400edb36] [run.go:170                    ] [main                ] [                ] - Datastore is ready [lifecycle]
+2025-08-14T13:35:50.657Z [jfomr] [INFO ] [1e5de70c400edb36] [run.go:213                    ] [main                ] [                ] - Registering embedded subgraph schemas... [lifecycle]
+2025-08-14T13:35:50.657Z [jfomr] [INFO ] [1e5de70c400edb36] [run.go:216                    ] [main                ] [                ] - Registration of the static subgraph for "jfctlg-public" is skipped [lifecycle]
+2025-08-14T13:35:50.657Z [jfomr] [INFO ] [1e5de70c400edb36] [run.go:216                    ] [main                ] [                ] - Registration of the static subgraph for "jfevd" is skipped [lifecycle]
+2025-08-14T13:35:50.657Z [jfomr] [INFO ] [1e5de70c400edb36] [run.go:219                    ] [main                ] [                ] - Registration of the static subgraph for "jfomr" is enabled [lifecycle]
+2025-08-14T13:35:50.657Z [jfomr] [INFO ] [1e5de70c400edb36] [handler.go:41                 ] [main                ] [                ] - Received subgraph from jfomr with version 1.52.2 (length: 4266) [subgraph_grpc]
+2025-08-14T13:35:50.657Z [jfomr] [INFO ] [1e5de70c400edb36] [dedicated_grpc_connection.go:2] [main                ] [                ] - Creating a new dedicated gRPC connection for localhost:8046 [access_client]
+2025-08-14T13:35:50.657Z [jfomr] [INFO ] [1e5de70c400edb36] [platform_config_stream.go:49  ] [main                ] [                ] - Starting Platform Config stream connect goroutine [access_client]
+2025-08-14T13:35:50.657Z [jfomr] [INFO ] [1e5de70c400edb36] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access_client]
+2025-08-14T13:35:50.685Z [jfomr] [INFO ] [1e5de70c400edb36] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T13:35:50.685Z [jfomr] [INFO ] [1e5de70c400edb36] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T13:35:50.685Z [jfomr] [INFO ] [1e5de70c400edb36] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access_client]
+2025-08-14T13:35:50.685Z [jfomr] [INFO ] [1e5de70c400edb36] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access_client]
+2025-08-14T13:35:50.685Z [jfomr] [ERROR] [1e5de70c400edb36] [platform_config_service.go:183] [main                ] [                ] - Could not retrieve config for key 'jfrog.onemodel.registry.subgraphs': rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T13:35:50.707Z [jfomr] [INFO ] [1e5de70c400edb36] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T13:35:50.707Z [jfomr] [INFO ] [1e5de70c400edb36] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T13:35:50.707Z [jfomr] [INFO ] [1e5de70c400edb36] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access_client]
+2025-08-14T13:35:50.707Z [jfomr] [INFO ] [1e5de70c400edb36] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access_client]
+2025-08-14T13:35:50.756Z [jfomr] [INFO ] [1e5de70c400edb36] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T13:35:50.756Z [jfomr] [INFO ] [1e5de70c400edb36] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T13:35:50.756Z [jfomr] [INFO ] [1e5de70c400edb36] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access_client]
+2025-08-14T13:35:50.756Z [jfomr] [INFO ] [1e5de70c400edb36] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access_client]
+2025-08-14T13:35:50.852Z [jfomr] [INFO ] [1e5de70c400edb36] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T13:35:50.852Z [jfomr] [INFO ] [1e5de70c400edb36] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T13:35:50.852Z [jfomr] [INFO ] [1e5de70c400edb36] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access_client]
+2025-08-14T13:35:50.852Z [jfomr] [INFO ] [1e5de70c400edb36] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access_client]
+2025-08-14T13:35:51.022Z [jfomr] [INFO ] [1e5de70c400edb36] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T13:35:51.022Z [jfomr] [INFO ] [1e5de70c400edb36] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T13:35:51.022Z [jfomr] [INFO ] [1e5de70c400edb36] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access_client]
+2025-08-14T13:35:51.022Z [jfomr] [INFO ] [1e5de70c400edb36] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access_client]
+2025-08-14T13:35:51.345Z [jfomr] [INFO ] [1e5de70c400edb36] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T13:35:51.345Z [jfomr] [INFO ] [1e5de70c400edb36] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T13:35:51.345Z [jfomr] [INFO ] [1e5de70c400edb36] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access_client]
+2025-08-14T13:35:51.345Z [jfomr] [INFO ] [1e5de70c400edb36] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access_client]
+2025-08-14T13:35:51.690Z [jfomr] [ERROR] [1e5de70c400edb36] [platform_config_service.go:183] [main                ] [                ] - Could not retrieve config for key 'jfrog.onemodel.registry.subgraphs': rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access_client]
+2025-08-14T13:35:53.365Z [jfomr] [INFO ] [1e5de70c400edb36] [platform_config_stream.go:105 ] [main                ] [                ] - Starting Platform Config stream Recv loop [access_client]
+2025-08-14T13:35:53.366Z [jfomr] [INFO ] [1e5de70c400edb36] [platform_config_stream.go:137 ] [main                ] [                ] - Starting Platform Config checkKeepAlive [access_client]
+2025-08-14T13:35:56.700Z [jfomr] [INFO ] [1e5de70c400edb36] [run.go:216                    ] [main                ] [                ] - Registration of the static subgraph for "jfctlg-custom" is skipped [lifecycle]
+2025-08-14T13:35:56.700Z [jfomr] [INFO ] [1e5de70c400edb36] [service.go:83                 ] [main                ] [                ] - Storage cleanup started [lifecycle]
+2025-08-14T13:35:56.747Z [jfomr] [INFO ] [1e5de70c400edb36] [service.go:85                 ] [main                ] [                ] - Storage cleanup finished [lifecycle]
+2025-08-14T13:35:56.747Z [jfomr] [INFO ] [1e5de70c400edb36] [run.go:183                    ] [main                ] [                ] - JFrog OneModel Schema Registry (jfomr) service initialization completed in 22.482 seconds. REST API available on 127.0.0.1:8071. GRPC API available on 127.0.0.1:8072. [lifecycle]
+2025-08-14T13:35:56.751Z [jfomr] [INFO ] [1e5de70c400edb36] [worker.go:75                  ] [main                ] [                ] - Composition worker started [composition]
+2025-08-14T13:35:56.751Z [jfomr] [INFO ] [1e5de70c400edb36] [worker.go:268                 ] [main                ] [                ] - Triggering initial composition [composition]
+2025-08-14T13:35:56.751Z [jfomr] [INFO ] [1e5de70c400edb36] [worker.go:273                 ] [main                ] [                ] - Initial composition triggered [composition]
+2025-08-14T13:35:56.752Z [jfomr] [INFO ] [1e5de70c400edb36] [worker.go:132                 ] [main                ] [                ] - Composition will be run with: [jfomr_1.52.2] [composition] [trigger][manual] [trigger_id][initial]
+2025-08-14T13:35:56.752Z [jfomr] [INFO ] [1e5de70c400edb36] [worker.go:211                 ] [main                ] [                ] - Preparing temporary working dir: /opt/jfrog/artifactory/var/work/onemodel/composition-1755178556752-3681844602 [composition] [trigger][manual] [trigger_id][initial]
+2025-08-14T13:35:56.752Z [jfomr] [INFO ] [1e5de70c400edb36] [rover.go:63                   ] [main                ] [                ] - Running Apollo Rover [rover] [trigger][manual] [trigger_id][initial]
+2025-08-14T13:35:57.013Z [jfomr] [INFO ] [1e5de70c400edb36] [rover.go:152                  ] [main                ] [                ] - Rover stdout: <none> [rover] [trigger][manual] [trigger_id][initial]
+2025-08-14T13:35:57.013Z [jfomr] [INFO ] [1e5de70c400edb36] [rover.go:155                  ] [main                ] [                ] - Rover stderr:
+   INFO rover_std::fs: reading /opt/jfrog/artifactory/var/work/onemodel/apollo/machine.txt from disk
+    at crates/rover-std/src/fs.rs:34
+
+   INFO rover::utils::telemetry: Telemetry has been disabled.
+    at src/utils/telemetry.rs:87
+
+merging supergraph schema files
+   INFO rover_std::fs: reading /opt/jfrog/artifactory/var/work/onemodel/composition-1755178556752-3681844602/__rover.yaml from disk
+    at crates/rover-std/src/fs.rs:34
+
+supergraph config loaded successfully
+   INFO rover_std::fs: reading /opt/jfrog/artifactory/var/work/onemodel/composition-1755178556752-3681844602/jfomr.graphqls from disk
+    at crates/rover-std/src/fs.rs:34
+
+   INFO rover_std::fs: checking existence of parent path in '/opt/jfrog/artifactory/var/work/onemodel/apollo/elv2_license.toml'
+    at crates/rover-std/src/fs.rs:59
+
+   INFO rover_std::fs: writing /opt/jfrog/artifactory/var/work/onemodel/apollo/elv2_license.toml to disk
+    at crates/rover-std/src/fs.rs:90
+
+   INFO rover_std::fs: reading /opt/jfrog/artifactory/var/work/onemodel/composition-1755178556752-3681844602/jfomr.graphqls from disk
+    at crates/rover-std/src/fs.rs:34
+
+   INFO rover_std::fs: checking existence of parent path in '/opt/jfrog/artifactory/var/work/onemodel/composition-1755178556752-3681844602/.tmp8VEG5r/supergraph.yaml'
+    at crates/rover-std/src/fs.rs:59
+
+   INFO rover_std::fs: creating /opt/jfrog/artifactory/var/work/onemodel/composition-1755178556752-3681844602/.tmp8VEG5r directory
+    at crates/rover-std/src/fs.rs:130
+
+   INFO rover_std::fs: writing /opt/jfrog/artifactory/var/work/onemodel/composition-1755178556752-3681844602/.tmp8VEG5r/supergraph.yaml to disk
+    at crates/rover-std/src/fs.rs:90
+
+   INFO rover_std::fs: checking existence of parent path in '/opt/jfrog/artifactory/var/work/onemodel/composition-1755178556752-3681844602/__supergraph.graphqls'
+    at crates/rover-std/src/fs.rs:59
+
+   INFO rover_std::fs: writing /opt/jfrog/artifactory/var/work/onemodel/composition-1755178556752-3681844602/__supergraph.graphqls to disk
+    at crates/rover-std/src/fs.rs:90
+
+HINT: Enum type "SortOrderDirection" is defined but unused. It will be included in the supergraph with all the values appearing in any subgraph ("as if" it was only used as an output type).
+
+   INFO rover_std::fs: checking existence of parent path in '/opt/jfrog/artifactory/var/work/onemodel/composition-1755178556752-3681844602/__supergraph.graphqls'
+    at crates/rover-std/src/fs.rs:59
+
+   INFO rover_std::fs: writing /opt/jfrog/artifactory/var/work/onemodel/composition-1755178556752-3681844602/__supergraph.graphqls to disk
+    at crates/rover-std/src/fs.rs:90
+
+Supergraph Schema was printed to /opt/jfrog/artifactory/var/work/onemodel/composition-1755178556752-3681844602/__supergraph.graphqls
+ [rover] [trigger][manual] [trigger_id][initial]
+2025-08-14T13:35:57.024Z [jfomr] [INFO ] [1e5de70c400edb36] [worker.go:161                 ] [main                ] [                ] - Successfully generated supergraph 4395c8394374b42e2830ff7a5d4dedcd2dc769df3b957ae58e6b2cbc7f21664b with Apollo Federation version 2.11.0 [composition] [trigger][manual] [trigger_id][initial]
+2025-08-14T13:35:57.060Z [jfomr] [INFO ] [1e5de70c400edb36] [worker.go:240                 ] [main                ] [                ] - Publishing new supergraph [composition] [trigger][manual] [trigger_id][initial]

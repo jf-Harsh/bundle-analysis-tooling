@@ -1,0 +1,33 @@
+endpoints:
+    - excludedpaths: []
+      paths:
+        - match: topology/.*
+          replace: ""
+      port: 8020
+      protocol: 1
+    - excludedpaths: []
+      paths:
+        - match: /com\.jfrog\.topology\..*
+          replace: ""
+      port: 8021
+      protocol: 2
+    - excludedpaths: []
+      paths:
+        - match: access/api/v1/topology
+          replace: topology/api/v1/topology
+      port: 8020
+      protocol: 1
+    - excludedpaths: []
+      paths:
+        - match: /com\.jfrog\.access\.v1\.serviceregistry\..*
+          replace: ""
+      port: 8021
+      protocol: 2
+healthcheckendpoint:
+    path: /topology/api/v1/system/readiness
+    port: 8020
+nodeid: u999jfart002d.in.bundesbank.de
+nodestatusendpoint: null
+revision: ""
+serviceid: jftpl@0000
+version: ""

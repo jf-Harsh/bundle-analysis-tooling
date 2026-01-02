@@ -1,0 +1,11 @@
+{
+	"service_type": "jfomr",
+	"microservice_name": "onemodelregistry",
+	"microservice_version": "1.52.2 (revision: 9c2609de41, build date: 2025-07-02T10:15:08Z)",
+	"service_id": "jfomr@01fzay697410wh1bw17baz1s5g",
+	"node_id": "u999jfart002d.in.bundesbank.de",
+	"bundle_info": {
+		"id": "gateway-1755178820823",
+		"name": "gateway"
+	}
+}

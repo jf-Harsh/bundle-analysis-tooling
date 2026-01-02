@@ -1,0 +1,1184 @@
+2025-08-14T08:03:49.650Z [jfevd] [INFO ] [1d8ba4d2bb297ad3] [application.go:310            ] [main                ] [                ] - Effective configuration:
+access.database.maxOpenConnections (File): 200
+access.jfconfig.enabled (Environment Variable: JF_ACCESS_JFCONFIG_ENABLED): true
+access.tomcat.connector.maxThreads (File): 100
+access.useexternaltopology (Environment Variable: JF_ACCESS_USEEXTERNALTOPOLOGY): true
+artifactory.database.maxOpenConnections (File): 200
+artifactory.pid (Environment Variable: JF_ARTIFACTORY_PID): /var/run/artifactory.pid
+artifactory.tomcat.connector.maxThreads (File): 400
+configVersion (File): 1
+evidence.access.bypass.accessUrl (Default Value): 
+evidence.access.bypass.retryBackoffInitialIntervalMillis (Default Value): 500
+evidence.access.bypass.retryBackoffMaxElapsedTimeMillis (Default Value): 0
+evidence.access.bypass.retryBackoffMaxIntervalMillis (Default Value): 3600000
+evidence.access.bypass.revocableExpiryThresholdSeconds (Default Value): -1
+evidence.access.joinTimeoutMillis (Default Value): 180000
+evidence.access.pingTimeoutMillis (Default Value): 120000
+evidence.accessclient.url (Environment Variable: JF_EVIDENCE_ACCESSCLIENT_URL): http://localhost:8081/access
+evidence.api.maxFilterSize (Default Value): 50
+evidence.api.maxPageSize (Default Value): 200
+evidence.api.maxQueryDepth (Default Value): 20
+evidence.caching.license.capacity (Default Value): 100
+evidence.caching.license.expirationSecs (Default Value): 300
+evidence.caching.publicKeys.capacity (Default Value): 500
+evidence.caching.publicKeys.expirationSecs (Default Value): 14400
+evidence.database.disableParallelSelect (Default Value): true
+evidence.database.enableLogForPostgres (Default Value): false
+evidence.database.kerberosAuth (Default Value): false
+evidence.database.maxIdleConnections (Default Value): 10
+evidence.database.maxOpenConnections (Default Value): 100
+evidence.database.maxRecordsLimit (Default Value): 1000
+evidence.database.metrics.enabled (Default Value): false
+evidence.database.metrics.maxQueriesToTrack (Default Value): 5
+evidence.database.migrationLockRetryIntervalSecs (Default Value): 60
+evidence.database.password (File: shared.database.password): *****
+evidence.database.queryTimeoutSecs (Default Value): 1800
+evidence.database.type (File: shared.database.type): oracle
+evidence.database.url (File: shared.database.url): jdbc:oracle:thin:@(DESCRIPTION=(CONNECT_TIMEOUT=10)(RETRY_COUNT=3)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_909.inet.bundesbank.de)(PORT=1621))(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_913.inet.bundesbank.de)(PORT=1621)))(CONNECT_DATA=(SERVICE_NAME= ARTED_PRIM.WORLD)(SERVER=DEDICATED)))
+evidence.database.username (File: shared.database.username): ARTE1
+evidence.database.waitForConnectionTimeoutSecs (Default Value): 15
+evidence.graphql.playground (Default Value): true
+evidence.grpcPort (Default Value): 8052
+evidence.httpPort (Default Value): 8051
+evidence.jfConnect.establishConnectionTimeoutMillis (Default Value): 3000
+evidence.jfConnect.fetchIntervalMillis (Default Value): 30000
+evidence.jfConnect.requestTimeoutMillis (Default Value): 30000
+evidence.jfConnect.retryConnectionIntervalMillis (Default Value): 1000
+evidence.jfConnect.tokenExpiryMinutes (Default Value): 1440
+evidence.logging.application.caller (Default Value): false
+evidence.logging.application.console (Default Value): true
+evidence.logging.application.filePath (Default Value): evidence-service.log
+evidence.logging.application.format (Default Value): jftext
+evidence.logging.application.level (Default Value): info
+evidence.logging.application.rotation.compress (Default Value): true
+evidence.logging.application.rotation.keepLastDecompressed (Default Value): 1
+evidence.logging.application.rotation.maxAgeDays (Default Value): 365
+evidence.logging.application.rotation.maxFiles (Default Value): 10
+evidence.logging.application.rotation.maxSizeMb (Default Value): 25
+evidence.logging.consoleLog.format (Default Value): jftext
+evidence.logging.metrics.console (Default Value): false
+evidence.logging.metrics.filePath (Default Value): evidence-metrics.log
+evidence.logging.metrics.rotation.compress (Default Value): true
+evidence.logging.metrics.rotation.keepLastDecompressed (Default Value): 1
+evidence.logging.metrics.rotation.maxAgeDays (Default Value): 365
+evidence.logging.metrics.rotation.maxFiles (Default Value): 10
+evidence.logging.metrics.rotation.maxSizeMb (Default Value): 25
+evidence.logging.request.console (Default Value): false
+evidence.logging.request.filePath (Default Value): evidence-request.log
+evidence.logging.request.rotation.compress (Default Value): true
+evidence.logging.request.rotation.keepLastDecompressed (Default Value): 1
+evidence.logging.request.rotation.maxAgeDays (Default Value): 365
+evidence.logging.request.rotation.maxFiles (Default Value): 10
+evidence.logging.request.rotation.maxSizeMb (Default Value): 25
+evidence.metrics.backOffice.enabled (Default Value): true
+evidence.metrics.enabled (Default Value): false
+evidence.metrics.exclude (Default Value): []
+evidence.metrics.intervalMillis (Default Value): 10s
+evidence.metrics.logPeriodically (Default Value): false
+evidence.metrics.triggers.enabled (Default Value): true
+evidence.metrics.triggers.intervalMillis (Default Value): 20000
+evidence.metrics.triggers.limit (Default Value): 1000000
+evidence.profiling.enabled (Default Value): false
+evidence.supportBundle.aggregationTimeoutMillis (Default Value): 3600000
+metadata.database.maxOpenConnections (File): 200
+product.home (Environment Variable: JF_PRODUCT_HOME): /opt/jfrog/artifactory
+router.entrypoints.internalPort (Default Value): 8046
+router.topology.local.requiredservicetypes (Environment Variable: JF_ROUTER_TOPOLOGY_LOCAL_REQUIREDSERVICETYPES): jfrt,jfac,jfmd,jffe,jfob,jfcon,jfevt,jfevd,jfcfg,jftpl,jfomr
+shared.database.driver (File): oracle.jdbc.OracleDriver
+shared.database.password (File): *****
+shared.database.type (File): oracle
+shared.database.url (File): jdbc:oracle:thin:@(DESCRIPTION=(CONNECT_TIMEOUT=10)(RETRY_COUNT=3)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_909.inet.bundesbank.de)(PORT=1621))(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_913.inet.bundesbank.de)(PORT=1621)))(CONNECT_DATA=(SERVICE_NAME= ARTED_PRIM.WORLD)(SERVER=DEDICATED)))
+shared.database.username (File): ARTE1
+shared.env.LD_LIBRARY_PATH (File): /usr/lib64/
+shared.env.extraJavaOpts (File): -Xms4g -Xmx12g
+shared.group (File): artifactory
+shared.logging.rotation.compress (File): true
+shared.logging.rotation.maxFiles (File): 10
+shared.logging.rotation.maxSizeMb (File): 25
+shared.multiTenant.cellId (Default Value): 
+shared.multiTenant.enabled (Default Value): false
+shared.multiTenant.tenantRegistryClient.caCert (Default Value): 
+shared.multiTenant.tenantRegistryClient.cacheExpirationSecs (Default Value): 21600
+shared.multiTenant.tenantRegistryClient.clientCert (Default Value): 
+shared.multiTenant.tenantRegistryClient.clientCertKey (Default Value): *****
+shared.multiTenant.tenantRegistryClient.dialTimeoutSecs (Default Value): 10
+shared.multiTenant.tenantRegistryClient.endpoints (Default Value): 
+shared.multiTenant.tenantRegistryClient.pingCacheExpirationSecs (Default Value): 15
+shared.multiTenant.tenantRegistryClient.pingTimeoutSecs (Default Value): 1
+shared.multiTenant.tenantRegistryClient.requestTimeoutSecs (Default Value): 30
+shared.newrelic.appName (Default Value): 
+shared.newrelic.distributedTracerEnabled (Default Value): true
+shared.newrelic.enableDebugLog (Default Value): false
+shared.newrelic.enabled (Default Value): false
+shared.newrelic.licenseKey (Default Value): *****
+shared.node.haEnabled (File): false
+shared.node.id (Environment Variable: JF_SHARED_NODE_ID): u999jfart002d.in.bundesbank.de
+shared.node.ip (Environment Variable: JF_SHARED_NODE_IP): 10.204.188.11
+shared.node.name (Environment Variable: JF_SHARED_NODE_NAME): u999jfart002d
+shared.node.primary (File): true
+shared.security.bootstrapKeysReadTimeoutSecs (Default Value): 120
+shared.security.exposeApplicationHeaders (Default Value): false
+shared.security.joinKeyFile (Default Value): etc/security/join.key
+shared.security.masterKeyFile (Default Value): etc/security/master.key
+shared.user (File): artifactory
+system.yaml (Environment Variable: JF_SYSTEM_YAML): /opt/jfrog/artifactory/var/etc/system.yaml [bootstrap]
+2025-08-14T08:03:51.535Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [application.go:310            ] [main                ] [                ] - Effective configuration:
+access.database.maxOpenConnections (File): 200
+access.jfconfig.enabled (Environment Variable: JF_ACCESS_JFCONFIG_ENABLED): true
+access.tomcat.connector.maxThreads (File): 100
+access.useexternaltopology (Environment Variable: JF_ACCESS_USEEXTERNALTOPOLOGY): true
+artifactory.database.maxOpenConnections (File): 200
+artifactory.pid (Environment Variable: JF_ARTIFACTORY_PID): /var/run/artifactory.pid
+artifactory.tomcat.connector.maxThreads (File): 400
+configVersion (File): 1
+evidence.access.bypass.accessUrl (Default Value): 
+evidence.access.bypass.retryBackoffInitialIntervalMillis (Default Value): 500
+evidence.access.bypass.retryBackoffMaxElapsedTimeMillis (Default Value): 0
+evidence.access.bypass.retryBackoffMaxIntervalMillis (Default Value): 3600000
+evidence.access.bypass.revocableExpiryThresholdSeconds (Default Value): -1
+evidence.access.joinTimeoutMillis (Default Value): 180000
+evidence.access.pingTimeoutMillis (Default Value): 120000
+evidence.accessclient.url (Environment Variable: JF_EVIDENCE_ACCESSCLIENT_URL): http://localhost:8081/access
+evidence.api.maxFilterSize (Default Value): 50
+evidence.api.maxPageSize (Default Value): 200
+evidence.api.maxQueryDepth (Default Value): 20
+evidence.caching.license.capacity (Default Value): 100
+evidence.caching.license.expirationSecs (Default Value): 300
+evidence.caching.publicKeys.capacity (Default Value): 500
+evidence.caching.publicKeys.expirationSecs (Default Value): 14400
+evidence.database.disableParallelSelect (Default Value): true
+evidence.database.enableLogForPostgres (Default Value): false
+evidence.database.kerberosAuth (Default Value): false
+evidence.database.maxIdleConnections (Default Value): 10
+evidence.database.maxOpenConnections (Default Value): 100
+evidence.database.maxRecordsLimit (Default Value): 1000
+evidence.database.metrics.enabled (Default Value): false
+evidence.database.metrics.maxQueriesToTrack (Default Value): 5
+evidence.database.migrationLockRetryIntervalSecs (Default Value): 60
+evidence.database.password (File: shared.database.password): *****
+evidence.database.queryTimeoutSecs (Default Value): 1800
+evidence.database.type (File: shared.database.type): oracle
+evidence.database.url (File: shared.database.url): jdbc:oracle:thin:@(DESCRIPTION=(CONNECT_TIMEOUT=10)(RETRY_COUNT=3)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_909.inet.bundesbank.de)(PORT=1621))(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_913.inet.bundesbank.de)(PORT=1621)))(CONNECT_DATA=(SERVICE_NAME= ARTED_PRIM.WORLD)(SERVER=DEDICATED)))
+evidence.database.username (File: shared.database.username): ARTE1
+evidence.database.waitForConnectionTimeoutSecs (Default Value): 15
+evidence.graphql.playground (Default Value): true
+evidence.grpcPort (Default Value): 8052
+evidence.httpPort (Default Value): 8051
+evidence.jfConnect.establishConnectionTimeoutMillis (Default Value): 3000
+evidence.jfConnect.fetchIntervalMillis (Default Value): 30000
+evidence.jfConnect.requestTimeoutMillis (Default Value): 30000
+evidence.jfConnect.retryConnectionIntervalMillis (Default Value): 1000
+evidence.jfConnect.tokenExpiryMinutes (Default Value): 1440
+evidence.logging.application.caller (Default Value): false
+evidence.logging.application.console (Default Value): true
+evidence.logging.application.filePath (Default Value): evidence-service.log
+evidence.logging.application.format (Default Value): jftext
+evidence.logging.application.level (Default Value): info
+evidence.logging.application.rotation.compress (Default Value): true
+evidence.logging.application.rotation.keepLastDecompressed (Default Value): 1
+evidence.logging.application.rotation.maxAgeDays (Default Value): 365
+evidence.logging.application.rotation.maxFiles (Default Value): 10
+evidence.logging.application.rotation.maxSizeMb (Default Value): 25
+evidence.logging.consoleLog.format (Default Value): jftext
+evidence.logging.metrics.console (Default Value): false
+evidence.logging.metrics.filePath (Default Value): evidence-metrics.log
+evidence.logging.metrics.rotation.compress (Default Value): true
+evidence.logging.metrics.rotation.keepLastDecompressed (Default Value): 1
+evidence.logging.metrics.rotation.maxAgeDays (Default Value): 365
+evidence.logging.metrics.rotation.maxFiles (Default Value): 10
+evidence.logging.metrics.rotation.maxSizeMb (Default Value): 25
+evidence.logging.request.console (Default Value): false
+evidence.logging.request.filePath (Default Value): evidence-request.log
+evidence.logging.request.rotation.compress (Default Value): true
+evidence.logging.request.rotation.keepLastDecompressed (Default Value): 1
+evidence.logging.request.rotation.maxAgeDays (Default Value): 365
+evidence.logging.request.rotation.maxFiles (Default Value): 10
+evidence.logging.request.rotation.maxSizeMb (Default Value): 25
+evidence.metrics.backOffice.enabled (Default Value): true
+evidence.metrics.enabled (Default Value): false
+evidence.metrics.exclude (Default Value): []
+evidence.metrics.intervalMillis (Default Value): 10s
+evidence.metrics.logPeriodically (Default Value): false
+evidence.metrics.triggers.enabled (Default Value): true
+evidence.metrics.triggers.intervalMillis (Default Value): 20000
+evidence.metrics.triggers.limit (Default Value): 1000000
+evidence.profiling.enabled (Default Value): false
+evidence.supportBundle.aggregationTimeoutMillis (Default Value): 3600000
+metadata.database.maxOpenConnections (File): 200
+product.home (Environment Variable: JF_PRODUCT_HOME): /opt/jfrog/artifactory
+router.entrypoints.internalPort (Default Value): 8046
+router.topology.local.requiredservicetypes (Environment Variable: JF_ROUTER_TOPOLOGY_LOCAL_REQUIREDSERVICETYPES): jfrt,jfac,jfmd,jffe,jfob,jfcon,jfevt,jfevd,jfcfg,jftpl,jfomr
+shared.database.driver (File): oracle.jdbc.OracleDriver
+shared.database.password (File): *****
+shared.database.type (File): oracle
+shared.database.url (File): jdbc:oracle:thin:@(DESCRIPTION=(CONNECT_TIMEOUT=10)(RETRY_COUNT=3)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_909.inet.bundesbank.de)(PORT=1621))(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_913.inet.bundesbank.de)(PORT=1621)))(CONNECT_DATA=(SERVICE_NAME= ARTED_PRIM.WORLD)(SERVER=DEDICATED)))
+shared.database.username (File): ARTE1
+shared.env.LD_LIBRARY_PATH (File): /usr/lib64/
+shared.env.extraJavaOpts (File): -Xms4g -Xmx12g
+shared.group (File): artifactory
+shared.logging.rotation.compress (File): true
+shared.logging.rotation.maxFiles (File): 10
+shared.logging.rotation.maxSizeMb (File): 25
+shared.multiTenant.cellId (Default Value): 
+shared.multiTenant.enabled (Default Value): false
+shared.multiTenant.tenantRegistryClient.caCert (Default Value): 
+shared.multiTenant.tenantRegistryClient.cacheExpirationSecs (Default Value): 21600
+shared.multiTenant.tenantRegistryClient.clientCert (Default Value): 
+shared.multiTenant.tenantRegistryClient.clientCertKey (Default Value): *****
+shared.multiTenant.tenantRegistryClient.dialTimeoutSecs (Default Value): 10
+shared.multiTenant.tenantRegistryClient.endpoints (Default Value): 
+shared.multiTenant.tenantRegistryClient.pingCacheExpirationSecs (Default Value): 15
+shared.multiTenant.tenantRegistryClient.pingTimeoutSecs (Default Value): 1
+shared.multiTenant.tenantRegistryClient.requestTimeoutSecs (Default Value): 30
+shared.newrelic.appName (Default Value): 
+shared.newrelic.distributedTracerEnabled (Default Value): true
+shared.newrelic.enableDebugLog (Default Value): false
+shared.newrelic.enabled (Default Value): false
+shared.newrelic.licenseKey (Default Value): *****
+shared.node.haEnabled (File): false
+shared.node.id (Environment Variable: JF_SHARED_NODE_ID): u999jfart002d.in.bundesbank.de
+shared.node.ip (Environment Variable: JF_SHARED_NODE_IP): 10.204.188.11
+shared.node.name (Environment Variable: JF_SHARED_NODE_NAME): u999jfart002d
+shared.node.primary (File): true
+shared.security.bootstrapKeysReadTimeoutSecs (Default Value): 120
+shared.security.exposeApplicationHeaders (Default Value): false
+shared.security.joinKeyFile (Default Value): etc/security/join.key
+shared.security.masterKeyFile (Default Value): etc/security/master.key
+shared.user (File): artifactory
+system.yaml (Environment Variable: JF_SYSTEM_YAML): /opt/jfrog/artifactory/var/etc/system.yaml [bootstrap]
+2025-08-14T08:03:55.569Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [access_client_thin.go:112     ] [main                ] [                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: failed to connect to local router at address: http://localhost:8046/access/api/v1/system/ping: Get "http://localhost:8046/access/api/v1/system/ping": dial tcp [::1]:8046: connect: connection refused [bootstrap]
+2025-08-14T08:04:00.579Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [access_client_thin.go:112     ] [main                ] [                ] - Cluster join: Retry 10: Service registry ping failed, will retry. Error: failed to connect to local router at address: http://localhost:8046/access/api/v1/system/ping: Get "http://localhost:8046/access/api/v1/system/ping": dial tcp [::1]:8046: connect: connection refused [bootstrap]
+2025-08-14T08:04:05.586Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [access_client_thin.go:112     ] [main                ] [                ] - Cluster join: Retry 15: Service registry ping failed, will retry. Error: failed to connect to local router at address: http://localhost:8046/access/api/v1/system/ping: Get "http://localhost:8046/access/api/v1/system/ping": dial tcp [::1]:8046: connect: connection refused [bootstrap]
+2025-08-14T08:04:10.593Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [access_client_thin.go:112     ] [main                ] [                ] - Cluster join: Retry 20: Service registry ping failed, will retry. Error: failed to connect to local router at address: http://localhost:8046/access/api/v1/system/ping: Get "http://localhost:8046/access/api/v1/system/ping": dial tcp [::1]:8046: connect: connection refused [bootstrap]
+2025-08-14T08:04:15.600Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [access_client_thin.go:112     ] [main                ] [                ] - Cluster join: Retry 25: Service registry ping failed, will retry. Error: failed to connect to local router at address: http://localhost:8046/access/api/v1/system/ping: Get "http://localhost:8046/access/api/v1/system/ping": dial tcp [::1]:8046: connect: connection refused [bootstrap]
+2025-08-14T08:04:20.607Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [access_client_thin.go:112     ] [main                ] [                ] - Cluster join: Retry 30: Service registry ping failed, will retry. Error: failed to connect to local router at address: http://localhost:8046/access/api/v1/system/ping: Get "http://localhost:8046/access/api/v1/system/ping": dial tcp [::1]:8046: connect: connection refused [bootstrap]
+2025-08-14T08:04:24.633Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [application.go:314            ] [main                ] [                ] - JFrog Evidence Service ID: jfevd@01fzay697410wh1bw17baz1s5g [bootstrap]
+2025-08-14T08:04:24.633Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [application.go:315            ] [main                ] [                ] - JFrog Evidence Node ID: u999jfart002d.in.bundesbank.de [bootstrap]
+2025-08-14T08:04:24.633Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [application.go:316            ] [main                ] [                ] - JFrog Evidence Node IP: 10.204.188.11 [bootstrap]
+2025-08-14T08:04:24.634Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [metrics_evidence_collector.go:] [main                ] [                ] - Back office metrics service initialized successfully. Usage directory: /opt/jfrog/artifactory/var/data/evidence/usage [metrics-collector]
+2025-08-14T08:04:24.634Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [database.go:90                ] [main                ] [                ] - Database connection driver: godror [database]
+2025-08-14T08:04:24.634Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [database.go:104               ] [main                ] [                ] - Connecting to DB with parameters: Type: oracle, Url: jdbc:oracle:thin:@(DESCRIPTION=(CONNECT_TIMEOUT=10)(RETRY_COUNT=3)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_909.inet.bundesbank.de)(PORT=1621))(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_913.inet.bundesbank.de)(PORT=1621)))(CONNECT_DATA=(SERVICE_NAME= ARTED_PRIM.WORLD)(SERVER=DEDICATED))), User: ARTE1 [database]
+2025-08-14T08:04:25.811Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [database_migration.go:75      ] [main                ] [                ] - Applying database migration files [database]
+2025-08-14T08:04:25.836Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [database_migration_locker.go:5] [main                ] [                ] - Trying to acquire migration lock for u999jfart002d.in.bundesbank.de [database]
+2025-08-14T08:04:25.845Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [database_migration_locker.go:7] [main                ] [                ] - Migration lock acquired for u999jfart002d.in.bundesbank.de [database]
+2025-08-14T08:04:25.862Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [database_migration.go:141     ] [main                ] [                ] - Applying 0 migrations files [database]
+2025-08-14T08:04:25.862Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [database_migration_locker.go:8] [main                ] [                ] - Trying to release lock owned by: u999jfart002d.in.bundesbank.de [database]
+2025-08-14T08:04:25.868Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [database_migration_locker.go:9] [main                ] [                ] - Released lock owned by node u999jfart002d.in.bundesbank.de [database]
+2025-08-14T08:04:25.868Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [database_migration.go:87      ] [main                ] [                ] - No database migrations to apply [database]
+2025-08-14T08:04:25.868Z [jfevd] [WARN ] [3b807cfc1cfcfd42] [graphql_handler.go:125        ] [main                ] [                ] - GraphQL OneModel compatibility filter is disabled by configuration [graphql-handler]
+2025-08-14T08:04:25.869Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [application.go:191            ] [main                ] [                ] - HTTP server listening on 127.0.0.1:8051 [application]
+2025-08-14T08:04:25.870Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [application.go:196            ] [main                ] [                ] - GRPC server listening on 127.0.0.1:8052 [application]
+2025-08-14T08:04:25.958Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [join_executor.go:178          ] [main                ] [                ] - Cluster join: Successfully joined the cluster [access-client]
+2025-08-14T08:04:25.958Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [join_executor.go:190          ] [main                ] [                ] - Cluster join: executing Router register at: localhost:8046 for service id jfevd@01fzay697410wh1bw17baz1s5g [access-client]
+2025-08-14T08:04:25.971Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [application.go:321            ] [main                ] [                ] - JFrog Evidence (jfevd) service initialization completed in 34.440 seconds [application]
+2025-08-14T08:04:25.971Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [platform_config_stream.go:49  ] [main                ] [                ] - Starting Platform Config stream connect goroutine [access-client]
+2025-08-14T08:04:25.971Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access-client]
+2025-08-14T08:04:25.981Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [dedicated_grpc_connection.go:2] [main                ] [                ] - Creating a new dedicated gRPC connection for localhost:8046 [access-client]
+2025-08-14T08:04:25.994Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T08:04:25.994Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T08:04:25.994Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access-client]
+2025-08-14T08:04:25.994Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access-client]
+2025-08-14T08:04:26.018Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T08:04:26.018Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T08:04:26.018Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access-client]
+2025-08-14T08:04:26.018Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access-client]
+2025-08-14T08:04:26.066Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T08:04:26.066Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T08:04:26.066Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access-client]
+2025-08-14T08:04:26.066Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access-client]
+2025-08-14T08:04:27.991Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [platform_config_stream.go:105 ] [main                ] [                ] - Starting Platform Config stream Recv loop [access-client]
+2025-08-14T08:04:27.991Z [jfevd] [INFO ] [3b807cfc1cfcfd42] [platform_config_stream.go:137 ] [main                ] [                ] - Starting Platform Config checkKeepAlive [access-client]
+2025-08-14T08:22:29.371Z [jfevd] [INFO ] [787b801d947fe7a7] [application.go:289            ] [main                ] [                ] - Effective configuration:
+access.database.maxOpenConnections (File): 200
+access.jfconfig.enabled (Environment Variable: JF_ACCESS_JFCONFIG_ENABLED): true
+access.tomcat.connector.maxThreads (File): 100
+access.useexternaltopology (Environment Variable: JF_ACCESS_USEEXTERNALTOPOLOGY): true
+artifactory.database.maxOpenConnections (File): 200
+artifactory.pid (Environment Variable: JF_ARTIFACTORY_PID): /var/run/artifactory.pid
+artifactory.tomcat.connector.maxThreads (File): 400
+configVersion (File): 1
+evidence.access.bypass.accessUrl (Default Value): 
+evidence.access.bypass.retryBackoffInitialIntervalMillis (Default Value): 500
+evidence.access.bypass.retryBackoffMaxElapsedTimeMillis (Default Value): 0
+evidence.access.bypass.retryBackoffMaxIntervalMillis (Default Value): 3600000
+evidence.access.bypass.revocableExpiryThresholdSeconds (Default Value): -1
+evidence.access.joinTimeoutMillis (Default Value): 180000
+evidence.access.pingTimeoutMillis (Default Value): 120000
+evidence.accessclient.url (Environment Variable: JF_EVIDENCE_ACCESSCLIENT_URL): http://localhost:8081/access
+evidence.api.maxFilterSize (Default Value): 50
+evidence.api.maxPageSize (Default Value): 200
+evidence.api.maxQueryDepth (Default Value): 20
+evidence.caching.license.capacity (Default Value): 100
+evidence.caching.license.expirationSecs (Default Value): 300
+evidence.caching.publicKeys.capacity (Default Value): 500
+evidence.caching.publicKeys.expirationSecs (Default Value): 14400
+evidence.database.disableParallelSelect (Default Value): true
+evidence.database.enableLogForPostgres (Default Value): false
+evidence.database.kerberosAuth (Default Value): false
+evidence.database.maxIdleConnections (Default Value): 10
+evidence.database.maxOpenConnections (Default Value): 100
+evidence.database.maxRecordsLimit (Default Value): 1000
+evidence.database.metrics.enabled (Default Value): false
+evidence.database.metrics.maxQueriesToTrack (Default Value): 5
+evidence.database.migrationLockRetryIntervalSecs (Default Value): 60
+evidence.database.password (File: shared.database.password): *****
+evidence.database.queryTimeoutSecs (Default Value): 1800
+evidence.database.type (File: shared.database.type): oracle
+evidence.database.url (File: shared.database.url): jdbc:oracle:thin:@(DESCRIPTION=(CONNECT_TIMEOUT=10)(RETRY_COUNT=3)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_909.inet.bundesbank.de)(PORT=1621))(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_913.inet.bundesbank.de)(PORT=1621)))(CONNECT_DATA=(SERVICE_NAME= ARTED_PRIM.WORLD)(SERVER=DEDICATED)))
+evidence.database.username (File: shared.database.username): ARTE1
+evidence.database.waitForConnectionTimeoutSecs (Default Value): 15
+evidence.graphql.playground (Default Value): true
+evidence.graphql.releaseBundleArtifactsWithEvidenceBulkSize (Default Value): 1000
+evidence.httpPort (Default Value): 8051
+evidence.jfConnect.establishConnectionTimeoutMillis (Default Value): 3000
+evidence.jfConnect.fetchIntervalMillis (Default Value): 30000
+evidence.jfConnect.requestTimeoutMillis (Default Value): 30000
+evidence.jfConnect.retryConnectionIntervalMillis (Default Value): 1000
+evidence.jfConnect.tokenExpiryMinutes (Default Value): 1440
+evidence.logging.application.caller (Default Value): false
+evidence.logging.application.console (Default Value): true
+evidence.logging.application.filePath (Default Value): evidence-service.log
+evidence.logging.application.format (Default Value): jftext
+evidence.logging.application.level (Default Value): info
+evidence.logging.application.rotation.compress (Default Value): true
+evidence.logging.application.rotation.keepLastDecompressed (Default Value): 1
+evidence.logging.application.rotation.maxAgeDays (Default Value): 365
+evidence.logging.application.rotation.maxFiles (Default Value): 10
+evidence.logging.application.rotation.maxSizeMb (Default Value): 25
+evidence.logging.consoleLog.format (Default Value): jftext
+evidence.logging.metrics.console (Default Value): false
+evidence.logging.metrics.filePath (Default Value): evidence-metrics.log
+evidence.logging.metrics.rotation.compress (Default Value): true
+evidence.logging.metrics.rotation.keepLastDecompressed (Default Value): 1
+evidence.logging.metrics.rotation.maxAgeDays (Default Value): 365
+evidence.logging.metrics.rotation.maxFiles (Default Value): 10
+evidence.logging.metrics.rotation.maxSizeMb (Default Value): 25
+evidence.logging.request.console (Default Value): false
+evidence.logging.request.filePath (Default Value): evidence-request.log
+evidence.logging.request.rotation.compress (Default Value): true
+evidence.logging.request.rotation.keepLastDecompressed (Default Value): 1
+evidence.logging.request.rotation.maxAgeDays (Default Value): 365
+evidence.logging.request.rotation.maxFiles (Default Value): 10
+evidence.logging.request.rotation.maxSizeMb (Default Value): 25
+evidence.metrics.backOffice.enabled (Default Value): true
+evidence.metrics.enabled (Default Value): false
+evidence.metrics.exclude (Default Value): []
+evidence.metrics.intervalMillis (Default Value): 10s
+evidence.metrics.logPeriodically (Default Value): false
+evidence.metrics.triggers.enabled (Default Value): true
+evidence.metrics.triggers.intervalMillis (Default Value): 20000
+evidence.metrics.triggers.limit (Default Value): 1000000
+evidence.profiling.enabled (Default Value): false
+evidence.supportBundle.aggregationTimeoutMillis (Default Value): 3600000
+metadata.database.maxOpenConnections (File): 200
+product.home (Environment Variable: JF_PRODUCT_HOME): /opt/jfrog/artifactory
+router.entrypoints.internalPort (Default Value): 8046
+router.topology.local.requiredservicetypes (Environment Variable: JF_ROUTER_TOPOLOGY_LOCAL_REQUIREDSERVICETYPES): jfrt,jfac,jfmd,jffe,jfob,jfcon,jfevt,jfevd,jfcfg,jftpl,jfomr
+shared.database.driver (File): oracle.jdbc.OracleDriver
+shared.database.password (File): *****
+shared.database.type (File): oracle
+shared.database.url (File): jdbc:oracle:thin:@(DESCRIPTION=(CONNECT_TIMEOUT=10)(RETRY_COUNT=3)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_909.inet.bundesbank.de)(PORT=1621))(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_913.inet.bundesbank.de)(PORT=1621)))(CONNECT_DATA=(SERVICE_NAME= ARTED_PRIM.WORLD)(SERVER=DEDICATED)))
+shared.database.username (File): ARTE1
+shared.env.LD_LIBRARY_PATH (File): /usr/lib64/
+shared.env.extraJavaOpts (File): -Xms4g -Xmx12g
+shared.group (File): artifactory
+shared.logging.rotation.compress (File): true
+shared.logging.rotation.maxFiles (File): 10
+shared.logging.rotation.maxSizeMb (File): 25
+shared.multiTenant.cellId (Default Value): 
+shared.multiTenant.enabled (Default Value): false
+shared.multiTenant.tenantRegistryClient.caCert (Default Value): 
+shared.multiTenant.tenantRegistryClient.cacheExpirationSecs (Default Value): 21600
+shared.multiTenant.tenantRegistryClient.clientCert (Default Value): 
+shared.multiTenant.tenantRegistryClient.clientCertKey (Default Value): *****
+shared.multiTenant.tenantRegistryClient.dialTimeoutSecs (Default Value): 10
+shared.multiTenant.tenantRegistryClient.endpoints (Default Value): 
+shared.multiTenant.tenantRegistryClient.pingCacheExpirationSecs (Default Value): 15
+shared.multiTenant.tenantRegistryClient.pingTimeoutSecs (Default Value): 1
+shared.multiTenant.tenantRegistryClient.requestTimeoutSecs (Default Value): 30
+shared.newrelic.appName (Default Value): 
+shared.newrelic.distributedTracerEnabled (Default Value): true
+shared.newrelic.enableDebugLog (Default Value): false
+shared.newrelic.enabled (Default Value): false
+shared.newrelic.licenseKey (Default Value): *****
+shared.node.haEnabled (File): false
+shared.node.id (Environment Variable: JF_SHARED_NODE_ID): u999jfart002d.in.bundesbank.de
+shared.node.ip (Environment Variable: JF_SHARED_NODE_IP): 10.204.188.11
+shared.node.name (Environment Variable: JF_SHARED_NODE_NAME): u999jfart002d
+shared.node.primary (File): true
+shared.security.bootstrapKeysReadTimeoutSecs (Default Value): 120
+shared.security.exposeApplicationHeaders (Default Value): false
+shared.security.joinKeyFile (Default Value): etc/security/join.key
+shared.security.masterKeyFile (Default Value): etc/security/master.key
+shared.user (File): artifactory
+system.yaml (Environment Variable: JF_SYSTEM_YAML): /opt/jfrog/artifactory/var/etc/system.yaml [bootstrap]
+2025-08-14T08:22:31.313Z [jfevd] [INFO ] [0ff3f177d87fec56] [application.go:289            ] [main                ] [                ] - Effective configuration:
+access.database.maxOpenConnections (File): 200
+access.jfconfig.enabled (Environment Variable: JF_ACCESS_JFCONFIG_ENABLED): true
+access.tomcat.connector.maxThreads (File): 100
+access.useexternaltopology (Environment Variable: JF_ACCESS_USEEXTERNALTOPOLOGY): true
+artifactory.database.maxOpenConnections (File): 200
+artifactory.pid (Environment Variable: JF_ARTIFACTORY_PID): /var/run/artifactory.pid
+artifactory.tomcat.connector.maxThreads (File): 400
+configVersion (File): 1
+evidence.access.bypass.accessUrl (Default Value): 
+evidence.access.bypass.retryBackoffInitialIntervalMillis (Default Value): 500
+evidence.access.bypass.retryBackoffMaxElapsedTimeMillis (Default Value): 0
+evidence.access.bypass.retryBackoffMaxIntervalMillis (Default Value): 3600000
+evidence.access.bypass.revocableExpiryThresholdSeconds (Default Value): -1
+evidence.access.joinTimeoutMillis (Default Value): 180000
+evidence.access.pingTimeoutMillis (Default Value): 120000
+evidence.accessclient.url (Environment Variable: JF_EVIDENCE_ACCESSCLIENT_URL): http://localhost:8081/access
+evidence.api.maxFilterSize (Default Value): 50
+evidence.api.maxPageSize (Default Value): 200
+evidence.api.maxQueryDepth (Default Value): 20
+evidence.caching.license.capacity (Default Value): 100
+evidence.caching.license.expirationSecs (Default Value): 300
+evidence.caching.publicKeys.capacity (Default Value): 500
+evidence.caching.publicKeys.expirationSecs (Default Value): 14400
+evidence.database.disableParallelSelect (Default Value): true
+evidence.database.enableLogForPostgres (Default Value): false
+evidence.database.kerberosAuth (Default Value): false
+evidence.database.maxIdleConnections (Default Value): 10
+evidence.database.maxOpenConnections (Default Value): 100
+evidence.database.maxRecordsLimit (Default Value): 1000
+evidence.database.metrics.enabled (Default Value): false
+evidence.database.metrics.maxQueriesToTrack (Default Value): 5
+evidence.database.migrationLockRetryIntervalSecs (Default Value): 60
+evidence.database.password (File: shared.database.password): *****
+evidence.database.queryTimeoutSecs (Default Value): 1800
+evidence.database.type (File: shared.database.type): oracle
+evidence.database.url (File: shared.database.url): jdbc:oracle:thin:@(DESCRIPTION=(CONNECT_TIMEOUT=10)(RETRY_COUNT=3)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_909.inet.bundesbank.de)(PORT=1621))(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_913.inet.bundesbank.de)(PORT=1621)))(CONNECT_DATA=(SERVICE_NAME= ARTED_PRIM.WORLD)(SERVER=DEDICATED)))
+evidence.database.username (File: shared.database.username): ARTE1
+evidence.database.waitForConnectionTimeoutSecs (Default Value): 15
+evidence.graphql.playground (Default Value): true
+evidence.graphql.releaseBundleArtifactsWithEvidenceBulkSize (Default Value): 1000
+evidence.httpPort (Default Value): 8051
+evidence.jfConnect.establishConnectionTimeoutMillis (Default Value): 3000
+evidence.jfConnect.fetchIntervalMillis (Default Value): 30000
+evidence.jfConnect.requestTimeoutMillis (Default Value): 30000
+evidence.jfConnect.retryConnectionIntervalMillis (Default Value): 1000
+evidence.jfConnect.tokenExpiryMinutes (Default Value): 1440
+evidence.logging.application.caller (Default Value): false
+evidence.logging.application.console (Default Value): true
+evidence.logging.application.filePath (Default Value): evidence-service.log
+evidence.logging.application.format (Default Value): jftext
+evidence.logging.application.level (Default Value): info
+evidence.logging.application.rotation.compress (Default Value): true
+evidence.logging.application.rotation.keepLastDecompressed (Default Value): 1
+evidence.logging.application.rotation.maxAgeDays (Default Value): 365
+evidence.logging.application.rotation.maxFiles (Default Value): 10
+evidence.logging.application.rotation.maxSizeMb (Default Value): 25
+evidence.logging.consoleLog.format (Default Value): jftext
+evidence.logging.metrics.console (Default Value): false
+evidence.logging.metrics.filePath (Default Value): evidence-metrics.log
+evidence.logging.metrics.rotation.compress (Default Value): true
+evidence.logging.metrics.rotation.keepLastDecompressed (Default Value): 1
+evidence.logging.metrics.rotation.maxAgeDays (Default Value): 365
+evidence.logging.metrics.rotation.maxFiles (Default Value): 10
+evidence.logging.metrics.rotation.maxSizeMb (Default Value): 25
+evidence.logging.request.console (Default Value): false
+evidence.logging.request.filePath (Default Value): evidence-request.log
+evidence.logging.request.rotation.compress (Default Value): true
+evidence.logging.request.rotation.keepLastDecompressed (Default Value): 1
+evidence.logging.request.rotation.maxAgeDays (Default Value): 365
+evidence.logging.request.rotation.maxFiles (Default Value): 10
+evidence.logging.request.rotation.maxSizeMb (Default Value): 25
+evidence.metrics.backOffice.enabled (Default Value): true
+evidence.metrics.enabled (Default Value): false
+evidence.metrics.exclude (Default Value): []
+evidence.metrics.intervalMillis (Default Value): 10s
+evidence.metrics.logPeriodically (Default Value): false
+evidence.metrics.triggers.enabled (Default Value): true
+evidence.metrics.triggers.intervalMillis (Default Value): 20000
+evidence.metrics.triggers.limit (Default Value): 1000000
+evidence.profiling.enabled (Default Value): false
+evidence.supportBundle.aggregationTimeoutMillis (Default Value): 3600000
+metadata.database.maxOpenConnections (File): 200
+product.home (Environment Variable: JF_PRODUCT_HOME): /opt/jfrog/artifactory
+router.entrypoints.internalPort (Default Value): 8046
+router.topology.local.requiredservicetypes (Environment Variable: JF_ROUTER_TOPOLOGY_LOCAL_REQUIREDSERVICETYPES): jfrt,jfac,jfmd,jffe,jfob,jfcon,jfevt,jfevd,jfcfg,jftpl,jfomr
+shared.database.driver (File): oracle.jdbc.OracleDriver
+shared.database.password (File): *****
+shared.database.type (File): oracle
+shared.database.url (File): jdbc:oracle:thin:@(DESCRIPTION=(CONNECT_TIMEOUT=10)(RETRY_COUNT=3)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_909.inet.bundesbank.de)(PORT=1621))(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_913.inet.bundesbank.de)(PORT=1621)))(CONNECT_DATA=(SERVICE_NAME= ARTED_PRIM.WORLD)(SERVER=DEDICATED)))
+shared.database.username (File): ARTE1
+shared.env.LD_LIBRARY_PATH (File): /usr/lib64/
+shared.env.extraJavaOpts (File): -Xms4g -Xmx12g
+shared.group (File): artifactory
+shared.logging.rotation.compress (File): true
+shared.logging.rotation.maxFiles (File): 10
+shared.logging.rotation.maxSizeMb (File): 25
+shared.multiTenant.cellId (Default Value): 
+shared.multiTenant.enabled (Default Value): false
+shared.multiTenant.tenantRegistryClient.caCert (Default Value): 
+shared.multiTenant.tenantRegistryClient.cacheExpirationSecs (Default Value): 21600
+shared.multiTenant.tenantRegistryClient.clientCert (Default Value): 
+shared.multiTenant.tenantRegistryClient.clientCertKey (Default Value): *****
+shared.multiTenant.tenantRegistryClient.dialTimeoutSecs (Default Value): 10
+shared.multiTenant.tenantRegistryClient.endpoints (Default Value): 
+shared.multiTenant.tenantRegistryClient.pingCacheExpirationSecs (Default Value): 15
+shared.multiTenant.tenantRegistryClient.pingTimeoutSecs (Default Value): 1
+shared.multiTenant.tenantRegistryClient.requestTimeoutSecs (Default Value): 30
+shared.newrelic.appName (Default Value): 
+shared.newrelic.distributedTracerEnabled (Default Value): true
+shared.newrelic.enableDebugLog (Default Value): false
+shared.newrelic.enabled (Default Value): false
+shared.newrelic.licenseKey (Default Value): *****
+shared.node.haEnabled (File): false
+shared.node.id (Environment Variable: JF_SHARED_NODE_ID): u999jfart002d.in.bundesbank.de
+shared.node.ip (Environment Variable: JF_SHARED_NODE_IP): 10.204.188.11
+shared.node.name (Environment Variable: JF_SHARED_NODE_NAME): u999jfart002d
+shared.node.primary (File): true
+shared.security.bootstrapKeysReadTimeoutSecs (Default Value): 120
+shared.security.exposeApplicationHeaders (Default Value): false
+shared.security.joinKeyFile (Default Value): etc/security/join.key
+shared.security.masterKeyFile (Default Value): etc/security/master.key
+shared.user (File): artifactory
+system.yaml (Environment Variable: JF_SYSTEM_YAML): /opt/jfrog/artifactory/var/etc/system.yaml [bootstrap]
+2025-08-14T08:22:35.332Z [jfevd] [INFO ] [0ff3f177d87fec56] [access_client_thin.go:112     ] [main                ] [                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: failed to connect to local router at address: http://localhost:8046/access/api/v1/system/ping: Get "http://localhost:8046/access/api/v1/system/ping": dial tcp [::1]:8046: connect: connection refused [bootstrap]
+2025-08-14T08:22:39.361Z [jfevd] [INFO ] [0ff3f177d87fec56] [application.go:293            ] [main                ] [                ] - JFrog Evidence Service ID: jfevd@01fzay697410wh1bw17baz1s5g [bootstrap]
+2025-08-14T08:22:39.361Z [jfevd] [INFO ] [0ff3f177d87fec56] [application.go:294            ] [main                ] [                ] - JFrog Evidence Node ID: u999jfart002d.in.bundesbank.de [bootstrap]
+2025-08-14T08:22:39.361Z [jfevd] [INFO ] [0ff3f177d87fec56] [application.go:295            ] [main                ] [                ] - JFrog Evidence Node IP: 10.204.188.11 [bootstrap]
+2025-08-14T08:22:39.361Z [jfevd] [INFO ] [0ff3f177d87fec56] [metrics_evidence_collector.go:] [main                ] [                ] - Back office metrics service initialized successfully. Usage directory: /opt/jfrog/artifactory/var/data/evidence/usage [metrics-collector]
+2025-08-14T08:22:39.361Z [jfevd] [INFO ] [0ff3f177d87fec56] [database.go:90                ] [main                ] [                ] - Database connection driver: godror [database]
+2025-08-14T08:22:39.361Z [jfevd] [INFO ] [0ff3f177d87fec56] [database.go:104               ] [main                ] [                ] - Connecting to DB with parameters: Type: oracle, Url: jdbc:oracle:thin:@(DESCRIPTION=(CONNECT_TIMEOUT=10)(RETRY_COUNT=3)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_909.inet.bundesbank.de)(PORT=1621))(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_913.inet.bundesbank.de)(PORT=1621)))(CONNECT_DATA=(SERVICE_NAME= ARTED_PRIM.WORLD)(SERVER=DEDICATED))), User: ARTE1 [database]
+2025-08-14T08:22:39.660Z [jfevd] [INFO ] [0ff3f177d87fec56] [database_migration.go:75      ] [main                ] [                ] - Applying database migration files [database]
+2025-08-14T08:22:39.661Z [jfevd] [INFO ] [0ff3f177d87fec56] [database_migration_locker.go:5] [main                ] [                ] - Trying to acquire migration lock for u999jfart002d.in.bundesbank.de [database]
+2025-08-14T08:22:39.667Z [jfevd] [INFO ] [0ff3f177d87fec56] [database_migration_locker.go:7] [main                ] [                ] - Migration lock acquired for u999jfart002d.in.bundesbank.de [database]
+2025-08-14T08:22:39.670Z [jfevd] [INFO ] [0ff3f177d87fec56] [database_migration.go:141     ] [main                ] [                ] - Applying 1 migrations files [database]
+2025-08-14T08:22:39.732Z [jfevd] [INFO ] [0ff3f177d87fec56] [database_migration.go:255     ] [main                ] [                ] - Migration v004_column_evidence_provider_id.sql successfully applied (1 statements) [database]
+2025-08-14T08:22:39.740Z [jfevd] [INFO ] [0ff3f177d87fec56] [database_migration_locker.go:8] [main                ] [                ] - Trying to release lock owned by: u999jfart002d.in.bundesbank.de [database]
+2025-08-14T08:22:39.742Z [jfevd] [INFO ] [0ff3f177d87fec56] [database_migration_locker.go:9] [main                ] [                ] - Released lock owned by node u999jfart002d.in.bundesbank.de [database]
+2025-08-14T08:22:39.742Z [jfevd] [INFO ] [0ff3f177d87fec56] [database_migration.go:85      ] [main                ] [                ] - Applied 1 database migrations statements in 0.081507002 seconds [database]
+2025-08-14T08:22:39.742Z [jfevd] [WARN ] [0ff3f177d87fec56] [graphql_handler.go:129        ] [main                ] [                ] - GraphQL OneModel compatibility filter is disabled by configuration [graphql-handler]
+2025-08-14T08:22:39.743Z [jfevd] [INFO ] [0ff3f177d87fec56] [application.go:194            ] [main                ] [                ] - HTTP server listening on 127.0.0.1:8051 [application]
+2025-08-14T08:22:39.867Z [jfevd] [INFO ] [0ff3f177d87fec56] [join_executor.go:178          ] [main                ] [                ] - Cluster join: Successfully joined the cluster [access-client]
+2025-08-14T08:22:39.867Z [jfevd] [INFO ] [0ff3f177d87fec56] [join_executor.go:190          ] [main                ] [                ] - Cluster join: executing Router register at: localhost:8046 for service id jfevd@01fzay697410wh1bw17baz1s5g [access-client]
+2025-08-14T08:22:39.911Z [jfevd] [INFO ] [0ff3f177d87fec56] [application.go:300            ] [main                ] [                ] - JFrog Evidence (jfevd) service initialization completed in 8.616 seconds [application]
+2025-08-14T08:22:39.911Z [jfevd] [INFO ] [0ff3f177d87fec56] [platform_config_stream.go:49  ] [main                ] [                ] - Starting Platform Config stream connect goroutine [access-client]
+2025-08-14T08:22:39.911Z [jfevd] [INFO ] [0ff3f177d87fec56] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access-client]
+2025-08-14T08:22:39.922Z [jfevd] [INFO ] [0ff3f177d87fec56] [dedicated_grpc_connection.go:2] [main                ] [                ] - Creating a new dedicated gRPC connection for localhost:8046 [access-client]
+2025-08-14T08:22:39.929Z [jfevd] [INFO ] [0ff3f177d87fec56] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T08:22:39.929Z [jfevd] [INFO ] [0ff3f177d87fec56] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T08:22:39.929Z [jfevd] [INFO ] [0ff3f177d87fec56] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access-client]
+2025-08-14T08:22:39.929Z [jfevd] [INFO ] [0ff3f177d87fec56] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access-client]
+2025-08-14T08:22:39.951Z [jfevd] [INFO ] [0ff3f177d87fec56] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T08:22:39.951Z [jfevd] [INFO ] [0ff3f177d87fec56] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T08:22:39.951Z [jfevd] [INFO ] [0ff3f177d87fec56] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access-client]
+2025-08-14T08:22:39.951Z [jfevd] [INFO ] [0ff3f177d87fec56] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access-client]
+2025-08-14T08:22:39.995Z [jfevd] [INFO ] [0ff3f177d87fec56] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T08:22:39.995Z [jfevd] [INFO ] [0ff3f177d87fec56] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T08:22:39.995Z [jfevd] [INFO ] [0ff3f177d87fec56] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access-client]
+2025-08-14T08:22:39.995Z [jfevd] [INFO ] [0ff3f177d87fec56] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access-client]
+2025-08-14T08:22:40.090Z [jfevd] [INFO ] [0ff3f177d87fec56] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T08:22:40.090Z [jfevd] [INFO ] [0ff3f177d87fec56] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T08:22:40.090Z [jfevd] [INFO ] [0ff3f177d87fec56] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access-client]
+2025-08-14T08:22:40.090Z [jfevd] [INFO ] [0ff3f177d87fec56] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access-client]
+2025-08-14T08:22:40.255Z [jfevd] [INFO ] [0ff3f177d87fec56] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T08:22:40.255Z [jfevd] [INFO ] [0ff3f177d87fec56] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T08:22:40.255Z [jfevd] [INFO ] [0ff3f177d87fec56] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access-client]
+2025-08-14T08:22:40.255Z [jfevd] [INFO ] [0ff3f177d87fec56] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access-client]
+2025-08-14T08:22:40.578Z [jfevd] [INFO ] [0ff3f177d87fec56] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T08:22:40.578Z [jfevd] [INFO ] [0ff3f177d87fec56] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T08:22:40.578Z [jfevd] [INFO ] [0ff3f177d87fec56] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access-client]
+2025-08-14T08:22:40.578Z [jfevd] [INFO ] [0ff3f177d87fec56] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access-client]
+2025-08-14T08:22:42.817Z [jfevd] [INFO ] [0ff3f177d87fec56] [platform_config_stream.go:105 ] [main                ] [                ] - Starting Platform Config stream Recv loop [access-client]
+2025-08-14T08:22:42.817Z [jfevd] [INFO ] [0ff3f177d87fec56] [platform_config_stream.go:137 ] [main                ] [                ] - Starting Platform Config checkKeepAlive [access-client]
+2025-08-14T13:19:59.155Z [jfevd] [INFO ] [45c55fc93430b8e8] [application.go:289            ] [main                ] [                ] - Effective configuration:
+access.database.maxOpenConnections (File): 200
+access.jfconfig.enabled (Environment Variable: JF_ACCESS_JFCONFIG_ENABLED): true
+access.tomcat.connector.maxThreads (File): 100
+access.useexternaltopology (Environment Variable: JF_ACCESS_USEEXTERNALTOPOLOGY): true
+artifactory.database.maxOpenConnections (File): 200
+artifactory.pid (Environment Variable: JF_ARTIFACTORY_PID): /var/run/artifactory.pid
+artifactory.tomcat.connector.maxThreads (File): 400
+configVersion (File): 1
+evidence.access.bypass.accessUrl (Default Value): 
+evidence.access.bypass.retryBackoffInitialIntervalMillis (Default Value): 500
+evidence.access.bypass.retryBackoffMaxElapsedTimeMillis (Default Value): 0
+evidence.access.bypass.retryBackoffMaxIntervalMillis (Default Value): 3600000
+evidence.access.bypass.revocableExpiryThresholdSeconds (Default Value): -1
+evidence.access.joinTimeoutMillis (Default Value): 180000
+evidence.access.pingTimeoutMillis (Default Value): 120000
+evidence.accessclient.url (Environment Variable: JF_EVIDENCE_ACCESSCLIENT_URL): http://localhost:8081/access
+evidence.api.maxFilterSize (Default Value): 50
+evidence.api.maxPageSize (Default Value): 200
+evidence.api.maxQueryDepth (Default Value): 20
+evidence.caching.license.capacity (Default Value): 100
+evidence.caching.license.expirationSecs (Default Value): 300
+evidence.caching.publicKeys.capacity (Default Value): 500
+evidence.caching.publicKeys.expirationSecs (Default Value): 14400
+evidence.database.disableParallelSelect (Default Value): true
+evidence.database.enableLogForPostgres (Default Value): false
+evidence.database.kerberosAuth (Default Value): false
+evidence.database.maxIdleConnections (Default Value): 10
+evidence.database.maxOpenConnections (Default Value): 100
+evidence.database.maxRecordsLimit (Default Value): 1000
+evidence.database.metrics.enabled (Default Value): false
+evidence.database.metrics.maxQueriesToTrack (Default Value): 5
+evidence.database.migrationLockRetryIntervalSecs (Default Value): 60
+evidence.database.password (File: shared.database.password): *****
+evidence.database.queryTimeoutSecs (Default Value): 1800
+evidence.database.type (File: shared.database.type): oracle
+evidence.database.url (File: shared.database.url): jdbc:oracle:thin:@(DESCRIPTION=(CONNECT_TIMEOUT=10)(RETRY_COUNT=3)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_909.inet.bundesbank.de)(PORT=1621))(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_913.inet.bundesbank.de)(PORT=1621)))(CONNECT_DATA=(SERVICE_NAME= ARTED_PRIM.WORLD)(SERVER=DEDICATED)))
+evidence.database.username (File: shared.database.username): ARTE1
+evidence.database.waitForConnectionTimeoutSecs (Default Value): 15
+evidence.graphql.playground (Default Value): true
+evidence.graphql.releaseBundleArtifactsWithEvidenceBulkSize (Default Value): 1000
+evidence.httpPort (Default Value): 8051
+evidence.jfConnect.establishConnectionTimeoutMillis (Default Value): 3000
+evidence.jfConnect.fetchIntervalMillis (Default Value): 30000
+evidence.jfConnect.requestTimeoutMillis (Default Value): 30000
+evidence.jfConnect.retryConnectionIntervalMillis (Default Value): 1000
+evidence.jfConnect.tokenExpiryMinutes (Default Value): 1440
+evidence.logging.application.caller (Default Value): false
+evidence.logging.application.console (Default Value): true
+evidence.logging.application.filePath (Default Value): evidence-service.log
+evidence.logging.application.format (Default Value): jftext
+evidence.logging.application.level (Default Value): info
+evidence.logging.application.rotation.compress (Default Value): true
+evidence.logging.application.rotation.keepLastDecompressed (Default Value): 1
+evidence.logging.application.rotation.maxAgeDays (Default Value): 365
+evidence.logging.application.rotation.maxFiles (Default Value): 10
+evidence.logging.application.rotation.maxSizeMb (Default Value): 25
+evidence.logging.consoleLog.format (Default Value): jftext
+evidence.logging.metrics.console (Default Value): false
+evidence.logging.metrics.filePath (Default Value): evidence-metrics.log
+evidence.logging.metrics.rotation.compress (Default Value): true
+evidence.logging.metrics.rotation.keepLastDecompressed (Default Value): 1
+evidence.logging.metrics.rotation.maxAgeDays (Default Value): 365
+evidence.logging.metrics.rotation.maxFiles (Default Value): 10
+evidence.logging.metrics.rotation.maxSizeMb (Default Value): 25
+evidence.logging.request.console (Default Value): false
+evidence.logging.request.filePath (Default Value): evidence-request.log
+evidence.logging.request.rotation.compress (Default Value): true
+evidence.logging.request.rotation.keepLastDecompressed (Default Value): 1
+evidence.logging.request.rotation.maxAgeDays (Default Value): 365
+evidence.logging.request.rotation.maxFiles (Default Value): 10
+evidence.logging.request.rotation.maxSizeMb (Default Value): 25
+evidence.metrics.backOffice.enabled (Default Value): true
+evidence.metrics.enabled (Default Value): false
+evidence.metrics.exclude (Default Value): []
+evidence.metrics.intervalMillis (Default Value): 10s
+evidence.metrics.logPeriodically (Default Value): false
+evidence.metrics.triggers.enabled (Default Value): true
+evidence.metrics.triggers.intervalMillis (Default Value): 20000
+evidence.metrics.triggers.limit (Default Value): 1000000
+evidence.profiling.enabled (Default Value): false
+evidence.supportBundle.aggregationTimeoutMillis (Default Value): 3600000
+metadata.database.maxOpenConnections (File): 200
+product.home (Environment Variable: JF_PRODUCT_HOME): /opt/jfrog/artifactory
+router.entrypoints.internalPort (Default Value): 8046
+router.topology.local.requiredservicetypes (Environment Variable: JF_ROUTER_TOPOLOGY_LOCAL_REQUIREDSERVICETYPES): jfrt,jfac,jfmd,jffe,jfob,jfcon,jfevt,jfevd,jfcfg,jftpl,jfomr
+shared.database.driver (File): oracle.jdbc.OracleDriver
+shared.database.password (File): *****
+shared.database.type (File): oracle
+shared.database.url (File): jdbc:oracle:thin:@(DESCRIPTION=(CONNECT_TIMEOUT=10)(RETRY_COUNT=3)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_909.inet.bundesbank.de)(PORT=1621))(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_913.inet.bundesbank.de)(PORT=1621)))(CONNECT_DATA=(SERVICE_NAME= ARTED_PRIM.WORLD)(SERVER=DEDICATED)))
+shared.database.username (File): ARTE1
+shared.env.LD_LIBRARY_PATH (File): /usr/lib64/
+shared.env.extraJavaOpts (File): -Xms4g -Xmx12g
+shared.group (File): artifactory
+shared.logging.rotation.compress (File): true
+shared.logging.rotation.maxFiles (File): 10
+shared.logging.rotation.maxSizeMb (File): 25
+shared.multiTenant.cellId (Default Value): 
+shared.multiTenant.enabled (Default Value): false
+shared.multiTenant.tenantRegistryClient.caCert (Default Value): 
+shared.multiTenant.tenantRegistryClient.cacheExpirationSecs (Default Value): 21600
+shared.multiTenant.tenantRegistryClient.clientCert (Default Value): 
+shared.multiTenant.tenantRegistryClient.clientCertKey (Default Value): *****
+shared.multiTenant.tenantRegistryClient.dialTimeoutSecs (Default Value): 10
+shared.multiTenant.tenantRegistryClient.endpoints (Default Value): 
+shared.multiTenant.tenantRegistryClient.pingCacheExpirationSecs (Default Value): 15
+shared.multiTenant.tenantRegistryClient.pingTimeoutSecs (Default Value): 1
+shared.multiTenant.tenantRegistryClient.requestTimeoutSecs (Default Value): 30
+shared.newrelic.appName (Default Value): 
+shared.newrelic.distributedTracerEnabled (Default Value): true
+shared.newrelic.enableDebugLog (Default Value): false
+shared.newrelic.enabled (Default Value): false
+shared.newrelic.licenseKey (Default Value): *****
+shared.node.haEnabled (File): false
+shared.node.id (Environment Variable: JF_SHARED_NODE_ID): u999jfart002d.in.bundesbank.de
+shared.node.ip (Environment Variable: JF_SHARED_NODE_IP): 10.204.188.11
+shared.node.name (Environment Variable: JF_SHARED_NODE_NAME): u999jfart002d
+shared.node.primary (File): true
+shared.security.bootstrapKeysReadTimeoutSecs (Default Value): 120
+shared.security.exposeApplicationHeaders (Default Value): false
+shared.security.joinKeyFile (Default Value): etc/security/join.key
+shared.security.masterKeyFile (Default Value): etc/security/master.key
+shared.user (File): artifactory
+system.yaml (Environment Variable: JF_SYSTEM_YAML): /opt/jfrog/artifactory/var/etc/system.yaml [bootstrap]
+2025-08-14T13:20:01.472Z [jfevd] [INFO ] [0211be32a22964cf] [application.go:289            ] [main                ] [                ] - Effective configuration:
+access.database.maxOpenConnections (File): 200
+access.jfconfig.enabled (Environment Variable: JF_ACCESS_JFCONFIG_ENABLED): true
+access.tomcat.connector.maxThreads (File): 100
+access.useexternaltopology (Environment Variable: JF_ACCESS_USEEXTERNALTOPOLOGY): true
+artifactory.database.maxOpenConnections (File): 200
+artifactory.pid (Environment Variable: JF_ARTIFACTORY_PID): /var/run/artifactory.pid
+artifactory.tomcat.connector.maxThreads (File): 400
+configVersion (File): 1
+evidence.access.bypass.accessUrl (Default Value): 
+evidence.access.bypass.retryBackoffInitialIntervalMillis (Default Value): 500
+evidence.access.bypass.retryBackoffMaxElapsedTimeMillis (Default Value): 0
+evidence.access.bypass.retryBackoffMaxIntervalMillis (Default Value): 3600000
+evidence.access.bypass.revocableExpiryThresholdSeconds (Default Value): -1
+evidence.access.joinTimeoutMillis (Default Value): 180000
+evidence.access.pingTimeoutMillis (Default Value): 120000
+evidence.accessclient.url (Environment Variable: JF_EVIDENCE_ACCESSCLIENT_URL): http://localhost:8081/access
+evidence.api.maxFilterSize (Default Value): 50
+evidence.api.maxPageSize (Default Value): 200
+evidence.api.maxQueryDepth (Default Value): 20
+evidence.caching.license.capacity (Default Value): 100
+evidence.caching.license.expirationSecs (Default Value): 300
+evidence.caching.publicKeys.capacity (Default Value): 500
+evidence.caching.publicKeys.expirationSecs (Default Value): 14400
+evidence.database.disableParallelSelect (Default Value): true
+evidence.database.enableLogForPostgres (Default Value): false
+evidence.database.kerberosAuth (Default Value): false
+evidence.database.maxIdleConnections (Default Value): 10
+evidence.database.maxOpenConnections (Default Value): 100
+evidence.database.maxRecordsLimit (Default Value): 1000
+evidence.database.metrics.enabled (Default Value): false
+evidence.database.metrics.maxQueriesToTrack (Default Value): 5
+evidence.database.migrationLockRetryIntervalSecs (Default Value): 60
+evidence.database.password (File: shared.database.password): *****
+evidence.database.queryTimeoutSecs (Default Value): 1800
+evidence.database.type (File: shared.database.type): oracle
+evidence.database.url (File: shared.database.url): jdbc:oracle:thin:@(DESCRIPTION=(CONNECT_TIMEOUT=10)(RETRY_COUNT=3)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_909.inet.bundesbank.de)(PORT=1621))(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_913.inet.bundesbank.de)(PORT=1621)))(CONNECT_DATA=(SERVICE_NAME= ARTED_PRIM.WORLD)(SERVER=DEDICATED)))
+evidence.database.username (File: shared.database.username): ARTE1
+evidence.database.waitForConnectionTimeoutSecs (Default Value): 15
+evidence.graphql.playground (Default Value): true
+evidence.graphql.releaseBundleArtifactsWithEvidenceBulkSize (Default Value): 1000
+evidence.httpPort (Default Value): 8051
+evidence.jfConnect.establishConnectionTimeoutMillis (Default Value): 3000
+evidence.jfConnect.fetchIntervalMillis (Default Value): 30000
+evidence.jfConnect.requestTimeoutMillis (Default Value): 30000
+evidence.jfConnect.retryConnectionIntervalMillis (Default Value): 1000
+evidence.jfConnect.tokenExpiryMinutes (Default Value): 1440
+evidence.logging.application.caller (Default Value): false
+evidence.logging.application.console (Default Value): true
+evidence.logging.application.filePath (Default Value): evidence-service.log
+evidence.logging.application.format (Default Value): jftext
+evidence.logging.application.level (Default Value): info
+evidence.logging.application.rotation.compress (Default Value): true
+evidence.logging.application.rotation.keepLastDecompressed (Default Value): 1
+evidence.logging.application.rotation.maxAgeDays (Default Value): 365
+evidence.logging.application.rotation.maxFiles (Default Value): 10
+evidence.logging.application.rotation.maxSizeMb (Default Value): 25
+evidence.logging.consoleLog.format (Default Value): jftext
+evidence.logging.metrics.console (Default Value): false
+evidence.logging.metrics.filePath (Default Value): evidence-metrics.log
+evidence.logging.metrics.rotation.compress (Default Value): true
+evidence.logging.metrics.rotation.keepLastDecompressed (Default Value): 1
+evidence.logging.metrics.rotation.maxAgeDays (Default Value): 365
+evidence.logging.metrics.rotation.maxFiles (Default Value): 10
+evidence.logging.metrics.rotation.maxSizeMb (Default Value): 25
+evidence.logging.request.console (Default Value): false
+evidence.logging.request.filePath (Default Value): evidence-request.log
+evidence.logging.request.rotation.compress (Default Value): true
+evidence.logging.request.rotation.keepLastDecompressed (Default Value): 1
+evidence.logging.request.rotation.maxAgeDays (Default Value): 365
+evidence.logging.request.rotation.maxFiles (Default Value): 10
+evidence.logging.request.rotation.maxSizeMb (Default Value): 25
+evidence.metrics.backOffice.enabled (Default Value): true
+evidence.metrics.enabled (Default Value): false
+evidence.metrics.exclude (Default Value): []
+evidence.metrics.intervalMillis (Default Value): 10s
+evidence.metrics.logPeriodically (Default Value): false
+evidence.metrics.triggers.enabled (Default Value): true
+evidence.metrics.triggers.intervalMillis (Default Value): 20000
+evidence.metrics.triggers.limit (Default Value): 1000000
+evidence.profiling.enabled (Default Value): false
+evidence.supportBundle.aggregationTimeoutMillis (Default Value): 3600000
+metadata.database.maxOpenConnections (File): 200
+product.home (Environment Variable: JF_PRODUCT_HOME): /opt/jfrog/artifactory
+router.entrypoints.internalPort (Default Value): 8046
+router.topology.local.requiredservicetypes (Environment Variable: JF_ROUTER_TOPOLOGY_LOCAL_REQUIREDSERVICETYPES): jfrt,jfac,jfmd,jffe,jfob,jfcon,jfevt,jfevd,jfcfg,jftpl,jfomr
+shared.database.driver (File): oracle.jdbc.OracleDriver
+shared.database.password (File): *****
+shared.database.type (File): oracle
+shared.database.url (File): jdbc:oracle:thin:@(DESCRIPTION=(CONNECT_TIMEOUT=10)(RETRY_COUNT=3)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_909.inet.bundesbank.de)(PORT=1621))(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_913.inet.bundesbank.de)(PORT=1621)))(CONNECT_DATA=(SERVICE_NAME= ARTED_PRIM.WORLD)(SERVER=DEDICATED)))
+shared.database.username (File): ARTE1
+shared.env.LD_LIBRARY_PATH (File): /usr/lib64/
+shared.env.extraJavaOpts (File): -Xms4g -Xmx12g
+shared.group (File): artifactory
+shared.logging.rotation.compress (File): true
+shared.logging.rotation.maxFiles (File): 10
+shared.logging.rotation.maxSizeMb (File): 25
+shared.multiTenant.cellId (Default Value): 
+shared.multiTenant.enabled (Default Value): false
+shared.multiTenant.tenantRegistryClient.caCert (Default Value): 
+shared.multiTenant.tenantRegistryClient.cacheExpirationSecs (Default Value): 21600
+shared.multiTenant.tenantRegistryClient.clientCert (Default Value): 
+shared.multiTenant.tenantRegistryClient.clientCertKey (Default Value): *****
+shared.multiTenant.tenantRegistryClient.dialTimeoutSecs (Default Value): 10
+shared.multiTenant.tenantRegistryClient.endpoints (Default Value): 
+shared.multiTenant.tenantRegistryClient.pingCacheExpirationSecs (Default Value): 15
+shared.multiTenant.tenantRegistryClient.pingTimeoutSecs (Default Value): 1
+shared.multiTenant.tenantRegistryClient.requestTimeoutSecs (Default Value): 30
+shared.newrelic.appName (Default Value): 
+shared.newrelic.distributedTracerEnabled (Default Value): true
+shared.newrelic.enableDebugLog (Default Value): false
+shared.newrelic.enabled (Default Value): false
+shared.newrelic.licenseKey (Default Value): *****
+shared.node.haEnabled (File): false
+shared.node.id (Environment Variable: JF_SHARED_NODE_ID): u999jfart002d.in.bundesbank.de
+shared.node.ip (Environment Variable: JF_SHARED_NODE_IP): 10.204.188.11
+shared.node.name (Environment Variable: JF_SHARED_NODE_NAME): u999jfart002d
+shared.node.primary (File): true
+shared.security.bootstrapKeysReadTimeoutSecs (Default Value): 120
+shared.security.exposeApplicationHeaders (Default Value): false
+shared.security.joinKeyFile (Default Value): etc/security/join.key
+shared.security.masterKeyFile (Default Value): etc/security/master.key
+shared.user (File): artifactory
+system.yaml (Environment Variable: JF_SYSTEM_YAML): /opt/jfrog/artifactory/var/etc/system.yaml [bootstrap]
+2025-08-14T13:20:05.563Z [jfevd] [INFO ] [0211be32a22964cf] [access_client_thin.go:112     ] [main                ] [                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: failed to connect to local router at address: http://localhost:8046/access/api/v1/system/ping: Get "http://localhost:8046/access/api/v1/system/ping": dial tcp [::1]:8046: connect: connection refused [bootstrap]
+2025-08-14T13:20:10.571Z [jfevd] [INFO ] [0211be32a22964cf] [access_client_thin.go:112     ] [main                ] [                ] - Cluster join: Retry 10: Service registry ping failed, will retry. Error: failed to connect to local router at address: http://localhost:8046/access/api/v1/system/ping: Get "http://localhost:8046/access/api/v1/system/ping": dial tcp [::1]:8046: connect: connection refused [bootstrap]
+2025-08-14T13:20:15.578Z [jfevd] [INFO ] [0211be32a22964cf] [access_client_thin.go:112     ] [main                ] [                ] - Cluster join: Retry 15: Service registry ping failed, will retry. Error: failed to connect to local router at address: http://localhost:8046/access/api/v1/system/ping: Get "http://localhost:8046/access/api/v1/system/ping": dial tcp [::1]:8046: connect: connection refused [bootstrap]
+2025-08-14T13:20:20.585Z [jfevd] [INFO ] [0211be32a22964cf] [access_client_thin.go:112     ] [main                ] [                ] - Cluster join: Retry 20: Service registry ping failed, will retry. Error: failed to connect to local router at address: http://localhost:8046/access/api/v1/system/ping: Get "http://localhost:8046/access/api/v1/system/ping": dial tcp [::1]:8046: connect: connection refused [bootstrap]
+2025-08-14T13:20:25.591Z [jfevd] [INFO ] [0211be32a22964cf] [access_client_thin.go:112     ] [main                ] [                ] - Cluster join: Retry 25: Service registry ping failed, will retry. Error: failed to connect to local router at address: http://localhost:8046/access/api/v1/system/ping: Get "http://localhost:8046/access/api/v1/system/ping": dial tcp [::1]:8046: connect: connection refused [bootstrap]
+2025-08-14T13:20:30.623Z [jfevd] [INFO ] [0211be32a22964cf] [application.go:293            ] [main                ] [                ] - JFrog Evidence Service ID: jfevd@01fzay697410wh1bw17baz1s5g [bootstrap]
+2025-08-14T13:20:30.623Z [jfevd] [INFO ] [0211be32a22964cf] [application.go:294            ] [main                ] [                ] - JFrog Evidence Node ID: u999jfart002d.in.bundesbank.de [bootstrap]
+2025-08-14T13:20:30.623Z [jfevd] [INFO ] [0211be32a22964cf] [application.go:295            ] [main                ] [                ] - JFrog Evidence Node IP: 10.204.188.11 [bootstrap]
+2025-08-14T13:20:30.624Z [jfevd] [INFO ] [0211be32a22964cf] [metrics_evidence_collector.go:] [main                ] [                ] - Back office metrics service initialized successfully. Usage directory: /opt/jfrog/artifactory/var/data/evidence/usage [metrics-collector]
+2025-08-14T13:20:30.624Z [jfevd] [INFO ] [0211be32a22964cf] [database.go:90                ] [main                ] [                ] - Database connection driver: godror [database]
+2025-08-14T13:20:30.624Z [jfevd] [INFO ] [0211be32a22964cf] [database.go:104               ] [main                ] [                ] - Connecting to DB with parameters: Type: oracle, Url: jdbc:oracle:thin:@(DESCRIPTION=(CONNECT_TIMEOUT=10)(RETRY_COUNT=3)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_909.inet.bundesbank.de)(PORT=1621))(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_913.inet.bundesbank.de)(PORT=1621)))(CONNECT_DATA=(SERVICE_NAME= ARTED_PRIM.WORLD)(SERVER=DEDICATED))), User: ARTE1 [database]
+2025-08-14T13:20:31.118Z [jfevd] [INFO ] [0211be32a22964cf] [database_migration.go:75      ] [main                ] [                ] - Applying database migration files [database]
+2025-08-14T13:20:31.119Z [jfevd] [INFO ] [0211be32a22964cf] [database_migration_locker.go:5] [main                ] [                ] - Trying to acquire migration lock for u999jfart002d.in.bundesbank.de [database]
+2025-08-14T13:20:31.131Z [jfevd] [INFO ] [0211be32a22964cf] [database_migration_locker.go:7] [main                ] [                ] - Migration lock acquired for u999jfart002d.in.bundesbank.de [database]
+2025-08-14T13:20:31.132Z [jfevd] [INFO ] [0211be32a22964cf] [database_migration.go:141     ] [main                ] [                ] - Applying 0 migrations files [database]
+2025-08-14T13:20:31.132Z [jfevd] [INFO ] [0211be32a22964cf] [database_migration_locker.go:8] [main                ] [                ] - Trying to release lock owned by: u999jfart002d.in.bundesbank.de [database]
+2025-08-14T13:20:31.134Z [jfevd] [INFO ] [0211be32a22964cf] [database_migration_locker.go:9] [main                ] [                ] - Released lock owned by node u999jfart002d.in.bundesbank.de [database]
+2025-08-14T13:20:31.134Z [jfevd] [INFO ] [0211be32a22964cf] [database_migration.go:87      ] [main                ] [                ] - No database migrations to apply [database]
+2025-08-14T13:20:31.134Z [jfevd] [WARN ] [0211be32a22964cf] [graphql_handler.go:129        ] [main                ] [                ] - GraphQL OneModel compatibility filter is disabled by configuration [graphql-handler]
+2025-08-14T13:20:31.135Z [jfevd] [INFO ] [0211be32a22964cf] [application.go:194            ] [main                ] [                ] - HTTP server listening on 127.0.0.1:8051 [application]
+2025-08-14T13:20:31.222Z [jfevd] [INFO ] [0211be32a22964cf] [join_executor.go:178          ] [main                ] [                ] - Cluster join: Successfully joined the cluster [access-client]
+2025-08-14T13:20:31.222Z [jfevd] [INFO ] [0211be32a22964cf] [join_executor.go:190          ] [main                ] [                ] - Cluster join: executing Router register at: localhost:8046 for service id jfevd@01fzay697410wh1bw17baz1s5g [access-client]
+2025-08-14T13:20:31.239Z [jfevd] [INFO ] [0211be32a22964cf] [application.go:300            ] [main                ] [                ] - JFrog Evidence (jfevd) service initialization completed in 29.838 seconds [application]
+2025-08-14T13:20:31.239Z [jfevd] [INFO ] [0211be32a22964cf] [platform_config_stream.go:49  ] [main                ] [                ] - Starting Platform Config stream connect goroutine [access-client]
+2025-08-14T13:20:31.239Z [jfevd] [INFO ] [0211be32a22964cf] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access-client]
+2025-08-14T13:20:31.251Z [jfevd] [INFO ] [0211be32a22964cf] [dedicated_grpc_connection.go:2] [main                ] [                ] - Creating a new dedicated gRPC connection for localhost:8046 [access-client]
+2025-08-14T13:20:31.255Z [jfevd] [INFO ] [0211be32a22964cf] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T13:20:31.255Z [jfevd] [INFO ] [0211be32a22964cf] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T13:20:31.255Z [jfevd] [INFO ] [0211be32a22964cf] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access-client]
+2025-08-14T13:20:31.256Z [jfevd] [INFO ] [0211be32a22964cf] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access-client]
+2025-08-14T13:20:31.278Z [jfevd] [INFO ] [0211be32a22964cf] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T13:20:31.278Z [jfevd] [INFO ] [0211be32a22964cf] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T13:20:31.278Z [jfevd] [INFO ] [0211be32a22964cf] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access-client]
+2025-08-14T13:20:31.278Z [jfevd] [INFO ] [0211be32a22964cf] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access-client]
+2025-08-14T13:20:31.320Z [jfevd] [INFO ] [0211be32a22964cf] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T13:20:31.320Z [jfevd] [INFO ] [0211be32a22964cf] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T13:20:31.320Z [jfevd] [INFO ] [0211be32a22964cf] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access-client]
+2025-08-14T13:20:31.320Z [jfevd] [INFO ] [0211be32a22964cf] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access-client]
+2025-08-14T13:20:31.403Z [jfevd] [INFO ] [0211be32a22964cf] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T13:20:31.403Z [jfevd] [INFO ] [0211be32a22964cf] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T13:20:31.403Z [jfevd] [INFO ] [0211be32a22964cf] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access-client]
+2025-08-14T13:20:31.403Z [jfevd] [INFO ] [0211be32a22964cf] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access-client]
+2025-08-14T13:20:31.566Z [jfevd] [INFO ] [0211be32a22964cf] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T13:20:31.566Z [jfevd] [INFO ] [0211be32a22964cf] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T13:20:31.566Z [jfevd] [INFO ] [0211be32a22964cf] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access-client]
+2025-08-14T13:20:31.566Z [jfevd] [INFO ] [0211be32a22964cf] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access-client]
+2025-08-14T13:20:31.889Z [jfevd] [INFO ] [0211be32a22964cf] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T13:20:31.889Z [jfevd] [INFO ] [0211be32a22964cf] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T13:20:31.889Z [jfevd] [INFO ] [0211be32a22964cf] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access-client]
+2025-08-14T13:20:31.889Z [jfevd] [INFO ] [0211be32a22964cf] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access-client]
+2025-08-14T13:20:33.473Z [jfevd] [INFO ] [0211be32a22964cf] [platform_config_stream.go:105 ] [main                ] [                ] - Starting Platform Config stream Recv loop [access-client]
+2025-08-14T13:20:33.473Z [jfevd] [INFO ] [0211be32a22964cf] [platform_config_stream.go:137 ] [main                ] [                ] - Starting Platform Config checkKeepAlive [access-client]
+2025-08-14T13:35:36.145Z [jfevd] [INFO ] [74dc1b94fb286f5e] [application.go:289            ] [main                ] [                ] - Effective configuration:
+access.database.maxOpenConnections (File): 200
+access.jfconfig.enabled (Environment Variable: JF_ACCESS_JFCONFIG_ENABLED): true
+access.tomcat.connector.maxThreads (File): 100
+access.useexternaltopology (Environment Variable: JF_ACCESS_USEEXTERNALTOPOLOGY): true
+artifactory.database.maxOpenConnections (File): 200
+artifactory.pid (Environment Variable: JF_ARTIFACTORY_PID): /var/run/artifactory.pid
+artifactory.tomcat.connector.maxThreads (File): 400
+configVersion (File): 1
+evidence.access.bypass.accessUrl (Default Value): 
+evidence.access.bypass.retryBackoffInitialIntervalMillis (Default Value): 500
+evidence.access.bypass.retryBackoffMaxElapsedTimeMillis (Default Value): 0
+evidence.access.bypass.retryBackoffMaxIntervalMillis (Default Value): 3600000
+evidence.access.bypass.revocableExpiryThresholdSeconds (Default Value): -1
+evidence.access.joinTimeoutMillis (Default Value): 180000
+evidence.access.pingTimeoutMillis (Default Value): 120000
+evidence.accessclient.url (Environment Variable: JF_EVIDENCE_ACCESSCLIENT_URL): http://localhost:8081/access
+evidence.api.maxFilterSize (Default Value): 50
+evidence.api.maxPageSize (Default Value): 200
+evidence.api.maxQueryDepth (Default Value): 20
+evidence.caching.license.capacity (Default Value): 100
+evidence.caching.license.expirationSecs (Default Value): 300
+evidence.caching.publicKeys.capacity (Default Value): 500
+evidence.caching.publicKeys.expirationSecs (Default Value): 14400
+evidence.database.disableParallelSelect (Default Value): true
+evidence.database.enableLogForPostgres (Default Value): false
+evidence.database.kerberosAuth (Default Value): false
+evidence.database.maxIdleConnections (Default Value): 10
+evidence.database.maxOpenConnections (Default Value): 100
+evidence.database.maxRecordsLimit (Default Value): 1000
+evidence.database.metrics.enabled (Default Value): false
+evidence.database.metrics.maxQueriesToTrack (Default Value): 5
+evidence.database.migrationLockRetryIntervalSecs (Default Value): 60
+evidence.database.password (File: shared.database.password): *****
+evidence.database.queryTimeoutSecs (Default Value): 1800
+evidence.database.type (File: shared.database.type): oracle
+evidence.database.url (File: shared.database.url): jdbc:oracle:thin:@(DESCRIPTION=(CONNECT_TIMEOUT=10)(RETRY_COUNT=3)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_909.inet.bundesbank.de)(PORT=1621))(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_913.inet.bundesbank.de)(PORT=1621)))(CONNECT_DATA=(SERVICE_NAME= ARTED_PRIM.WORLD)(SERVER=DEDICATED)))
+evidence.database.username (File: shared.database.username): ARTE1
+evidence.database.waitForConnectionTimeoutSecs (Default Value): 15
+evidence.graphql.playground (Default Value): true
+evidence.graphql.releaseBundleArtifactsWithEvidenceBulkSize (Default Value): 1000
+evidence.httpPort (Default Value): 8051
+evidence.jfConnect.establishConnectionTimeoutMillis (Default Value): 3000
+evidence.jfConnect.fetchIntervalMillis (Default Value): 30000
+evidence.jfConnect.requestTimeoutMillis (Default Value): 30000
+evidence.jfConnect.retryConnectionIntervalMillis (Default Value): 1000
+evidence.jfConnect.tokenExpiryMinutes (Default Value): 1440
+evidence.logging.application.caller (Default Value): false
+evidence.logging.application.console (Default Value): true
+evidence.logging.application.filePath (Default Value): evidence-service.log
+evidence.logging.application.format (Default Value): jftext
+evidence.logging.application.level (Default Value): info
+evidence.logging.application.rotation.compress (Default Value): true
+evidence.logging.application.rotation.keepLastDecompressed (Default Value): 1
+evidence.logging.application.rotation.maxAgeDays (Default Value): 365
+evidence.logging.application.rotation.maxFiles (Default Value): 10
+evidence.logging.application.rotation.maxSizeMb (Default Value): 25
+evidence.logging.consoleLog.format (Default Value): jftext
+evidence.logging.metrics.console (Default Value): false
+evidence.logging.metrics.filePath (Default Value): evidence-metrics.log
+evidence.logging.metrics.rotation.compress (Default Value): true
+evidence.logging.metrics.rotation.keepLastDecompressed (Default Value): 1
+evidence.logging.metrics.rotation.maxAgeDays (Default Value): 365
+evidence.logging.metrics.rotation.maxFiles (Default Value): 10
+evidence.logging.metrics.rotation.maxSizeMb (Default Value): 25
+evidence.logging.request.console (Default Value): false
+evidence.logging.request.filePath (Default Value): evidence-request.log
+evidence.logging.request.rotation.compress (Default Value): true
+evidence.logging.request.rotation.keepLastDecompressed (Default Value): 1
+evidence.logging.request.rotation.maxAgeDays (Default Value): 365
+evidence.logging.request.rotation.maxFiles (Default Value): 10
+evidence.logging.request.rotation.maxSizeMb (Default Value): 25
+evidence.metrics.backOffice.enabled (Default Value): true
+evidence.metrics.enabled (Default Value): false
+evidence.metrics.exclude (Default Value): []
+evidence.metrics.intervalMillis (Default Value): 10s
+evidence.metrics.logPeriodically (Default Value): false
+evidence.metrics.triggers.enabled (Default Value): true
+evidence.metrics.triggers.intervalMillis (Default Value): 20000
+evidence.metrics.triggers.limit (Default Value): 1000000
+evidence.profiling.enabled (Default Value): false
+evidence.supportBundle.aggregationTimeoutMillis (Default Value): 3600000
+metadata.database.maxOpenConnections (File): 200
+product.home (Environment Variable: JF_PRODUCT_HOME): /opt/jfrog/artifactory
+router.entrypoints.internalPort (Default Value): 8046
+router.topology.local.requiredservicetypes (Environment Variable: JF_ROUTER_TOPOLOGY_LOCAL_REQUIREDSERVICETYPES): jfrt,jfac,jfmd,jffe,jfob,jfcon,jfevt,jfevd,jfcfg,jftpl,jfomr
+shared.database.driver (File): oracle.jdbc.OracleDriver
+shared.database.password (File): *****
+shared.database.type (File): oracle
+shared.database.url (File): jdbc:oracle:thin:@(DESCRIPTION=(CONNECT_TIMEOUT=10)(RETRY_COUNT=3)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_909.inet.bundesbank.de)(PORT=1621))(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_913.inet.bundesbank.de)(PORT=1621)))(CONNECT_DATA=(SERVICE_NAME= ARTED_PRIM.WORLD)(SERVER=DEDICATED)))
+shared.database.username (File): ARTE1
+shared.env.LD_LIBRARY_PATH (File): /usr/lib64/
+shared.env.extraJavaOpts (File): -Xms4g -Xmx12g
+shared.group (File): artifactory
+shared.logging.rotation.compress (File): true
+shared.logging.rotation.maxFiles (File): 10
+shared.logging.rotation.maxSizeMb (File): 25
+shared.multiTenant.cellId (Default Value): 
+shared.multiTenant.enabled (Default Value): false
+shared.multiTenant.tenantRegistryClient.caCert (Default Value): 
+shared.multiTenant.tenantRegistryClient.cacheExpirationSecs (Default Value): 21600
+shared.multiTenant.tenantRegistryClient.clientCert (Default Value): 
+shared.multiTenant.tenantRegistryClient.clientCertKey (Default Value): *****
+shared.multiTenant.tenantRegistryClient.dialTimeoutSecs (Default Value): 10
+shared.multiTenant.tenantRegistryClient.endpoints (Default Value): 
+shared.multiTenant.tenantRegistryClient.pingCacheExpirationSecs (Default Value): 15
+shared.multiTenant.tenantRegistryClient.pingTimeoutSecs (Default Value): 1
+shared.multiTenant.tenantRegistryClient.requestTimeoutSecs (Default Value): 30
+shared.newrelic.appName (Default Value): 
+shared.newrelic.distributedTracerEnabled (Default Value): true
+shared.newrelic.enableDebugLog (Default Value): false
+shared.newrelic.enabled (Default Value): false
+shared.newrelic.licenseKey (Default Value): *****
+shared.node.haEnabled (File): false
+shared.node.id (Environment Variable: JF_SHARED_NODE_ID): u999jfart002d.in.bundesbank.de
+shared.node.ip (Environment Variable: JF_SHARED_NODE_IP): 10.204.188.11
+shared.node.name (Environment Variable: JF_SHARED_NODE_NAME): u999jfart002d
+shared.node.primary (File): true
+shared.security.bootstrapKeysReadTimeoutSecs (Default Value): 120
+shared.security.exposeApplicationHeaders (Default Value): false
+shared.security.joinKeyFile (Default Value): etc/security/join.key
+shared.security.masterKeyFile (Default Value): etc/security/master.key
+shared.user (File): artifactory
+system.yaml (Environment Variable: JF_SYSTEM_YAML): /opt/jfrog/artifactory/var/etc/system.yaml [bootstrap]
+2025-08-14T13:35:38.149Z [jfevd] [INFO ] [62ca7c08ba7ad046] [application.go:289            ] [main                ] [                ] - Effective configuration:
+access.database.maxOpenConnections (File): 200
+access.jfconfig.enabled (Environment Variable: JF_ACCESS_JFCONFIG_ENABLED): true
+access.tomcat.connector.maxThreads (File): 100
+access.useexternaltopology (Environment Variable: JF_ACCESS_USEEXTERNALTOPOLOGY): true
+artifactory.database.maxOpenConnections (File): 200
+artifactory.pid (Environment Variable: JF_ARTIFACTORY_PID): /var/run/artifactory.pid
+artifactory.tomcat.connector.maxThreads (File): 400
+configVersion (File): 1
+evidence.access.bypass.accessUrl (Default Value): 
+evidence.access.bypass.retryBackoffInitialIntervalMillis (Default Value): 500
+evidence.access.bypass.retryBackoffMaxElapsedTimeMillis (Default Value): 0
+evidence.access.bypass.retryBackoffMaxIntervalMillis (Default Value): 3600000
+evidence.access.bypass.revocableExpiryThresholdSeconds (Default Value): -1
+evidence.access.joinTimeoutMillis (Default Value): 180000
+evidence.access.pingTimeoutMillis (Default Value): 120000
+evidence.accessclient.url (Environment Variable: JF_EVIDENCE_ACCESSCLIENT_URL): http://localhost:8081/access
+evidence.api.maxFilterSize (Default Value): 50
+evidence.api.maxPageSize (Default Value): 200
+evidence.api.maxQueryDepth (Default Value): 20
+evidence.caching.license.capacity (Default Value): 100
+evidence.caching.license.expirationSecs (Default Value): 300
+evidence.caching.publicKeys.capacity (Default Value): 500
+evidence.caching.publicKeys.expirationSecs (Default Value): 14400
+evidence.database.disableParallelSelect (Default Value): true
+evidence.database.enableLogForPostgres (Default Value): false
+evidence.database.kerberosAuth (Default Value): false
+evidence.database.maxIdleConnections (Default Value): 10
+evidence.database.maxOpenConnections (Default Value): 100
+evidence.database.maxRecordsLimit (Default Value): 1000
+evidence.database.metrics.enabled (Default Value): false
+evidence.database.metrics.maxQueriesToTrack (Default Value): 5
+evidence.database.migrationLockRetryIntervalSecs (Default Value): 60
+evidence.database.password (File: shared.database.password): *****
+evidence.database.queryTimeoutSecs (Default Value): 1800
+evidence.database.type (File: shared.database.type): oracle
+evidence.database.url (File: shared.database.url): jdbc:oracle:thin:@(DESCRIPTION=(CONNECT_TIMEOUT=10)(RETRY_COUNT=3)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_909.inet.bundesbank.de)(PORT=1621))(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_913.inet.bundesbank.de)(PORT=1621)))(CONNECT_DATA=(SERVICE_NAME= ARTED_PRIM.WORLD)(SERVER=DEDICATED)))
+evidence.database.username (File: shared.database.username): ARTE1
+evidence.database.waitForConnectionTimeoutSecs (Default Value): 15
+evidence.graphql.playground (Default Value): true
+evidence.graphql.releaseBundleArtifactsWithEvidenceBulkSize (Default Value): 1000
+evidence.httpPort (Default Value): 8051
+evidence.jfConnect.establishConnectionTimeoutMillis (Default Value): 3000
+evidence.jfConnect.fetchIntervalMillis (Default Value): 30000
+evidence.jfConnect.requestTimeoutMillis (Default Value): 30000
+evidence.jfConnect.retryConnectionIntervalMillis (Default Value): 1000
+evidence.jfConnect.tokenExpiryMinutes (Default Value): 1440
+evidence.logging.application.caller (Default Value): false
+evidence.logging.application.console (Default Value): true
+evidence.logging.application.filePath (Default Value): evidence-service.log
+evidence.logging.application.format (Default Value): jftext
+evidence.logging.application.level (Default Value): info
+evidence.logging.application.rotation.compress (Default Value): true
+evidence.logging.application.rotation.keepLastDecompressed (Default Value): 1
+evidence.logging.application.rotation.maxAgeDays (Default Value): 365
+evidence.logging.application.rotation.maxFiles (Default Value): 10
+evidence.logging.application.rotation.maxSizeMb (Default Value): 25
+evidence.logging.consoleLog.format (Default Value): jftext
+evidence.logging.metrics.console (Default Value): false
+evidence.logging.metrics.filePath (Default Value): evidence-metrics.log
+evidence.logging.metrics.rotation.compress (Default Value): true
+evidence.logging.metrics.rotation.keepLastDecompressed (Default Value): 1
+evidence.logging.metrics.rotation.maxAgeDays (Default Value): 365
+evidence.logging.metrics.rotation.maxFiles (Default Value): 10
+evidence.logging.metrics.rotation.maxSizeMb (Default Value): 25
+evidence.logging.request.console (Default Value): false
+evidence.logging.request.filePath (Default Value): evidence-request.log
+evidence.logging.request.rotation.compress (Default Value): true
+evidence.logging.request.rotation.keepLastDecompressed (Default Value): 1
+evidence.logging.request.rotation.maxAgeDays (Default Value): 365
+evidence.logging.request.rotation.maxFiles (Default Value): 10
+evidence.logging.request.rotation.maxSizeMb (Default Value): 25
+evidence.metrics.backOffice.enabled (Default Value): true
+evidence.metrics.enabled (Default Value): false
+evidence.metrics.exclude (Default Value): []
+evidence.metrics.intervalMillis (Default Value): 10s
+evidence.metrics.logPeriodically (Default Value): false
+evidence.metrics.triggers.enabled (Default Value): true
+evidence.metrics.triggers.intervalMillis (Default Value): 20000
+evidence.metrics.triggers.limit (Default Value): 1000000
+evidence.profiling.enabled (Default Value): false
+evidence.supportBundle.aggregationTimeoutMillis (Default Value): 3600000
+metadata.database.maxOpenConnections (File): 200
+product.home (Environment Variable: JF_PRODUCT_HOME): /opt/jfrog/artifactory
+router.entrypoints.internalPort (Default Value): 8046
+router.topology.local.requiredservicetypes (Environment Variable: JF_ROUTER_TOPOLOGY_LOCAL_REQUIREDSERVICETYPES): jfrt,jfac,jfmd,jffe,jfob,jfcon,jfevt,jfevd,jfcfg,jftpl,jfomr
+shared.database.driver (File): oracle.jdbc.OracleDriver
+shared.database.password (File): *****
+shared.database.type (File): oracle
+shared.database.url (File): jdbc:oracle:thin:@(DESCRIPTION=(CONNECT_TIMEOUT=10)(RETRY_COUNT=3)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_909.inet.bundesbank.de)(PORT=1621))(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_913.inet.bundesbank.de)(PORT=1621)))(CONNECT_DATA=(SERVICE_NAME= ARTED_PRIM.WORLD)(SERVER=DEDICATED)))
+shared.database.username (File): ARTE1
+shared.env.LD_LIBRARY_PATH (File): /usr/lib64/
+shared.env.extraJavaOpts (File): -Xms4g -Xmx12g
+shared.group (File): artifactory
+shared.logging.rotation.compress (File): true
+shared.logging.rotation.maxFiles (File): 10
+shared.logging.rotation.maxSizeMb (File): 25
+shared.multiTenant.cellId (Default Value): 
+shared.multiTenant.enabled (Default Value): false
+shared.multiTenant.tenantRegistryClient.caCert (Default Value): 
+shared.multiTenant.tenantRegistryClient.cacheExpirationSecs (Default Value): 21600
+shared.multiTenant.tenantRegistryClient.clientCert (Default Value): 
+shared.multiTenant.tenantRegistryClient.clientCertKey (Default Value): *****
+shared.multiTenant.tenantRegistryClient.dialTimeoutSecs (Default Value): 10
+shared.multiTenant.tenantRegistryClient.endpoints (Default Value): 
+shared.multiTenant.tenantRegistryClient.pingCacheExpirationSecs (Default Value): 15
+shared.multiTenant.tenantRegistryClient.pingTimeoutSecs (Default Value): 1
+shared.multiTenant.tenantRegistryClient.requestTimeoutSecs (Default Value): 30
+shared.newrelic.appName (Default Value): 
+shared.newrelic.distributedTracerEnabled (Default Value): true
+shared.newrelic.enableDebugLog (Default Value): false
+shared.newrelic.enabled (Default Value): false
+shared.newrelic.licenseKey (Default Value): *****
+shared.node.haEnabled (File): false
+shared.node.id (Environment Variable: JF_SHARED_NODE_ID): u999jfart002d.in.bundesbank.de
+shared.node.ip (Environment Variable: JF_SHARED_NODE_IP): 10.204.188.11
+shared.node.name (Environment Variable: JF_SHARED_NODE_NAME): u999jfart002d
+shared.node.primary (File): true
+shared.security.bootstrapKeysReadTimeoutSecs (Default Value): 120
+shared.security.exposeApplicationHeaders (Default Value): false
+shared.security.joinKeyFile (Default Value): etc/security/join.key
+shared.security.masterKeyFile (Default Value): etc/security/master.key
+shared.user (File): artifactory
+system.yaml (Environment Variable: JF_SYSTEM_YAML): /opt/jfrog/artifactory/var/etc/system.yaml [bootstrap]
+2025-08-14T13:35:42.176Z [jfevd] [INFO ] [62ca7c08ba7ad046] [access_client_thin.go:112     ] [main                ] [                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: failed to connect to local router at address: http://localhost:8046/access/api/v1/system/ping: Get "http://localhost:8046/access/api/v1/system/ping": dial tcp [::1]:8046: connect: connection refused [bootstrap]
+2025-08-14T13:35:47.187Z [jfevd] [INFO ] [62ca7c08ba7ad046] [access_client_thin.go:112     ] [main                ] [                ] - Cluster join: Retry 10: Service registry ping failed, will retry. Error: failed to connect to local router at address: http://localhost:8046/access/api/v1/system/ping: Get "http://localhost:8046/access/api/v1/system/ping": dial tcp [::1]:8046: connect: connection refused [bootstrap]
+2025-08-14T13:35:50.206Z [jfevd] [INFO ] [62ca7c08ba7ad046] [application.go:293            ] [main                ] [                ] - JFrog Evidence Service ID: jfevd@01fzay697410wh1bw17baz1s5g [bootstrap]
+2025-08-14T13:35:50.206Z [jfevd] [INFO ] [62ca7c08ba7ad046] [application.go:294            ] [main                ] [                ] - JFrog Evidence Node ID: u999jfart002d.in.bundesbank.de [bootstrap]
+2025-08-14T13:35:50.206Z [jfevd] [INFO ] [62ca7c08ba7ad046] [application.go:295            ] [main                ] [                ] - JFrog Evidence Node IP: 10.204.188.11 [bootstrap]
+2025-08-14T13:35:50.207Z [jfevd] [INFO ] [62ca7c08ba7ad046] [metrics_evidence_collector.go:] [main                ] [                ] - Back office metrics service initialized successfully. Usage directory: /opt/jfrog/artifactory/var/data/evidence/usage [metrics-collector]
+2025-08-14T13:35:50.207Z [jfevd] [INFO ] [62ca7c08ba7ad046] [database.go:90                ] [main                ] [                ] - Database connection driver: godror [database]
+2025-08-14T13:35:50.207Z [jfevd] [INFO ] [62ca7c08ba7ad046] [database.go:104               ] [main                ] [                ] - Connecting to DB with parameters: Type: oracle, Url: jdbc:oracle:thin:@(DESCRIPTION=(CONNECT_TIMEOUT=10)(RETRY_COUNT=3)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_909.inet.bundesbank.de)(PORT=1621))(ADDRESS=(PROTOCOL=TCP)(HOST= arte-db-d_913.inet.bundesbank.de)(PORT=1621)))(CONNECT_DATA=(SERVICE_NAME= ARTED_PRIM.WORLD)(SERVER=DEDICATED))), User: ARTE1 [database]
+2025-08-14T13:35:50.634Z [jfevd] [INFO ] [62ca7c08ba7ad046] [database_migration.go:75      ] [main                ] [                ] - Applying database migration files [database]
+2025-08-14T13:35:50.636Z [jfevd] [INFO ] [62ca7c08ba7ad046] [database_migration_locker.go:5] [main                ] [                ] - Trying to acquire migration lock for u999jfart002d.in.bundesbank.de [database]
+2025-08-14T13:35:50.650Z [jfevd] [INFO ] [62ca7c08ba7ad046] [database_migration_locker.go:7] [main                ] [                ] - Migration lock acquired for u999jfart002d.in.bundesbank.de [database]
+2025-08-14T13:35:50.661Z [jfevd] [INFO ] [62ca7c08ba7ad046] [database_migration.go:141     ] [main                ] [                ] - Applying 0 migrations files [database]
+2025-08-14T13:35:50.661Z [jfevd] [INFO ] [62ca7c08ba7ad046] [database_migration_locker.go:8] [main                ] [                ] - Trying to release lock owned by: u999jfart002d.in.bundesbank.de [database]
+2025-08-14T13:35:50.672Z [jfevd] [INFO ] [62ca7c08ba7ad046] [database_migration_locker.go:9] [main                ] [                ] - Released lock owned by node u999jfart002d.in.bundesbank.de [database]
+2025-08-14T13:35:50.673Z [jfevd] [INFO ] [62ca7c08ba7ad046] [database_migration.go:87      ] [main                ] [                ] - No database migrations to apply [database]
+2025-08-14T13:35:50.673Z [jfevd] [WARN ] [62ca7c08ba7ad046] [graphql_handler.go:129        ] [main                ] [                ] - GraphQL OneModel compatibility filter is disabled by configuration [graphql-handler]
+2025-08-14T13:35:50.673Z [jfevd] [INFO ] [62ca7c08ba7ad046] [application.go:194            ] [main                ] [                ] - HTTP server listening on 127.0.0.1:8051 [application]
+2025-08-14T13:35:50.845Z [jfevd] [INFO ] [62ca7c08ba7ad046] [join_executor.go:178          ] [main                ] [                ] - Cluster join: Successfully joined the cluster [access-client]
+2025-08-14T13:35:50.846Z [jfevd] [INFO ] [62ca7c08ba7ad046] [join_executor.go:190          ] [main                ] [                ] - Cluster join: executing Router register at: localhost:8046 for service id jfevd@01fzay697410wh1bw17baz1s5g [access-client]
+2025-08-14T13:35:50.886Z [jfevd] [INFO ] [62ca7c08ba7ad046] [application.go:300            ] [main                ] [                ] - JFrog Evidence (jfevd) service initialization completed in 12.752 seconds [application]
+2025-08-14T13:35:50.886Z [jfevd] [INFO ] [62ca7c08ba7ad046] [platform_config_stream.go:49  ] [main                ] [                ] - Starting Platform Config stream connect goroutine [access-client]
+2025-08-14T13:35:50.886Z [jfevd] [INFO ] [62ca7c08ba7ad046] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access-client]
+2025-08-14T13:35:50.898Z [jfevd] [INFO ] [62ca7c08ba7ad046] [dedicated_grpc_connection.go:2] [main                ] [                ] - Creating a new dedicated gRPC connection for localhost:8046 [access-client]
+2025-08-14T13:35:50.903Z [jfevd] [INFO ] [62ca7c08ba7ad046] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T13:35:50.903Z [jfevd] [INFO ] [62ca7c08ba7ad046] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T13:35:50.903Z [jfevd] [INFO ] [62ca7c08ba7ad046] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access-client]
+2025-08-14T13:35:50.903Z [jfevd] [INFO ] [62ca7c08ba7ad046] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access-client]
+2025-08-14T13:35:50.936Z [jfevd] [INFO ] [62ca7c08ba7ad046] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T13:35:50.936Z [jfevd] [INFO ] [62ca7c08ba7ad046] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T13:35:50.936Z [jfevd] [INFO ] [62ca7c08ba7ad046] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access-client]
+2025-08-14T13:35:50.936Z [jfevd] [INFO ] [62ca7c08ba7ad046] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access-client]
+2025-08-14T13:35:50.981Z [jfevd] [INFO ] [62ca7c08ba7ad046] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T13:35:50.981Z [jfevd] [INFO ] [62ca7c08ba7ad046] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T13:35:50.981Z [jfevd] [INFO ] [62ca7c08ba7ad046] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access-client]
+2025-08-14T13:35:50.981Z [jfevd] [INFO ] [62ca7c08ba7ad046] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access-client]
+2025-08-14T13:35:51.068Z [jfevd] [INFO ] [62ca7c08ba7ad046] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T13:35:51.069Z [jfevd] [INFO ] [62ca7c08ba7ad046] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T13:35:51.069Z [jfevd] [INFO ] [62ca7c08ba7ad046] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access-client]
+2025-08-14T13:35:51.069Z [jfevd] [INFO ] [62ca7c08ba7ad046] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access-client]
+2025-08-14T13:35:51.234Z [jfevd] [INFO ] [62ca7c08ba7ad046] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T13:35:51.234Z [jfevd] [INFO ] [62ca7c08ba7ad046] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T13:35:51.235Z [jfevd] [INFO ] [62ca7c08ba7ad046] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access-client]
+2025-08-14T13:35:51.235Z [jfevd] [INFO ] [62ca7c08ba7ad046] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access-client]
+2025-08-14T13:35:51.560Z [jfevd] [INFO ] [62ca7c08ba7ad046] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T13:35:51.560Z [jfevd] [INFO ] [62ca7c08ba7ad046] [platform_config_stream.go:77  ] [main                ] [                ] - Platform Config not able to subscribe to stream error: server error: rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway); transport: received unexpected content-type "text/plain; charset=utf-8" [access-client]
+2025-08-14T13:35:51.560Z [jfevd] [INFO ] [62ca7c08ba7ad046] [platform_config_stream.go:78  ] [main                ] [                ] - Platform Config stream disconnected [access-client]
+2025-08-14T13:35:51.560Z [jfevd] [INFO ] [62ca7c08ba7ad046] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access-client]
+2025-08-14T13:35:53.359Z [jfevd] [INFO ] [62ca7c08ba7ad046] [platform_config_stream.go:105 ] [main                ] [                ] - Starting Platform Config stream Recv loop [access-client]
+2025-08-14T13:35:53.359Z [jfevd] [INFO ] [62ca7c08ba7ad046] [platform_config_stream.go:137 ] [main                ] [                ] - Starting Platform Config checkKeepAlive [access-client]

@@ -1,0 +1,21 @@
+endpoints:
+    - excludedpaths: []
+      paths:
+        - match: /onemodel/(.*)
+          replace: /$1
+      port: 8071
+      protocol: 1
+    - excludedpaths: []
+      paths:
+        - match: /com\.jfrog\.onemodelregistry\..*
+          replace: ""
+      port: 8072
+      protocol: 2
+healthcheckendpoint:
+    path: /api/v1/system/readiness
+    port: 8071
+nodeid: u999jfart002d.in.bundesbank.de
+nodestatusendpoint: null
+revision: 9c2609de41
+serviceid: jfomr@01fzay697410wh1bw17baz1s5g
+version: 1.52.2

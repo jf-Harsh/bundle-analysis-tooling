@@ -1,0 +1,68 @@
+{
+  "service_type" : "jfrt",
+  "service_id" : "jfrt@01fzay6s6x41bs1ytynknf084z",
+  "status" : "success",
+  "microservices" : {
+    "artifactory" : {
+      "u999jfart002d.in.bundesbank.de" : "success"
+    },
+    "onemodelregistry" : {
+      "u999jfart002d.in.bundesbank.de" : "success"
+    },
+    "router" : {
+      "u999jfart002d.in.bundesbank.de" : "success"
+    },
+    "metadata" : {
+      "u999jfart002d.in.bundesbank.de" : "success"
+    },
+    "access" : {
+      "u999jfart002d.in.bundesbank.de" : "success"
+    },
+    "evidence" : {
+      "u999jfart002d.in.bundesbank.de" : "success"
+    },
+    "topology" : {
+      "u999jfart002d.in.bundesbank.de" : "success"
+    },
+    "jfconfig" : {
+      "u999jfart002d.in.bundesbank.de" : "success"
+    },
+    "event" : {
+      "u999jfart002d.in.bundesbank.de" : "success"
+    },
+    "jfconnect" : {
+      "u999jfart002d.in.bundesbank.de" : "success"
+    },
+    "observability" : {
+      "u999jfart002d.in.bundesbank.de" : "success"
+    },
+    "frontend" : {
+      "u999jfart002d.in.bundesbank.de" : "success"
+    }
+  },
+  "bundle_info" : {
+    "name" : "gateway",
+    "description" : "",
+    "id" : "gateway-1755178820823",
+    "parameters" : {
+      "configuration" : false,
+      "system" : true,
+      "collect_slow_queries_from_database" : false,
+      "scrub_ips" : false,
+      "scrub_user_names" : false,
+      "logs" : {
+        "include" : true,
+        "scrub_ips" : false,
+        "scrub_user_names" : false,
+        "start_date" : "2025-08-14",
+        "end_date" : "2025-08-14"
+      },
+      "thread_dump" : {
+        "count" : 1,
+        "interval" : 3000
+      }
+    },
+    "created" : "2025-08-14T15:40:20+02:00",
+    "status" : "success"
+  }
+}

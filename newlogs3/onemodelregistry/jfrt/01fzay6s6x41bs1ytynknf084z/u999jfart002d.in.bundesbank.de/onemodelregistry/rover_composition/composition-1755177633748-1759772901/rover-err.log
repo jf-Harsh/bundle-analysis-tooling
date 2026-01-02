@@ -1,0 +1,47 @@
+   INFO rover_std::fs: reading /opt/jfrog/artifactory/var/work/onemodel/apollo/machine.txt from disk
+    at crates/rover-std/src/fs.rs:34
+
+   INFO rover::utils::telemetry: Telemetry has been disabled.
+    at src/utils/telemetry.rs:87
+
+merging supergraph schema files
+   INFO rover_std::fs: reading /opt/jfrog/artifactory/var/work/onemodel/composition-1755177633748-1759772901/__rover.yaml from disk
+    at crates/rover-std/src/fs.rs:34
+
+supergraph config loaded successfully
+   INFO rover_std::fs: reading /opt/jfrog/artifactory/var/work/onemodel/composition-1755177633748-1759772901/jfomr.graphqls from disk
+    at crates/rover-std/src/fs.rs:34
+
+   INFO rover_std::fs: checking existence of parent path in '/opt/jfrog/artifactory/var/work/onemodel/apollo/elv2_license.toml'
+    at crates/rover-std/src/fs.rs:59
+
+   INFO rover_std::fs: writing /opt/jfrog/artifactory/var/work/onemodel/apollo/elv2_license.toml to disk
+    at crates/rover-std/src/fs.rs:90
+
+   INFO rover_std::fs: reading /opt/jfrog/artifactory/var/work/onemodel/composition-1755177633748-1759772901/jfomr.graphqls from disk
+    at crates/rover-std/src/fs.rs:34
+
+   INFO rover_std::fs: checking existence of parent path in '/opt/jfrog/artifactory/var/work/onemodel/composition-1755177633748-1759772901/.tmpDlWdbc/supergraph.yaml'
+    at crates/rover-std/src/fs.rs:59
+
+   INFO rover_std::fs: creating /opt/jfrog/artifactory/var/work/onemodel/composition-1755177633748-1759772901/.tmpDlWdbc directory
+    at crates/rover-std/src/fs.rs:130
+
+   INFO rover_std::fs: writing /opt/jfrog/artifactory/var/work/onemodel/composition-1755177633748-1759772901/.tmpDlWdbc/supergraph.yaml to disk
+    at crates/rover-std/src/fs.rs:90
+
+   INFO rover_std::fs: checking existence of parent path in '/opt/jfrog/artifactory/var/work/onemodel/composition-1755177633748-1759772901/__supergraph.graphqls'
+    at crates/rover-std/src/fs.rs:59
+
+   INFO rover_std::fs: writing /opt/jfrog/artifactory/var/work/onemodel/composition-1755177633748-1759772901/__supergraph.graphqls to disk
+    at crates/rover-std/src/fs.rs:90
+
+HINT: Enum type "SortOrderDirection" is defined but unused. It will be included in the supergraph with all the values appearing in any subgraph ("as if" it was only used as an output type).
+
+   INFO rover_std::fs: checking existence of parent path in '/opt/jfrog/artifactory/var/work/onemodel/composition-1755177633748-1759772901/__supergraph.graphqls'
+    at crates/rover-std/src/fs.rs:59
+
+   INFO rover_std::fs: writing /opt/jfrog/artifactory/var/work/onemodel/composition-1755177633748-1759772901/__supergraph.graphqls to disk
+    at crates/rover-std/src/fs.rs:90
+
+Supergraph Schema was printed to /opt/jfrog/artifactory/var/work/onemodel/composition-1755177633748-1759772901/__supergraph.graphqls

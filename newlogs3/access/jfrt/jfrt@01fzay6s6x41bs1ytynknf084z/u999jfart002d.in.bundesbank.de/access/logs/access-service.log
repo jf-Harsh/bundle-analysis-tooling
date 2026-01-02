@@ -1,0 +1,510 @@
+2025-08-14T10:42:28.814Z [jfac ] [INFO ] [53e8a319fc01a3c8] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-9] - Running notify on token expiry task
+2025-08-14T10:43:28.821Z [jfac ] [INFO ] [f1967961a44f9426] [TokenExpiryWorkerNotifyTask:80] [ask-pool-5-thread-10] - Running notify on token expiry task
+2025-08-14T10:44:28.823Z [jfac ] [INFO ] [697eb3589f934471] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-4] - Running notify on token expiry task
+2025-08-14T10:45:28.826Z [jfac ] [INFO ] [e6914c5505ccdac1] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-1] - Running notify on token expiry task
+2025-08-14T10:46:28.832Z [jfac ] [INFO ] [48d409ebc82d8561] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-2] - Running notify on token expiry task
+2025-08-14T10:47:28.836Z [jfac ] [INFO ] [25d34cb408d6b5b7] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-3] - Running notify on token expiry task
+2025-08-14T10:48:28.856Z [jfac ] [INFO ] [164b4ecffa7d9ba2] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-6] - Running notify on token expiry task
+2025-08-14T10:49:28.846Z [jfac ] [INFO ] [8281af7fef304dc2] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-5] - Running notify on token expiry task
+2025-08-14T10:50:28.862Z [jfac ] [INFO ] [f636294d14770cec] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-7] - Running notify on token expiry task
+2025-08-14T10:51:28.856Z [jfac ] [INFO ] [484a7a226f8fdbfd] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-8] - Running notify on token expiry task
+2025-08-14T10:52:28.861Z [jfac ] [INFO ] [364a9a1c3159fc4c] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-9] - Running notify on token expiry task
+2025-08-14T10:53:28.865Z [jfac ] [INFO ] [67d7cd5bae3e6226] [TokenExpiryWorkerNotifyTask:80] [ask-pool-5-thread-10] - Running notify on token expiry task
+2025-08-14T10:54:28.870Z [jfac ] [INFO ] [9142e4a7186bb871] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-4] - Running notify on token expiry task
+2025-08-14T10:55:28.874Z [jfac ] [INFO ] [492cd64ca24d95e2] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-1] - Running notify on token expiry task
+2025-08-14T10:56:28.879Z [jfac ] [INFO ] [2a7bbc522f7b50a8] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-2] - Running notify on token expiry task
+2025-08-14T10:57:28.883Z [jfac ] [INFO ] [9b7d7e99ab463ebf] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-3] - Running notify on token expiry task
+2025-08-14T10:58:28.887Z [jfac ] [INFO ] [296d26ac1dfa097d] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-6] - Running notify on token expiry task
+2025-08-14T10:59:28.892Z [jfac ] [INFO ] [e30435d1db479620] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-5] - Running notify on token expiry task
+2025-08-14T11:00:28.899Z [jfac ] [INFO ] [d647bec2ee52cdca] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-8] - Running notify on token expiry task
+2025-08-14T11:00:28.926Z [jfac ] [INFO ] [4864f94dde79b3b7] [j.a.s.s.t.TokenServiceImpl:314] [task-pool-5-thread-7] - Revoked 4 expired tokens.
+2025-08-14T11:01:28.904Z [jfac ] [INFO ] [96390ac73faa5724] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-9] - Running notify on token expiry task
+2025-08-14T11:02:28.885Z [jfac ] [INFO ] [09c4c6d408dc1ffa] [TokenExpiryWorkerNotifyTask:80] [ask-pool-5-thread-10] - Running notify on token expiry task
+2025-08-14T11:03:28.889Z [jfac ] [INFO ] [0a9985d44357530c] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-4] - Running notify on token expiry task
+2025-08-14T11:04:28.894Z [jfac ] [INFO ] [6a2c4a17fa62fc28] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-1] - Running notify on token expiry task
+2025-08-14T11:05:28.899Z [jfac ] [INFO ] [676aa110f9eb2670] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-2] - Running notify on token expiry task
+2025-08-14T11:06:28.902Z [jfac ] [INFO ] [913b448ed3bd33df] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-3] - Running notify on token expiry task
+2025-08-14T11:07:28.905Z [jfac ] [INFO ] [13e8dbe27ea8324d] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-6] - Running notify on token expiry task
+2025-08-14T11:08:28.936Z [jfac ] [INFO ] [40e96cb9884f8c76] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-5] - Running notify on token expiry task
+2025-08-14T11:09:28.936Z [jfac ] [INFO ] [b0be58e6f1f97f5e] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-8] - Running notify on token expiry task
+2025-08-14T11:10:28.949Z [jfac ] [INFO ] [c047237ad4abba12] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-7] - Running notify on token expiry task
+2025-08-14T11:11:28.953Z [jfac ] [INFO ] [f884af67e7785e30] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-9] - Running notify on token expiry task
+2025-08-14T11:12:28.958Z [jfac ] [INFO ] [ce9856f81672c269] [TokenExpiryWorkerNotifyTask:80] [ask-pool-5-thread-10] - Running notify on token expiry task
+2025-08-14T11:13:28.965Z [jfac ] [INFO ] [d9c805fe2dc7754c] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-4] - Running notify on token expiry task
+2025-08-14T11:14:28.970Z [jfac ] [INFO ] [6e9c92c74db3b5e6] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-1] - Running notify on token expiry task
+2025-08-14T11:15:28.974Z [jfac ] [INFO ] [dd7b646ab4cfbe71] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-2] - Running notify on token expiry task
+2025-08-14T11:16:28.979Z [jfac ] [INFO ] [a566c59a4a44e35a] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-3] - Running notify on token expiry task
+2025-08-14T11:17:28.986Z [jfac ] [INFO ] [b49bfa48ce199d86] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-6] - Running notify on token expiry task
+2025-08-14T11:18:28.990Z [jfac ] [INFO ] [607f6c2b6a144f41] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-5] - Running notify on token expiry task
+2025-08-14T11:19:28.997Z [jfac ] [INFO ] [b08b09426c7d4ae8] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-8] - Running notify on token expiry task
+2025-08-14T11:20:28.999Z [jfac ] [INFO ] [2331c37c17b0aaf4] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-7] - Running notify on token expiry task
+2025-08-14T11:21:29.005Z [jfac ] [INFO ] [381e2f6fb4ad2b25] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-9] - Running notify on token expiry task
+2025-08-14T11:22:29.010Z [jfac ] [INFO ] [73bed147cc59dbc5] [TokenExpiryWorkerNotifyTask:80] [ask-pool-5-thread-10] - Running notify on token expiry task
+2025-08-14T11:22:59.011Z [jfac ] [INFO ] [0c6c93a887ce217b] [ributedStaleTokenCleanupJob:58] [task-pool-5-thread-4] - Starting Access job to remove stale nodes and join-admin-tokens on server: u999jfart002d.in.bundesbank.de
+2025-08-14T11:23:29.014Z [jfac ] [INFO ] [1ba0db8cf3555614] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-1] - Running notify on token expiry task
+2025-08-14T11:24:29.033Z [jfac ] [INFO ] [40c77f18fef86601] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-2] - Running notify on token expiry task
+2025-08-14T11:25:29.025Z [jfac ] [INFO ] [90843dba71ac5f06] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-3] - Running notify on token expiry task
+2025-08-14T11:26:29.008Z [jfac ] [INFO ] [16ecfee441b654b7] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-6] - Running notify on token expiry task
+2025-08-14T11:27:29.036Z [jfac ] [INFO ] [3dbb07ab10cdcb97] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-5] - Running notify on token expiry task
+2025-08-14T11:28:29.040Z [jfac ] [INFO ] [75b5de8f7980f9f6] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-8] - Running notify on token expiry task
+2025-08-14T11:29:29.046Z [jfac ] [INFO ] [ee16094d70ce4e14] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-7] - Running notify on token expiry task
+2025-08-14T11:30:29.049Z [jfac ] [INFO ] [b477dbb46240085c] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-9] - Running notify on token expiry task
+2025-08-14T11:31:29.031Z [jfac ] [INFO ] [c499be96f5104441] [TokenExpiryWorkerNotifyTask:80] [ask-pool-5-thread-10] - Running notify on token expiry task
+2025-08-14T11:32:29.036Z [jfac ] [INFO ] [9acb252ff6e471d8] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-4] - Running notify on token expiry task
+2025-08-14T11:33:29.041Z [jfac ] [INFO ] [1e2b1cfbe0fa1463] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-1] - Running notify on token expiry task
+2025-08-14T11:34:29.046Z [jfac ] [INFO ] [bf0f1b1ef7965f3f] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-2] - Running notify on token expiry task
+2025-08-14T11:35:29.050Z [jfac ] [INFO ] [a1a0dadd7211148b] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-3] - Running notify on token expiry task
+2025-08-14T11:36:29.054Z [jfac ] [INFO ] [c974ce0dbd6e2c91] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-6] - Running notify on token expiry task
+2025-08-14T11:37:29.058Z [jfac ] [INFO ] [363097b4ecfcb6cf] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-5] - Running notify on token expiry task
+2025-08-14T11:38:29.061Z [jfac ] [INFO ] [7e83cb2e890dbb94] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-8] - Running notify on token expiry task
+2025-08-14T11:39:29.066Z [jfac ] [INFO ] [d7965ee3df558f3e] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-7] - Running notify on token expiry task
+2025-08-14T11:40:29.071Z [jfac ] [INFO ] [93814e60a9b8826c] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-9] - Running notify on token expiry task
+2025-08-14T11:41:29.076Z [jfac ] [INFO ] [c36cbea2d4c2f43d] [TokenExpiryWorkerNotifyTask:80] [ask-pool-5-thread-10] - Running notify on token expiry task
+2025-08-14T11:42:29.082Z [jfac ] [INFO ] [cfd7a7093ba18659] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-4] - Running notify on token expiry task
+2025-08-14T11:43:29.083Z [jfac ] [INFO ] [911438fe52c81a51] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-1] - Running notify on token expiry task
+2025-08-14T11:44:29.086Z [jfac ] [INFO ] [3c3d4a77e355cab9] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-2] - Running notify on token expiry task
+2025-08-14T11:45:29.090Z [jfac ] [INFO ] [0ded5add84014c5b] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-3] - Running notify on token expiry task
+2025-08-14T11:46:29.092Z [jfac ] [INFO ] [99675d876456192d] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-6] - Running notify on token expiry task
+2025-08-14T11:47:29.095Z [jfac ] [INFO ] [4206258160343e56] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-5] - Running notify on token expiry task
+2025-08-14T11:48:29.099Z [jfac ] [INFO ] [a68f6361dcdb6148] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-8] - Running notify on token expiry task
+2025-08-14T11:49:29.102Z [jfac ] [INFO ] [a4f3698cf5064518] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-7] - Running notify on token expiry task
+2025-08-14T11:50:29.104Z [jfac ] [INFO ] [1a84e66c104e9a3f] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-9] - Running notify on token expiry task
+2025-08-14T11:51:29.108Z [jfac ] [INFO ] [91ee605ff43da144] [TokenExpiryWorkerNotifyTask:80] [ask-pool-5-thread-10] - Running notify on token expiry task
+2025-08-14T11:52:29.136Z [jfac ] [INFO ] [51cde987625b5573] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-4] - Running notify on token expiry task
+2025-08-14T11:53:29.140Z [jfac ] [INFO ] [1ee4dc031ea17409] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-1] - Running notify on token expiry task
+2025-08-14T11:54:29.148Z [jfac ] [INFO ] [591634908d8fd252] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-2] - Running notify on token expiry task
+2025-08-14T11:55:29.153Z [jfac ] [INFO ] [1c96b279124f91a3] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-3] - Running notify on token expiry task
+2025-08-14T11:56:29.165Z [jfac ] [INFO ] [39ab9941fe9e0646] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-6] - Running notify on token expiry task
+2025-08-14T11:57:29.162Z [jfac ] [INFO ] [5ffef66e39c7f1f8] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-5] - Running notify on token expiry task
+2025-08-14T11:58:29.172Z [jfac ] [INFO ] [b8326d88491c8248] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-8] - Running notify on token expiry task
+2025-08-14T11:59:29.169Z [jfac ] [INFO ] [0c7400fe2591332d] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-7] - Running notify on token expiry task
+2025-08-14T12:00:29.203Z [jfac ] [INFO ] [d6c59876e1361742] [TokenExpiryWorkerNotifyTask:80] [ask-pool-5-thread-10] - Running notify on token expiry task
+2025-08-14T12:01:29.182Z [jfac ] [INFO ] [98f6ef0f60bd6952] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-4] - Running notify on token expiry task
+2025-08-14T12:02:29.193Z [jfac ] [INFO ] [aa72190726b21457] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-1] - Running notify on token expiry task
+2025-08-14T12:03:29.167Z [jfac ] [INFO ] [d8095d50dd51b398] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-2] - Running notify on token expiry task
+2025-08-14T12:04:29.171Z [jfac ] [INFO ] [ac88b59b6b663598] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-3] - Running notify on token expiry task
+2025-08-14T12:05:29.174Z [jfac ] [INFO ] [43f6371080e7a1a4] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-6] - Running notify on token expiry task
+2025-08-14T12:06:29.202Z [jfac ] [INFO ] [29a4e9574dd6156a] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-5] - Running notify on token expiry task
+2025-08-14T12:07:29.205Z [jfac ] [INFO ] [36532d9809c975f0] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-8] - Running notify on token expiry task
+2025-08-14T12:08:29.212Z [jfac ] [INFO ] [57b79c0d65a0bb98] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-7] - Running notify on token expiry task
+2025-08-14T12:09:29.217Z [jfac ] [INFO ] [945538516c2c53a2] [TokenExpiryWorkerNotifyTask:80] [ask-pool-5-thread-10] - Running notify on token expiry task
+2025-08-14T12:10:29.221Z [jfac ] [INFO ] [62e669739eb290ce] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-9] - Running notify on token expiry task
+2025-08-14T12:11:29.226Z [jfac ] [INFO ] [e45988849ca0c179] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-4] - Running notify on token expiry task
+2025-08-14T12:12:29.230Z [jfac ] [INFO ] [d8e6f11712e26f67] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-1] - Running notify on token expiry task
+2025-08-14T12:13:29.235Z [jfac ] [INFO ] [30c4f94aab2e8e97] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-2] - Running notify on token expiry task
+2025-08-14T12:14:29.241Z [jfac ] [INFO ] [e307426db0f1164a] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-3] - Running notify on token expiry task
+2025-08-14T12:15:29.245Z [jfac ] [INFO ] [b3930e1f612309c8] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-6] - Running notify on token expiry task
+2025-08-14T12:16:29.251Z [jfac ] [INFO ] [5011df0333cccea7] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-5] - Running notify on token expiry task
+2025-08-14T12:17:29.258Z [jfac ] [INFO ] [dfee8b9f6575f2a0] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-8] - Running notify on token expiry task
+2025-08-14T12:18:29.261Z [jfac ] [INFO ] [e0ad6ef3aa11e6fd] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-7] - Running notify on token expiry task
+2025-08-14T12:19:29.269Z [jfac ] [INFO ] [570821f900e52334] [TokenExpiryWorkerNotifyTask:80] [ask-pool-5-thread-10] - Running notify on token expiry task
+2025-08-14T12:20:29.271Z [jfac ] [INFO ] [19a65c5b3cffa414] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-9] - Running notify on token expiry task
+2025-08-14T12:21:29.278Z [jfac ] [INFO ] [c7b72eb4d6860654] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-4] - Running notify on token expiry task
+2025-08-14T12:22:29.282Z [jfac ] [INFO ] [3f4ee9d711286988] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-1] - Running notify on token expiry task
+2025-08-14T12:22:59.284Z [jfac ] [INFO ] [667fe23ce3c3a5a1] [ributedStaleTokenCleanupJob:58] [task-pool-5-thread-2] - Starting Access job to remove stale nodes and join-admin-tokens on server: u999jfart002d.in.bundesbank.de
+2025-08-14T12:23:29.288Z [jfac ] [INFO ] [d2e498292101efbe] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-3] - Running notify on token expiry task
+2025-08-14T12:24:29.292Z [jfac ] [INFO ] [df4e35cd69286db6] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-6] - Running notify on token expiry task
+2025-08-14T12:25:29.300Z [jfac ] [INFO ] [4af2efe86d95a3e4] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-5] - Running notify on token expiry task
+2025-08-14T12:26:29.312Z [jfac ] [INFO ] [39f0df09561bcb03] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-8] - Running notify on token expiry task
+2025-08-14T12:27:29.307Z [jfac ] [INFO ] [d4035806274669ca] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-7] - Running notify on token expiry task
+2025-08-14T12:28:29.313Z [jfac ] [INFO ] [d596e9c678195f58] [TokenExpiryWorkerNotifyTask:80] [ask-pool-5-thread-10] - Running notify on token expiry task
+2025-08-14T12:29:29.321Z [jfac ] [INFO ] [675098e7dc01b398] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-9] - Running notify on token expiry task
+2025-08-14T12:30:29.324Z [jfac ] [INFO ] [ee8b76d2ddb4e4a0] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-4] - Running notify on token expiry task
+2025-08-14T12:31:29.337Z [jfac ] [INFO ] [6a94ecaa79e7d6de] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-1] - Running notify on token expiry task
+2025-08-14T12:32:29.311Z [jfac ] [INFO ] [e5f213691e52b778] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-2] - Running notify on token expiry task
+2025-08-14T12:33:29.315Z [jfac ] [INFO ] [71a643dbd1fca1d8] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-3] - Running notify on token expiry task
+2025-08-14T12:34:29.319Z [jfac ] [INFO ] [21a31736550da539] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-6] - Running notify on token expiry task
+2025-08-14T12:35:29.323Z [jfac ] [INFO ] [107f3419c974867c] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-5] - Running notify on token expiry task
+2025-08-14T12:36:29.326Z [jfac ] [INFO ] [bdfd9c97a117e76b] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-8] - Running notify on token expiry task
+2025-08-14T12:37:29.353Z [jfac ] [INFO ] [68d65a5a9b6bc892] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-7] - Running notify on token expiry task
+2025-08-14T12:38:29.363Z [jfac ] [INFO ] [53f1041fbe25a070] [TokenExpiryWorkerNotifyTask:80] [ask-pool-5-thread-10] - Running notify on token expiry task
+2025-08-14T12:39:29.364Z [jfac ] [INFO ] [77f4f8c91de89453] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-9] - Running notify on token expiry task
+2025-08-14T12:40:29.369Z [jfac ] [INFO ] [382aa9b5385719aa] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-4] - Running notify on token expiry task
+2025-08-14T12:41:29.374Z [jfac ] [INFO ] [70c2cd8f202db465] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-1] - Running notify on token expiry task
+2025-08-14T12:42:29.385Z [jfac ] [INFO ] [983e916785ed2b65] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-2] - Running notify on token expiry task
+2025-08-14T12:43:29.385Z [jfac ] [INFO ] [841316218ef61d22] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-3] - Running notify on token expiry task
+2025-08-14T12:44:29.391Z [jfac ] [INFO ] [950b8a529d93a1cb] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-6] - Running notify on token expiry task
+2025-08-14T12:45:29.407Z [jfac ] [INFO ] [fbe6a921a9aaefe2] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-5] - Running notify on token expiry task
+2025-08-14T12:46:29.411Z [jfac ] [INFO ] [36aeaf265f45c2e0] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-8] - Running notify on token expiry task
+2025-08-14T12:47:29.421Z [jfac ] [INFO ] [50705b3686214fdb] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-7] - Running notify on token expiry task
+2025-08-14T12:48:29.415Z [jfac ] [INFO ] [4b525ad89528e35d] [TokenExpiryWorkerNotifyTask:80] [ask-pool-5-thread-10] - Running notify on token expiry task
+2025-08-14T12:49:29.418Z [jfac ] [INFO ] [099e6ac4792067d4] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-9] - Running notify on token expiry task
+2025-08-14T12:50:29.425Z [jfac ] [INFO ] [3012e6eea38cbc9f] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-4] - Running notify on token expiry task
+2025-08-14T12:51:29.429Z [jfac ] [INFO ] [9cb3017dc3ad6157] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-1] - Running notify on token expiry task
+2025-08-14T12:52:29.449Z [jfac ] [INFO ] [c2bac00c4751bbf5] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-2] - Running notify on token expiry task
+2025-08-14T12:53:29.440Z [jfac ] [INFO ] [e8e75e9144370cb8] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-3] - Running notify on token expiry task
+2025-08-14T12:54:29.443Z [jfac ] [INFO ] [b59a5313933760be] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-6] - Running notify on token expiry task
+2025-08-14T12:55:29.462Z [jfac ] [INFO ] [183500d5bef28c7e] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-5] - Running notify on token expiry task
+2025-08-14T12:56:29.455Z [jfac ] [INFO ] [dea36b6a56ab577c] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-8] - Running notify on token expiry task
+2025-08-14T12:57:29.473Z [jfac ] [INFO ] [3c8d4a8e2eecaeb2] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-7] - Running notify on token expiry task
+2025-08-14T12:58:29.466Z [jfac ] [INFO ] [b772e277df882022] [TokenExpiryWorkerNotifyTask:80] [ask-pool-5-thread-10] - Running notify on token expiry task
+2025-08-14T12:59:29.472Z [jfac ] [INFO ] [4909a4b3b69b31aa] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-9] - Running notify on token expiry task
+2025-08-14T13:00:29.479Z [jfac ] [INFO ] [b2e0420d72f915b2] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-1] - Running notify on token expiry task
+2025-08-14T13:00:29.514Z [jfac ] [INFO ] [91edad51a449313c] [j.a.s.s.t.TokenServiceImpl:314] [task-pool-5-thread-4] - Revoked 7 expired tokens.
+2025-08-14T13:01:29.459Z [jfac ] [INFO ] [fe858c525086504b] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-2] - Running notify on token expiry task
+2025-08-14T13:02:29.462Z [jfac ] [INFO ] [3b928879c7becf6b] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-3] - Running notify on token expiry task
+2025-08-14T13:03:29.466Z [jfac ] [INFO ] [8c1c5d58d36017f6] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-6] - Running notify on token expiry task
+2025-08-14T13:04:29.505Z [jfac ] [INFO ] [6a655563332af3d4] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-5] - Running notify on token expiry task
+2025-08-14T13:05:29.505Z [jfac ] [INFO ] [4cc0d08678d764dd] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-8] - Running notify on token expiry task
+2025-08-14T13:06:29.518Z [jfac ] [INFO ] [bb82c320de40d908] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-7] - Running notify on token expiry task
+2025-08-14T13:07:29.515Z [jfac ] [INFO ] [053f832ebf9b5634] [TokenExpiryWorkerNotifyTask:80] [ask-pool-5-thread-10] - Running notify on token expiry task
+2025-08-14T13:08:29.516Z [jfac ] [INFO ] [5fe8d099d2480d3a] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-9] - Running notify on token expiry task
+2025-08-14T13:09:29.537Z [jfac ] [INFO ] [82379cc35d6c0767] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-1] - Running notify on token expiry task
+2025-08-14T13:10:29.528Z [jfac ] [INFO ] [2540755217b6a022] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-4] - Running notify on token expiry task
+2025-08-14T13:11:29.534Z [jfac ] [INFO ] [420926beeb5d74b5] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-2] - Running notify on token expiry task
+2025-08-14T13:12:29.552Z [jfac ] [INFO ] [564cc2132cec457a] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-3] - Running notify on token expiry task
+2025-08-14T13:13:29.543Z [jfac ] [INFO ] [bd37c53dd2fe8bc2] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-6] - Running notify on token expiry task
+2025-08-14T13:14:29.563Z [jfac ] [INFO ] [25c8bc1efb5606d1] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-5] - Running notify on token expiry task
+2025-08-14T13:15:29.554Z [jfac ] [INFO ] [31c582c4de6e0031] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-8] - Running notify on token expiry task
+2025-08-14T13:16:29.566Z [jfac ] [INFO ] [e0daf38951068017] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-7] - Running notify on token expiry task
+2025-08-14T13:17:29.563Z [jfac ] [INFO ] [001d86ee4fda29c4] [TokenExpiryWorkerNotifyTask:80] [ask-pool-5-thread-10] - Running notify on token expiry task
+2025-08-14T13:17:43.886Z [jfac ] [WARN ] [                ] [s.j.c.g.GrpcStreamObserver:106] [-default-executor-18] - target server is unavailable or connection was shutdown
+2025-08-14T13:17:43.966Z [jfac ] [INFO ] [                ] [o.j.a.s.s.CloseDownTomcat:48  ] [Thread-21           ] - Server Shutting down, removed server from HA: u999jfart002d.in.bundesbank.de
+2025-08-14T13:17:43.982Z [jfac ] [WARN ] [72fdebfe18bc2149] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-116  ] - Retry 1 Elapsed 14 millis failed: Access router is unhealthy, marking server as not available. HA sync will not work with this node until the node is healthy, ''. [localhost:8046]. Status code: UNAVAILABLE. io exception. Trying again
+2025-08-14T13:17:44.083Z [jfac ] [WARN ] [72fdebfe18bc2149] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-117  ] - Retry 2 Elapsed 116 millis failed: Access router is unhealthy, marking server as not available. HA sync will not work with this node until the node is healthy, ''. [localhost:8046]. Status code: UNAVAILABLE. io exception. Trying again
+2025-08-14T13:17:44.284Z [jfac ] [WARN ] [72fdebfe18bc2149] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-116  ] - Retry 3 Elapsed 317 millis failed: Access router is unhealthy, marking server as not available. HA sync will not work with this node until the node is healthy, ''. [localhost:8046]. Status code: UNAVAILABLE. io exception. Trying again
+2025-08-14T13:17:44.685Z [jfac ] [WARN ] [72fdebfe18bc2149] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-117  ] - Retry 4 Elapsed 718 millis failed: Access router is unhealthy, marking server as not available. HA sync will not work with this node until the node is healthy, ''. [localhost:8046]. Status code: UNAVAILABLE. io exception. Trying again
+2025-08-14T13:17:45.487Z [jfac ] [ERROR] [72fdebfe18bc2149] [o.j.c.ExecutionUtils:305      ] [jf-common-pool-116  ] - Last retry failed: Access router is unhealthy, marking server as not available. HA sync will not work with this node until the node is healthy, ''. [localhost:8046]. Status code: UNAVAILABLE. io exception. Not trying again (exceeded number of attempts (5))
+2025-08-14T13:17:45.487Z [jfac ] [WARN ] [                ] [bServerApplicationContext:1166] [Thread-21           ] - Exception thrown from ApplicationListener handling ContextClosedEvent
+org.jfrog.access.server.service.jfconfig.exception.JFConfigException: Failed to execute the call after retries
+	at org.jfrog.access.server.service.jfconfig.client.grpc.JFConfigGrpcClient.withRetry(JFConfigGrpcClient.java:86)
+	at org.jfrog.access.server.service.jfconfig.client.config.ConfigClient.deleteConfigs(ConfigClient.java:92)
+	at org.jfrog.access.server.service.jfconfig.JFConfigService.deleteConfigs(JFConfigService.java:160)
+	at org.jfrog.access.server.service.license.LegacyLicenseServiceImpl.removeLicense(LegacyLicenseServiceImpl.java:235)
+	at org.jfrog.access.server.service.CloseDownTomcat.onApplicationEvent(CloseDownTomcat.java:52)
+	at org.jfrog.access.server.service.CloseDownTomcat.onApplicationEvent(CloseDownTomcat.java:18)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:454)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:387)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1163)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:179)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1126)
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:510)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:136)
+	at org.springframework.boot.web.servlet.support.SpringBootServletInitializer$SpringBootContextLoaderListener.contextDestroyed(SpringBootServletInitializer.java:266)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4090)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4700)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1219)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1208)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:814)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1219)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1208)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:814)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:468)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:915)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:836)
+	at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:974)
+Caused by: org.jfrog.common.RetryException: Access router is unhealthy, marking server as not available. HA sync will not work with this node until the node is healthy, ''. [localhost:8046]. Status code: UNAVAILABLE. io exception
+	at org.jfrog.access.server.service.communication.grpc.GrpcRetryableCallSupplier.handleStatusRuntimeException(GrpcRetryableCallSupplier.java:50)
+	at org.jfrog.access.server.service.communication.grpc.GrpcRetryableCallSupplier.handleGrpcInvocationException(GrpcRetryableCallSupplier.java:33)
+	at org.jfrog.access.server.service.communication.grpc.GrpcRetryableCallSupplier.lambda$createRetryableCall$2(GrpcRetryableCallSupplier.java:25)
+	at org.jfrog.common.ExecutionUtils.handleFunctionExecution(ExecutionUtils.java:190)
+	at org.jfrog.common.ExecutionUtils.lambda$generateExecutionRunnable$1(ExecutionUtils.java:135)
+	at org.jfrog.common.ExecutionUtils$MDCRunnableDecorator.run(ExecutionUtils.java:323)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at com.google.common.util.concurrent.TrustedListenableFutureTask$TrustedFutureInterruptibleTask.runInterruptibly(TrustedListenableFutureTask.java:131)
+	at com.google.common.util.concurrent.InterruptibleTask.run(InterruptibleTask.java:76)
+	at com.google.common.util.concurrent.TrustedListenableFutureTask.run(TrustedListenableFutureTask.java:82)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at io.grpc.stub.ClientCalls.toStatusRuntimeException(ClientCalls.java:351)
+	at io.grpc.stub.ClientCalls.getUnchecked(ClientCalls.java:332)
+	at io.grpc.stub.ClientCalls.blockingUnaryCall(ClientCalls.java:174)
+	at org.jfrog.access.proto.generated.PlatformConfigResourceGrpc$PlatformConfigResourceBlockingStub.deleteConfigs(PlatformConfigResourceGrpc.java:735)
+	at org.jfrog.access.server.service.jfconfig.client.config.ConfigClient.lambda$deleteConfigs$7(ConfigClient.java:93)
+	at org.jfrog.access.server.service.communication.grpc.GrpcRetryableCallSupplier.handleGrpcInvocationException(GrpcRetryableCallSupplier.java:31)
+	... 11 common frames omitted
+Caused by: io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/[0:0:0:0:0:0:0:1]:8046
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.grpc.netty.shaded.io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.grpc.netty.shaded.io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.grpc.netty.shaded.io.netty.channel.unix.Socket.finishConnect(Socket.java:359)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:994)
+	at io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-08-14T13:17:45.507Z [jfac ] [WARN ] [                ] [nnotationBeanPostProcessor:247] [Thread-21           ] - Destroy method on bean with name 'passwordExpiryEmailReminderScheduledJob' threw an exception: java.lang.NullPointerException: Cannot invoke "java.util.concurrent.ScheduledFuture.cancel(boolean)" because "this.currentJob" is null
+2025-08-14T13:17:45.508Z [jfac ] [WARN ] [                ] [nnotationBeanPostProcessor:247] [Thread-21           ] - Destroy method on bean with name 'emailSentCleanupScheduledJob' threw an exception: java.lang.NullPointerException: Cannot invoke "java.util.concurrent.ScheduledFuture.cancel(boolean)" because "this.currentJob" is null
+2025-08-14T13:17:45.509Z [jfac ] [WARN ] [                ] [nnotationBeanPostProcessor:247] [Thread-21           ] - Destroy method on bean with name 'staleTokenCleanupJob' threw an exception: java.lang.NullPointerException: Cannot invoke "java.util.concurrent.ScheduledFuture.cancel(boolean)" because "this.currentJob" is null
+2025-08-14T13:17:45.511Z [jfac ] [WARN ] [                ] [nnotationBeanPostProcessor:247] [Thread-21           ] - Destroy method on bean with name 'unusedLicensesCleanupRefreshableJob' threw an exception: java.lang.NullPointerException: Cannot invoke "java.util.concurrent.ScheduledFuture.cancel(boolean)" because "this.currentJob" is null
+2025-08-14T13:17:45.512Z [jfac ] [WARN ] [                ] [nnotationBeanPostProcessor:247] [Thread-21           ] - Destroy method on bean with name 'federationCleanupService' threw an exception: java.lang.NullPointerException: Cannot invoke "java.util.concurrent.ScheduledFuture.cancel(boolean)" because "this.currentJob" is null
+2025-08-14T13:17:45.617Z [jfac ] [WARN ] [72fdebfe18bc2149] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-117  ] - Retry 2 Elapsed 102 millis failed: Access router is unhealthy, marking server as not available. HA sync will not work with this node until the node is healthy, ''. [localhost:8046]. Status code: UNAVAILABLE. io exception. Trying again
+2025-08-14T13:17:45.818Z [jfac ] [WARN ] [72fdebfe18bc2149] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-116  ] - Retry 3 Elapsed 303 millis failed: Access router is unhealthy, marking server as not available. HA sync will not work with this node until the node is healthy, ''. [localhost:8046]. Status code: UNAVAILABLE. io exception. Trying again
+2025-08-14T13:17:46.219Z [jfac ] [WARN ] [72fdebfe18bc2149] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-117  ] - Retry 4 Elapsed 704 millis failed: Access router is unhealthy, marking server as not available. HA sync will not work with this node until the node is healthy, ''. [localhost:8046]. Status code: UNAVAILABLE. io exception. Trying again
+2025-08-14T13:17:47.020Z [jfac ] [ERROR] [72fdebfe18bc2149] [o.j.c.ExecutionUtils:305      ] [jf-common-pool-116  ] - Last retry failed: Access router is unhealthy, marking server as not available. HA sync will not work with this node until the node is healthy, ''. [localhost:8046]. Status code: UNAVAILABLE. io exception. Not trying again (exceeded number of attempts (5))
+2025-08-14T13:17:47.020Z [jfac ] [WARN ] [                ] [nnotationBeanPostProcessor:247] [Thread-21           ] - Destroy method on bean with name 'accessServerRegistrar' threw an exception: org.jfrog.access.server.service.jfconfig.exception.JFConfigException: Failed to execute the call after retries
+2025-08-14T13:17:47.021Z [jfac ] [INFO ] [                ] [b.AccessWithRouterRegistrar:50] [Thread-21           ] - Trying to unregister access server from router on URL: http://localhost:8046
+2025-08-14T13:17:47.029Z [jfac ] [WARN ] [                ] [nnotationBeanPostProcessor:247] [Thread-21           ] - Destroy method on bean with name 'accessWithRouterRegistrar' threw an exception: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+2025-08-14T13:19:46.850Z [jfac ] [INFO ] [8b0730326070c4e3] [licationContextInitializer:166] [main                ] - Access (jfac) service initialization started. Version: 7.147.9 Revision: 84709900 PID: 10337 Home: /opt/jfrog/artifactory FIPS Mode: none
+2025-08-14T13:19:46.930Z [jfac ] [INFO ] [8b0730326070c4e3] [j.a.m.ConfigMigrationRunner:77] [main                ] - EnvironmentConfig (version 12) is up to date, nothing to migrate
+2025-08-14T13:19:47.015Z [jfac ] [INFO ] [8b0730326070c4e3] [o.j.a.AccessApplication:53    ] [main                ] - Starting AccessApplication v7.147.9 using Java 21.0.7 with PID 10337 (/opt/jfrog/artifactory/app/access/tomcat/webapps/access/WEB-INF/lib/access-application-7.147.9.jar started by artifactory in /)
+2025-08-14T13:19:47.016Z [jfac ] [INFO ] [8b0730326070c4e3] [o.j.a.AccessApplication:658   ] [main                ] - The following 1 profile is active: "production"
+2025-08-14T13:19:57.165Z [jfac ] [INFO ] [8b0730326070c4e3] [j.a.m.ConfigMigrationRunner:77] [main                ] - AccessConfigMigration (version 2) is up to date, nothing to migrate
+2025-08-14T13:19:57.292Z [jfac ] [INFO ] [8b0730326070c4e3] [alConfigurationServiceBase:189] [main                ] - Current configurations are the same as the new configurations, no need for an update. No action was taken.
+2025-08-14T13:19:58.528Z [jfac ] [INFO ] [8b0730326070c4e3] [.s.s.s.ServiceConfigFactory:47] [main                ] - Initializing task scheduler with 9 threads
+2025-08-14T13:19:58.721Z [jfac ] [INFO ] [8b0730326070c4e3] [.s.j.j.JdbcSchedulerBuilder:36] [main                ] - Creating scheduler with configuration: threads=10, pollInterval=30s, heartbeat=300s enable-immediate-execution=false, table-name=access_tasks, name=u999jfart002d.in.bundesbank.de
+2025-08-14T13:19:58.728Z [jfac ] [INFO ] [8b0730326070c4e3] [o.j.a.s.j.JobScheduler:91     ] [main                ] - Starting job scheduler
+2025-08-14T13:19:58.742Z [jfac ] [INFO ] [                ] [o.j.a.s.j.JobTaskResolver:49  ] [-due-pool-7-thread-1] - Found execution with unknown task-name 'BeforeTokenExpiryWorkerNotifyTask'. Adding it to the list of known unresolved task-names.
+2025-08-14T13:19:58.743Z [jfac ] [WARN ] [                ] [g.k.s.j.JdbcTaskRepository:796] [-due-pool-7-thread-1] - Failed to find implementation for task with name 'BeforeTokenExpiryWorkerNotifyTask'. Execution will be excluded from due. The scheduler normally delete unresolved tasks after 14d. To handle manually, either delete the execution from the database, or add an implementation for it. 
+2025-08-14T13:19:58.951Z [jfac ] [INFO ] [8b0730326070c4e3] [b.AccessServerBootstrapImpl:66] [main                ] - [ACCESS BOOTSTRAP] Starting JFrog Access bootstrap...
+2025-08-14T13:19:58.958Z [jfac ] [INFO ] [8b0730326070c4e3] [a.s.d.s.c.v.OracleValidator:29] [main                ] - Validating session collation for oracle database
+2025-08-14T13:19:58.964Z [jfac ] [INFO ] [8b0730326070c4e3] [b.AccessServerBootstrapImpl:90] [main                ] - Creating new server entry for server: u999jfart002d.in.bundesbank.de
+2025-08-14T13:20:01.671Z [jfac ] [INFO ] [8b0730326070c4e3] [b.AccessServerBootstrapImpl:83] [main                ] - [ACCESS BOOTSTRAP] JFrog Access bootstrap finished.
+2025-08-14T13:20:01.681Z [jfac ] [INFO ] [8b0730326070c4e3] [.s.j.JfConnectConfiguration:43] [main                ] - JFCON entitlements are disabled. jfconnect.enabled and jflink.enabled are false or undefined
+2025-08-14T13:20:05.998Z [jfac ] [INFO ] [8b0730326070c4e3] [o.j.a.s.s.JoinKeyAccess:316   ] [main                ] - Cluster join: Join key loaded successfully (from: /opt/jfrog/artifactory/var/etc/security/join.key)
+2025-08-14T13:20:06.020Z [jfac ] [WARN ] [8b0730326070c4e3] [o.j.a.s.s.JoinKeyAccess:154   ] [main                ] - Will be adding main key with kid d11da978d39c801e0d250524453713450a5b65e8b0eb3b8c3273af3f8ce1c530 to the map
+2025-08-14T13:20:07.727Z [jfac ] [INFO ] [8b0730326070c4e3] [a.s.b.AccessServerRegistrar:74] [main                ] - [ACCESS BOOTSTRAP] Starting JFrog Access registrar...
+2025-08-14T13:20:07.770Z [jfac ] [INFO ] [8b0730326070c4e3] [stributedCallHomeServiceJob:37] [main                ] - Scheduling CallHomeServiceJob job with cron: 0 0 23 * * ?
+2025-08-14T13:20:07.955Z [jfac ] [INFO ] [01cbe637a912c8fa] [a.c.RefreshableScheduledJob:53] [main                ] - Scheduling loadCertificates task to run every 30 seconds
+2025-08-14T13:20:07.980Z [jfac ] [INFO ] [01cbe637a912c8fa] [dFederationEventsCleanUpJob:31] [main                ] - Scheduling FederationEventsCleanJob job with interval secs: 1209600
+2025-08-14T13:20:07.996Z [jfac ] [INFO ] [01cbe637a912c8fa] [a.c.RefreshableScheduledJob:64] [main                ] - federationCleanupService task is disabled.
+2025-08-14T13:20:07.999Z [jfac ] [INFO ] [01cbe637a912c8fa] [a.c.RefreshableScheduledJob:53] [main                ] - Scheduling heartbeat task to run every 5 seconds
+2025-08-14T13:20:08.009Z [jfac ] [INFO ] [01cbe637a912c8fa] [a.c.RefreshableScheduledJob:53] [main                ] - Scheduling KeepAliveFederationServers task to run every 86400 seconds
+2025-08-14T13:20:08.035Z [jfac ] [INFO ] [                ] [.j.a.s.s.SystemScheduledJob:37] [main                ] - Scheduling Readiness task to run with 15000 milliseconds fixed delay
+2025-08-14T13:20:08.041Z [jfac ] [INFO ] [                ] [tedUnusedLicensesCleanupJob:58] [main                ] - Scheduling unusedLicensesCleanup job with interval: 86400
+2025-08-14T13:20:08.074Z [jfac ] [INFO ] [                ] [a.c.RefreshableScheduledJob:64] [main                ] - unusedLicensesCleanup task is disabled.
+2025-08-14T13:20:08.535Z [jfac ] [INFO ] [                ] [o.j.a.s.r.s.GrpcServerImpl:112] [main                ] - Starting gRPC Server on port 8045
+2025-08-14T13:20:08.956Z [jfac ] [INFO ] [                ] [o.j.a.s.r.s.GrpcServerImpl:148] [main                ] - gRPC Server started, listening on 8045
+2025-08-14T13:20:08.975Z [jfac ] [INFO ] [                ] [ributedStaleTokenCleanupJob:45] [main                ] - Scheduling StaleTokenCleanupJob job with interval: 3600
+2025-08-14T13:20:09.025Z [jfac ] [INFO ] [                ] [a.c.RefreshableScheduledJob:64] [main                ] - StaleTokenCleanupJob task is disabled.
+2025-08-14T13:20:09.028Z [jfac ] [INFO ] [                ] [ributedExpiredTokenCleanJob:22] [main                ] - Scheduling ExpiredTokenCleanJob job with cron: 0 0 0/1 * * ?
+2025-08-14T13:20:09.040Z [jfac ] [INFO ] [                ] [butedNotifyTokenExpiryTask:275] [main                ] - Task for notifying token expiry disabled
+2025-08-14T13:20:09.041Z [jfac ] [INFO ] [                ] [o.j.a.s.j.JobScheduler:146    ] [main                ] - Task NotifyTokenExpiryTask will be disabled since cron is disabled. Cron: -
+2025-08-14T13:20:09.044Z [jfac ] [INFO ] [8b0730326070c4e3] [o.j.a.s.j.JobScheduler:260    ] [jf-common-pool-1    ] - Task name: NotifyTokenExpiryTask is not scheduled.Nothing to remove
+2025-08-14T13:20:09.048Z [jfac ] [INFO ] [                ] [TokenExpiryWorkerNotifyTask:60] [main                ] - Scheduling BeforeTokenExpiryWorkerNotifyTask job with cron: 0 * * * * *
+2025-08-14T13:20:09.075Z [jfac ] [INFO ] [                ] [tributedEmailSentCleanupJob:25] [main                ] - Scheduling EmailSentCleanupJob job with interval secs: 86400
+2025-08-14T13:20:09.093Z [jfac ] [INFO ] [                ] [swordExpiryEmailReminderJob:56] [main                ] - Scheduling PasswordExpiryEmailReminderJob job with interval secs: 86400
+2025-08-14T13:20:09.105Z [jfac ] [INFO ] [                ] [a.c.RefreshableScheduledJob:64] [main                ] - EmailsLogCleanup task is disabled.
+2025-08-14T13:20:09.109Z [jfac ] [INFO ] [                ] [a.c.RefreshableScheduledJob:64] [main                ] - PasswordExpiryEmailReminder task is disabled.
+2025-08-14T13:20:10.584Z [jfac ] [INFO ] [                ] [o.j.a.AccessApplication:59    ] [main                ] - Started AccessApplication in 24.757 seconds (process running for 28.965)
+2025-08-14T13:20:10.600Z [jfac ] [INFO ] [                ] [s.d.u.AccessJdbcHelperImpl:168] [main                ] - Notifying tenants on DB migration completion
+2025-08-14T13:20:17.360Z [jfac ] [INFO ] [8b0730326070c4e3] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-1    ] - Retry 20 Elapsed 9.63 secs failed: Registration with router on URL http://localhost:8046 failed with error: UNAVAILABLE: io exception. Trying again
+2025-08-14T13:20:22.372Z [jfac ] [INFO ] [8b0730326070c4e3] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-1    ] - Retry 30 Elapsed 14.64 secs failed: Registration with router on URL http://localhost:8046 failed with error: UNAVAILABLE: io exception. Trying again
+2025-08-14T13:20:27.384Z [jfac ] [INFO ] [8b0730326070c4e3] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-1    ] - Retry 40 Elapsed 19.65 secs failed: Registration with router on URL http://localhost:8046 failed with error: UNAVAILABLE: io exception. Trying again
+2025-08-14T13:20:27.961Z [jfac ] [INFO ] [46174ab377774626] [o.j.a.s.s.JoinKeyAccess:174   ] [27.0.0.1-8040-exec-3] - Cluster join: Join keys resolved successfully
+2025-08-14T13:20:27.962Z [jfac ] [WARN ] [46174ab377774626] [o.j.a.s.s.JoinKeyAccess:189   ] [27.0.0.1-8040-exec-3] - Adding join key with kid: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 to additional join keys
+2025-08-14T13:20:28.081Z [jfac ] [INFO ] [46174ab377774626] [.j.a.s.s.r.JoinServiceImpl:109] [27.0.0.1-8040-exec-3] - Router join request: using external topology so skipping router NodeId and IP validation
+2025-08-14T13:20:28.371Z [jfac ] [INFO ] [46174ab377774626] [CertificateFileHandlerBase:200] [27.0.0.1-8040-exec-3] - [ACCESS BOOTSTRAP] Saved new root certificate at: /opt/jfrog/artifactory/var/etc/access/keys/root.crt
+2025-08-14T13:20:28.504Z [jfac ] [INFO ] [46174ab377774626] [.r.ServiceTokenProviderImpl:89] [27.0.0.1-8040-exec-3] - Cluster join: Successfully joined jfrou@01hd403e8w5kec767yf0cfpphp with node id u999jfart002d.in.bundesbank.de
+2025-08-14T13:20:28.601Z [jfac ] [INFO ] [46174ab377774626] [CertificateFileHandlerBase:200] [27.0.0.1-8040-exec-3] - [ACCESS BOOTSTRAP] Saved new ca certificate at: /opt/jfrog/artifactory/var/etc/access/keys/ca.crt
+2025-08-14T13:20:28.765Z [jfac ] [INFO ] [4af38da7d0e79493] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-1] - Running notify on token expiry task
+2025-08-14T13:20:30.038Z [jfac ] [INFO ] [1a5a45bcd8276db6] [.r.ServiceTokenProviderImpl:89] [27.0.0.1-8040-exec-7] - Cluster join: Successfully joined jfmd@01gk933362w03qptnc5q1tzw7z with node id u999jfart002d.in.bundesbank.de
+2025-08-14T13:20:30.567Z [jfac ] [INFO ] [4504efa1e8c2633d] [.r.ServiceTokenProviderImpl:89] [27.0.0.1-8040-exec-3] - Cluster join: Successfully joined jfob@01fzay6s6x41bs1ytynknf084z with node id u999jfart002d.in.bundesbank.de
+2025-08-14T13:20:30.916Z [jfac ] [INFO ] [7f85cfc573bc8be6] [.r.ServiceTokenProviderImpl:89] [27.0.0.1-8040-exec-9] - Cluster join: Successfully joined jfevt@01fzay697410wh1bw17baz1s5g with node id u999jfart002d.in.bundesbank.de
+2025-08-14T13:20:30.967Z [jfac ] [INFO ] [392bfba4341b2a79] [.r.ServiceTokenProviderImpl:89] [27.0.0.1-8040-exec-4] - Cluster join: Successfully joined jfcon@01fzay697410wh1bw17baz1s5g with node id u999jfart002d.in.bundesbank.de
+2025-08-14T13:20:31.041Z [jfac ] [INFO ] [5a82a15ead40d2bb] [.r.ServiceTokenProviderImpl:89] [27.0.0.1-8040-exec-3] - Cluster join: Successfully joined jfomr@01fzay697410wh1bw17baz1s5g with node id u999jfart002d.in.bundesbank.de
+2025-08-14T13:20:31.219Z [jfac ] [INFO ] [0211be32a22964cf] [.r.ServiceTokenProviderImpl:89] [27.0.0.1-8040-exec-2] - Cluster join: Successfully joined jfevd@01fzay697410wh1bw17baz1s5g with node id u999jfart002d.in.bundesbank.de
+2025-08-14T13:20:32.461Z [jfac ] [INFO ] [8b0730326070c4e3] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-0    ] - Retry 50 Elapsed 24.73 secs failed: Registration with router on URL http://localhost:8046 failed with error: UNAVAILABLE: io exception. Trying again
+2025-08-14T13:20:32.730Z [jfac ] [INFO ] [392bfba4341b2a79] [.r.ServiceTokenProviderImpl:89] [27.0.0.1-8040-exec-6] - Cluster join: Successfully joined jfcfg@01fzay697410wh1bw17baz1s5g with node id u999jfart002d.in.bundesbank.de
+2025-08-14T13:20:34.034Z [jfac ] [INFO ] [8b0730326070c4e3] [.AccessWithRouterRegistrar:124] [jf-common-pool-2    ] - Access Server successfully registered on Router on URL: http://localhost:8046
+2025-08-14T13:20:34.038Z [jfac ] [INFO ] [8b0730326070c4e3] [.s.b.AccessServerRegistrar:156] [jf-common-pool-2    ] - [ACCESS BOOTSTRAP] Updating server 'u999jfart002d.in.bundesbank.de' private key finger print to: 7eb2dd0a15e2c27cba754a89087e240f5b254b1a6b7264e3f22c7529ed15c181 ca private key finger print to: 3f6bad405431342994080a6bbd43d87cdbbf7bba7cca361d1e4e0c4bf4069ba8
+2025-08-14T13:20:34.082Z [jfac ] [INFO ] [b8b168349919d5a2] [j.a.s.s.j.MTJFConfigWrapper:63] [jf-common-pool-2    ] - [JFConfig] Initializing
+2025-08-14T13:20:34.135Z [jfac ] [INFO ] [b8b168349919d5a2] [j.a.s.s.j.MTJFConfigWrapper:65] [jf-common-pool-2    ] - [JFConfig] Initialized
+2025-08-14T13:20:34.165Z [jfac ] [INFO ] [b8b168349919d5a2] [o.j.m.MetricsHelper:64        ] [jf-common-pool-2    ] - Initializing Metrics collector and logger for feature adoption...
+2025-08-14T13:20:34.167Z [jfac ] [INFO ] [b8b168349919d5a2] [FeatureAdoptionServiceImpl:140] [jf-common-pool-2    ] - FeatureAdoption Framework service is started and is running in background...
+2025-08-14T13:20:34.269Z [jfac ] [INFO ] [b8b168349919d5a2] [a.s.b.AccessServerRegistrar:86] [jf-common-pool-2    ] - [ACCESS BOOTSTRAP] JFrog Access registrar finished.
+2025-08-14T13:20:35.042Z [jfac ] [INFO ] [8b0730326070c4e3] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-0    ] - Retry 1 Elapsed 1.01 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-08-14T13:20:36.147Z [jfac ] [INFO ] [8b0730326070c4e3] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-2    ] - Retry 2 Elapsed 2.11 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-08-14T13:20:36.172Z [jfac ] [INFO ] [d7d71c324f6ea144b14940b09afc5eda] [.r.ServiceTokenProviderImpl:89] [27.0.0.1-8040-exec-6] - Cluster join: Successfully joined jfrt@01fzay6s6x41bs1ytynknf084z with node id u999jfart002d.in.bundesbank.de
+2025-08-14T13:20:37.352Z [jfac ] [INFO ] [8b0730326070c4e3] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-0    ] - Retry 3 Elapsed 3.32 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-08-14T13:20:38.127Z [jfac ] [INFO ] [7c1adcca1c48b4df] [FeatureAdoptionServiceImpl:130] [jf-access-grpc-18   ] - FeatureAdoption Framework Service is already running
+2025-08-14T13:20:38.150Z [jfac ] [INFO ] [                ] [FeatureAdoptionServiceImpl:130] [c-default-executor-1] - FeatureAdoption Framework Service is already running
+2025-08-14T13:20:38.275Z [jfac ] [INFO ] [d7d71c324f6ea144b14940b09afc5eda] [j.a.m.ConfigMigrationRunner:77] [27.0.0.1-8040-exec-2] - AccessConfigMigration (version 2) is up to date, nothing to migrate
+2025-08-14T13:20:38.761Z [jfac ] [INFO ] [8b0730326070c4e3] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-2    ] - Retry 4 Elapsed 4.73 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-08-14T13:20:40.567Z [jfac ] [INFO ] [8b0730326070c4e3] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-0    ] - Retry 5 Elapsed 6.53 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-08-14T13:20:42.572Z [jfac ] [INFO ] [8b0730326070c4e3] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-2    ] - Retry 6 Elapsed 8.54 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-08-14T13:20:43.048Z [jfac ] [INFO ] [d7d71c324f6ea144b14940b09afc5eda] [j.a.m.ConfigMigrationRunner:77] [27.0.0.1-8040-exec-6] - AccessConfigMigration (version 2) is up to date, nothing to migrate
+2025-08-14T13:20:43.517Z [jfac ] [INFO ] [d7d71c324f6ea144b14940b09afc5eda] [j.a.m.ConfigMigrationRunner:77] [27.0.0.1-8040-exec-5] - AccessConfigMigration (version 2) is up to date, nothing to migrate
+2025-08-14T13:20:43.912Z [jfac ] [INFO ] [d7d71c324f6ea144b14940b09afc5eda] [alConfigurationServiceBase:189] [27.0.0.1-8040-exec-8] - Current configurations are the same as the new configurations, no need for an update. No action was taken.
+2025-08-14T13:20:44.577Z [jfac ] [INFO ] [8b0730326070c4e3] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-0    ] - Retry 7 Elapsed 10.54 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-08-14T13:20:44.869Z [jfac ] [INFO ] [5da65450ca870d1d] [.r.ServiceTokenProviderImpl:89] [7.0.0.1-8040-exec-10] - Cluster join: Successfully joined jffe@01fzay697410wh1bw17baz1s5g with node id u999jfart002d.in.bundesbank.de
+2025-08-14T13:20:46.581Z [jfac ] [INFO ] [8b0730326070c4e3] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-2    ] - Retry 8 Elapsed 12.55 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-08-14T13:20:48.587Z [jfac ] [INFO ] [8b0730326070c4e3] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-0    ] - Retry 9 Elapsed 14.55 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-08-14T13:20:50.591Z [jfac ] [INFO ] [8b0730326070c4e3] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-2    ] - Retry 10 Elapsed 16.56 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-08-14T13:20:52.596Z [jfac ] [INFO ] [8b0730326070c4e3] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-0    ] - Retry 11 Elapsed 18.56 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-08-14T13:20:54.601Z [jfac ] [INFO ] [8b0730326070c4e3] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-2    ] - Retry 12 Elapsed 20.57 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-08-14T13:20:56.606Z [jfac ] [INFO ] [8b0730326070c4e3] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-0    ] - Retry 13 Elapsed 22.57 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-08-14T13:20:58.611Z [jfac ] [INFO ] [8b0730326070c4e3] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-2    ] - Retry 14 Elapsed 24.58 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-08-14T13:21:28.761Z [jfac ] [INFO ] [93d619c51bd6145b] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-2] - Running notify on token expiry task
+2025-08-14T13:22:28.768Z [jfac ] [INFO ] [3d1adf09cd92cc8e] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-3] - Running notify on token expiry task
+2025-08-14T13:23:28.774Z [jfac ] [INFO ] [c3fdae57c26f73a4] [ributedStaleTokenCleanupJob:58] [task-pool-5-thread-4] - Starting Access job to remove stale nodes and join-admin-tokens on server: u999jfart002d.in.bundesbank.de
+2025-08-14T13:23:28.775Z [jfac ] [INFO ] [f40a797ab5c7f5a7] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-5] - Running notify on token expiry task
+2025-08-14T13:24:28.780Z [jfac ] [INFO ] [a090d1fe4833d890] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-6] - Running notify on token expiry task
+2025-08-14T13:25:28.786Z [jfac ] [INFO ] [58dd63929710ac62] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-7] - Running notify on token expiry task
+2025-08-14T13:26:28.791Z [jfac ] [INFO ] [bfc0f66a1e56292b] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-8] - Running notify on token expiry task
+2025-08-14T13:27:28.799Z [jfac ] [INFO ] [53eddbdbfdf4c61a] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-9] - Running notify on token expiry task
+2025-08-14T13:28:28.807Z [jfac ] [INFO ] [c334d4168f5c3754] [TokenExpiryWorkerNotifyTask:80] [ask-pool-5-thread-10] - Running notify on token expiry task
+2025-08-14T13:29:28.814Z [jfac ] [INFO ] [555c8b888d794829] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-1] - Running notify on token expiry task
+2025-08-14T13:30:28.818Z [jfac ] [INFO ] [bf83127653ecebf8] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-2] - Running notify on token expiry task
+2025-08-14T13:31:28.824Z [jfac ] [INFO ] [2eac47870b2980ef] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-3] - Running notify on token expiry task
+2025-08-14T13:32:28.838Z [jfac ] [INFO ] [452c02323bbfa485] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-5] - Running notify on token expiry task
+2025-08-14T13:33:28.838Z [jfac ] [INFO ] [d839943091968a45] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-4] - Running notify on token expiry task
+2025-08-14T13:34:28.844Z [jfac ] [INFO ] [9cf2dca1584a2850] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-6] - Running notify on token expiry task
+2025-08-14T13:34:44.053Z [jfac ] [INFO ] [                ] [o.j.a.s.s.CloseDownTomcat:48  ] [main                ] - Server Shutting down, removed server from HA: u999jfart002d.in.bundesbank.de
+2025-08-14T13:34:44.181Z [jfac ] [WARN ] [                ] [bServerApplicationContext:1166] [main                ] - Exception thrown from ApplicationListener handling ContextClosedEvent
+java.lang.NullPointerException: Cannot invoke "ch.qos.logback.classic.selector.ContextSelector.detachLoggerContext(String)" because "selector" is null
+	at org.jfrog.common.logging.logback.servlet.LogbackConfigManager.destroy(LogbackConfigManager.java:108)
+	at org.jfrog.access.context.AccessApplicationContextClosedListener.onApplicationEvent(AccessApplicationContextClosedListener.java:30)
+	at org.jfrog.access.context.AccessApplicationContextClosedListener.onApplicationEvent(AccessApplicationContextClosedListener.java:22)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:454)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:387)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1163)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:179)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1126)
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:510)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:136)
+	at org.springframework.boot.web.servlet.support.SpringBootServletInitializer$SpringBootContextLoaderListener.contextDestroyed(SpringBootServletInitializer.java:266)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4090)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4700)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1219)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1208)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:814)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1219)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1208)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:814)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:468)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:915)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:836)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:800)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+2025-08-14T13:34:44.197Z [jfac ] [WARN ] [                ] [nnotationBeanPostProcessor:247] [main                ] - Destroy method on bean with name 'passwordExpiryEmailReminderScheduledJob' threw an exception: java.lang.NullPointerException: Cannot invoke "java.util.concurrent.ScheduledFuture.cancel(boolean)" because "this.currentJob" is null
+2025-08-14T13:34:44.198Z [jfac ] [WARN ] [                ] [nnotationBeanPostProcessor:247] [main                ] - Destroy method on bean with name 'emailSentCleanupScheduledJob' threw an exception: java.lang.NullPointerException: Cannot invoke "java.util.concurrent.ScheduledFuture.cancel(boolean)" because "this.currentJob" is null
+2025-08-14T13:34:44.198Z [jfac ] [WARN ] [                ] [nnotationBeanPostProcessor:247] [main                ] - Destroy method on bean with name 'staleTokenCleanupJob' threw an exception: java.lang.NullPointerException: Cannot invoke "java.util.concurrent.ScheduledFuture.cancel(boolean)" because "this.currentJob" is null
+2025-08-14T13:34:46.207Z [jfac ] [WARN ] [                ] [nnotationBeanPostProcessor:247] [main                ] - Destroy method on bean with name 'unusedLicensesCleanupRefreshableJob' threw an exception: java.lang.NullPointerException: Cannot invoke "java.util.concurrent.ScheduledFuture.cancel(boolean)" because "this.currentJob" is null
+2025-08-14T13:34:46.208Z [jfac ] [WARN ] [                ] [nnotationBeanPostProcessor:247] [main                ] - Destroy method on bean with name 'federationCleanupService' threw an exception: java.lang.NullPointerException: Cannot invoke "java.util.concurrent.ScheduledFuture.cancel(boolean)" because "this.currentJob" is null
+2025-08-14T13:34:51.744Z [jfac ] [WARN ] [1d581127e1286abf] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-4    ] - Retry 1 Elapsed 5.53 secs failed: Access router is unhealthy, marking server as not available. HA sync will not work with this node until the node is healthy, ''. [localhost:8046]. Status code: INTERNAL. org.jfrog.common.ExecutionFailed: Last retry failed: Couldn't access another access peer node ''. [localhost:8046]. Status code: UNAVAILABLE. HTTP status code 502
+invalid content-type: text/plain; charset=utf-8
+headers: Metadata(:status=502,content-type=text/plain; charset=utf-8,date=Thu, 14 Aug 2025 13:34:51 GMT,content-length=11)
+DATA-----------------------------
+Bad Gateway. Not trying again (exceeded number of attempts (3)). Trying again
+2025-08-14T13:34:57.362Z [jfac ] [WARN ] [1d581127e1286abf] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-5    ] - Retry 2 Elapsed 11.15 secs failed: Access router is unhealthy, marking server as not available. HA sync will not work with this node until the node is healthy, ''. [localhost:8046]. Status code: INTERNAL. org.jfrog.common.ExecutionFailed: Last retry failed: Couldn't access another access peer node ''. [localhost:8046]. Status code: UNAVAILABLE. HTTP status code 502
+invalid content-type: text/plain; charset=utf-8
+headers: Metadata(:status=502,content-type=text/plain; charset=utf-8,date=Thu, 14 Aug 2025 13:34:57 GMT,content-length=11)
+DATA-----------------------------
+Bad Gateway. Not trying again (exceeded number of attempts (3)). Trying again
+2025-08-14T13:35:29.173Z [jfac ] [INFO ] [c9159ea632393541] [licationContextInitializer:166] [main                ] - Access (jfac) service initialization started. Version: 7.147.9 Revision: 84709900 PID: 29903 Home: /opt/jfrog/artifactory FIPS Mode: none
+2025-08-14T13:35:29.246Z [jfac ] [INFO ] [c9159ea632393541] [j.a.m.ConfigMigrationRunner:77] [main                ] - EnvironmentConfig (version 12) is up to date, nothing to migrate
+2025-08-14T13:35:29.270Z [jfac ] [INFO ] [c9159ea632393541] [o.j.a.AccessApplication:53    ] [main                ] - Starting AccessApplication v7.147.9 using Java 21.0.7 with PID 29903 (/opt/jfrog/artifactory/app/access/tomcat/webapps/access/WEB-INF/lib/access-application-7.147.9.jar started by artifactory in /)
+2025-08-14T13:35:29.271Z [jfac ] [INFO ] [c9159ea632393541] [o.j.a.AccessApplication:658   ] [main                ] - The following 1 profile is active: "production"
+2025-08-14T13:35:37.532Z [jfac ] [INFO ] [c9159ea632393541] [j.a.m.ConfigMigrationRunner:77] [main                ] - AccessConfigMigration (version 2) is up to date, nothing to migrate
+2025-08-14T13:35:37.598Z [jfac ] [INFO ] [c9159ea632393541] [alConfigurationServiceBase:189] [main                ] - Current configurations are the same as the new configurations, no need for an update. No action was taken.
+2025-08-14T13:35:38.471Z [jfac ] [INFO ] [c9159ea632393541] [.s.s.s.ServiceConfigFactory:47] [main                ] - Initializing task scheduler with 9 threads
+2025-08-14T13:35:38.633Z [jfac ] [INFO ] [c9159ea632393541] [.s.j.j.JdbcSchedulerBuilder:36] [main                ] - Creating scheduler with configuration: threads=10, pollInterval=30s, heartbeat=300s enable-immediate-execution=false, table-name=access_tasks, name=u999jfart002d.in.bundesbank.de
+2025-08-14T13:35:38.640Z [jfac ] [INFO ] [c9159ea632393541] [o.j.a.s.j.JobScheduler:91     ] [main                ] - Starting job scheduler
+2025-08-14T13:35:38.655Z [jfac ] [INFO ] [                ] [o.j.a.s.j.JobTaskResolver:49  ] [-due-pool-7-thread-1] - Found execution with unknown task-name 'BeforeTokenExpiryWorkerNotifyTask'. Adding it to the list of known unresolved task-names.
+2025-08-14T13:35:38.656Z [jfac ] [WARN ] [                ] [g.k.s.j.JdbcTaskRepository:796] [-due-pool-7-thread-1] - Failed to find implementation for task with name 'BeforeTokenExpiryWorkerNotifyTask'. Execution will be excluded from due. The scheduler normally delete unresolved tasks after 14d. To handle manually, either delete the execution from the database, or add an implementation for it. 
+2025-08-14T13:35:38.823Z [jfac ] [INFO ] [c9159ea632393541] [b.AccessServerBootstrapImpl:66] [main                ] - [ACCESS BOOTSTRAP] Starting JFrog Access bootstrap...
+2025-08-14T13:35:38.830Z [jfac ] [INFO ] [c9159ea632393541] [a.s.d.s.c.v.OracleValidator:29] [main                ] - Validating session collation for oracle database
+2025-08-14T13:35:38.835Z [jfac ] [INFO ] [c9159ea632393541] [b.AccessServerBootstrapImpl:90] [main                ] - Creating new server entry for server: u999jfart002d.in.bundesbank.de
+2025-08-14T13:35:41.752Z [jfac ] [INFO ] [c9159ea632393541] [b.AccessServerBootstrapImpl:83] [main                ] - [ACCESS BOOTSTRAP] JFrog Access bootstrap finished.
+2025-08-14T13:35:41.759Z [jfac ] [INFO ] [c9159ea632393541] [.s.j.JfConnectConfiguration:43] [main                ] - JFCON entitlements are disabled. jfconnect.enabled and jflink.enabled are false or undefined
+2025-08-14T13:35:44.933Z [jfac ] [INFO ] [c9159ea632393541] [o.j.a.s.s.JoinKeyAccess:316   ] [main                ] - Cluster join: Join key loaded successfully (from: /opt/jfrog/artifactory/var/etc/security/join.key)
+2025-08-14T13:35:44.954Z [jfac ] [WARN ] [c9159ea632393541] [o.j.a.s.s.JoinKeyAccess:154   ] [main                ] - Will be adding main key with kid d11da978d39c801e0d250524453713450a5b65e8b0eb3b8c3273af3f8ce1c530 to the map
+2025-08-14T13:35:46.026Z [jfac ] [INFO ] [c9159ea632393541] [a.s.b.AccessServerRegistrar:74] [main                ] - [ACCESS BOOTSTRAP] Starting JFrog Access registrar...
+2025-08-14T13:35:46.055Z [jfac ] [INFO ] [c9159ea632393541] [stributedCallHomeServiceJob:37] [main                ] - Scheduling CallHomeServiceJob job with cron: 0 0 23 * * ?
+2025-08-14T13:35:46.142Z [jfac ] [INFO ] [b39c5f10a2b812cd] [a.c.RefreshableScheduledJob:53] [main                ] - Scheduling loadCertificates task to run every 30 seconds
+2025-08-14T13:35:46.153Z [jfac ] [INFO ] [b39c5f10a2b812cd] [dFederationEventsCleanUpJob:31] [main                ] - Scheduling FederationEventsCleanJob job with interval secs: 1209600
+2025-08-14T13:35:46.161Z [jfac ] [INFO ] [b39c5f10a2b812cd] [a.c.RefreshableScheduledJob:64] [main                ] - federationCleanupService task is disabled.
+2025-08-14T13:35:46.163Z [jfac ] [INFO ] [b39c5f10a2b812cd] [a.c.RefreshableScheduledJob:53] [main                ] - Scheduling heartbeat task to run every 5 seconds
+2025-08-14T13:35:46.167Z [jfac ] [INFO ] [b39c5f10a2b812cd] [a.c.RefreshableScheduledJob:53] [main                ] - Scheduling KeepAliveFederationServers task to run every 86400 seconds
+2025-08-14T13:35:46.176Z [jfac ] [INFO ] [                ] [.j.a.s.s.SystemScheduledJob:37] [main                ] - Scheduling Readiness task to run with 15000 milliseconds fixed delay
+2025-08-14T13:35:46.179Z [jfac ] [INFO ] [                ] [tedUnusedLicensesCleanupJob:58] [main                ] - Scheduling unusedLicensesCleanup job with interval: 86400
+2025-08-14T13:35:46.185Z [jfac ] [INFO ] [                ] [a.c.RefreshableScheduledJob:64] [main                ] - unusedLicensesCleanup task is disabled.
+2025-08-14T13:35:46.452Z [jfac ] [INFO ] [                ] [o.j.a.s.r.s.GrpcServerImpl:112] [main                ] - Starting gRPC Server on port 8045
+2025-08-14T13:35:46.729Z [jfac ] [INFO ] [                ] [o.j.a.s.r.s.GrpcServerImpl:148] [main                ] - gRPC Server started, listening on 8045
+2025-08-14T13:35:46.740Z [jfac ] [INFO ] [                ] [ributedStaleTokenCleanupJob:45] [main                ] - Scheduling StaleTokenCleanupJob job with interval: 3600
+2025-08-14T13:35:46.747Z [jfac ] [INFO ] [                ] [a.c.RefreshableScheduledJob:64] [main                ] - StaleTokenCleanupJob task is disabled.
+2025-08-14T13:35:46.749Z [jfac ] [INFO ] [                ] [ributedExpiredTokenCleanJob:22] [main                ] - Scheduling ExpiredTokenCleanJob job with cron: 0 0 0/1 * * ?
+2025-08-14T13:35:46.757Z [jfac ] [INFO ] [                ] [butedNotifyTokenExpiryTask:275] [main                ] - Task for notifying token expiry disabled
+2025-08-14T13:35:46.757Z [jfac ] [INFO ] [                ] [o.j.a.s.j.JobScheduler:146    ] [main                ] - Task NotifyTokenExpiryTask will be disabled since cron is disabled. Cron: -
+2025-08-14T13:35:46.759Z [jfac ] [INFO ] [c9159ea632393541] [o.j.a.s.j.JobScheduler:260    ] [jf-common-pool-1    ] - Task name: NotifyTokenExpiryTask is not scheduled.Nothing to remove
+2025-08-14T13:35:46.762Z [jfac ] [INFO ] [                ] [TokenExpiryWorkerNotifyTask:60] [main                ] - Scheduling BeforeTokenExpiryWorkerNotifyTask job with cron: 0 * * * * *
+2025-08-14T13:35:46.771Z [jfac ] [INFO ] [                ] [tributedEmailSentCleanupJob:25] [main                ] - Scheduling EmailSentCleanupJob job with interval secs: 86400
+2025-08-14T13:35:46.777Z [jfac ] [INFO ] [                ] [swordExpiryEmailReminderJob:56] [main                ] - Scheduling PasswordExpiryEmailReminderJob job with interval secs: 86400
+2025-08-14T13:35:46.782Z [jfac ] [INFO ] [                ] [a.c.RefreshableScheduledJob:64] [main                ] - EmailsLogCleanup task is disabled.
+2025-08-14T13:35:46.786Z [jfac ] [INFO ] [                ] [a.c.RefreshableScheduledJob:64] [main                ] - PasswordExpiryEmailReminder task is disabled.
+2025-08-14T13:35:47.724Z [jfac ] [INFO ] [                ] [o.j.a.AccessApplication:59    ] [main                ] - Started AccessApplication in 19.435 seconds (process running for 22.264)
+2025-08-14T13:35:47.735Z [jfac ] [INFO ] [                ] [s.d.u.AccessJdbcHelperImpl:168] [main                ] - Notifying tenants on DB migration completion
+2025-08-14T13:35:48.988Z [jfac ] [INFO ] [5c4ea1cda6142cdf] [o.j.a.s.s.JoinKeyAccess:174   ] [27.0.0.1-8040-exec-1] - Cluster join: Join keys resolved successfully
+2025-08-14T13:35:48.989Z [jfac ] [WARN ] [5c4ea1cda6142cdf] [o.j.a.s.s.JoinKeyAccess:189   ] [27.0.0.1-8040-exec-1] - Adding join key with kid: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 to additional join keys
+2025-08-14T13:35:49.085Z [jfac ] [INFO ] [5c4ea1cda6142cdf] [.j.a.s.s.r.JoinServiceImpl:109] [27.0.0.1-8040-exec-1] - Router join request: using external topology so skipping router NodeId and IP validation
+2025-08-14T13:35:49.331Z [jfac ] [INFO ] [5c4ea1cda6142cdf] [CertificateFileHandlerBase:200] [27.0.0.1-8040-exec-1] - [ACCESS BOOTSTRAP] Saved new root certificate at: /opt/jfrog/artifactory/var/etc/access/keys/root.crt
+2025-08-14T13:35:49.477Z [jfac ] [INFO ] [5c4ea1cda6142cdf] [.r.ServiceTokenProviderImpl:89] [27.0.0.1-8040-exec-1] - Cluster join: Successfully joined jfrou@01hd403e8w5kec767yf0cfpphp with node id u999jfart002d.in.bundesbank.de
+2025-08-14T13:35:49.583Z [jfac ] [INFO ] [5c4ea1cda6142cdf] [CertificateFileHandlerBase:200] [27.0.0.1-8040-exec-1] - [ACCESS BOOTSTRAP] Saved new ca certificate at: /opt/jfrog/artifactory/var/etc/access/keys/ca.crt
+2025-08-14T13:35:50.605Z [jfac ] [INFO ] [1e5de70c400edb36] [.r.ServiceTokenProviderImpl:89] [27.0.0.1-8040-exec-6] - Cluster join: Successfully joined jfomr@01fzay697410wh1bw17baz1s5g with node id u999jfart002d.in.bundesbank.de
+2025-08-14T13:35:50.675Z [jfac ] [INFO ] [154cdbab5ea5bf94] [.r.ServiceTokenProviderImpl:89] [27.0.0.1-8040-exec-5] - Cluster join: Successfully joined jfmd@01gk933362w03qptnc5q1tzw7z with node id u999jfart002d.in.bundesbank.de
+2025-08-14T13:35:50.841Z [jfac ] [INFO ] [62ca7c08ba7ad046] [.r.ServiceTokenProviderImpl:89] [7.0.0.1-8040-exec-10] - Cluster join: Successfully joined jfevd@01fzay697410wh1bw17baz1s5g with node id u999jfart002d.in.bundesbank.de
+2025-08-14T13:35:50.915Z [jfac ] [INFO ] [38220475341a01d8] [.r.ServiceTokenProviderImpl:89] [27.0.0.1-8040-exec-1] - Cluster join: Successfully joined jfevt@01fzay697410wh1bw17baz1s5g with node id u999jfart002d.in.bundesbank.de
+2025-08-14T13:35:51.237Z [jfac ] [INFO ] [55fac1b9aef1f6ab] [.r.ServiceTokenProviderImpl:89] [27.0.0.1-8040-exec-8] - Cluster join: Successfully joined jfcon@01fzay697410wh1bw17baz1s5g with node id u999jfart002d.in.bundesbank.de
+2025-08-14T13:35:51.552Z [jfac ] [INFO ] [0e92a0fcddb33bd23224146f9c2d21df] [.r.ServiceTokenProviderImpl:89] [27.0.0.1-8040-exec-3] - Cluster join: Successfully joined jfrt@01fzay6s6x41bs1ytynknf084z with node id u999jfart002d.in.bundesbank.de
+2025-08-14T13:35:52.236Z [jfac ] [INFO ] [c9159ea632393541] [.AccessWithRouterRegistrar:124] [jf-common-pool-1    ] - Access Server successfully registered on Router on URL: http://localhost:8046
+2025-08-14T13:35:52.258Z [jfac ] [INFO ] [c9159ea632393541] [.s.b.AccessServerRegistrar:156] [jf-common-pool-1    ] - [ACCESS BOOTSTRAP] Updating server 'u999jfart002d.in.bundesbank.de' private key finger print to: 7eb2dd0a15e2c27cba754a89087e240f5b254b1a6b7264e3f22c7529ed15c181 ca private key finger print to: 3f6bad405431342994080a6bbd43d87cdbbf7bba7cca361d1e4e0c4bf4069ba8
+2025-08-14T13:35:52.320Z [jfac ] [INFO ] [4d05d4eef8d958b8] [j.a.s.s.j.MTJFConfigWrapper:63] [jf-common-pool-1    ] - [JFConfig] Initializing
+2025-08-14T13:35:52.666Z [jfac ] [INFO ] [1e5de70c400edb36] [.r.ServiceTokenProviderImpl:89] [27.0.0.1-8040-exec-7] - Cluster join: Successfully joined jfcfg@01fzay697410wh1bw17baz1s5g with node id u999jfart002d.in.bundesbank.de
+2025-08-14T13:35:53.245Z [jfac ] [INFO ] [c9159ea632393541] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-0    ] - Retry 1 Elapsed 1.01 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-08-14T13:35:53.270Z [jfac ] [INFO ] [4d05d4eef8d958b8] [j.a.s.s.j.MTJFConfigWrapper:65] [jf-common-pool-1    ] - [JFConfig] Initialized
+2025-08-14T13:35:53.311Z [jfac ] [INFO ] [4d05d4eef8d958b8] [o.j.m.MetricsHelper:64        ] [jf-common-pool-1    ] - Initializing Metrics collector and logger for feature adoption...
+2025-08-14T13:35:53.314Z [jfac ] [INFO ] [4d05d4eef8d958b8] [FeatureAdoptionServiceImpl:140] [jf-common-pool-1    ] - FeatureAdoption Framework service is started and is running in background...
+2025-08-14T13:35:53.377Z [jfac ] [INFO ] [4d05d4eef8d958b8] [a.s.b.AccessServerRegistrar:86] [jf-common-pool-1    ] - [ACCESS BOOTSTRAP] JFrog Access registrar finished.
+2025-08-14T13:35:53.392Z [jfac ] [INFO ] [1fbbcde794f47712] [.r.ServiceTokenProviderImpl:89] [27.0.0.1-8040-exec-6] - Cluster join: Successfully joined jfob@01fzay6s6x41bs1ytynknf084z with node id u999jfart002d.in.bundesbank.de
+2025-08-14T13:35:54.083Z [jfac ] [INFO ] [5ee9914138f5a936] [FeatureAdoptionServiceImpl:130] [jf-access-grpc-1    ] - FeatureAdoption Framework Service is already running
+2025-08-14T13:35:54.102Z [jfac ] [INFO ] [                ] [FeatureAdoptionServiceImpl:130] [c-default-executor-1] - FeatureAdoption Framework Service is already running
+2025-08-14T13:35:54.349Z [jfac ] [INFO ] [c9159ea632393541] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-3    ] - Retry 2 Elapsed 2.11 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-08-14T13:35:55.553Z [jfac ] [INFO ] [c9159ea632393541] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-0    ] - Retry 3 Elapsed 3.32 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-08-14T13:35:56.818Z [jfac ] [INFO ] [0e92a0fcddb33bd23224146f9c2d21df] [j.a.m.ConfigMigrationRunner:77] [27.0.0.1-8040-exec-2] - AccessConfigMigration (version 2) is up to date, nothing to migrate
+2025-08-14T13:35:56.958Z [jfac ] [INFO ] [c9159ea632393541] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-3    ] - Retry 4 Elapsed 4.72 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-08-14T13:35:58.762Z [jfac ] [INFO ] [c9159ea632393541] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-0    ] - Retry 5 Elapsed 6.53 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-08-14T13:36:00.206Z [jfac ] [INFO ] [0e92a0fcddb33bd23224146f9c2d21df] [j.a.m.ConfigMigrationRunner:77] [27.0.0.1-8040-exec-1] - AccessConfigMigration (version 2) is up to date, nothing to migrate
+2025-08-14T13:36:00.620Z [jfac ] [INFO ] [0e92a0fcddb33bd23224146f9c2d21df] [j.a.m.ConfigMigrationRunner:77] [27.0.0.1-8040-exec-7] - AccessConfigMigration (version 2) is up to date, nothing to migrate
+2025-08-14T13:36:00.766Z [jfac ] [INFO ] [c9159ea632393541] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-3    ] - Retry 6 Elapsed 8.53 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-08-14T13:36:00.971Z [jfac ] [INFO ] [0e92a0fcddb33bd23224146f9c2d21df] [alConfigurationServiceBase:189] [27.0.0.1-8040-exec-9] - Current configurations are the same as the new configurations, no need for an update. No action was taken.
+2025-08-14T13:36:01.963Z [jfac ] [INFO ] [319dc01fc87692ce] [.r.ServiceTokenProviderImpl:89] [27.0.0.1-8040-exec-5] - Cluster join: Successfully joined jffe@01fzay697410wh1bw17baz1s5g with node id u999jfart002d.in.bundesbank.de
+2025-08-14T13:36:02.770Z [jfac ] [INFO ] [c9159ea632393541] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-1    ] - Retry 7 Elapsed 10.53 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-08-14T13:36:04.774Z [jfac ] [INFO ] [c9159ea632393541] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-3    ] - Retry 8 Elapsed 12.54 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-08-14T13:36:06.778Z [jfac ] [INFO ] [c9159ea632393541] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-1    ] - Retry 9 Elapsed 14.54 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-08-14T13:36:08.698Z [jfac ] [INFO ] [c41bb70fd0db5aca] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-1] - Running notify on token expiry task
+2025-08-14T13:36:08.783Z [jfac ] [INFO ] [c9159ea632393541] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-3    ] - Retry 10 Elapsed 16.55 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-08-14T13:37:08.696Z [jfac ] [INFO ] [e629efaf7e51cd87] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-2] - Running notify on token expiry task
+2025-08-14T13:38:08.710Z [jfac ] [INFO ] [0cddd88af24600f3] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-3] - Running notify on token expiry task
+2025-08-14T13:39:08.713Z [jfac ] [INFO ] [9dc4a3334ca35632] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-4] - Running notify on token expiry task
+2025-08-14T13:40:08.717Z [jfac ] [INFO ] [c325696cabb04639] [TokenExpiryWorkerNotifyTask:80] [task-pool-5-thread-5] - Running notify on token expiry task
+2025-08-14T13:40:21.132Z [jfac ] [INFO ] [5a6753201c4e18b5] [.s.SupportBundleSubResource:46] [27.0.0.1-8040-exec-8] - Start collecting access support bundle
+2025-08-14T13:40:21.134Z [jfac ] [INFO ] [5a6753201c4e18b5] [s.SupportBundleServiceImpl:179] [27.0.0.1-8040-exec-8] - Starting collecting support bundle
+2025-08-14T13:40:21.138Z [jfac ] [INFO ] [5a6753201c4e18b5] [o.j.s.c.c.c.LogsCollector:49  ] [27.0.0.1-8040-exec-8] - Starting logs collection ...

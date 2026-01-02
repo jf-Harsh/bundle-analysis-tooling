@@ -1,0 +1,14 @@
+{
+  "service_type" : "jfrt",
+  "microservice_name" : "access",
+  "microservice_version" : "7.147.9 (revision: 84709900, build date: LOCAL)",
+  "service_id" : "jfac@01fzay697410wh1bw17baz1s5g",
+  "node_id" : "u999jfart002d.in.bundesbank.de",
+  "bundle_info" : {
+    "id" : "gateway-1755178820823",
+    "name" : "gateway",
+    "description" : "",
+    "created" : "2025-08-14T15:40:20+02:00",
+    "status" : "success"
+  }
+}

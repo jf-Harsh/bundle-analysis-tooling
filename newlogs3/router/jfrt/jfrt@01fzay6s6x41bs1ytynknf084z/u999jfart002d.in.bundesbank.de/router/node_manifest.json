@@ -1,0 +1,11 @@
+{
+	"service_type": "jfrt",
+	"microservice_name": "router",
+	"microservice_version": "7.177.2-1 (revision: dd36f29ea6b197c12bbf394054f57282c78fafd1, build date: 2025-07-24T15:29:30Z)",
+	"service_id": "jfrou@01hd403e8w5kec767yf0cfpphp",
+	"node_id": "u999jfart002d.in.bundesbank.de",
+	"bundle_info": {
+		"id": "gateway-1755178820823",
+		"name": "gateway"
+	}
+}

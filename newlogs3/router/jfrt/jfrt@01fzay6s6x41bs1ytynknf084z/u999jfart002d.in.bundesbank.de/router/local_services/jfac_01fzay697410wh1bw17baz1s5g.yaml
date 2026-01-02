@@ -1,0 +1,21 @@
+endpoints:
+    - excludedpaths: []
+      paths:
+        - match: /com\.jfrog\.access\..*
+          replace: ""
+      port: 8045
+      protocol: 2
+    - excludedpaths: []
+      paths:
+        - match: access/.*
+          replace: ""
+      port: 8040
+      protocol: 1
+healthcheckendpoint:
+    path: /access/api/v1/system/readiness
+    port: 8040
+nodeid: u999jfart002d.in.bundesbank.de
+nodestatusendpoint: null
+revision: "84709900"
+serviceid: jfac@01fzay697410wh1bw17baz1s5g
+version: 7.147.9

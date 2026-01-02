@@ -1,0 +1,63 @@
+# This template is used to create routing rules for Traefik
+# References: https://doc.traefik.io/traefik/reference/dynamic-configuration/file/
+#             https://doc.traefik.io/traefik/routing/routers
+#             https://doc.traefik.io/traefik/routing/services
+
+[http.routers]
+
+  [http.routers.jffe_01fzay697410wh1bw17baz1s5g-u999jfart002d_in_bundesbank_de-0-rule0-internal]
+    entryPoints = ["internal"]
+    service = "local-jffe_01fzay697410wh1bw17baz1s5g-u999jfart002d_in_bundesbank_de-0"
+    priority = 708
+    rule = "PathPrefix(`/ui/`)"
+    middlewares = ["jffe_01fzay697410wh1bw17baz1s5g-u999jfart002d_in_bundesbank_de-0-0-strip"]
+
+  [http.routers.jffe_01fzay697410wh1bw17baz1s5g-u999jfart002d_in_bundesbank_de-0-rule0-external]
+    entryPoints = ["external"]
+    service = "local-jffe_01fzay697410wh1bw17baz1s5g-u999jfart002d_in_bundesbank_de-0"
+    priority = 708
+    rule = "PathPrefix(`/ui/`)"
+    middlewares = ["jffe_01fzay697410wh1bw17baz1s5g-u999jfart002d_in_bundesbank_de-0-0-strip","hotPath","mtls"]
+
+  [http.routers.jffe_01fzay697410wh1bw17baz1s5g-u999jfart002d_in_bundesbank_de-0-rule1-internal]
+    entryPoints = ["internal"]
+    service = "local-jffe_01fzay697410wh1bw17baz1s5g-u999jfart002d_in_bundesbank_de-0"
+    priority = 703
+    rule = "Path(`/ui`)"
+    middlewares = ["jffe_01fzay697410wh1bw17baz1s5g-u999jfart002d_in_bundesbank_de-0-1-strip"]
+
+  [http.routers.jffe_01fzay697410wh1bw17baz1s5g-u999jfart002d_in_bundesbank_de-0-rule1-external]
+    entryPoints = ["external"]
+    service = "local-jffe_01fzay697410wh1bw17baz1s5g-u999jfart002d_in_bundesbank_de-0"
+    priority = 703
+    rule = "Path(`/ui`)"
+    middlewares = ["jffe_01fzay697410wh1bw17baz1s5g-u999jfart002d_in_bundesbank_de-0-1-strip","hotPath","mtls"]
+
+  [http.routers.jffe_01fzay697410wh1bw17baz1s5g-u999jfart002d_in_bundesbank_de-0-rule2-internal]
+    entryPoints = ["internal"]
+    service = "local-jffe_01fzay697410wh1bw17baz1s5g-u999jfart002d_in_bundesbank_de-0"
+    priority = 701
+    rule = "Path(`/`)"
+
+  [http.routers.jffe_01fzay697410wh1bw17baz1s5g-u999jfart002d_in_bundesbank_de-0-rule2-external]
+    entryPoints = ["external"]
+    service = "local-jffe_01fzay697410wh1bw17baz1s5g-u999jfart002d_in_bundesbank_de-0"
+    priority = 701
+    rule = "Path(`/`)"
+    middlewares = ["hotPath","mtls"]
+
+[http.services]
+
+  [http.services.local-jffe_01fzay697410wh1bw17baz1s5g-u999jfart002d_in_bundesbank_de-0.loadBalancer]
+    passHostHeader = false
+
+    [[http.services.local-jffe_01fzay697410wh1bw17baz1s5g-u999jfart002d_in_bundesbank_de-0.loadBalancer.servers]]
+      url = "http://localhost:8070"
+
+[http.middlewares]
+
+  [http.middlewares.jffe_01fzay697410wh1bw17baz1s5g-u999jfart002d_in_bundesbank_de-0-0-strip.stripPrefix]
+    prefixes = ["/ui/"]
+
+  [http.middlewares.jffe_01fzay697410wh1bw17baz1s5g-u999jfart002d_in_bundesbank_de-0-1-strip.stripPrefix]
+    prefixes = ["/ui"]

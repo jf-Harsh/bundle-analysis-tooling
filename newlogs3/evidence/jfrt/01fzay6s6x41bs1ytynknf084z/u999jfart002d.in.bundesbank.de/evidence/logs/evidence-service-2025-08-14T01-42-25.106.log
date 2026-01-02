@@ -1,0 +1,7 @@
+2025-08-14T01:42:55.189Z [jfevd] [INFO ] [36e96d10abf14416] [platform_config_stream.go:123 ] [main                ] [                ] - Platform Config Stream Read Error: rpc error: code = DeadlineExceeded desc = context deadline exceeded [access-client]
+2025-08-14T01:42:55.189Z [jfevd] [INFO ] [36e96d10abf14416] [platform_config_stream.go:115 ] [main                ] [                ] - Platform Config stream Recv loop stopped [access-client]
+2025-08-14T01:42:55.189Z [jfevd] [INFO ] [36e96d10abf14416] [platform_config_stream.go:144 ] [main                ] [                ] - Stopping Platform Config checkKeepAlive [access-client]
+2025-08-14T01:42:55.189Z [jfevd] [INFO ] [36e96d10abf14416] [platform_config_stream.go:88  ] [main                ] [                ] - Platform Config stream disconnected [access-client]
+2025-08-14T01:42:55.189Z [jfevd] [INFO ] [36e96d10abf14416] [platform_config_stream.go:62  ] [main                ] [                ] - Connecting to Platform Config stream [access-client]
+2025-08-14T01:43:05.025Z [jfevd] [INFO ] [36e96d10abf14416] [platform_config_stream.go:105 ] [main                ] [                ] - Starting Platform Config stream Recv loop [access-client]
+2025-08-14T01:43:05.025Z [jfevd] [INFO ] [36e96d10abf14416] [platform_config_stream.go:137 ] [main                ] [                ] - Starting Platform Config checkKeepAlive [access-client]

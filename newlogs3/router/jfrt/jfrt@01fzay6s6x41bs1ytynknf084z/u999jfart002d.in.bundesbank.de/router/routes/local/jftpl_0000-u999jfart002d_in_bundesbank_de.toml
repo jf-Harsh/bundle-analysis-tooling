@@ -1,0 +1,93 @@
+# This template is used to create routing rules for Traefik
+# References: https://doc.traefik.io/traefik/reference/dynamic-configuration/file/
+#             https://doc.traefik.io/traefik/routing/routers
+#             https://doc.traefik.io/traefik/routing/services
+
+[http.routers]
+
+  [http.routers.jftpl_0000-u999jfart002d_in_bundesbank_de-0-rule0-internal]
+    entryPoints = ["internal"]
+    service = "local-jftpl_0000-u999jfart002d_in_bundesbank_de-0"
+    priority = 711
+    rule = "PathPrefix(`/topology/`)"
+
+  [http.routers.jftpl_0000-u999jfart002d_in_bundesbank_de-0-rule0-external]
+    entryPoints = ["external"]
+    service = "local-jftpl_0000-u999jfart002d_in_bundesbank_de-0"
+    priority = 711
+    rule = "PathPrefix(`/topology/`)"
+    middlewares = ["hotPath","mtls"]
+
+  [http.routers.jftpl_0000-u999jfart002d_in_bundesbank_de-1-rule0-internal]
+    entryPoints = ["internal"]
+    service = "local-jftpl_0000-u999jfart002d_in_bundesbank_de-1"
+    priority = 725
+    rule = "PathPrefix(`/com.jfrog.topology.`)"
+
+  [http.routers.jftpl_0000-u999jfart002d_in_bundesbank_de-1-rule0-external]
+    entryPoints = ["external"]
+    service = "local-jftpl_0000-u999jfart002d_in_bundesbank_de-1"
+    priority = 725
+    rule = "PathPrefix(`/com.jfrog.topology.`)"
+    middlewares = ["hotPath","mtls"]
+
+  [http.routers.jftpl_0000-u999jfart002d_in_bundesbank_de-2-rule0-internal]
+    entryPoints = ["internal"]
+    service = "local-jftpl_0000-u999jfart002d_in_bundesbank_de-2"
+    priority = 722
+    rule = "Path(`/access/api/v1/topology`)"
+    middlewares = ["jftpl_0000-u999jfart002d_in_bundesbank_de-2-0-strip","jftpl_0000-u999jfart002d_in_bundesbank_de-2-0-add"]
+
+  [http.routers.jftpl_0000-u999jfart002d_in_bundesbank_de-2-rule0-external]
+    entryPoints = ["external"]
+    service = "local-jftpl_0000-u999jfart002d_in_bundesbank_de-2"
+    priority = 722
+    rule = "Path(`/access/api/v1/topology`)"
+    middlewares = ["jftpl_0000-u999jfart002d_in_bundesbank_de-2-0-strip","jftpl_0000-u999jfart002d_in_bundesbank_de-2-0-add","hotPath","mtls"]
+
+  [http.routers.jftpl_0000-u999jfart002d_in_bundesbank_de-3-rule0-internal]
+    entryPoints = ["internal"]
+    service = "local-jftpl_0000-u999jfart002d_in_bundesbank_de-3"
+    priority = 744
+    rule = "PathPrefix(`/com.jfrog.access.v1.serviceregistry.`)"
+
+  [http.routers.jftpl_0000-u999jfart002d_in_bundesbank_de-3-rule0-external]
+    entryPoints = ["external"]
+    service = "local-jftpl_0000-u999jfart002d_in_bundesbank_de-3"
+    priority = 744
+    rule = "PathPrefix(`/com.jfrog.access.v1.serviceregistry.`)"
+    middlewares = ["hotPath","mtls"]
+
+[http.services]
+
+  [http.services.local-jftpl_0000-u999jfart002d_in_bundesbank_de-0.loadBalancer]
+    passHostHeader = false
+
+    [[http.services.local-jftpl_0000-u999jfart002d_in_bundesbank_de-0.loadBalancer.servers]]
+      url = "http://localhost:8020"
+
+  [http.services.local-jftpl_0000-u999jfart002d_in_bundesbank_de-1.loadBalancer]
+    passHostHeader = false
+
+    [[http.services.local-jftpl_0000-u999jfart002d_in_bundesbank_de-1.loadBalancer.servers]]
+      url = "h2c://localhost:8021"
+
+  [http.services.local-jftpl_0000-u999jfart002d_in_bundesbank_de-2.loadBalancer]
+    passHostHeader = false
+
+    [[http.services.local-jftpl_0000-u999jfart002d_in_bundesbank_de-2.loadBalancer.servers]]
+      url = "http://localhost:8020"
+
+  [http.services.local-jftpl_0000-u999jfart002d_in_bundesbank_de-3.loadBalancer]
+    passHostHeader = false
+
+    [[http.services.local-jftpl_0000-u999jfart002d_in_bundesbank_de-3.loadBalancer.servers]]
+      url = "h2c://localhost:8021"
+
+[http.middlewares]
+
+  [http.middlewares.jftpl_0000-u999jfart002d_in_bundesbank_de-2-0-add.addPrefix]
+    prefix = "/topology/api/v1/topology"
+
+  [http.middlewares.jftpl_0000-u999jfart002d_in_bundesbank_de-2-0-strip.stripPrefix]
+    prefixes = ["/access/api/v1/topology"]
