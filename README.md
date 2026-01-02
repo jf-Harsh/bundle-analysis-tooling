@@ -1,7 +1,8 @@
 # JFrog Support Bundle Analyzer & MCP
 
 ![Sample Image](sample.png)
-A generic, automatic log analysis tool for JFrog support bundles using Elasticsearch and Kibana. This tool automatically discovers services, parses various log formats, and indexes data for analysis.
+A generic, automatic log ingestion tool for JFrog support bundles using Elasticsearch and Kibana. This tool automatically discovers services, parses various log formats, and indexes data for further analysis inside your local ELK stack.
+This readme also includes an MCP server which can help you to query and analyze the data stored in the stack for your debugging and analysis.
 
 ## 🚀 Features
 
@@ -311,3 +312,24 @@ For issues and questions:
 1. Check the troubleshooting section
 2. Enable verbose logging for debugging
 3. Create an issue with logs and error details
+## 📚 Extending Log Types
+
+The tool currently supports the following log types:
+
+- **Request Logs** – API requests with timestamps, methods, paths, status codes  
+- **Service Logs** – Application logs with levels, classes, threads  
+- **Audit Logs** – Security events, token management  
+- **Access Logs** – Authentication and authorization events  
+- **System Info** – JVM metrics, host information  
+- **Thread Dumps** – Performance analysis data  
+
+### How to add support for a new log type
+
+1. **Decide on a name** for the new type (e.g., `metrics`).
+2. **Add a parser method** in `src/log-parser.js` and register it in the `parsers` map.
+3. **Extend `detectLogType()`** in `src/analyzer.js` to return the new type for matching files/lines.
+4. (Optional) **Add helper functions** to `src/utils.js` if needed.
+5. **Update the README** – add a bullet describing the new log type.
+6. **Write tests** for the new parser and run the tool to verify the new documents appear in Elasticsearch.
+
+After these steps the analyzer will automatically discover, parse, and index the new log format alongside the existing ones.
